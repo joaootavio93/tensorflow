@@ -1,0 +1,609 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\cc\saved_model\loader.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\common_runtime\allocator_retry.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\common_runtime\bfc_allocator.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\common_runtime\build_graph_options.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\common_runtime\constant_folding.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\common_runtime\copy_tensor.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\common_runtime\costmodel_manager.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\common_runtime\debugger_state_interface.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\common_runtime\device.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\common_runtime\device_factory.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\common_runtime\device_mgr.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\common_runtime\device_set.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\common_runtime\executor.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\common_runtime\function.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\common_runtime\graph_optimizer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\common_runtime\graph_runner.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\common_runtime\local_device.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\common_runtime\memory_types.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\common_runtime\optimization_registry.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\common_runtime\parallel_concat_optimizer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\common_runtime\process_function_library_runtime.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\common_runtime\process_util.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\common_runtime\renamed_device.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\common_runtime\rendezvous_mgr.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\common_runtime\resource_variable_read_optimizer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\common_runtime\session_state.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\common_runtime\shape_refiner.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\common_runtime\simple_graph_execution_state.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\common_runtime\simple_placer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\common_runtime\stats_publisher_interface.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\common_runtime\step_stats_collector.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\common_runtime\sycl\sycl_allocator.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\common_runtime\sycl\sycl_device.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\common_runtime\sycl\sycl_device_context.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\common_runtime\sycl\sycl_device_factory.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\common_runtime\threadpool_device.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\common_runtime\threadpool_device_factory.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\debug\debug.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\debug\debug_gateway.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\debug\debug_graph_utils.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\debug\debug_io_utils.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\debug\debugger_state_impl.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\distributed_runtime\server_lib.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\graph\algorithm.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\graph\colors.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\graph\control_flow.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\graph\costmodel.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\graph\gradients.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\graph\graph_constructor.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\graph\graph_def_builder.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\graph\graph_partition.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\graph\mkl_layout_pass.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\graph\mkl_tfconversion_pass.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\graph\node_builder.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\graph\optimizer_cse.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\graph\quantize_training.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\graph\subgraph.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\graph\tensor_id.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\graph\validate.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\grappler\clusters\cluster.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\grappler\clusters\utils.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\grappler\clusters\virtual_cluster.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\grappler\costs\analytical_cost_estimator.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\grappler\costs\graph_memory.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\grappler\costs\graph_properties.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\grappler\costs\measuring_cost_estimator.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\grappler\costs\op_level_cost_estimator.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\grappler\costs\robust_stats.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\grappler\costs\utils.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\grappler\costs\virtual_placer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\grappler\costs\virtual_scheduler.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\grappler\devices.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\grappler\grappler_item.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\grappler\grappler_item_builder.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\grappler\inputs\utils.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\grappler\op_types.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\grappler\optimizers\auto_parallel.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\grappler\optimizers\constant_folding.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\grappler\optimizers\graph_rewriter.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\grappler\optimizers\layout_optimizer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\grappler\optimizers\memory_optimizer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\grappler\optimizers\meta_optimizer.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\grappler\optimizers\model_pruner.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\grappler\optimizers\static_schedule.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\grappler\utils.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\grappler\utils\scc.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\grappler\utils\topological_sort.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\cc\saved_model\constants.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\cc\saved_model\loader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\cc\saved_model\signature_constants.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\cc\saved_model\tag_constants.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\common_runtime\allocator_retry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\common_runtime\bfc_allocator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\common_runtime\build_graph_options.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\common_runtime\constant_folding.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\common_runtime\copy_tensor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\common_runtime\costmodel_manager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\common_runtime\debugger_state_interface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\common_runtime\device.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\common_runtime\device_factory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\common_runtime\device_mgr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\common_runtime\device_set.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\common_runtime\dma_helper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\common_runtime\eigen_thread_pool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\common_runtime\executor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\common_runtime\function.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\common_runtime\gpu\gpu_bfc_allocator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\common_runtime\gpu\gpu_debug_allocator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\common_runtime\gpu\gpu_device.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\common_runtime\gpu\gpu_event_mgr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\common_runtime\gpu\gpu_init.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\common_runtime\gpu\gpu_stream_util.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\common_runtime\gpu\gpu_util.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\common_runtime\gpu\pool_allocator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\common_runtime\gpu\process_state.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\common_runtime\gpu_device_context.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\common_runtime\graph_optimizer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\common_runtime\graph_runner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\common_runtime\local_device.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\common_runtime\memory_types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\common_runtime\mkl_cpu_allocator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\common_runtime\optimization_registry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\common_runtime\pending_counts.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\common_runtime\process_function_library_runtime.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\common_runtime\process_util.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\common_runtime\profile_handler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\common_runtime\renamed_device.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\common_runtime\rendezvous_mgr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\common_runtime\session_factory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\common_runtime\shape_refiner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\common_runtime\simple_graph_execution_state.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\common_runtime\simple_placer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\common_runtime\stats_publisher_interface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\common_runtime\step_stats_collector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\common_runtime\sycl\sycl_allocator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\common_runtime\sycl\sycl_device.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\common_runtime\sycl\sycl_device_context.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\common_runtime\sycl\sycl_util.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\common_runtime\threadpool_device.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\common_runtime\visitable_allocator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\debug\debug_gateway.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\debug\debug_graph_utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\debug\debug_io_utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\debug\debugger_state_impl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\distributed_runtime\server_lib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\graph\algorithm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\graph\colors.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\graph\control_flow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\graph\costmodel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\graph\default_device.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\graph\gradients.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\graph\graph_constructor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\graph\graph_def_builder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\graph\graph_partition.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\graph\mkl_layout_pass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\graph\mkl_tfconversion_pass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\graph\node_builder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\graph\optimizer_cse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\graph\quantize_training.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\graph\subgraph.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\graph\tensor_id.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\graph\types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\graph\validate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\grappler\clusters\cluster.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\grappler\clusters\utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\grappler\clusters\virtual_cluster.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\grappler\costs\analytical_cost_estimator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\grappler\costs\cost_estimator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\grappler\costs\graph_memory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\grappler\costs\graph_properties.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\grappler\costs\measuring_cost_estimator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\grappler\costs\op_level_cost_estimator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\grappler\costs\robust_stats.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\grappler\costs\utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\grappler\costs\virtual_placer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\grappler\costs\virtual_scheduler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\grappler\devices.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\grappler\grappler_item.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\grappler\grappler_item_builder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\grappler\inputs\input_yielder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\grappler\inputs\utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\grappler\op_types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\grappler\optimizers\auto_parallel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\grappler\optimizers\constant_folding.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\grappler\optimizers\graph_optimizer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\grappler\optimizers\graph_rewriter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\grappler\optimizers\layout_optimizer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\grappler\optimizers\memory_optimizer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\grappler\optimizers\meta_optimizer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\grappler\optimizers\model_pruner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\grappler\optimizers\static_schedule.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\grappler\utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\grappler\utils\scc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\grappler\utils\topological_sort.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\public\session.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\public\session_options.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\public\version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{80822BFC-6A8E-334B-A740-78ABA611BFC2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{C698933A-6F58-3ACB-831E-DAF1772ABBD1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

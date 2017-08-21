@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\eigen\src\eigen-build\CMakeFiles\119abb61e70ccf8f75b23851257576c9\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{DFACF6D4-F6EB-31F9-9A75-3FB4B17EA8DA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

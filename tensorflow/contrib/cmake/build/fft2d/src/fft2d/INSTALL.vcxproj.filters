@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\fft2d\src\fft2d\CMakeFiles\edc3f5d44e536bb1761dbe52fa51015a\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{ACEC2633-4150-3943-B62D-5E42236E659A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

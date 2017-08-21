@@ -1,0 +1,401 @@
+﻿  Building Custom Rule C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/CMakeLists.txt
+  CMake does not need to re-run because C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/generate.stamp is up-to-date.
+  Creating directories for 'jpeg'
+  Performing download step (download, verify and extract) for 'jpeg'
+  -- Downloading...
+     dst='C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/downloads/jpegsrc.v9a.tar.gz'
+     timeout='none'
+  -- Using src='http://www.ijg.org/files/jpegsrc.v9a.tar.gz'
+  -- [download 0% complete]
+  -- [download 1% complete]
+  -- [download 2% complete]
+  -- [download 3% complete]
+  -- [download 4% complete]
+  -- [download 5% complete]
+  -- [download 6% complete]
+  -- [download 7% complete]
+  -- [download 8% complete]
+  -- [download 9% complete]
+  -- [download 10% complete]
+  -- [download 11% complete]
+  -- [download 12% complete]
+  -- [download 13% complete]
+  -- [download 14% complete]
+  -- [download 15% complete]
+  -- [download 16% complete]
+  -- [download 17% complete]
+  -- [download 18% complete]
+  -- [download 19% complete]
+  -- [download 20% complete]
+  -- [download 21% complete]
+  -- [download 22% complete]
+  -- [download 23% complete]
+  -- [download 24% complete]
+  -- [download 25% complete]
+  -- [download 26% complete]
+  -- [download 27% complete]
+  -- [download 28% complete]
+  -- [download 29% complete]
+  -- [download 30% complete]
+  -- [download 31% complete]
+  -- [download 32% complete]
+  -- [download 33% complete]
+  -- [download 34% complete]
+  -- [download 35% complete]
+  -- [download 36% complete]
+  -- [download 37% complete]
+  -- [download 38% complete]
+  -- [download 39% complete]
+  -- [download 40% complete]
+  -- [download 41% complete]
+  -- [download 42% complete]
+  -- [download 43% complete]
+  -- [download 44% complete]
+  -- [download 45% complete]
+  -- [download 46% complete]
+  -- [download 47% complete]
+  -- [download 48% complete]
+  -- [download 49% complete]
+  -- [download 50% complete]
+  -- [download 51% complete]
+  -- [download 52% complete]
+  -- [download 53% complete]
+  -- [download 54% complete]
+  -- [download 55% complete]
+  -- [download 56% complete]
+  -- [download 57% complete]
+  -- [download 58% complete]
+  -- [download 59% complete]
+  -- [download 60% complete]
+  -- [download 61% complete]
+  -- [download 62% complete]
+  -- [download 63% complete]
+  -- [download 64% complete]
+  -- [download 65% complete]
+  -- [download 66% complete]
+  -- [download 67% complete]
+  -- [download 68% complete]
+  -- [download 69% complete]
+  -- [download 70% complete]
+  -- [download 71% complete]
+  -- [download 72% complete]
+  -- [download 73% complete]
+  -- [download 74% complete]
+  -- [download 75% complete]
+  -- [download 76% complete]
+  -- [download 77% complete]
+  -- [download 78% complete]
+  -- [download 79% complete]
+  -- [download 80% complete]
+  -- [download 81% complete]
+  -- [download 82% complete]
+  -- [download 83% complete]
+  -- [download 84% complete]
+  -- [download 85% complete]
+  -- [download 86% complete]
+  -- [download 87% complete]
+  -- [download 88% complete]
+  -- [download 89% complete]
+  -- [download 90% complete]
+  -- [download 91% complete]
+  -- [download 92% complete]
+  -- [download 93% complete]
+  -- [download 94% complete]
+  -- [download 95% complete]
+  -- [download 96% complete]
+  -- [download 97% complete]
+  -- [download 98% complete]
+  -- [download 99% complete]
+  -- [download 100% complete]
+  -- verifying file...
+         file='C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/downloads/jpegsrc.v9a.tar.gz'
+  -- Downloading... done
+  -- extracting...
+       src='C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/downloads/jpegsrc.v9a.tar.gz'
+       dst='C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/jpeg/src/jpeg'
+  -- extracting... [tar xfz]
+  -- extracting... [analysis]
+  -- extracting... [rename]
+  -- extracting... [clean up]
+  -- extracting... done
+  No update step for 'jpeg'
+  Performing patch step for 'jpeg'
+  Performing configure step for 'jpeg'
+  loading initial cache file C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/jpeg/tmp/jpeg-cache-Release.cmake
+  -- The C compiler identification is MSVC 19.0.24215.1
+  -- The CXX compiler identification is MSVC 19.0.24215.1
+  -- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/x86_amd64/cl.exe
+  -- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/x86_amd64/cl.exe -- works
+  -- Detecting C compiler ABI info
+  -- Detecting C compiler ABI info - done
+  -- Check for working CXX compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/x86_amd64/cl.exe
+  -- Check for working CXX compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/x86_amd64/cl.exe -- works
+  -- Detecting CXX compiler ABI info
+  -- Detecting CXX compiler ABI info - done
+  -- Detecting CXX compile features
+  -- Detecting CXX compile features - done
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/jpeg/src/jpeg-build
+  Performing copy_jconfig step for 'jpeg'
+  Performing build step for 'jpeg'
+  Microsoft (R) Build Engine version 14.0.25420.1
+  Copyright (C) Microsoft Corporation. All rights reserved.
+  
+  Build started 18/08/2017 14:47:01.
+  Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\src\jpeg-build\ALL_BUILD.vcxproj" on node 1 (default targets).
+  Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\src\jpeg-build\ALL_BUILD.vcxproj" (1) is building "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\src\jpeg-build\ZERO_CHECK.vcxproj" (2) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "x64\Release\ZERO_CHECK\".
+    Creating directory "x64\Release\ZERO_CHECK\ZERO_CHECK.tlog\".
+  InitializeBuildStatus:
+    Creating "x64\Release\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Checking Build System
+    CMake does not need to re-run because C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/jpeg/src/jpeg-build/CMakeFiles/generate.stamp is up-to-date.
+  FinalizeBuildStatus:
+    Deleting file "x64\Release\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild".
+    Touching "x64\Release\ZERO_CHECK\ZERO_CHECK.tlog\ZERO_CHECK.lastbuildstate".
+  Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\src\jpeg-build\ZERO_CHECK.vcxproj" (default targets).
+  Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\src\jpeg-build\ALL_BUILD.vcxproj" (1) is building "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\src\jpeg-build\libjpeg.vcxproj" (3) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "libjpeg.dir\Release\".
+    Creating directory "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\src\jpeg-build\Release\".
+    Creating directory "libjpeg.dir\Release\libjpeg.tlog\".
+  InitializeBuildStatus:
+    Creating "libjpeg.dir\Release\libjpeg.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/jpeg/src/jpeg/CMakeLists.txt
+    CMake does not need to re-run because C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/jpeg/src/jpeg-build/CMakeFiles/generate.stamp is up-to-date.
+  ClCompile:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\src\jpeg" /nologo /W3 /WX- /O2 /Ob2 /D WIN32 /D _WINDOWS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"libjpeg.dir\Release\\" /Fd"libjpeg.dir\Release\libjpeg.pdb" /Gd /TC /errorReport:queue "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\src\jpeg\jaricom.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\src\jpeg\jcapimin.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\src\jpeg\jcapistd.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\src\jpeg\jcarith.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\src\jpeg\jccoefct.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\src\jpeg\jccolor.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\src\jpeg\jcdctmgr.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\src\jpeg\jchuff.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\src\jpeg\jcinit.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\src\jpeg\jcmainct.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\src\jpeg\jcmarker.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\src\jpeg\jcmaster.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\src\jpeg\jcomapi.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\src\jpeg\jcparam.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\src\jpeg\jcprepct.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\src\jpeg\jcsample.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\src\jpeg\jctrans.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\src\jpeg\jdapimin.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\src\jpeg\jdapistd.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\src\jpeg\jdarith.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\src\jpeg\jdatadst.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\src\jpeg\jdatasrc.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\src\jpeg\jdcoefct.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\src\jpeg\jdcolor.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\src\jpeg\jddctmgr.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\src\jpeg\jdhuff.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\src\jpeg\jdinput.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\src\jpeg\jdmainct.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\src\jpeg\jdmarker.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\src\jpeg\jdmaster.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\src\jpeg\jdmerge.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\src\jpeg\jdpostct.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\src\jpeg\jdsample.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\src\jpeg\jdtrans.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\src\jpeg\jerror.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\src\jpeg\jfdctflt.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\src\jpeg\jfdctfst.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\src\jpeg\jfdctint.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\src\jpeg\jidctflt.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\src\jpeg\jidctfst.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\src\jpeg\jidctint.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\src\jpeg\jmemmgr.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\src\jpeg\jmemnobs.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\src\jpeg\jquant1.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\src\jpeg\jquant2.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\src\jpeg\jutils.c"
+    jaricom.c
+    jcapimin.c
+    jcapistd.c
+    jcarith.c
+    jccoefct.c
+    jccolor.c
+    jcdctmgr.c
+    jchuff.c
+    jcinit.c
+    jcmainct.c
+    jcmarker.c
+    jcmaster.c
+    jcomapi.c
+    jcparam.c
+    jcprepct.c
+    jcsample.c
+    jctrans.c
+    jdapimin.c
+    jdapistd.c
+    jdarith.c
+    Generating Code...
+    Compiling...
+    jdatadst.c
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\src\jpeg\jdatadst.c(185): warning C4267: '=': conversion from 'size_t' to 'unsigned long', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\src\jpeg-build\libjpeg.vcxproj]
+    jdatasrc.c
+    jdcoefct.c
+    jdcolor.c
+    jddctmgr.c
+    jdhuff.c
+    jdinput.c
+    jdmainct.c
+    jdmarker.c
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\src\jpeg\jdmarker.c(331): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\src\jpeg-build\libjpeg.vcxproj]
+    C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(346): note: see declaration of 'strncpy'
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\src\jpeg\jdmarker.c(655): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\src\jpeg-build\libjpeg.vcxproj]
+    C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(346): note: see declaration of 'strncpy'
+    jdmaster.c
+    jdmerge.c
+    jdpostct.c
+    jdsample.c
+    jdtrans.c
+    jerror.c
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\src\jpeg\jerror.c(194): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\src\jpeg-build\libjpeg.vcxproj]
+    C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\src\jpeg\jerror.c(196): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\src\jpeg-build\libjpeg.vcxproj]
+    C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+    jfdctflt.c
+    jfdctfst.c
+    jfdctint.c
+    jidctflt.c
+    jidctfst.c
+    Generating Code...
+    Compiling...
+    jidctint.c
+    jmemmgr.c
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\src\jpeg\jmemmgr.c(307): warning C4267: '+=': conversion from 'size_t' to 'long', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\src\jpeg-build\libjpeg.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\src\jpeg\jmemmgr.c(367): warning C4267: '+=': conversion from 'size_t' to 'long', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\src\jpeg-build\libjpeg.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\src\jpeg\jmemmgr.c(977): warning C4267: '-=': conversion from 'size_t' to 'long', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\src\jpeg-build\libjpeg.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\src\jpeg\jmemmgr.c(991): warning C4267: '-=': conversion from 'size_t' to 'long', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\src\jpeg-build\libjpeg.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\src\jpeg\jmemmgr.c(1107): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\src\jpeg-build\libjpeg.vcxproj]
+    C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdlib.h(1183): note: see declaration of 'getenv'
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\src\jpeg\jmemmgr.c(1110): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\src\jpeg-build\libjpeg.vcxproj]
+    C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+    jmemnobs.c
+    jquant1.c
+    jquant2.c
+    jutils.c
+    Generating Code...
+  Lib:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\Lib.exe /OUT:"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\src\jpeg-build\Release\libjpeg.lib" /NOLOGO /MACHINE:X64  /machine:x64 libjpeg.dir\Release\jaricom.obj
+    libjpeg.dir\Release\jcapimin.obj
+    libjpeg.dir\Release\jcapistd.obj
+    libjpeg.dir\Release\jcarith.obj
+    libjpeg.dir\Release\jccoefct.obj
+    libjpeg.dir\Release\jccolor.obj
+    libjpeg.dir\Release\jcdctmgr.obj
+    libjpeg.dir\Release\jchuff.obj
+    libjpeg.dir\Release\jcinit.obj
+    libjpeg.dir\Release\jcmainct.obj
+    libjpeg.dir\Release\jcmarker.obj
+    libjpeg.dir\Release\jcmaster.obj
+    libjpeg.dir\Release\jcomapi.obj
+    libjpeg.dir\Release\jcparam.obj
+    libjpeg.dir\Release\jcprepct.obj
+    libjpeg.dir\Release\jcsample.obj
+    libjpeg.dir\Release\jctrans.obj
+    libjpeg.dir\Release\jdapimin.obj
+    libjpeg.dir\Release\jdapistd.obj
+    libjpeg.dir\Release\jdarith.obj
+    libjpeg.dir\Release\jdatadst.obj
+    libjpeg.dir\Release\jdatasrc.obj
+    libjpeg.dir\Release\jdcoefct.obj
+    libjpeg.dir\Release\jdcolor.obj
+    libjpeg.dir\Release\jddctmgr.obj
+    libjpeg.dir\Release\jdhuff.obj
+    libjpeg.dir\Release\jdinput.obj
+    libjpeg.dir\Release\jdmainct.obj
+    libjpeg.dir\Release\jdmarker.obj
+    libjpeg.dir\Release\jdmaster.obj
+    libjpeg.dir\Release\jdmerge.obj
+    libjpeg.dir\Release\jdpostct.obj
+    libjpeg.dir\Release\jdsample.obj
+    libjpeg.dir\Release\jdtrans.obj
+    libjpeg.dir\Release\jerror.obj
+    libjpeg.dir\Release\jfdctflt.obj
+    libjpeg.dir\Release\jfdctfst.obj
+    libjpeg.dir\Release\jfdctint.obj
+    libjpeg.dir\Release\jidctflt.obj
+    libjpeg.dir\Release\jidctfst.obj
+    libjpeg.dir\Release\jidctint.obj
+    libjpeg.dir\Release\jmemmgr.obj
+    libjpeg.dir\Release\jmemnobs.obj
+    libjpeg.dir\Release\jquant1.obj
+    libjpeg.dir\Release\jquant2.obj
+    libjpeg.dir\Release\jutils.obj
+    libjpeg.vcxproj -> C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\src\jpeg-build\Release\libjpeg.lib
+  FinalizeBuildStatus:
+    Deleting file "libjpeg.dir\Release\libjpeg.tlog\unsuccessfulbuild".
+    Touching "libjpeg.dir\Release\libjpeg.tlog\libjpeg.lastbuildstate".
+  Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\src\jpeg-build\libjpeg.vcxproj" (default targets).
+  PrepareForBuild:
+    Creating directory "x64\Release\ALL_BUILD\".
+    Creating directory "x64\Release\ALL_BUILD\ALL_BUILD.tlog\".
+  InitializeBuildStatus:
+    Creating "x64\Release\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/jpeg/src/jpeg/CMakeLists.txt
+    CMake does not need to re-run because C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/jpeg/src/jpeg-build/CMakeFiles/generate.stamp is up-to-date.
+  FinalizeBuildStatus:
+    Deleting file "x64\Release\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild".
+    Touching "x64\Release\ALL_BUILD\ALL_BUILD.tlog\ALL_BUILD.lastbuildstate".
+  Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\src\jpeg-build\ALL_BUILD.vcxproj" (default targets).
+  
+  Build succeeded.
+  
+  "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\src\jpeg-build\ALL_BUILD.vcxproj" (default target) (1) ->
+  "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\src\jpeg-build\libjpeg.vcxproj" (default target) (3) ->
+  (ClCompile target) -> 
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\src\jpeg\jdatadst.c(185): warning C4267: '=': conversion from 'size_t' to 'unsigned long', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\src\jpeg-build\libjpeg.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\src\jpeg\jdmarker.c(331): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\src\jpeg-build\libjpeg.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\src\jpeg\jdmarker.c(655): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\src\jpeg-build\libjpeg.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\src\jpeg\jerror.c(194): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\src\jpeg-build\libjpeg.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\src\jpeg\jerror.c(196): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\src\jpeg-build\libjpeg.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\src\jpeg\jmemmgr.c(307): warning C4267: '+=': conversion from 'size_t' to 'long', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\src\jpeg-build\libjpeg.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\src\jpeg\jmemmgr.c(367): warning C4267: '+=': conversion from 'size_t' to 'long', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\src\jpeg-build\libjpeg.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\src\jpeg\jmemmgr.c(977): warning C4267: '-=': conversion from 'size_t' to 'long', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\src\jpeg-build\libjpeg.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\src\jpeg\jmemmgr.c(991): warning C4267: '-=': conversion from 'size_t' to 'long', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\src\jpeg-build\libjpeg.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\src\jpeg\jmemmgr.c(1107): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\src\jpeg-build\libjpeg.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\src\jpeg\jmemmgr.c(1110): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\src\jpeg-build\libjpeg.vcxproj]
+  
+      11 Warning(s)
+      0 Error(s)
+  
+  Time Elapsed 00:00:14.77
+  Performing install step for 'jpeg'
+  Microsoft (R) Build Engine version 14.0.25420.1
+  Copyright (C) Microsoft Corporation. All rights reserved.
+  
+  Build started 18/08/2017 14:47:16.
+  Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\src\jpeg-build\install.vcxproj" on node 1 (default targets).
+  Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\src\jpeg-build\install.vcxproj" (1) is building "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\src\jpeg-build\ZERO_CHECK.vcxproj" (2) on node 1 (default targets).
+  InitializeBuildStatus:
+    Creating "x64\Release\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  FinalizeBuildStatus:
+    Deleting file "x64\Release\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild".
+    Touching "x64\Release\ZERO_CHECK\ZERO_CHECK.tlog\ZERO_CHECK.lastbuildstate".
+  Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\src\jpeg-build\ZERO_CHECK.vcxproj" (default targets).
+  Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\src\jpeg-build\install.vcxproj" (1) is building "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\src\jpeg-build\ALL_BUILD.vcxproj" (3) on node 1 (default targets).
+  Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\src\jpeg-build\ALL_BUILD.vcxproj" (3) is building "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\src\jpeg-build\libjpeg.vcxproj" (4) on node 1 (default targets).
+  InitializeBuildStatus:
+    Creating "libjpeg.dir\Release\libjpeg.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  ClCompile:
+    All outputs are up-to-date.
+  Lib:
+    All outputs are up-to-date.
+    libjpeg.vcxproj -> C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\src\jpeg-build\Release\libjpeg.lib
+  FinalizeBuildStatus:
+    Deleting file "libjpeg.dir\Release\libjpeg.tlog\unsuccessfulbuild".
+    Touching "libjpeg.dir\Release\libjpeg.tlog\libjpeg.lastbuildstate".
+  Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\src\jpeg-build\libjpeg.vcxproj" (default targets).
+  InitializeBuildStatus:
+    Creating "x64\Release\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  FinalizeBuildStatus:
+    Deleting file "x64\Release\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild".
+    Touching "x64\Release\ALL_BUILD\ALL_BUILD.tlog\ALL_BUILD.lastbuildstate".
+  Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\src\jpeg-build\ALL_BUILD.vcxproj" (default targets).
+  PrepareForBuild:
+    Creating directory "x64\Release\INSTALL\".
+    Creating directory "x64\Release\INSTALL\INSTALL.tlog\".
+  InitializeBuildStatus:
+    Creating "x64\Release\INSTALL\INSTALL.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  PostBuildEvent:
+    setlocal
+    "C:\Program Files\CMake\bin\cmake.exe" -DBUILD_TYPE=Release -P cmake_install.cmake
+    if %errorlevel% neq 0 goto :cmEnd
+    :cmEnd
+    endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+    :cmErrorLevel
+    exit /b %1
+    :cmDone
+    if %errorlevel% neq 0 goto :VCEnd
+    :VCEnd
+    -- Install configuration: "Release"
+    -- Installing: C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/jpeg/install/lib/libjpeg.lib
+    -- Installing: C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/jpeg/install/include/jconfig.h
+    -- Installing: C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/jpeg/install/include/jdct.h
+    -- Installing: C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/jpeg/install/include/jerror.h
+    -- Installing: C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/jpeg/install/include/jinclude.h
+    -- Installing: C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/jpeg/install/include/jmemsys.h
+    -- Installing: C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/jpeg/install/include/jmorecfg.h
+    -- Installing: C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/jpeg/install/include/jpegint.h
+    -- Installing: C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/jpeg/install/include/jpeglib.h
+    -- Installing: C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/jpeg/install/include/jversion.h
+  FinalizeBuildStatus:
+    Deleting file "x64\Release\INSTALL\INSTALL.tlog\unsuccessfulbuild".
+    Touching "x64\Release\INSTALL\INSTALL.tlog\INSTALL.lastbuildstate".
+  Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\src\jpeg-build\install.vcxproj" (default targets).
+  
+  Build succeeded.
+      0 Warning(s)
+      0 Error(s)
+  
+  Time Elapsed 00:00:01.46
+  Completed 'jpeg'

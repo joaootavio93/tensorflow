@@ -1,0 +1,6 @@
+﻿  Building Custom Rule C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/CMakeLists.txt
+  CMake does not need to re-run because C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/generate.stamp is up-to-date.
+  benchmark_model.cc
+  benchmark_model_main.cc
+     Creating library C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/Release/benchmark_model.lib and object C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/Release/benchmark_model.exp
+  benchmark_model.vcxproj -> C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\Release\benchmark_model.exe

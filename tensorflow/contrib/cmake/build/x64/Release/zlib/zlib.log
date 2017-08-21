@@ -1,0 +1,334 @@
+﻿  Building Custom Rule C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/CMakeLists.txt
+  CMake does not need to re-run because C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/generate.stamp is up-to-date.
+  Creating directories for 'zlib'
+  Performing download step (git clone) for 'zlib'
+  Cloning into 'zlib'...
+  Note: checking out '50893291621658f355bc5b4d450a8d06a563053d'.
+  
+  You are in 'detached HEAD' state. You can look around, make experimental
+  changes and commit them, and you can discard any commits you make in this
+  state without impacting any branches by performing another checkout.
+  
+  If you want to create a new branch to retain commits you create, you may
+  do so (now or later) by using -b with the checkout command again. Example:
+  
+    git checkout -b <new-branch-name>
+  
+  HEAD is now at 5089329... zlib 1.2.8
+  Performing update step for 'zlib'
+  No patch step for 'zlib'
+  Performing configure step for 'zlib'
+  loading initial cache file C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/zlib/tmp/zlib-cache-Release.cmake
+  -- The C compiler identification is MSVC 19.0.24215.1
+  -- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/x86_amd64/cl.exe
+  -- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/x86_amd64/cl.exe -- works
+  -- Detecting C compiler ABI info
+  -- Detecting C compiler ABI info - done
+  -- Looking for sys/types.h
+  -- Looking for sys/types.h - found
+  -- Looking for stdint.h
+  -- Looking for stdint.h - found
+  -- Looking for stddef.h
+  -- Looking for stddef.h - found
+  -- Check size of off64_t
+  -- Check size of off64_t - failed
+  -- Looking for fseeko
+  -- Looking for fseeko - not found
+  -- Looking for unistd.h
+  -- Looking for unistd.h - not found
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/zlib/src/zlib
+  Performing build step for 'zlib'
+  Microsoft (R) Build Engine version 14.0.25420.1
+  Copyright (C) Microsoft Corporation. All rights reserved.
+  
+  Build started 18/08/2017 14:46:56.
+  Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\zlib\src\zlib\ALL_BUILD.vcxproj" on node 1 (default targets).
+  Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\zlib\src\zlib\ALL_BUILD.vcxproj" (1) is building "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\zlib\src\zlib\ZERO_CHECK.vcxproj" (2) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "x64\Release\ZERO_CHECK\".
+    Creating directory "x64\Release\ZERO_CHECK\ZERO_CHECK.tlog\".
+  InitializeBuildStatus:
+    Creating "x64\Release\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Checking Build System
+    CMake does not need to re-run because C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/zlib/src/zlib/CMakeFiles/generate.stamp is up-to-date.
+  FinalizeBuildStatus:
+    Deleting file "x64\Release\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild".
+    Touching "x64\Release\ZERO_CHECK\ZERO_CHECK.tlog\ZERO_CHECK.lastbuildstate".
+  Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\zlib\src\zlib\ZERO_CHECK.vcxproj" (default targets).
+  Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\zlib\src\zlib\ALL_BUILD.vcxproj" (1) is building "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\zlib\src\zlib\example.vcxproj" (3) on node 1 (default targets).
+  Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\zlib\src\zlib\example.vcxproj" (3) is building "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\zlib\src\zlib\zlib.vcxproj" (4) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "zlib.dir\Release\".
+    Creating directory "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\zlib\src\zlib\Release\".
+    Creating directory "zlib.dir\Release\zlib.tlog\".
+  InitializeBuildStatus:
+    Creating "zlib.dir\Release\zlib.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/zlib/src/zlib/CMakeLists.txt
+    CMake does not need to re-run because C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/zlib/src/zlib/CMakeFiles/generate.stamp is up-to-date.
+  ClCompile:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\zlib\src\zlib" /nologo /W3 /WX- /O2 /Ob2 /D WIN32 /D _WINDOWS /D NDEBUG /D NO_FSEEKO /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D "CMAKE_INTDIR=\"Release\"" /D ZLIB_DLL /D _WINDLL /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"zlib.dir\Release\\" /Fd"zlib.dir\Release\vc140.pdb" /Gd /TC /errorReport:queue "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\zlib\src\zlib\adler32.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\zlib\src\zlib\compress.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\zlib\src\zlib\crc32.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\zlib\src\zlib\deflate.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\zlib\src\zlib\gzclose.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\zlib\src\zlib\gzlib.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\zlib\src\zlib\gzread.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\zlib\src\zlib\gzwrite.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\zlib\src\zlib\inflate.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\zlib\src\zlib\infback.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\zlib\src\zlib\inftrees.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\zlib\src\zlib\inffast.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\zlib\src\zlib\trees.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\zlib\src\zlib\uncompr.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\zlib\src\zlib\zutil.c"
+    adler32.c
+    compress.c
+    crc32.c
+    deflate.c
+    gzclose.c
+    gzlib.c
+    gzread.c
+    gzwrite.c
+    inflate.c
+    infback.c
+    inftrees.c
+    inffast.c
+    trees.c
+    uncompr.c
+    zutil.c
+    Generating Code...
+  ResourceCompile:
+    C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D WIN32 /D _WINDOWS /D NDEBUG /D NO_FSEEKO /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D "CMAKE_INTDIR=\\\"Release\\\"" /D ZLIB_DLL /l"0x0409" /I"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\zlib\src\zlib" /nologo /fo"zlib.dir\Release\zlib1.res" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\zlib\src\zlib\win32\zlib1.rc" 
+  Link:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\zlib\src\zlib\Release\zlib.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/zlib/src/zlib/Release/zlib.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/zlib/src/zlib/Release/zlib.lib" /MACHINE:X64  /machine:x64 /DLL zlib.dir\Release\zlib1.res
+    zlib.dir\Release\adler32.obj
+    zlib.dir\Release\compress.obj
+    zlib.dir\Release\crc32.obj
+    zlib.dir\Release\deflate.obj
+    zlib.dir\Release\gzclose.obj
+    zlib.dir\Release\gzlib.obj
+    zlib.dir\Release\gzread.obj
+    zlib.dir\Release\gzwrite.obj
+    zlib.dir\Release\inflate.obj
+    zlib.dir\Release\infback.obj
+    zlib.dir\Release\inftrees.obj
+    zlib.dir\Release\inffast.obj
+    zlib.dir\Release\trees.obj
+    zlib.dir\Release\uncompr.obj
+    zlib.dir\Release\zutil.obj
+       Creating library C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/zlib/src/zlib/Release/zlib.lib and object C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/zlib/src/zlib/Release/zlib.exp
+    zlib.vcxproj -> C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\zlib\src\zlib\Release\zlib.dll
+  FinalizeBuildStatus:
+    Deleting file "zlib.dir\Release\zlib.tlog\unsuccessfulbuild".
+    Touching "zlib.dir\Release\zlib.tlog\zlib.lastbuildstate".
+  Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\zlib\src\zlib\zlib.vcxproj" (default targets).
+  PrepareForBuild:
+    Creating directory "example.dir\Release\".
+    Creating directory "example.dir\Release\example.tlog\".
+  InitializeBuildStatus:
+    Creating "example.dir\Release\example.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/zlib/src/zlib/CMakeLists.txt
+    CMake does not need to re-run because C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/zlib/src/zlib/CMakeFiles/generate.stamp is up-to-date.
+  ClCompile:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\zlib\src\zlib" /nologo /W3 /WX- /O2 /Ob2 /D WIN32 /D _WINDOWS /D NDEBUG /D NO_FSEEKO /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"example.dir\Release\\" /Fd"example.dir\Release\vc140.pdb" /Gd /TC /errorReport:queue "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\zlib\src\zlib\test\example.c"
+    example.c
+  Link:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\zlib\src\zlib\Release\example.exe" /INCREMENTAL:NO /NOLOGO Release\zlib.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/zlib/src/zlib/Release/example.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/zlib/src/zlib/Release/example.lib" /MACHINE:X64  /machine:x64 example.dir\Release\example.obj
+    example.vcxproj -> C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\zlib\src\zlib\Release\example.exe
+  FinalizeBuildStatus:
+    Deleting file "example.dir\Release\example.tlog\unsuccessfulbuild".
+    Touching "example.dir\Release\example.tlog\example.lastbuildstate".
+  Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\zlib\src\zlib\example.vcxproj" (default targets).
+  Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\zlib\src\zlib\ALL_BUILD.vcxproj" (1) is building "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\zlib\src\zlib\minigzip.vcxproj" (5) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "minigzip.dir\Release\".
+    Creating directory "minigzip.dir\Release\minigzip.tlog\".
+  InitializeBuildStatus:
+    Creating "minigzip.dir\Release\minigzip.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/zlib/src/zlib/CMakeLists.txt
+    CMake does not need to re-run because C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/zlib/src/zlib/CMakeFiles/generate.stamp is up-to-date.
+  ClCompile:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\zlib\src\zlib" /nologo /W3 /WX- /O2 /Ob2 /D WIN32 /D _WINDOWS /D NDEBUG /D NO_FSEEKO /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"minigzip.dir\Release\\" /Fd"minigzip.dir\Release\vc140.pdb" /Gd /TC /errorReport:queue "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\zlib\src\zlib\test\minigzip.c"
+    minigzip.c
+  Link:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\zlib\src\zlib\Release\minigzip.exe" /INCREMENTAL:NO /NOLOGO Release\zlib.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/zlib/src/zlib/Release/minigzip.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/zlib/src/zlib/Release/minigzip.lib" /MACHINE:X64  /machine:x64 minigzip.dir\Release\minigzip.obj
+    minigzip.vcxproj -> C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\zlib\src\zlib\Release\minigzip.exe
+  FinalizeBuildStatus:
+    Deleting file "minigzip.dir\Release\minigzip.tlog\unsuccessfulbuild".
+    Touching "minigzip.dir\Release\minigzip.tlog\minigzip.lastbuildstate".
+  Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\zlib\src\zlib\minigzip.vcxproj" (default targets).
+  Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\zlib\src\zlib\ALL_BUILD.vcxproj" (1) is building "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\zlib\src\zlib\zlibstatic.vcxproj" (6) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "zlibstatic.dir\Release\".
+    Creating directory "zlibstatic.dir\Release\zlibstatic.tlog\".
+  InitializeBuildStatus:
+    Creating "zlibstatic.dir\Release\zlibstatic.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/zlib/src/zlib/CMakeLists.txt
+    CMake does not need to re-run because C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/zlib/src/zlib/CMakeFiles/generate.stamp is up-to-date.
+  ClCompile:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\zlib\src\zlib" /nologo /W3 /WX- /O2 /Ob2 /D WIN32 /D _WINDOWS /D NDEBUG /D NO_FSEEKO /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"zlibstatic.dir\Release\\" /Fd"zlibstatic.dir\Release\zlibstatic.pdb" /Gd /TC /errorReport:queue "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\zlib\src\zlib\adler32.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\zlib\src\zlib\compress.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\zlib\src\zlib\crc32.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\zlib\src\zlib\deflate.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\zlib\src\zlib\gzclose.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\zlib\src\zlib\gzlib.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\zlib\src\zlib\gzread.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\zlib\src\zlib\gzwrite.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\zlib\src\zlib\inflate.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\zlib\src\zlib\infback.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\zlib\src\zlib\inftrees.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\zlib\src\zlib\inffast.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\zlib\src\zlib\trees.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\zlib\src\zlib\uncompr.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\zlib\src\zlib\zutil.c"
+    adler32.c
+    compress.c
+    crc32.c
+    deflate.c
+    gzclose.c
+    gzlib.c
+    gzread.c
+    gzwrite.c
+    inflate.c
+    infback.c
+    inftrees.c
+    inffast.c
+    trees.c
+    uncompr.c
+    zutil.c
+    Generating Code...
+  Lib:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\Lib.exe /OUT:"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\zlib\src\zlib\Release\zlibstatic.lib" /NOLOGO /MACHINE:X64  /machine:x64 zlibstatic.dir\Release\adler32.obj
+    zlibstatic.dir\Release\compress.obj
+    zlibstatic.dir\Release\crc32.obj
+    zlibstatic.dir\Release\deflate.obj
+    zlibstatic.dir\Release\gzclose.obj
+    zlibstatic.dir\Release\gzlib.obj
+    zlibstatic.dir\Release\gzread.obj
+    zlibstatic.dir\Release\gzwrite.obj
+    zlibstatic.dir\Release\inflate.obj
+    zlibstatic.dir\Release\infback.obj
+    zlibstatic.dir\Release\inftrees.obj
+    zlibstatic.dir\Release\inffast.obj
+    zlibstatic.dir\Release\trees.obj
+    zlibstatic.dir\Release\uncompr.obj
+    zlibstatic.dir\Release\zutil.obj
+    zlibstatic.vcxproj -> C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\zlib\src\zlib\Release\zlibstatic.lib
+  FinalizeBuildStatus:
+    Deleting file "zlibstatic.dir\Release\zlibstatic.tlog\unsuccessfulbuild".
+    Touching "zlibstatic.dir\Release\zlibstatic.tlog\zlibstatic.lastbuildstate".
+  Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\zlib\src\zlib\zlibstatic.vcxproj" (default targets).
+  PrepareForBuild:
+    Creating directory "x64\Release\ALL_BUILD\".
+    Creating directory "x64\Release\ALL_BUILD\ALL_BUILD.tlog\".
+  InitializeBuildStatus:
+    Creating "x64\Release\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/zlib/src/zlib/CMakeLists.txt
+    CMake does not need to re-run because C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/zlib/src/zlib/CMakeFiles/generate.stamp is up-to-date.
+  FinalizeBuildStatus:
+    Deleting file "x64\Release\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild".
+    Touching "x64\Release\ALL_BUILD\ALL_BUILD.tlog\ALL_BUILD.lastbuildstate".
+  Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\zlib\src\zlib\ALL_BUILD.vcxproj" (default targets).
+  
+  Build succeeded.
+      0 Warning(s)
+      0 Error(s)
+  
+  Time Elapsed 00:00:16.33
+  Performing install step for 'zlib'
+  Microsoft (R) Build Engine version 14.0.25420.1
+  Copyright (C) Microsoft Corporation. All rights reserved.
+  
+  Build started 18/08/2017 14:47:13.
+  Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\zlib\src\zlib\install.vcxproj" on node 1 (default targets).
+  Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\zlib\src\zlib\install.vcxproj" (1) is building "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\zlib\src\zlib\ZERO_CHECK.vcxproj" (2) on node 1 (default targets).
+  InitializeBuildStatus:
+    Creating "x64\Release\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  FinalizeBuildStatus:
+    Deleting file "x64\Release\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild".
+    Touching "x64\Release\ZERO_CHECK\ZERO_CHECK.tlog\ZERO_CHECK.lastbuildstate".
+  Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\zlib\src\zlib\ZERO_CHECK.vcxproj" (default targets).
+  Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\zlib\src\zlib\install.vcxproj" (1) is building "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\zlib\src\zlib\ALL_BUILD.vcxproj" (3) on node 1 (default targets).
+  Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\zlib\src\zlib\ALL_BUILD.vcxproj" (3) is building "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\zlib\src\zlib\example.vcxproj" (4) on node 1 (default targets).
+  Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\zlib\src\zlib\example.vcxproj" (4) is building "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\zlib\src\zlib\zlib.vcxproj" (5) on node 1 (default targets).
+  InitializeBuildStatus:
+    Creating "zlib.dir\Release\zlib.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  ClCompile:
+    All outputs are up-to-date.
+  ResourceCompile:
+    All outputs are up-to-date.
+  Link:
+    All outputs are up-to-date.
+    zlib.vcxproj -> C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\zlib\src\zlib\Release\zlib.dll
+  FinalizeBuildStatus:
+    Deleting file "zlib.dir\Release\zlib.tlog\unsuccessfulbuild".
+    Touching "zlib.dir\Release\zlib.tlog\zlib.lastbuildstate".
+  Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\zlib\src\zlib\zlib.vcxproj" (default targets).
+  InitializeBuildStatus:
+    Creating "example.dir\Release\example.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  ClCompile:
+    All outputs are up-to-date.
+  Link:
+    All outputs are up-to-date.
+    example.vcxproj -> C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\zlib\src\zlib\Release\example.exe
+  FinalizeBuildStatus:
+    Deleting file "example.dir\Release\example.tlog\unsuccessfulbuild".
+    Touching "example.dir\Release\example.tlog\example.lastbuildstate".
+  Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\zlib\src\zlib\example.vcxproj" (default targets).
+  Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\zlib\src\zlib\ALL_BUILD.vcxproj" (3) is building "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\zlib\src\zlib\minigzip.vcxproj" (6) on node 1 (default targets).
+  InitializeBuildStatus:
+    Creating "minigzip.dir\Release\minigzip.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  ClCompile:
+    All outputs are up-to-date.
+  Link:
+    All outputs are up-to-date.
+    minigzip.vcxproj -> C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\zlib\src\zlib\Release\minigzip.exe
+  FinalizeBuildStatus:
+    Deleting file "minigzip.dir\Release\minigzip.tlog\unsuccessfulbuild".
+    Touching "minigzip.dir\Release\minigzip.tlog\minigzip.lastbuildstate".
+  Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\zlib\src\zlib\minigzip.vcxproj" (default targets).
+  Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\zlib\src\zlib\ALL_BUILD.vcxproj" (3) is building "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\zlib\src\zlib\zlibstatic.vcxproj" (7) on node 1 (default targets).
+  InitializeBuildStatus:
+    Creating "zlibstatic.dir\Release\zlibstatic.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  ClCompile:
+    All outputs are up-to-date.
+  Lib:
+    All outputs are up-to-date.
+    zlibstatic.vcxproj -> C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\zlib\src\zlib\Release\zlibstatic.lib
+  FinalizeBuildStatus:
+    Deleting file "zlibstatic.dir\Release\zlibstatic.tlog\unsuccessfulbuild".
+    Touching "zlibstatic.dir\Release\zlibstatic.tlog\zlibstatic.lastbuildstate".
+  Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\zlib\src\zlib\zlibstatic.vcxproj" (default targets).
+  InitializeBuildStatus:
+    Creating "x64\Release\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  FinalizeBuildStatus:
+    Deleting file "x64\Release\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild".
+    Touching "x64\Release\ALL_BUILD\ALL_BUILD.tlog\ALL_BUILD.lastbuildstate".
+  Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\zlib\src\zlib\ALL_BUILD.vcxproj" (default targets).
+  PrepareForBuild:
+    Creating directory "x64\Release\INSTALL\".
+    Creating directory "x64\Release\INSTALL\INSTALL.tlog\".
+  InitializeBuildStatus:
+    Creating "x64\Release\INSTALL\INSTALL.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  PostBuildEvent:
+    setlocal
+    "C:\Program Files\CMake\bin\cmake.exe" -DBUILD_TYPE=Release -P cmake_install.cmake
+    if %errorlevel% neq 0 goto :cmEnd
+    :cmEnd
+    endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+    :cmErrorLevel
+    exit /b %1
+    :cmDone
+    if %errorlevel% neq 0 goto :VCEnd
+    :VCEnd
+    -- Install configuration: "Release"
+    -- Installing: C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/zlib/install/lib/zlib.lib
+    -- Installing: C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/zlib/install/bin/zlib.dll
+    -- Installing: C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/zlib/install/lib/zlibstatic.lib
+    -- Installing: C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/zlib/install/include/zconf.h
+    -- Installing: C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/zlib/install/include/zlib.h
+    -- Installing: C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/zlib/install/share/man/man3/zlib.3
+    -- Installing: C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/zlib/install/share/pkgconfig/zlib.pc
+  FinalizeBuildStatus:
+    Deleting file "x64\Release\INSTALL\INSTALL.tlog\unsuccessfulbuild".
+    Touching "x64\Release\INSTALL\INSTALL.tlog\INSTALL.lastbuildstate".
+  Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\zlib\src\zlib\install.vcxproj" (default targets).
+  
+  Build succeeded.
+      0 Warning(s)
+      0 Error(s)
+  
+  Time Elapsed 00:00:02.42
+  Completed 'zlib'

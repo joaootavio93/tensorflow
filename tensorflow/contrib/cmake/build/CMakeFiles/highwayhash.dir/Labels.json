@@ -1,0 +1,55 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/highwayhash"
+		},
+		
+		{
+			"file" : "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/CMakeLists.txt"
+		},
+		
+		{
+			"file" : "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/bb01c56cf9406b145ba9a57cac476823/highwayhash.rule"
+		},
+		
+		{
+			"file" : "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/79294db29758ff69b1b73858bd3118a7/highwayhash-complete.rule"
+		},
+		
+		{
+			"file" : "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/49ebc68d8a69a3ad6c7b1348a836ac35/highwayhash-install.rule"
+		},
+		
+		{
+			"file" : "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/49ebc68d8a69a3ad6c7b1348a836ac35/highwayhash-mkdir.rule"
+		},
+		
+		{
+			"file" : "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/49ebc68d8a69a3ad6c7b1348a836ac35/highwayhash-download.rule"
+		},
+		
+		{
+			"file" : "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/49ebc68d8a69a3ad6c7b1348a836ac35/highwayhash-update.rule"
+		},
+		
+		{
+			"file" : "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/49ebc68d8a69a3ad6c7b1348a836ac35/highwayhash-patch.rule"
+		},
+		
+		{
+			"file" : "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/49ebc68d8a69a3ad6c7b1348a836ac35/highwayhash-configure.rule"
+		},
+		
+		{
+			"file" : "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/49ebc68d8a69a3ad6c7b1348a836ac35/highwayhash-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "highwayhash" ],
+		"name" : "highwayhash"
+	}
+}

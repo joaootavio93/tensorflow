@@ -1,0 +1,875 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{0DC97F9B-D325-32C8-82B6-5F943325FD29}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>cub</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Visual Studio 2015\Projects\tensorflow;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\external\zlib_archive;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\external\gif_archive\giflib-5.1.4;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\external\png_archive;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\external\jpeg_archive;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\external\lmdb;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\external\eigen_archive;C:\Visual Studio 2015\Projects\tensorflow\third_party\eigen3;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gemmlowp\src\gemmlowp;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jsoncpp\src\jsoncpp;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\external\farmhash_archive;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\external\farmhash_archive\util;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\external\highwayhash;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\src\cub;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\install\include;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Visual Studio 2015\Projects\tensorflow;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\external\zlib_archive;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\external\gif_archive\giflib-5.1.4;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\external\png_archive;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\external\jpeg_archive;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\external\lmdb;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\external\eigen_archive;C:\Visual Studio 2015\Projects\tensorflow\third_party\eigen3;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gemmlowp\src\gemmlowp;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jsoncpp\src\jsoncpp;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\external\farmhash_archive;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\external\farmhash_archive\util;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\external\highwayhash;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\src\cub;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\install\include;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Visual Studio 2015\Projects\tensorflow;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\external\zlib_archive;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\external\gif_archive\giflib-5.1.4;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\external\png_archive;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\external\jpeg_archive;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\external\lmdb;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\external\eigen_archive;C:\Visual Studio 2015\Projects\tensorflow\third_party\eigen3;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gemmlowp\src\gemmlowp;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jsoncpp\src\jsoncpp;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\external\farmhash_archive;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\external\farmhash_archive\util;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\external\highwayhash;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\src\cub;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\install\include;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Visual Studio 2015\Projects\tensorflow;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\external\zlib_archive;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\external\gif_archive\giflib-5.1.4;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\external\png_archive;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\external\jpeg_archive;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\external\lmdb;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\external\eigen_archive;C:\Visual Studio 2015\Projects\tensorflow\third_party\eigen3;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gemmlowp\src\gemmlowp;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jsoncpp\src\jsoncpp;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\external\farmhash_archive;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\external\farmhash_archive\util;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\external\highwayhash;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\src\cub;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\install\include;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-HC:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake" "-BC:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build" --check-stamp-file "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/CMakeLists.txt;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\CMakeLists.txt;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\3.9.0\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeSystemSpecificInitialize.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\3.9.0\CMakeCCompiler.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\3.9.0\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\3.9.0\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\external\zlib.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\zlib\tmp\zlib-cfgcmd.txt.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\external\gif.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject-download.cmake.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\tmp\gif-cfgcmd.txt.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\external\png.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject-download.cmake.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\tmp\png-cfgcmd.txt.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\external\jpeg.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject-download.cmake.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\tmp\jpeg-cfgcmd.txt.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\external\lmdb.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject-download.cmake.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\tmp\lmdb-cfgcmd.txt.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\external\eigen.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject-download.cmake.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\eigen\tmp\eigen-cfgcmd.txt.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\external\gemmlowp.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject-download.cmake.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gemmlowp\tmp\gemmlowp-cfgcmd.txt.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\external\jsoncpp.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jsoncpp\tmp\jsoncpp-cfgcmd.txt.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\external\farmhash.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject-download.cmake.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\farmhash\tmp\farmhash-cfgcmd.txt.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\external\fft2d.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject-download.cmake.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\fft2d\tmp\fft2d-cfgcmd.txt.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\external\highwayhash.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\highwayhash\tmp\highwayhash-cfgcmd.txt.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\external\protobuf.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\tmp\protobuf-cfgcmd.txt.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\external\re2.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\tmp\re2-cfgcmd.txt.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\external\cub.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject-download.cmake.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\tmp\cub-cfgcmd.txt.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\external\grpc.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\tmp\grpc-cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPythonInterp.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\tf_core_framework.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\tf_core_cpu.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\tf_core_ops.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\tf_core_direct_session.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\tf_core_kernels.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\tf_core_distributed_runtime.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\tf_cc_ops.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\tf_c.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\tf_grappler.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\tf_core_profiler.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\tf_tutorials.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\tf_label_image_example.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\tf_tools.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\tf_python.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPythonLibs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeFindFrameworks.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindSWIG.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-HC:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake" "-BC:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build" --check-stamp-file "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/CMakeLists.txt;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\CMakeLists.txt;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\3.9.0\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeSystemSpecificInitialize.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\3.9.0\CMakeCCompiler.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\3.9.0\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\3.9.0\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\external\zlib.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\zlib\tmp\zlib-cfgcmd.txt.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\external\gif.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject-download.cmake.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\tmp\gif-cfgcmd.txt.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\external\png.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject-download.cmake.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\tmp\png-cfgcmd.txt.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\external\jpeg.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject-download.cmake.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\tmp\jpeg-cfgcmd.txt.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\external\lmdb.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject-download.cmake.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\tmp\lmdb-cfgcmd.txt.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\external\eigen.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject-download.cmake.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\eigen\tmp\eigen-cfgcmd.txt.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\external\gemmlowp.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject-download.cmake.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gemmlowp\tmp\gemmlowp-cfgcmd.txt.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\external\jsoncpp.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jsoncpp\tmp\jsoncpp-cfgcmd.txt.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\external\farmhash.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject-download.cmake.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\farmhash\tmp\farmhash-cfgcmd.txt.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\external\fft2d.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject-download.cmake.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\fft2d\tmp\fft2d-cfgcmd.txt.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\external\highwayhash.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\highwayhash\tmp\highwayhash-cfgcmd.txt.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\external\protobuf.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\tmp\protobuf-cfgcmd.txt.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\external\re2.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\tmp\re2-cfgcmd.txt.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\external\cub.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject-download.cmake.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\tmp\cub-cfgcmd.txt.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\external\grpc.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\tmp\grpc-cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPythonInterp.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\tf_core_framework.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\tf_core_cpu.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\tf_core_ops.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\tf_core_direct_session.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\tf_core_kernels.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\tf_core_distributed_runtime.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\tf_cc_ops.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\tf_c.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\tf_grappler.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\tf_core_profiler.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\tf_tutorials.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\tf_label_image_example.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\tf_tools.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\tf_python.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPythonLibs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeFindFrameworks.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindSWIG.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-HC:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake" "-BC:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build" --check-stamp-file "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/CMakeLists.txt;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\CMakeLists.txt;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\3.9.0\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeSystemSpecificInitialize.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\3.9.0\CMakeCCompiler.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\3.9.0\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\3.9.0\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\external\zlib.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\zlib\tmp\zlib-cfgcmd.txt.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\external\gif.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject-download.cmake.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\tmp\gif-cfgcmd.txt.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\external\png.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject-download.cmake.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\tmp\png-cfgcmd.txt.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\external\jpeg.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject-download.cmake.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\tmp\jpeg-cfgcmd.txt.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\external\lmdb.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject-download.cmake.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\tmp\lmdb-cfgcmd.txt.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\external\eigen.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject-download.cmake.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\eigen\tmp\eigen-cfgcmd.txt.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\external\gemmlowp.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject-download.cmake.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gemmlowp\tmp\gemmlowp-cfgcmd.txt.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\external\jsoncpp.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jsoncpp\tmp\jsoncpp-cfgcmd.txt.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\external\farmhash.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject-download.cmake.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\farmhash\tmp\farmhash-cfgcmd.txt.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\external\fft2d.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject-download.cmake.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\fft2d\tmp\fft2d-cfgcmd.txt.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\external\highwayhash.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\highwayhash\tmp\highwayhash-cfgcmd.txt.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\external\protobuf.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\tmp\protobuf-cfgcmd.txt.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\external\re2.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\tmp\re2-cfgcmd.txt.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\external\cub.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject-download.cmake.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\tmp\cub-cfgcmd.txt.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\external\grpc.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\tmp\grpc-cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPythonInterp.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\tf_core_framework.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\tf_core_cpu.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\tf_core_ops.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\tf_core_direct_session.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\tf_core_kernels.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\tf_core_distributed_runtime.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\tf_cc_ops.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\tf_c.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\tf_grappler.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\tf_core_profiler.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\tf_tutorials.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\tf_label_image_example.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\tf_tools.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\tf_python.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPythonLibs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeFindFrameworks.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindSWIG.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-HC:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake" "-BC:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build" --check-stamp-file "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/CMakeLists.txt;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\CMakeLists.txt;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\3.9.0\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeSystemSpecificInitialize.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\3.9.0\CMakeCCompiler.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\3.9.0\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\3.9.0\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\external\zlib.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\zlib\tmp\zlib-cfgcmd.txt.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\external\gif.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject-download.cmake.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\tmp\gif-cfgcmd.txt.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\external\png.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject-download.cmake.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\tmp\png-cfgcmd.txt.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\external\jpeg.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject-download.cmake.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\tmp\jpeg-cfgcmd.txt.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\external\lmdb.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject-download.cmake.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\tmp\lmdb-cfgcmd.txt.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\external\eigen.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject-download.cmake.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\eigen\tmp\eigen-cfgcmd.txt.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\external\gemmlowp.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject-download.cmake.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gemmlowp\tmp\gemmlowp-cfgcmd.txt.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\external\jsoncpp.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jsoncpp\tmp\jsoncpp-cfgcmd.txt.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\external\farmhash.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject-download.cmake.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\farmhash\tmp\farmhash-cfgcmd.txt.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\external\fft2d.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject-download.cmake.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\fft2d\tmp\fft2d-cfgcmd.txt.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\external\highwayhash.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\highwayhash\tmp\highwayhash-cfgcmd.txt.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\external\protobuf.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\tmp\protobuf-cfgcmd.txt.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\external\re2.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\tmp\re2-cfgcmd.txt.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\external\cub.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject-download.cmake.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\tmp\cub-cfgcmd.txt.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\external\grpc.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\tmp\grpc-cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPythonInterp.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\tf_core_framework.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\tf_core_cpu.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\tf_core_ops.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\tf_core_direct_session.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\tf_core_kernels.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\tf_core_distributed_runtime.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\tf_cc_ops.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\tf_c.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\tf_grappler.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\tf_core_profiler.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\tf_tutorials.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\tf_label_image_example.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\tf_tools.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\tf_python.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPythonLibs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeFindFrameworks.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindSWIG.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\661cb2f49c44532d7825e23a0061c8bc\cub-mkdir.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Creating directories for 'cub'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/cub/src/cub"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/cub/src/cub"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/cub"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/cub/tmp"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/cub/src/cub-stamp/$(Configuration)"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/downloads"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/cub/src/cub-stamp/$(Configuration)/cub-mkdir"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/661cb2f49c44532d7825e23a0061c8bc/cub-mkdir.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\src\cub-stamp\$(Configuration)\cub-mkdir</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Creating directories for 'cub'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/cub/src/cub"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/cub/src/cub"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/cub"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/cub/tmp"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/cub/src/cub-stamp/$(Configuration)"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/downloads"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/cub/src/cub-stamp/$(Configuration)/cub-mkdir"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/661cb2f49c44532d7825e23a0061c8bc/cub-mkdir.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\src\cub-stamp\$(Configuration)\cub-mkdir</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Creating directories for 'cub'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/cub/src/cub"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/cub/src/cub"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/cub"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/cub/tmp"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/cub/src/cub-stamp/$(Configuration)"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/downloads"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/cub/src/cub-stamp/$(Configuration)/cub-mkdir"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/661cb2f49c44532d7825e23a0061c8bc/cub-mkdir.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\src\cub-stamp\$(Configuration)\cub-mkdir</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Creating directories for 'cub'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/cub/src/cub"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/cub/src/cub"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/cub"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/cub/tmp"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/cub/src/cub-stamp/$(Configuration)"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/downloads"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/cub/src/cub-stamp/$(Configuration)/cub-mkdir"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/661cb2f49c44532d7825e23a0061c8bc/cub-mkdir.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\src\cub-stamp\$(Configuration)\cub-mkdir</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\661cb2f49c44532d7825e23a0061c8bc\cub-download.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Performing download step (download, verify and extract) for 'cub'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\src"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/cub/src/cub-stamp/download-cub.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/cub/src/cub-stamp/verify-cub.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/cub/src/cub-stamp/extract-cub.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/cub/src/cub-stamp/$(Configuration)/cub-download"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/661cb2f49c44532d7825e23a0061c8bc/cub-download.rule;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\src\cub-stamp\cub-urlinfo.txt;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\src\cub-stamp\$(Configuration)\cub-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\src\cub-stamp\$(Configuration)\cub-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Performing download step (download, verify and extract) for 'cub'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\src"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/cub/src/cub-stamp/download-cub.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/cub/src/cub-stamp/verify-cub.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/cub/src/cub-stamp/extract-cub.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/cub/src/cub-stamp/$(Configuration)/cub-download"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/661cb2f49c44532d7825e23a0061c8bc/cub-download.rule;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\src\cub-stamp\cub-urlinfo.txt;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\src\cub-stamp\$(Configuration)\cub-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\src\cub-stamp\$(Configuration)\cub-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Performing download step (download, verify and extract) for 'cub'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\src"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/cub/src/cub-stamp/download-cub.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/cub/src/cub-stamp/verify-cub.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/cub/src/cub-stamp/extract-cub.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/cub/src/cub-stamp/$(Configuration)/cub-download"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/661cb2f49c44532d7825e23a0061c8bc/cub-download.rule;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\src\cub-stamp\cub-urlinfo.txt;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\src\cub-stamp\$(Configuration)\cub-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\src\cub-stamp\$(Configuration)\cub-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Performing download step (download, verify and extract) for 'cub'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\src"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/cub/src/cub-stamp/download-cub.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/cub/src/cub-stamp/verify-cub.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/cub/src/cub-stamp/extract-cub.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/cub/src/cub-stamp/$(Configuration)/cub-download"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/661cb2f49c44532d7825e23a0061c8bc/cub-download.rule;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\src\cub-stamp\cub-urlinfo.txt;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\src\cub-stamp\$(Configuration)\cub-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\src\cub-stamp\$(Configuration)\cub-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\661cb2f49c44532d7825e23a0061c8bc\cub-update.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No update step for 'cub'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/cub/src/cub-stamp/$(Configuration)/cub-update"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/661cb2f49c44532d7825e23a0061c8bc/cub-update.rule;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\src\cub-stamp\$(Configuration)\cub-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\src\cub-stamp\$(Configuration)\cub-update</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">No update step for 'cub'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/cub/src/cub-stamp/$(Configuration)/cub-update"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/661cb2f49c44532d7825e23a0061c8bc/cub-update.rule;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\src\cub-stamp\$(Configuration)\cub-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\src\cub-stamp\$(Configuration)\cub-update</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">No update step for 'cub'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/cub/src/cub-stamp/$(Configuration)/cub-update"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/661cb2f49c44532d7825e23a0061c8bc/cub-update.rule;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\src\cub-stamp\$(Configuration)\cub-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\src\cub-stamp\$(Configuration)\cub-update</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">No update step for 'cub'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/cub/src/cub-stamp/$(Configuration)/cub-update"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/661cb2f49c44532d7825e23a0061c8bc/cub-update.rule;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\src\cub-stamp\$(Configuration)\cub-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\src\cub-stamp\$(Configuration)\cub-update</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\661cb2f49c44532d7825e23a0061c8bc\cub-patch.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Performing patch step for 'cub'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\src\cub"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/patches/cub/CMakeLists.txt" "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/cub/src/cub"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/cub/src/cub-stamp/$(Configuration)/cub-patch"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/661cb2f49c44532d7825e23a0061c8bc/cub-patch.rule;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\src\cub-stamp\$(Configuration)\cub-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\src\cub-stamp\$(Configuration)\cub-patch</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Performing patch step for 'cub'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\src\cub"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/patches/cub/CMakeLists.txt" "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/cub/src/cub"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/cub/src/cub-stamp/$(Configuration)/cub-patch"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/661cb2f49c44532d7825e23a0061c8bc/cub-patch.rule;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\src\cub-stamp\$(Configuration)\cub-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\src\cub-stamp\$(Configuration)\cub-patch</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Performing patch step for 'cub'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\src\cub"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/patches/cub/CMakeLists.txt" "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/cub/src/cub"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/cub/src/cub-stamp/$(Configuration)/cub-patch"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/661cb2f49c44532d7825e23a0061c8bc/cub-patch.rule;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\src\cub-stamp\$(Configuration)\cub-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\src\cub-stamp\$(Configuration)\cub-patch</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Performing patch step for 'cub'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\src\cub"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/patches/cub/CMakeLists.txt" "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/cub/src/cub"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/cub/src/cub-stamp/$(Configuration)/cub-patch"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/661cb2f49c44532d7825e23a0061c8bc/cub-patch.rule;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\src\cub-stamp\$(Configuration)\cub-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\src\cub-stamp\$(Configuration)\cub-patch</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\661cb2f49c44532d7825e23a0061c8bc\cub-configure.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Performing configure step for 'cub'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\src\cub"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" "-GVisual Studio 14 2015" -Ax64 "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/cub/src/cub"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/cub/src/cub-stamp/$(Configuration)/cub-configure"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/661cb2f49c44532d7825e23a0061c8bc/cub-configure.rule;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\tmp\cub-cfgcmd.txt;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\src\cub-stamp\$(Configuration)\cub-update;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\src\cub-stamp\$(Configuration)\cub-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\src\cub-stamp\$(Configuration)\cub-configure</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Performing configure step for 'cub'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\src\cub"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" "-GVisual Studio 14 2015" -Ax64 "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/cub/src/cub"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/cub/src/cub-stamp/$(Configuration)/cub-configure"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/661cb2f49c44532d7825e23a0061c8bc/cub-configure.rule;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\tmp\cub-cfgcmd.txt;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\src\cub-stamp\$(Configuration)\cub-update;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\src\cub-stamp\$(Configuration)\cub-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\src\cub-stamp\$(Configuration)\cub-configure</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Performing configure step for 'cub'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\src\cub"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" "-GVisual Studio 14 2015" -Ax64 "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/cub/src/cub"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/cub/src/cub-stamp/$(Configuration)/cub-configure"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/661cb2f49c44532d7825e23a0061c8bc/cub-configure.rule;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\tmp\cub-cfgcmd.txt;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\src\cub-stamp\$(Configuration)\cub-update;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\src\cub-stamp\$(Configuration)\cub-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\src\cub-stamp\$(Configuration)\cub-configure</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Performing configure step for 'cub'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\src\cub"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" "-GVisual Studio 14 2015" -Ax64 "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/cub/src/cub"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/cub/src/cub-stamp/$(Configuration)/cub-configure"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/661cb2f49c44532d7825e23a0061c8bc/cub-configure.rule;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\tmp\cub-cfgcmd.txt;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\src\cub-stamp\$(Configuration)\cub-update;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\src\cub-stamp\$(Configuration)\cub-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\src\cub-stamp\$(Configuration)\cub-configure</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\661cb2f49c44532d7825e23a0061c8bc\cub-build.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Performing build step for 'cub'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\src\cub"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" --build . --config Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/cub/src/cub-stamp/$(Configuration)/cub-build"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/661cb2f49c44532d7825e23a0061c8bc/cub-build.rule;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\src\cub-stamp\$(Configuration)\cub-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\src\cub-stamp\$(Configuration)\cub-build</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Performing build step for 'cub'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\src\cub"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" --build . --config Release
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/cub/src/cub-stamp/$(Configuration)/cub-build"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/661cb2f49c44532d7825e23a0061c8bc/cub-build.rule;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\src\cub-stamp\$(Configuration)\cub-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\src\cub-stamp\$(Configuration)\cub-build</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Performing build step for 'cub'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\src\cub"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" --build . --config MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/cub/src/cub-stamp/$(Configuration)/cub-build"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/661cb2f49c44532d7825e23a0061c8bc/cub-build.rule;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\src\cub-stamp\$(Configuration)\cub-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\src\cub-stamp\$(Configuration)\cub-build</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Performing build step for 'cub'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\src\cub"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" --build . --config RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/cub/src/cub-stamp/$(Configuration)/cub-build"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/661cb2f49c44532d7825e23a0061c8bc/cub-build.rule;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\src\cub-stamp\$(Configuration)\cub-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\src\cub-stamp\$(Configuration)\cub-build</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\661cb2f49c44532d7825e23a0061c8bc\cub-install.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Performing install step for 'cub'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\src\cub"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/cub/src/cub/cub" "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/external/cub_archive/cub"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/cub/src/cub-stamp/$(Configuration)/cub-install"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/661cb2f49c44532d7825e23a0061c8bc/cub-install.rule;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\src\cub-stamp\$(Configuration)\cub-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\src\cub-stamp\$(Configuration)\cub-install</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Performing install step for 'cub'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\src\cub"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/cub/src/cub/cub" "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/external/cub_archive/cub"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/cub/src/cub-stamp/$(Configuration)/cub-install"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/661cb2f49c44532d7825e23a0061c8bc/cub-install.rule;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\src\cub-stamp\$(Configuration)\cub-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\src\cub-stamp\$(Configuration)\cub-install</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Performing install step for 'cub'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\src\cub"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/cub/src/cub/cub" "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/external/cub_archive/cub"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/cub/src/cub-stamp/$(Configuration)/cub-install"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/661cb2f49c44532d7825e23a0061c8bc/cub-install.rule;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\src\cub-stamp\$(Configuration)\cub-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\src\cub-stamp\$(Configuration)\cub-install</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Performing install step for 'cub'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\src\cub"
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/cub/src/cub/cub" "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/external/cub_archive/cub"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/cub/src/cub-stamp/$(Configuration)/cub-install"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/661cb2f49c44532d7825e23a0061c8bc/cub-install.rule;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\src\cub-stamp\$(Configuration)\cub-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\src\cub-stamp\$(Configuration)\cub-install</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\79294db29758ff69b1b73858bd3118a7\cub-complete.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Completed 'cub'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/$(Configuration)"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/$(Configuration)/cub-complete"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/cub/src/cub-stamp/$(Configuration)/cub-done"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/79294db29758ff69b1b73858bd3118a7/cub-complete.rule;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\src\cub-stamp\$(Configuration)\cub-install;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\src\cub-stamp\$(Configuration)\cub-mkdir;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\src\cub-stamp\$(Configuration)\cub-download;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\src\cub-stamp\$(Configuration)\cub-update;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\src\cub-stamp\$(Configuration)\cub-patch;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\src\cub-stamp\$(Configuration)\cub-configure;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\src\cub-stamp\$(Configuration)\cub-build;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\src\cub-stamp\$(Configuration)\cub-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\$(Configuration)\cub-complete</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Completed 'cub'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/$(Configuration)"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/$(Configuration)/cub-complete"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/cub/src/cub-stamp/$(Configuration)/cub-done"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/79294db29758ff69b1b73858bd3118a7/cub-complete.rule;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\src\cub-stamp\$(Configuration)\cub-install;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\src\cub-stamp\$(Configuration)\cub-mkdir;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\src\cub-stamp\$(Configuration)\cub-download;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\src\cub-stamp\$(Configuration)\cub-update;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\src\cub-stamp\$(Configuration)\cub-patch;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\src\cub-stamp\$(Configuration)\cub-configure;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\src\cub-stamp\$(Configuration)\cub-build;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\src\cub-stamp\$(Configuration)\cub-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\$(Configuration)\cub-complete</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Completed 'cub'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/$(Configuration)"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/$(Configuration)/cub-complete"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/cub/src/cub-stamp/$(Configuration)/cub-done"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/79294db29758ff69b1b73858bd3118a7/cub-complete.rule;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\src\cub-stamp\$(Configuration)\cub-install;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\src\cub-stamp\$(Configuration)\cub-mkdir;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\src\cub-stamp\$(Configuration)\cub-download;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\src\cub-stamp\$(Configuration)\cub-update;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\src\cub-stamp\$(Configuration)\cub-patch;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\src\cub-stamp\$(Configuration)\cub-configure;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\src\cub-stamp\$(Configuration)\cub-build;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\src\cub-stamp\$(Configuration)\cub-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\$(Configuration)\cub-complete</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Completed 'cub'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/$(Configuration)"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/$(Configuration)/cub-complete"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/cub/src/cub-stamp/$(Configuration)/cub-done"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/79294db29758ff69b1b73858bd3118a7/cub-complete.rule;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\src\cub-stamp\$(Configuration)\cub-install;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\src\cub-stamp\$(Configuration)\cub-mkdir;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\src\cub-stamp\$(Configuration)\cub-download;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\src\cub-stamp\$(Configuration)\cub-update;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\src\cub-stamp\$(Configuration)\cub-patch;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\src\cub-stamp\$(Configuration)\cub-configure;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\src\cub-stamp\$(Configuration)\cub-build;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\src\cub-stamp\$(Configuration)\cub-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\$(Configuration)\cub-complete</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\bb01c56cf9406b145ba9a57cac476823\cub.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/bb01c56cf9406b145ba9a57cac476823/cub.rule;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\$(Configuration)\cub-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\cub</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/bb01c56cf9406b145ba9a57cac476823/cub.rule;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\$(Configuration)\cub-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\cub</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/bb01c56cf9406b145ba9a57cac476823/cub.rule;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\$(Configuration)\cub-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\cub</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/bb01c56cf9406b145ba9a57cac476823/cub.rule;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\$(Configuration)\cub-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\cub</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\cub" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\ZERO_CHECK.vcxproj">
+      <Project>{9267AF0E-FC88-3170-9EA0-BC0CE87B8631}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

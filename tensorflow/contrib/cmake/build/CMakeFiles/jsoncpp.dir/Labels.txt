@@ -1,0 +1,14 @@
+# Target labels
+ jsoncpp
+# Source files and their labels
+C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/jsoncpp
+C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/CMakeLists.txt
+C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/bb01c56cf9406b145ba9a57cac476823/jsoncpp.rule
+C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/79294db29758ff69b1b73858bd3118a7/jsoncpp-complete.rule
+C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/a8f75e23b7df84ea736d91c73d2ec8a4/jsoncpp-install.rule
+C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/a8f75e23b7df84ea736d91c73d2ec8a4/jsoncpp-mkdir.rule
+C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/a8f75e23b7df84ea736d91c73d2ec8a4/jsoncpp-download.rule
+C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/a8f75e23b7df84ea736d91c73d2ec8a4/jsoncpp-update.rule
+C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/a8f75e23b7df84ea736d91c73d2ec8a4/jsoncpp-patch.rule
+C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/a8f75e23b7df84ea736d91c73d2ec8a4/jsoncpp-configure.rule
+C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/a8f75e23b7df84ea736d91c73d2ec8a4/jsoncpp-build.rule

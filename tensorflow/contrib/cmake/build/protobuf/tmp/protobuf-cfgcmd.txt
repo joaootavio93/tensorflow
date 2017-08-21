@@ -1,0 +1,1 @@
+cmd='C:/Program Files/CMake/bin/cmake.exe;cmake/;-Dprotobuf_BUILD_TESTS=OFF;-DCMAKE_POSITION_INDEPENDENT_CODE=ON;-DZLIB_ROOT=C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/zlib/install;-Dprotobuf_MSVC_STATIC_RUNTIME:BOOL=OFF;-A;x64'

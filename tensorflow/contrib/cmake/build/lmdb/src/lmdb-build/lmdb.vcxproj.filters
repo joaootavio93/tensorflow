@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\midl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{E46CC7F9-C2CD-302B-B8B3-6672A681C091}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

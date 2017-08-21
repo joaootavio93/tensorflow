@@ -1,0 +1,55 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/protobuf"
+		},
+		
+		{
+			"file" : "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/CMakeLists.txt"
+		},
+		
+		{
+			"file" : "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/bb01c56cf9406b145ba9a57cac476823/protobuf.rule"
+		},
+		
+		{
+			"file" : "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/79294db29758ff69b1b73858bd3118a7/protobuf-complete.rule"
+		},
+		
+		{
+			"file" : "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/3c52cafb1d0ba20752be527b8090866b/protobuf-install.rule"
+		},
+		
+		{
+			"file" : "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/3c52cafb1d0ba20752be527b8090866b/protobuf-mkdir.rule"
+		},
+		
+		{
+			"file" : "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/3c52cafb1d0ba20752be527b8090866b/protobuf-download.rule"
+		},
+		
+		{
+			"file" : "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/3c52cafb1d0ba20752be527b8090866b/protobuf-update.rule"
+		},
+		
+		{
+			"file" : "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/3c52cafb1d0ba20752be527b8090866b/protobuf-patch.rule"
+		},
+		
+		{
+			"file" : "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/3c52cafb1d0ba20752be527b8090866b/protobuf-configure.rule"
+		},
+		
+		{
+			"file" : "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/3c52cafb1d0ba20752be527b8090866b/protobuf-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "protobuf" ],
+		"name" : "protobuf"
+	}
+}

@@ -1,0 +1,13 @@
+prefix=C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/zlib/install
+exec_prefix=C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/zlib/install
+libdir=C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/zlib/install/lib
+sharedlibdir=C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/zlib/install/lib
+includedir=C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/zlib/install/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.8
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

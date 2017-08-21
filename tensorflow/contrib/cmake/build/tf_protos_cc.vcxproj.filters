@@ -1,0 +1,570 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\core\debug\debug_service.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\core\debug\debugger_event_metadata.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\core\example\example.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\core\example\example_parser_configuration.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\core\example\feature.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\core\framework\allocation_description.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\core\framework\attr_value.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\core\framework\cost_graph.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\core\framework\device_attributes.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\core\framework\function.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\core\framework\graph.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\core\framework\graph_transfer_info.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\core\framework\kernel_def.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\core\framework\log_memory.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\core\framework\node_def.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\core\framework\op_def.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\core\framework\op_gen_overrides.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\core\framework\reader_base.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\core\framework\remote_fused_graph_execute_info.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\core\framework\resource_handle.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\core\framework\step_stats.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\core\framework\summary.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\core\framework\tensor.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\core\framework\tensor_description.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\core\framework\tensor_shape.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\core\framework\tensor_slice.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\core\framework\types.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\core\framework\variable.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\core\framework\versions.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\core\grappler\costs\op_performance_data.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\core\lib\core\error_codes.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\core\profiler\profile.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\core\profiler\tfprof_log.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\core\profiler\tfprof_options.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\core\profiler\tfprof_output.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\core\protobuf\cluster.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\core\protobuf\config.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\core\protobuf\control_flow.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\core\protobuf\debug.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\core\protobuf\device_properties.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\core\protobuf\master.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\core\protobuf\master_service.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\core\protobuf\meta_graph.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\core\protobuf\named_tensor.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\core\protobuf\queue_runner.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\core\protobuf\rewriter_config.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\core\protobuf\saved_model.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\core\protobuf\saver.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\core\protobuf\tensor_bundle.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\core\protobuf\tensorflow_server.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\core\protobuf\worker.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\core\protobuf\worker_service.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\core\util\event.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\core\util\example_proto_fast_parsing_test.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\core\util\memmapped_file_system.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\core\util\saved_tensor_slice.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\core\util\test_log.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\contrib\boosted_trees\proto\learner.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\contrib\boosted_trees\proto\quantiles.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\contrib\boosted_trees\proto\split_info.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\contrib\boosted_trees\proto\tree_config.pb.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\core\debug\debug_service.pb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\core\debug\debugger_event_metadata.pb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\core\example\example.pb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\core\example\example_parser_configuration.pb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\core\example\feature.pb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\core\framework\allocation_description.pb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\core\framework\attr_value.pb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\core\framework\cost_graph.pb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\core\framework\device_attributes.pb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\core\framework\function.pb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\core\framework\graph.pb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\core\framework\graph_transfer_info.pb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\core\framework\kernel_def.pb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\core\framework\log_memory.pb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\core\framework\node_def.pb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\core\framework\op_def.pb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\core\framework\op_gen_overrides.pb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\core\framework\reader_base.pb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\core\framework\remote_fused_graph_execute_info.pb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\core\framework\resource_handle.pb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\core\framework\step_stats.pb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\core\framework\summary.pb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\core\framework\tensor.pb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\core\framework\tensor_description.pb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\core\framework\tensor_shape.pb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\core\framework\tensor_slice.pb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\core\framework\types.pb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\core\framework\variable.pb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\core\framework\versions.pb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\core\grappler\costs\op_performance_data.pb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\core\lib\core\error_codes.pb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\core\profiler\profile.pb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\core\profiler\tfprof_log.pb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\core\profiler\tfprof_options.pb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\core\profiler\tfprof_output.pb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\core\protobuf\cluster.pb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\core\protobuf\config.pb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\core\protobuf\control_flow.pb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\core\protobuf\debug.pb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\core\protobuf\device_properties.pb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\core\protobuf\master.pb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\core\protobuf\master_service.pb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\core\protobuf\meta_graph.pb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\core\protobuf\named_tensor.pb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\core\protobuf\queue_runner.pb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\core\protobuf\rewriter_config.pb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\core\protobuf\saved_model.pb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\core\protobuf\saver.pb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\core\protobuf\tensor_bundle.pb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\core\protobuf\tensorflow_server.pb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\core\protobuf\worker.pb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\core\protobuf\worker_service.pb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\core\util\event.pb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\core\util\example_proto_fast_parsing_test.pb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\core\util\memmapped_file_system.pb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\core\util\saved_tensor_slice.pb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\core\util\test_log.pb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\contrib\boosted_trees\proto\learner.pb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\contrib\boosted_trees\proto\quantiles.pb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\contrib\boosted_trees\proto\split_info.pb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\contrib\boosted_trees\proto\tree_config.pb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\CMakeLists.txt" />
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\f64863cdf2c2b467b40510623779fbeb\debug_service.pb.cc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\f64863cdf2c2b467b40510623779fbeb\debugger_event_metadata.pb.cc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\077e5aed43f3c23f0de34d7f03b27383\example.pb.cc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\077e5aed43f3c23f0de34d7f03b27383\example_parser_configuration.pb.cc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\077e5aed43f3c23f0de34d7f03b27383\feature.pb.cc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\f1019b9cd65d86b10c7e944698330b11\allocation_description.pb.cc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\f1019b9cd65d86b10c7e944698330b11\attr_value.pb.cc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\f1019b9cd65d86b10c7e944698330b11\cost_graph.pb.cc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\f1019b9cd65d86b10c7e944698330b11\device_attributes.pb.cc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\f1019b9cd65d86b10c7e944698330b11\function.pb.cc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\f1019b9cd65d86b10c7e944698330b11\graph.pb.cc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\f1019b9cd65d86b10c7e944698330b11\graph_transfer_info.pb.cc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\f1019b9cd65d86b10c7e944698330b11\kernel_def.pb.cc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\f1019b9cd65d86b10c7e944698330b11\log_memory.pb.cc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\f1019b9cd65d86b10c7e944698330b11\node_def.pb.cc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\f1019b9cd65d86b10c7e944698330b11\op_def.pb.cc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\f1019b9cd65d86b10c7e944698330b11\op_gen_overrides.pb.cc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\f1019b9cd65d86b10c7e944698330b11\reader_base.pb.cc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\f1019b9cd65d86b10c7e944698330b11\remote_fused_graph_execute_info.pb.cc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\f1019b9cd65d86b10c7e944698330b11\resource_handle.pb.cc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\f1019b9cd65d86b10c7e944698330b11\step_stats.pb.cc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\f1019b9cd65d86b10c7e944698330b11\summary.pb.cc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\f1019b9cd65d86b10c7e944698330b11\tensor.pb.cc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\f1019b9cd65d86b10c7e944698330b11\tensor_description.pb.cc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\f1019b9cd65d86b10c7e944698330b11\tensor_shape.pb.cc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\f1019b9cd65d86b10c7e944698330b11\tensor_slice.pb.cc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\f1019b9cd65d86b10c7e944698330b11\types.pb.cc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\f1019b9cd65d86b10c7e944698330b11\variable.pb.cc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\f1019b9cd65d86b10c7e944698330b11\versions.pb.cc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\0b769fa7f4cb297e3ef882c4da3d037a\op_performance_data.pb.cc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\4a48478316f89cfd18ac99da87dd2b47\error_codes.pb.cc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\b5401f6f81a8d7344e415877d6ab6221\profile.pb.cc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\b5401f6f81a8d7344e415877d6ab6221\tfprof_log.pb.cc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\b5401f6f81a8d7344e415877d6ab6221\tfprof_options.pb.cc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\b5401f6f81a8d7344e415877d6ab6221\tfprof_output.pb.cc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\26fa7fd9fd3b84ecc41c85c10d8456c1\cluster.pb.cc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\26fa7fd9fd3b84ecc41c85c10d8456c1\config.pb.cc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\26fa7fd9fd3b84ecc41c85c10d8456c1\control_flow.pb.cc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\26fa7fd9fd3b84ecc41c85c10d8456c1\debug.pb.cc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\26fa7fd9fd3b84ecc41c85c10d8456c1\device_properties.pb.cc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\26fa7fd9fd3b84ecc41c85c10d8456c1\master.pb.cc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\26fa7fd9fd3b84ecc41c85c10d8456c1\master_service.pb.cc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\26fa7fd9fd3b84ecc41c85c10d8456c1\meta_graph.pb.cc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\26fa7fd9fd3b84ecc41c85c10d8456c1\named_tensor.pb.cc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\26fa7fd9fd3b84ecc41c85c10d8456c1\queue_runner.pb.cc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\26fa7fd9fd3b84ecc41c85c10d8456c1\rewriter_config.pb.cc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\26fa7fd9fd3b84ecc41c85c10d8456c1\saved_model.pb.cc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\26fa7fd9fd3b84ecc41c85c10d8456c1\saver.pb.cc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\26fa7fd9fd3b84ecc41c85c10d8456c1\tensor_bundle.pb.cc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\26fa7fd9fd3b84ecc41c85c10d8456c1\tensorflow_server.pb.cc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\26fa7fd9fd3b84ecc41c85c10d8456c1\worker.pb.cc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\26fa7fd9fd3b84ecc41c85c10d8456c1\worker_service.pb.cc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\b229fb1aac3469e6689bebd21fb87c6f\event.pb.cc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\b229fb1aac3469e6689bebd21fb87c6f\example_proto_fast_parsing_test.pb.cc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\b229fb1aac3469e6689bebd21fb87c6f\memmapped_file_system.pb.cc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\b229fb1aac3469e6689bebd21fb87c6f\saved_tensor_slice.pb.cc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\b229fb1aac3469e6689bebd21fb87c6f\test_log.pb.cc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\060325e783e4073ed45022019265e2f5\learner.pb.cc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\060325e783e4073ed45022019265e2f5\quantiles.pb.cc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\060325e783e4073ed45022019265e2f5\split_info.pb.cc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\060325e783e4073ed45022019265e2f5\tree_config.pb.cc.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{80822BFC-6A8E-334B-A740-78ABA611BFC2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{C698933A-6F58-3ACB-831E-DAF1772ABBD1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{A2344FA9-8293-397A-82F9-4519D7D89E56}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,5 @@
+﻿  Building Custom Rule C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/CMakeLists.txt
+  CMake does not need to re-run because C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/generate.stamp is up-to-date.
+  main.cc
+     Creating library C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/Release/tf_label_image_example.lib and object C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/Release/tf_label_image_example.exp
+  tf_label_image_example.vcxproj -> C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\Release\tf_label_image_example.exe

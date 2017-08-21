@@ -1,0 +1,41 @@
+﻿  Building Custom Rule C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/CMakeLists.txt
+  CMake does not need to re-run because C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/generate.stamp is up-to-date.
+  Generating __force_rebuild
+  
+  Running SWIG to generate Python wrappers
+  print_model_analysis.cc
+  pywrap_tfe_src.cc
+  tf_session_helper.cc
+  python_eager_op_gen.cc
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow/c/c_api.h(967): warning C4190: 'TF_NewWhile' has C-linkage specified, but returns UDT 'TF_WhileParams' which is incompatible with C (compiling source file C:\Visual Studio 2015\Projects\tensorflow\tensorflow\python\client\tf_session_helper.cc)
+  C:\Visual Studio 2015\Projects\tensorflow\tensorflow/c/c_api.h(923): note: see declaration of 'TF_WhileParams' (compiling source file C:\Visual Studio 2015\Projects\tensorflow\tensorflow\python\client\tf_session_helper.cc)
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow/c/c_api.h(967): warning C4190: 'TF_NewWhile' has C-linkage specified, but returns UDT 'TF_WhileParams' which is incompatible with C (compiling source file C:\Visual Studio 2015\Projects\tensorflow\tensorflow\python\eager\pywrap_tfe_src.cc)
+  C:\Visual Studio 2015\Projects\tensorflow\tensorflow/c/c_api.h(923): note: see declaration of 'TF_WhileParams' (compiling source file C:\Visual Studio 2015\Projects\tensorflow\tensorflow\python\eager\pywrap_tfe_src.cc)
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow/c/c_api.h(967): warning C4190: 'TF_NewWhile' has C-linkage specified, but returns UDT 'TF_WhileParams' which is incompatible with C (compiling source file C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\profiler\internal\print_model_analysis.cc)
+  C:\Visual Studio 2015\Projects\tensorflow\tensorflow/c/c_api.h(923): note: see declaration of 'TF_WhileParams' (compiling source file C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\profiler\internal\print_model_analysis.cc)
+  cpp_shape_inference.cc
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow/c/c_api.h(967): warning C4190: 'TF_NewWhile' has C-linkage specified, but returns UDT 'TF_WhileParams' which is incompatible with C (compiling source file C:\Visual Studio 2015\Projects\tensorflow\tensorflow\python\framework\cpp_shape_inference.cc)
+  C:\Visual Studio 2015\Projects\tensorflow\tensorflow/c/c_api.h(923): note: see declaration of 'TF_WhileParams' (compiling source file C:\Visual Studio 2015\Projects\tensorflow\tensorflow\python\framework\cpp_shape_inference.cc)
+  python_op_gen.cc
+  numpy.cc
+  ndarray_tensor_bridge.cc
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow/c/c_api.h(967): warning C4190: 'TF_NewWhile' has C-linkage specified, but returns UDT 'TF_WhileParams' which is incompatible with C (compiling source file C:\Visual Studio 2015\Projects\tensorflow\tensorflow\python\lib\core\ndarray_tensor_bridge.cc)
+  C:\Visual Studio 2015\Projects\tensorflow\tensorflow/c/c_api.h(923): note: see declaration of 'TF_WhileParams' (compiling source file C:\Visual Studio 2015\Projects\tensorflow\tensorflow\python\lib\core\ndarray_tensor_bridge.cc)
+  py_func.cc
+  py_record_reader.cc
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow/c/c_api.h(967): warning C4190: 'TF_NewWhile' has C-linkage specified, but returns UDT 'TF_WhileParams' which is incompatible with C (compiling source file C:\Visual Studio 2015\Projects\tensorflow\tensorflow\python\lib\io\py_record_reader.cc)
+  C:\Visual Studio 2015\Projects\tensorflow\tensorflow/c/c_api.h(923): note: see declaration of 'TF_WhileParams' (compiling source file C:\Visual Studio 2015\Projects\tensorflow\tensorflow\python\lib\io\py_record_reader.cc)
+  py_record_writer.cc
+  kernel_registry.cc
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow/c/c_api.h(967): warning C4190: 'TF_NewWhile' has C-linkage specified, but returns UDT 'TF_WhileParams' which is incompatible with C (compiling source file C:\Visual Studio 2015\Projects\tensorflow\tensorflow\python\lib\io\py_record_writer.cc)
+  C:\Visual Studio 2015\Projects\tensorflow\tensorflow/c/c_api.h(923): note: see declaration of 'TF_WhileParams' (compiling source file C:\Visual Studio 2015\Projects\tensorflow\tensorflow\python\lib\io\py_record_writer.cc)
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow/c/c_api.h(967): warning C4190: 'TF_NewWhile' has C-linkage specified, but returns UDT 'TF_WhileParams' which is incompatible with C (compiling source file C:\Visual Studio 2015\Projects\tensorflow\tensorflow\python\lib\core\py_func.cc)
+  C:\Visual Studio 2015\Projects\tensorflow\tensorflow/c/c_api.h(923): note: see declaration of 'TF_WhileParams' (compiling source file C:\Visual Studio 2015\Projects\tensorflow\tensorflow\python\lib\core\py_func.cc)
+  ops.cc
+  scope.cc
+  pywrap_tensorflow_internal.cc
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow/c/c_api.h(967): warning C4190: 'TF_NewWhile' has C-linkage specified, but returns UDT 'TF_WhileParams' which is incompatible with C (compiling source file C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\pywrap_tensorflow_internal.cc)
+  C:\Visual Studio 2015\Projects\tensorflow\tensorflow/c/c_api.h(923): note: see declaration of 'TF_WhileParams' (compiling source file C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\pywrap_tensorflow_internal.cc)
+     Creating library C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/Release/pywrap_tensorflow_internal.lib and object C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/Release/pywrap_tensorflow_internal.exp
+pywrap_tensorflow_internal.exp : warning LNK4070: /OUT:_pywrap_tensorflow_internal.pyd directive in .EXP differs from output filename 'C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\Release\pywrap_tensorflow_internal.dll'; ignoring directive
+  pywrap_tensorflow_internal.vcxproj -> C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\Release\pywrap_tensorflow_internal.dll

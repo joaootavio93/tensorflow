@@ -1,0 +1,5 @@
+﻿  Building Custom Rule C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/CMakeLists.txt
+  CMake does not need to re-run because C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/generate.stamp is up-to-date.
+  cc_op_gen.cc
+  cc_op_gen_main.cc
+  tf_cc_op_gen_main.vcxproj -> C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_cc_op_gen_main.dir\Release\tf_cc_op_gen_main.lib

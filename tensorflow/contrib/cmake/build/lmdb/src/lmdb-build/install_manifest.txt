@@ -1,0 +1,3 @@
+C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/lmdb/install/lib/lmdb.lib
+C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/lmdb/install/include/lmdb.h
+C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/lmdb/install/include/midl.h

@@ -1,0 +1,59 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/gif"
+		},
+		
+		{
+			"file" : "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/CMakeLists.txt"
+		},
+		
+		{
+			"file" : "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/bb01c56cf9406b145ba9a57cac476823/gif.rule"
+		},
+		
+		{
+			"file" : "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/79294db29758ff69b1b73858bd3118a7/gif-complete.rule"
+		},
+		
+		{
+			"file" : "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/6a2c8862e1de8db8c4b11506bc933acf/gif-install.rule"
+		},
+		
+		{
+			"file" : "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/6a2c8862e1de8db8c4b11506bc933acf/gif-mkdir.rule"
+		},
+		
+		{
+			"file" : "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/6a2c8862e1de8db8c4b11506bc933acf/gif-download.rule"
+		},
+		
+		{
+			"file" : "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/6a2c8862e1de8db8c4b11506bc933acf/gif-update.rule"
+		},
+		
+		{
+			"file" : "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/6a2c8862e1de8db8c4b11506bc933acf/gif-patch.rule"
+		},
+		
+		{
+			"file" : "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/6a2c8862e1de8db8c4b11506bc933acf/gif-configure.rule"
+		},
+		
+		{
+			"file" : "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/6a2c8862e1de8db8c4b11506bc933acf/gif-build.rule"
+		},
+		
+		{
+			"file" : "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/6a2c8862e1de8db8c4b11506bc933acf/gif-copy_unistd.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "gif" ],
+		"name" : "gif"
+	}
+}

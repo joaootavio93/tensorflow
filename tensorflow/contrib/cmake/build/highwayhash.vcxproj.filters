@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\CMakeLists.txt" />
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\49ebc68d8a69a3ad6c7b1348a836ac35\highwayhash-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\49ebc68d8a69a3ad6c7b1348a836ac35\highwayhash-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\49ebc68d8a69a3ad6c7b1348a836ac35\highwayhash-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\49ebc68d8a69a3ad6c7b1348a836ac35\highwayhash-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\49ebc68d8a69a3ad6c7b1348a836ac35\highwayhash-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\49ebc68d8a69a3ad6c7b1348a836ac35\highwayhash-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\49ebc68d8a69a3ad6c7b1348a836ac35\highwayhash-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\79294db29758ff69b1b73858bd3118a7\highwayhash-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\bb01c56cf9406b145ba9a57cac476823\highwayhash.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\highwayhash" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{A2344FA9-8293-397A-82F9-4519D7D89E56}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,4 @@
+C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/jpeg/src/jpeg-build/CMakeFiles/libjpeg.dir
+C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/jpeg/src/jpeg-build/CMakeFiles/INSTALL.dir
+C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/jpeg/src/jpeg-build/CMakeFiles/ALL_BUILD.dir
+C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/jpeg/src/jpeg-build/CMakeFiles/ZERO_CHECK.dir

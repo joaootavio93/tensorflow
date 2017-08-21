@@ -1,0 +1,331 @@
+﻿  Building Custom Rule C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/CMakeLists.txt
+  CMake does not need to re-run because C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/generate.stamp is up-to-date.
+  Creating directories for 'gif'
+  Performing download step (download, verify and extract) for 'gif'
+  -- Downloading...
+     dst='C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/downloads/giflib-5.1.4.tar.gz'
+     timeout='none'
+  -- Using src='http://mirror.bazel.build/ufpr.dl.sourceforge.net/project/giflib/giflib-5.1.4.tar.gz'
+  -- [download 0% complete]
+  -- [download 1% complete]
+  -- [download 2% complete]
+  -- [download 3% complete]
+  -- [download 4% complete]
+  -- [download 5% complete]
+  -- [download 6% complete]
+  -- [download 7% complete]
+  -- [download 8% complete]
+  -- [download 9% complete]
+  -- [download 10% complete]
+  -- [download 11% complete]
+  -- [download 12% complete]
+  -- [download 13% complete]
+  -- [download 14% complete]
+  -- [download 15% complete]
+  -- [download 16% complete]
+  -- [download 17% complete]
+  -- [download 18% complete]
+  -- [download 19% complete]
+  -- [download 20% complete]
+  -- [download 21% complete]
+  -- [download 22% complete]
+  -- [download 23% complete]
+  -- [download 24% complete]
+  -- [download 25% complete]
+  -- [download 26% complete]
+  -- [download 27% complete]
+  -- [download 28% complete]
+  -- [download 29% complete]
+  -- [download 30% complete]
+  -- [download 31% complete]
+  -- [download 32% complete]
+  -- [download 33% complete]
+  -- [download 34% complete]
+  -- [download 35% complete]
+  -- [download 36% complete]
+  -- [download 37% complete]
+  -- [download 38% complete]
+  -- [download 39% complete]
+  -- [download 40% complete]
+  -- [download 41% complete]
+  -- [download 42% complete]
+  -- [download 43% complete]
+  -- [download 44% complete]
+  -- [download 45% complete]
+  -- [download 46% complete]
+  -- [download 47% complete]
+  -- [download 48% complete]
+  -- [download 49% complete]
+  -- [download 50% complete]
+  -- [download 51% complete]
+  -- [download 52% complete]
+  -- [download 53% complete]
+  -- [download 54% complete]
+  -- [download 55% complete]
+  -- [download 56% complete]
+  -- [download 57% complete]
+  -- [download 58% complete]
+  -- [download 59% complete]
+  -- [download 60% complete]
+  -- [download 61% complete]
+  -- [download 62% complete]
+  -- [download 63% complete]
+  -- [download 64% complete]
+  -- [download 65% complete]
+  -- [download 66% complete]
+  -- [download 67% complete]
+  -- [download 68% complete]
+  -- [download 70% complete]
+  -- [download 72% complete]
+  -- [download 74% complete]
+  -- [download 76% complete]
+  -- [download 79% complete]
+  -- [download 80% complete]
+  -- [download 81% complete]
+  -- [download 83% complete]
+  -- [download 86% complete]
+  -- [download 88% complete]
+  -- [download 90% complete]
+  -- [download 92% complete]
+  -- [download 94% complete]
+  -- [download 97% complete]
+  -- [download 99% complete]
+  -- [download 100% complete]
+  -- verifying file...
+         file='C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/downloads/giflib-5.1.4.tar.gz'
+  -- Downloading... done
+  -- extracting...
+       src='C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/downloads/giflib-5.1.4.tar.gz'
+       dst='C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/gif/src/gif'
+  -- extracting... [tar xfz]
+  -- extracting... [analysis]
+  -- extracting... [rename]
+  -- extracting... [clean up]
+  -- extracting... done
+  No update step for 'gif'
+  Performing patch step for 'gif'
+  Performing configure step for 'gif'
+  loading initial cache file C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/gif/tmp/gif-cache-Release.cmake
+  -- The C compiler identification is MSVC 19.0.24215.1
+  -- The CXX compiler identification is MSVC 19.0.24215.1
+  -- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/x86_amd64/cl.exe
+  -- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/x86_amd64/cl.exe -- works
+  -- Detecting C compiler ABI info
+  -- Detecting C compiler ABI info - done
+  -- Check for working CXX compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/x86_amd64/cl.exe
+  -- Check for working CXX compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/x86_amd64/cl.exe -- works
+  -- Detecting CXX compiler ABI info
+  -- Detecting CXX compiler ABI info - done
+  -- Detecting CXX compile features
+  -- Detecting CXX compile features - done
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/gif/src/gif-build
+  Performing copy_unistd step for 'gif'
+  Performing build step for 'gif'
+  Microsoft (R) Build Engine version 14.0.25420.1
+  Copyright (C) Microsoft Corporation. All rights reserved.
+  
+  Build started 18/08/2017 14:47:48.
+  Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif-build\ALL_BUILD.vcxproj" on node 1 (default targets).
+  Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif-build\ALL_BUILD.vcxproj" (1) is building "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif-build\ZERO_CHECK.vcxproj" (2) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "x64\Release\ZERO_CHECK\".
+    Creating directory "x64\Release\ZERO_CHECK\ZERO_CHECK.tlog\".
+  InitializeBuildStatus:
+    Creating "x64\Release\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Checking Build System
+    CMake does not need to re-run because C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/gif/src/gif-build/CMakeFiles/generate.stamp is up-to-date.
+  FinalizeBuildStatus:
+    Deleting file "x64\Release\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild".
+    Touching "x64\Release\ZERO_CHECK\ZERO_CHECK.tlog\ZERO_CHECK.lastbuildstate".
+  Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif-build\ZERO_CHECK.vcxproj" (default targets).
+  Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif-build\ALL_BUILD.vcxproj" (1) is building "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif-build\giflib.vcxproj" (3) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "giflib.dir\Release\".
+    Creating directory "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif-build\Release\".
+    Creating directory "giflib.dir\Release\giflib.tlog\".
+  InitializeBuildStatus:
+    Creating "giflib.dir\Release\giflib.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/gif/src/gif/CMakeLists.txt
+    CMake does not need to re-run because C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/gif/src/gif-build/CMakeFiles/generate.stamp is up-to-date.
+  ClCompile:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif\lib" /nologo /W3 /WX- /O2 /Ob2 /D WIN32 /D _WINDOWS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"giflib.dir\Release\\" /Fd"giflib.dir\Release\giflib.pdb" /Gd /TC /errorReport:queue "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif\lib\dgif_lib.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif\lib\egif_lib.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif\lib\gif_font.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif\lib\gifalloc.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif\lib\openbsd-reallocarray.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif\lib\gif_err.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif\lib\quantize.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif\lib\gif_hash.c"
+    dgif_lib.c
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif\lib\dgif_lib.c(55): warning C4996: 'open': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _open. See online help for details. [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif-build\giflib.vcxproj]
+    C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_io.h(514): note: see declaration of 'open'
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif\lib\dgif_lib.c(82): warning C4996: 'close': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _close. See online help for details. [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif-build\giflib.vcxproj]
+    C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_io.h(457): note: see declaration of 'close'
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif\lib\dgif_lib.c(96): warning C4996: 'close': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _close. See online help for details. [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif-build\giflib.vcxproj]
+    C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_io.h(457): note: see declaration of 'close'
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif\lib\dgif_lib.c(107): warning C4996: 'fdopen': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _fdopen. See online help for details. [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif-build\giflib.vcxproj]
+    C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(2448): note: see declaration of 'fdopen'
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif\lib\dgif_lib.c(383): warning C4018: '<': signed/unsigned mismatch [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif-build\giflib.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif\lib\dgif_lib.c(1138): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif-build\giflib.vcxproj]
+    egif_lib.c
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif\lib\egif_lib.c(61): warning C4996: 'open': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _open. See online help for details. [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif-build\giflib.vcxproj]
+    C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_io.h(514): note: see declaration of 'open'
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif\lib\egif_lib.c(64): warning C4996: 'open': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _open. See online help for details. [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif-build\giflib.vcxproj]
+    C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_io.h(514): note: see declaration of 'open'
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif\lib\egif_lib.c(74): warning C4996: 'close': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _close. See online help for details. [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif-build\giflib.vcxproj]
+    C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_io.h(457): note: see declaration of 'close'
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif\lib\egif_lib.c(119): warning C4996: 'fdopen': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _fdopen. See online help for details. [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif-build\giflib.vcxproj]
+    C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(2448): note: see declaration of 'fdopen'
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif\lib\egif_lib.c(253): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif-build\giflib.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif\lib\egif_lib.c(255): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif-build\giflib.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif\lib\egif_lib.c(477): warning C4028: formal parameter 2 different from declaration [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif-build\giflib.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif\lib\egif_lib.c(508): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif-build\giflib.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif\lib\egif_lib.c(689): warning C4267: 'function': conversion from 'size_t' to 'unsigned int', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif-build\giflib.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif\lib\egif_lib.c(882): warning C4028: formal parameter 3 different from declaration [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif-build\giflib.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif\lib\egif_lib.c(970): warning C4028: formal parameter 2 different from declaration [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif-build\giflib.vcxproj]
+    gif_font.c
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif\lib\gif_font.c(239): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif-build\giflib.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif\lib\gif_font.c(245): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif-build\giflib.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif\lib\gif_font.c(240): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif-build\giflib.vcxproj]
+    C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(453): note: see declaration of 'strtok'
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif\lib\gif_font.c(249): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif-build\giflib.vcxproj]
+    C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(453): note: see declaration of 'strtok'
+    gifalloc.c
+    openbsd-reallocarray.c
+    gif_err.c
+    quantize.c
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif\lib\quantize.c(132): warning C4018: '<': signed/unsigned mismatch [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif-build\giflib.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif\lib\quantize.c(141): warning C4018: '<': signed/unsigned mismatch [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif-build\giflib.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif\lib\quantize.c(152): warning C4244: '=': conversion from 'long' to 'GifByteType', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif-build\giflib.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif\lib\quantize.c(153): warning C4244: '=': conversion from 'long' to 'GifByteType', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif-build\giflib.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif\lib\quantize.c(154): warning C4244: '=': conversion from 'long' to 'GifByteType', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif-build\giflib.vcxproj]
+    gif_hash.c
+    Generating Code...
+  Lib:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\Lib.exe /OUT:"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif-build\Release\giflib.lib" /NOLOGO /MACHINE:X64  /machine:x64 giflib.dir\Release\dgif_lib.obj
+    giflib.dir\Release\egif_lib.obj
+    giflib.dir\Release\gif_font.obj
+    giflib.dir\Release\gifalloc.obj
+    "giflib.dir\Release\openbsd-reallocarray.obj"
+    giflib.dir\Release\gif_err.obj
+    giflib.dir\Release\quantize.obj
+    giflib.dir\Release\gif_hash.obj
+    giflib.vcxproj -> C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif-build\Release\giflib.lib
+  FinalizeBuildStatus:
+    Deleting file "giflib.dir\Release\giflib.tlog\unsuccessfulbuild".
+    Touching "giflib.dir\Release\giflib.tlog\giflib.lastbuildstate".
+  Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif-build\giflib.vcxproj" (default targets).
+  PrepareForBuild:
+    Creating directory "x64\Release\ALL_BUILD\".
+    Creating directory "x64\Release\ALL_BUILD\ALL_BUILD.tlog\".
+  InitializeBuildStatus:
+    Creating "x64\Release\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/gif/src/gif/CMakeLists.txt
+    CMake does not need to re-run because C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/gif/src/gif-build/CMakeFiles/generate.stamp is up-to-date.
+  FinalizeBuildStatus:
+    Deleting file "x64\Release\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild".
+    Touching "x64\Release\ALL_BUILD\ALL_BUILD.tlog\ALL_BUILD.lastbuildstate".
+  Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif-build\ALL_BUILD.vcxproj" (default targets).
+  
+  Build succeeded.
+  
+  "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif-build\ALL_BUILD.vcxproj" (default target) (1) ->
+  "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif-build\giflib.vcxproj" (default target) (3) ->
+  (ClCompile target) -> 
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif\lib\dgif_lib.c(55): warning C4996: 'open': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _open. See online help for details. [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif-build\giflib.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif\lib\dgif_lib.c(82): warning C4996: 'close': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _close. See online help for details. [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif-build\giflib.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif\lib\dgif_lib.c(96): warning C4996: 'close': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _close. See online help for details. [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif-build\giflib.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif\lib\dgif_lib.c(107): warning C4996: 'fdopen': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _fdopen. See online help for details. [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif-build\giflib.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif\lib\dgif_lib.c(383): warning C4018: '<': signed/unsigned mismatch [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif-build\giflib.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif\lib\dgif_lib.c(1138): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif-build\giflib.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif\lib\egif_lib.c(61): warning C4996: 'open': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _open. See online help for details. [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif-build\giflib.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif\lib\egif_lib.c(64): warning C4996: 'open': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _open. See online help for details. [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif-build\giflib.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif\lib\egif_lib.c(74): warning C4996: 'close': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _close. See online help for details. [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif-build\giflib.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif\lib\egif_lib.c(119): warning C4996: 'fdopen': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _fdopen. See online help for details. [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif-build\giflib.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif\lib\egif_lib.c(253): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif-build\giflib.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif\lib\egif_lib.c(255): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif-build\giflib.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif\lib\egif_lib.c(477): warning C4028: formal parameter 2 different from declaration [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif-build\giflib.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif\lib\egif_lib.c(508): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif-build\giflib.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif\lib\egif_lib.c(689): warning C4267: 'function': conversion from 'size_t' to 'unsigned int', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif-build\giflib.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif\lib\egif_lib.c(882): warning C4028: formal parameter 3 different from declaration [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif-build\giflib.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif\lib\egif_lib.c(970): warning C4028: formal parameter 2 different from declaration [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif-build\giflib.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif\lib\gif_font.c(239): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif-build\giflib.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif\lib\gif_font.c(245): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif-build\giflib.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif\lib\gif_font.c(240): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif-build\giflib.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif\lib\gif_font.c(249): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif-build\giflib.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif\lib\quantize.c(132): warning C4018: '<': signed/unsigned mismatch [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif-build\giflib.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif\lib\quantize.c(141): warning C4018: '<': signed/unsigned mismatch [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif-build\giflib.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif\lib\quantize.c(152): warning C4244: '=': conversion from 'long' to 'GifByteType', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif-build\giflib.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif\lib\quantize.c(153): warning C4244: '=': conversion from 'long' to 'GifByteType', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif-build\giflib.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif\lib\quantize.c(154): warning C4244: '=': conversion from 'long' to 'GifByteType', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif-build\giflib.vcxproj]
+  
+      26 Warning(s)
+      0 Error(s)
+  
+  Time Elapsed 00:00:05.82
+  Performing install step for 'gif'
+  Microsoft (R) Build Engine version 14.0.25420.1
+  Copyright (C) Microsoft Corporation. All rights reserved.
+  
+  Build started 18/08/2017 14:47:54.
+  Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif-build\install.vcxproj" on node 1 (default targets).
+  Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif-build\install.vcxproj" (1) is building "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif-build\ZERO_CHECK.vcxproj" (2) on node 1 (default targets).
+  InitializeBuildStatus:
+    Creating "x64\Release\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  FinalizeBuildStatus:
+    Deleting file "x64\Release\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild".
+    Touching "x64\Release\ZERO_CHECK\ZERO_CHECK.tlog\ZERO_CHECK.lastbuildstate".
+  Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif-build\ZERO_CHECK.vcxproj" (default targets).
+  Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif-build\install.vcxproj" (1) is building "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif-build\ALL_BUILD.vcxproj" (3) on node 1 (default targets).
+  Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif-build\ALL_BUILD.vcxproj" (3) is building "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif-build\giflib.vcxproj" (4) on node 1 (default targets).
+  InitializeBuildStatus:
+    Creating "giflib.dir\Release\giflib.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  ClCompile:
+    All outputs are up-to-date.
+  Lib:
+    All outputs are up-to-date.
+    giflib.vcxproj -> C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif-build\Release\giflib.lib
+  FinalizeBuildStatus:
+    Deleting file "giflib.dir\Release\giflib.tlog\unsuccessfulbuild".
+    Touching "giflib.dir\Release\giflib.tlog\giflib.lastbuildstate".
+  Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif-build\giflib.vcxproj" (default targets).
+  InitializeBuildStatus:
+    Creating "x64\Release\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  FinalizeBuildStatus:
+    Deleting file "x64\Release\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild".
+    Touching "x64\Release\ALL_BUILD\ALL_BUILD.tlog\ALL_BUILD.lastbuildstate".
+  Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif-build\ALL_BUILD.vcxproj" (default targets).
+  PrepareForBuild:
+    Creating directory "x64\Release\INSTALL\".
+    Creating directory "x64\Release\INSTALL\INSTALL.tlog\".
+  InitializeBuildStatus:
+    Creating "x64\Release\INSTALL\INSTALL.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  PostBuildEvent:
+    setlocal
+    "C:\Program Files\CMake\bin\cmake.exe" -DBUILD_TYPE=Release -P cmake_install.cmake
+    if %errorlevel% neq 0 goto :cmEnd
+    :cmEnd
+    endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+    :cmErrorLevel
+    exit /b %1
+    :cmDone
+    if %errorlevel% neq 0 goto :VCEnd
+    :VCEnd
+    -- Install configuration: "Release"
+    -- Installing: C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/gif/install/lib/giflib.lib
+    -- Installing: C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/gif/install/include/gif_lib.h
+  FinalizeBuildStatus:
+    Deleting file "x64\Release\INSTALL\INSTALL.tlog\unsuccessfulbuild".
+    Touching "x64\Release\INSTALL\INSTALL.tlog\INSTALL.lastbuildstate".
+  Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\src\gif-build\install.vcxproj" (default targets).
+  
+  Build succeeded.
+      0 Warning(s)
+      0 Error(s)
+  
+  Time Elapsed 00:00:01.04
+  Completed 'gif'

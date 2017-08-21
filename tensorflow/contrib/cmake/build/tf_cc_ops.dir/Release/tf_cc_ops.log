@@ -1,0 +1,125 @@
+﻿  Building Custom Rule C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/CMakeLists.txt
+  CMake does not need to re-run because C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/generate.stamp is up-to-date.
+  Generating tensorflow/cc/ops/array_ops.h, tensorflow/cc/ops/array_ops.cc, tensorflow/cc/ops/array_ops_internal.h, tensorflow/cc/ops/array_ops_internal.cc
+  2017-08-18 15:09:22.864912: W C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\framework\op_gen_lib.cc:372] Squeeze can't find input squeeze_dims to rename
+  Generating tensorflow/cc/ops/bitwise_ops.h, tensorflow/cc/ops/bitwise_ops.cc, tensorflow/cc/ops/bitwise_ops_internal.h, tensorflow/cc/ops/bitwise_ops_internal.cc
+  Generating tensorflow/cc/ops/candidate_sampling_ops.h, tensorflow/cc/ops/candidate_sampling_ops.cc, tensorflow/cc/ops/candidate_sampling_ops_internal.h, tensorflow/cc/ops/candidate_sampling_ops_internal.cc
+  Generating tensorflow/cc/ops/control_flow_ops.h, tensorflow/cc/ops/control_flow_ops.cc, tensorflow/cc/ops/control_flow_ops_internal.h, tensorflow/cc/ops/control_flow_ops_internal.cc
+  Generating tensorflow/cc/ops/ctc_ops.h, tensorflow/cc/ops/ctc_ops.cc, tensorflow/cc/ops/ctc_ops_internal.h, tensorflow/cc/ops/ctc_ops_internal.cc
+  Generating tensorflow/cc/ops/data_flow_ops.h, tensorflow/cc/ops/data_flow_ops.cc, tensorflow/cc/ops/data_flow_ops_internal.h, tensorflow/cc/ops/data_flow_ops_internal.cc
+  Generating tensorflow/cc/ops/dataset_ops.h, tensorflow/cc/ops/dataset_ops.cc, tensorflow/cc/ops/dataset_ops_internal.h, tensorflow/cc/ops/dataset_ops_internal.cc
+  Generating tensorflow/cc/ops/functional_ops.h, tensorflow/cc/ops/functional_ops.cc, tensorflow/cc/ops/functional_ops_internal.h, tensorflow/cc/ops/functional_ops_internal.cc
+  Generating tensorflow/cc/ops/image_ops.h, tensorflow/cc/ops/image_ops.cc, tensorflow/cc/ops/image_ops_internal.h, tensorflow/cc/ops/image_ops_internal.cc
+  Generating tensorflow/cc/ops/io_ops.h, tensorflow/cc/ops/io_ops.cc, tensorflow/cc/ops/io_ops_internal.h, tensorflow/cc/ops/io_ops_internal.cc
+  Generating tensorflow/cc/ops/linalg_ops.h, tensorflow/cc/ops/linalg_ops.cc, tensorflow/cc/ops/linalg_ops_internal.h, tensorflow/cc/ops/linalg_ops_internal.cc
+  Generating tensorflow/cc/ops/lookup_ops.h, tensorflow/cc/ops/lookup_ops.cc, tensorflow/cc/ops/lookup_ops_internal.h, tensorflow/cc/ops/lookup_ops_internal.cc
+  Generating tensorflow/cc/ops/logging_ops.h, tensorflow/cc/ops/logging_ops.cc, tensorflow/cc/ops/logging_ops_internal.h, tensorflow/cc/ops/logging_ops_internal.cc
+  Generating tensorflow/cc/ops/math_ops.h, tensorflow/cc/ops/math_ops.cc, tensorflow/cc/ops/math_ops_internal.h, tensorflow/cc/ops/math_ops_internal.cc
+  Generating tensorflow/cc/ops/nn_ops.h, tensorflow/cc/ops/nn_ops.cc, tensorflow/cc/ops/nn_ops_internal.h, tensorflow/cc/ops/nn_ops_internal.cc
+  Generating tensorflow/cc/ops/no_op.h, tensorflow/cc/ops/no_op.cc, tensorflow/cc/ops/no_op_internal.h, tensorflow/cc/ops/no_op_internal.cc
+  Generating tensorflow/cc/ops/parsing_ops.h, tensorflow/cc/ops/parsing_ops.cc, tensorflow/cc/ops/parsing_ops_internal.h, tensorflow/cc/ops/parsing_ops_internal.cc
+  Generating tensorflow/cc/ops/random_ops.h, tensorflow/cc/ops/random_ops.cc, tensorflow/cc/ops/random_ops_internal.h, tensorflow/cc/ops/random_ops_internal.cc
+  Generating tensorflow/cc/ops/remote_fused_graph_ops.h, tensorflow/cc/ops/remote_fused_graph_ops.cc, tensorflow/cc/ops/remote_fused_graph_ops_internal.h, tensorflow/cc/ops/remote_fused_graph_ops_internal.cc
+  Generating tensorflow/cc/ops/resource_variable_ops.h, tensorflow/cc/ops/resource_variable_ops.cc, tensorflow/cc/ops/resource_variable_ops_internal.h, tensorflow/cc/ops/resource_variable_ops_internal.cc
+  Generating tensorflow/cc/ops/script_ops.h, tensorflow/cc/ops/script_ops.cc, tensorflow/cc/ops/script_ops_internal.h, tensorflow/cc/ops/script_ops_internal.cc
+  Generating tensorflow/cc/ops/sdca_ops.h, tensorflow/cc/ops/sdca_ops.cc, tensorflow/cc/ops/sdca_ops_internal.h, tensorflow/cc/ops/sdca_ops_internal.cc
+  Generating tensorflow/cc/ops/set_ops.h, tensorflow/cc/ops/set_ops.cc, tensorflow/cc/ops/set_ops_internal.h, tensorflow/cc/ops/set_ops_internal.cc
+  Generating tensorflow/cc/ops/sendrecv_ops.h, tensorflow/cc/ops/sendrecv_ops.cc, tensorflow/cc/ops/sendrecv_ops_internal.h, tensorflow/cc/ops/sendrecv_ops_internal.cc
+  Generating tensorflow/cc/ops/sparse_ops.h, tensorflow/cc/ops/sparse_ops.cc, tensorflow/cc/ops/sparse_ops_internal.h, tensorflow/cc/ops/sparse_ops_internal.cc
+  Generating tensorflow/cc/ops/spectral_ops.h, tensorflow/cc/ops/spectral_ops.cc, tensorflow/cc/ops/spectral_ops_internal.h, tensorflow/cc/ops/spectral_ops_internal.cc
+  Generating tensorflow/cc/ops/state_ops.h, tensorflow/cc/ops/state_ops.cc, tensorflow/cc/ops/state_ops_internal.h, tensorflow/cc/ops/state_ops_internal.cc
+  Generating tensorflow/cc/ops/stateless_random_ops.h, tensorflow/cc/ops/stateless_random_ops.cc, tensorflow/cc/ops/stateless_random_ops_internal.h, tensorflow/cc/ops/stateless_random_ops_internal.cc
+  Generating tensorflow/cc/ops/string_ops.h, tensorflow/cc/ops/string_ops.cc, tensorflow/cc/ops/string_ops_internal.h, tensorflow/cc/ops/string_ops_internal.cc
+  Generating tensorflow/cc/ops/training_ops.h, tensorflow/cc/ops/training_ops.cc, tensorflow/cc/ops/training_ops_internal.h, tensorflow/cc/ops/training_ops_internal.cc
+  Generating tensorflow/cc/ops/user_ops.h, tensorflow/cc/ops/user_ops.cc, tensorflow/cc/ops/user_ops_internal.h, tensorflow/cc/ops/user_ops_internal.cc
+  array_ops.cc
+  array_ops_internal.cc
+  bitwise_ops.cc
+  bitwise_ops_internal.cc
+  candidate_sampling_ops.cc
+  candidate_sampling_ops_internal.cc
+  control_flow_ops.cc
+  control_flow_ops_internal.cc
+  ctc_ops.cc
+  ctc_ops_internal.cc
+  data_flow_ops.cc
+  data_flow_ops_internal.cc
+  dataset_ops.cc
+  dataset_ops_internal.cc
+  functional_ops.cc
+  functional_ops_internal.cc
+  image_ops.cc
+  image_ops_internal.cc
+  io_ops.cc
+  io_ops_internal.cc
+  linalg_ops.cc
+  linalg_ops_internal.cc
+  lookup_ops.cc
+  lookup_ops_internal.cc
+  logging_ops.cc
+  logging_ops_internal.cc
+  math_ops.cc
+  math_ops_internal.cc
+  nn_ops.cc
+  nn_ops_internal.cc
+  no_op.cc
+  no_op_internal.cc
+  parsing_ops.cc
+  parsing_ops_internal.cc
+  random_ops.cc
+  random_ops_internal.cc
+  remote_fused_graph_ops.cc
+  remote_fused_graph_ops_internal.cc
+  resource_variable_ops.cc
+  resource_variable_ops_internal.cc
+  script_ops.cc
+  script_ops_internal.cc
+  sdca_ops.cc
+  sdca_ops_internal.cc
+  set_ops.cc
+  set_ops_internal.cc
+  sendrecv_ops.cc
+  sendrecv_ops_internal.cc
+  sparse_ops.cc
+  sparse_ops_internal.cc
+  spectral_ops.cc
+  spectral_ops_internal.cc
+  state_ops.cc
+  state_ops_internal.cc
+  stateless_random_ops.cc
+  stateless_random_ops_internal.cc
+  string_ops.cc
+  string_ops_internal.cc
+  training_ops.cc
+  training_ops_internal.cc
+  user_ops.cc
+  user_ops_internal.cc
+  const_op.cc
+user_ops_internal.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+training_ops_internal.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+string_ops_internal.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+stateless_random_ops_internal.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+state_ops_internal.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+spectral_ops_internal.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+sparse_ops_internal.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+sendrecv_ops_internal.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+set_ops_internal.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+sdca_ops_internal.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+script_ops_internal.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+script_ops.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+resource_variable_ops_internal.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+remote_fused_graph_ops_internal.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+random_ops_internal.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+parsing_ops_internal.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+no_op_internal.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+logging_ops_internal.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+lookup_ops_internal.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+linalg_ops_internal.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+io_ops_internal.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+functional_ops_internal.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+dataset_ops_internal.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+data_flow_ops_internal.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+ctc_ops_internal.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+candidate_sampling_ops_internal.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+bitwise_ops_internal.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+  tf_cc_ops.vcxproj -> C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_cc_ops.dir\Release\tf_cc_ops.lib

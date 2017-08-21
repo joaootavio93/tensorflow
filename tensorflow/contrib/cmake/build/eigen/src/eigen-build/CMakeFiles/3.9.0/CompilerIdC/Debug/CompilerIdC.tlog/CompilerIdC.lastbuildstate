@@ -1,0 +1,2 @@
+#TargetFrameworkVersion=v4.0:PlatformToolSet=v140:EnableManagedIncrementalBuild=false:VCToolArchitecture=Native32Bit:WindowsTargetPlatformVersion=8.1
+Debug|x64|C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\eigen\src\eigen-build\CMakeFiles\3.9.0\CompilerIdC\|

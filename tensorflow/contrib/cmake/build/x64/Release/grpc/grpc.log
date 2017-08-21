@@ -1,0 +1,1341 @@
+﻿  Building Custom Rule C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/CMakeLists.txt
+  CMake does not need to re-run because C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/generate.stamp is up-to-date.
+  Creating directories for 'grpc'
+  Performing download step (git clone) for 'grpc'
+  Cloning into 'grpc'...
+  Checking out files:   7% (676/9277)   
+  Checking out files:   8% (743/9277)   
+  Checking out files:   9% (835/9277)   
+  Checking out files:  10% (928/9277)   
+  Checking out files:  11% (1021/9277)   
+  Checking out files:  12% (1114/9277)   
+  Checking out files:  13% (1207/9277)   
+  Checking out files:  14% (1299/9277)   
+  Checking out files:  15% (1392/9277)   
+  Checking out files:  15% (1437/9277)   
+  Checking out files:  16% (1485/9277)   
+  Checking out files:  17% (1578/9277)   
+  Checking out files:  18% (1670/9277)   
+  Checking out files:  19% (1763/9277)   
+  Checking out files:  20% (1856/9277)   
+  Checking out files:  21% (1949/9277)   
+  Checking out files:  21% (1960/9277)   
+  Checking out files:  22% (2041/9277)   
+  Checking out files:  23% (2134/9277)   
+  Checking out files:  23% (2177/9277)   
+  Checking out files:  24% (2227/9277)   
+  Checking out files:  25% (2320/9277)   
+  Checking out files:  26% (2413/9277)   
+  Checking out files:  27% (2505/9277)   
+  Checking out files:  28% (2598/9277)   
+  Checking out files:  29% (2691/9277)   
+  Checking out files:  30% (2784/9277)   
+  Checking out files:  31% (2876/9277)   
+  Checking out files:  32% (2969/9277)   
+  Checking out files:  33% (3062/9277)   
+  Checking out files:  33% (3084/9277)   
+  Checking out files:  34% (3155/9277)   
+  Checking out files:  35% (3247/9277)   
+  Checking out files:  36% (3340/9277)   
+  Checking out files:  37% (3433/9277)   
+  Checking out files:  38% (3526/9277)   
+  Checking out files:  39% (3619/9277)   
+  Checking out files:  40% (3711/9277)   
+  Checking out files:  41% (3804/9277)   
+  Checking out files:  42% (3897/9277)   
+  Checking out files:  42% (3967/9277)   
+  Checking out files:  43% (3990/9277)   
+  Checking out files:  44% (4082/9277)   
+  Checking out files:  45% (4175/9277)   
+  Checking out files:  46% (4268/9277)   
+  Checking out files:  47% (4361/9277)   
+  Checking out files:  48% (4453/9277)   
+  Checking out files:  49% (4546/9277)   
+  Checking out files:  50% (4639/9277)   
+  Checking out files:  51% (4732/9277)   
+  Checking out files:  52% (4825/9277)   
+  Checking out files:  52% (4877/9277)   
+  Checking out files:  53% (4917/9277)   
+  Checking out files:  54% (5010/9277)   
+  Checking out files:  55% (5103/9277)   
+  Checking out files:  56% (5196/9277)   
+  Checking out files:  57% (5288/9277)   
+  Checking out files:  57% (5302/9277)   
+  Checking out files:  58% (5381/9277)   
+  Checking out files:  59% (5474/9277)   
+  Checking out files:  60% (5567/9277)   
+  Checking out files:  61% (5659/9277)   
+  Checking out files:  62% (5752/9277)   
+  Checking out files:  63% (5845/9277)   
+  Checking out files:  64% (5938/9277)   
+  Checking out files:  64% (5987/9277)   
+  Checking out files:  65% (6031/9277)   
+  Checking out files:  66% (6123/9277)   
+  Checking out files:  67% (6216/9277)   
+  Checking out files:  68% (6309/9277)   
+  Checking out files:  69% (6402/9277)   
+  Checking out files:  70% (6494/9277)   
+  Checking out files:  71% (6587/9277)   
+  Checking out files:  72% (6680/9277)   
+  Checking out files:  72% (6727/9277)   
+  Checking out files:  73% (6773/9277)   
+  Checking out files:  74% (6865/9277)   
+  Checking out files:  75% (6958/9277)   
+  Checking out files:  76% (7051/9277)   
+  Checking out files:  77% (7144/9277)   
+  Checking out files:  77% (7157/9277)   
+  Checking out files:  78% (7237/9277)   
+  Checking out files:  79% (7329/9277)   
+  Checking out files:  80% (7422/9277)   
+  Checking out files:  81% (7515/9277)   
+  Checking out files:  82% (7608/9277)   
+  Checking out files:  83% (7700/9277)   
+  Checking out files:  84% (7793/9277)   
+  Checking out files:  85% (7886/9277)   
+  Checking out files:  86% (7979/9277)   
+  Checking out files:  86% (7982/9277)   
+  Checking out files:  87% (8071/9277)   
+  Checking out files:  88% (8164/9277)   
+  Checking out files:  89% (8257/9277)   
+  Checking out files:  89% (8264/9277)   
+  Checking out files:  90% (8350/9277)   
+  Checking out files:  91% (8443/9277)   
+  Checking out files:  92% (8535/9277)   
+  Checking out files:  93% (8628/9277)   
+  Checking out files:  93% (8672/9277)   
+  Checking out files:  94% (8721/9277)   
+  Checking out files:  95% (8814/9277)   
+  Checking out files:  96% (8906/9277)   
+  Checking out files:  97% (8999/9277)   
+  Checking out files:  98% (9092/9277)   
+  Checking out files:  99% (9185/9277)   
+  Checking out files:  99% (9273/9277)   
+  Checking out files: 100% (9277/9277)   
+  Checking out files: 100% (9277/9277), done.
+  Note: checking out '781fd6f6ea03645a520cd5c675da67ab61f87e4b'.
+  You are in 'detached HEAD' state. You can look around, make experimental
+  changes and commit them, and you can discard any commits you make in this
+  state without impacting any branches by performing another checkout.
+  
+  If you want to create a new branch to retain commits you create, you may
+  do so (now or later) by using -b with the checkout command again. Example:
+  
+    git checkout -b <new-branch-name>
+  
+  HEAD is now at 781fd6f... Merge pull request #11884 from yashykt/connect-auth
+  Submodule 'third_party/benchmark' (https://github.com/google/benchmark) registered for path 'third_party/benchmark'
+  Submodule 'third_party/boringssl' (https://github.com/google/boringssl.git) registered for path 'third_party/boringssl'
+  Submodule 'third_party/boringssl-with-bazel' (https://boringssl.googlesource.com/boringssl) registered for path 'third_party/boringssl-with-bazel'
+  Submodule 'third_party/cares/cares' (https://github.com/c-ares/c-ares.git) registered for path 'third_party/cares/cares'
+  Submodule 'third_party/gflags' (https://github.com/gflags/gflags.git) registered for path 'third_party/gflags'
+  Submodule 'third_party/googletest' (https://github.com/google/googletest.git) registered for path 'third_party/googletest'
+  Submodule 'third_party/protobuf' (https://github.com/google/protobuf.git) registered for path 'third_party/protobuf'
+  Submodule 'third_party/zlib' (https://github.com/madler/zlib) registered for path 'third_party/zlib'
+  Cloning into 'C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/grpc/src/grpc/third_party/benchmark'...
+  Cloning into 'C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/grpc/src/grpc/third_party/boringssl'...
+  Cloning into 'C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/grpc/src/grpc/third_party/boringssl-with-bazel'...
+  Cloning into 'C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/grpc/src/grpc/third_party/cares/cares'...
+  Cloning into 'C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/grpc/src/grpc/third_party/gflags'...
+  Cloning into 'C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/grpc/src/grpc/third_party/googletest'...
+  Cloning into 'C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/grpc/src/grpc/third_party/protobuf'...
+  Cloning into 'C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/grpc/src/grpc/third_party/zlib'...
+  Submodule path 'third_party/benchmark': checked out '44c25c892a6229b20db7cd9dc05584ea865896de'
+  Submodule path 'third_party/boringssl': checked out 'be2ee342d3781ddb954f91f8a7e660c6f59e87e5'
+  Submodule path 'third_party/boringssl-with-bazel': checked out '886e7d75368e3f4fab3f4d0d3584e4abfc557755'
+  Submodule path 'third_party/cares/cares': checked out '7691f773af79bf75a62d1863fd0f13ebf9dc51b1'
+  Submodule path 'third_party/gflags': checked out '30dbc81fb5ffdc98ea9b14b1918bfe4e8779b26e'
+  Submodule 'doc' (https://github.com/gflags/gflags.git) registered for path 'third_party/gflags/doc'
+  Cloning into 'C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/grpc/src/grpc/third_party/gflags/doc'...
+  Submodule path 'third_party/gflags/doc': checked out '971dd2a4fadac9cdab174c523c22df79efd63aa5'
+  Submodule path 'third_party/googletest': checked out 'ec44c6c1675c25b9827aacd08c02433cccde7780'
+  Submodule path 'third_party/protobuf': checked out 'a6189acd18b00611c1dc7042299ad75486f08a1a'
+  Submodule 'third_party/benchmark' (https://github.com/google/benchmark.git) registered for path 'third_party/protobuf/third_party/benchmark'
+  Cloning into 'C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/grpc/src/grpc/third_party/protobuf/third_party/benchmark'...
+  Submodule path 'third_party/protobuf/third_party/benchmark': checked out '360e66c1c4777c99402cf8cd535aa510fee16573'
+  Submodule path 'third_party/zlib': checked out 'cacf7f1d4e3d44d871b605da3b647f07d718623f'
+  Performing update step for 'grpc'
+  Performing patch step for 'grpc'
+  Performing configure step for 'grpc'
+  loading initial cache file C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/grpc/tmp/grpc-cache-Release.cmake
+  -- The C compiler identification is MSVC 19.0.24215.1
+  -- The CXX compiler identification is MSVC 19.0.24215.1
+  -- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/x86_amd64/cl.exe
+  -- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/x86_amd64/cl.exe -- works
+  -- Detecting C compiler ABI info
+  -- Detecting C compiler ABI info - done
+  -- Check for working CXX compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/x86_amd64/cl.exe
+  -- Check for working CXX compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/x86_amd64/cl.exe -- works
+  -- Detecting CXX compiler ABI info
+  -- Detecting CXX compiler ABI info - done
+  -- Detecting CXX compile features
+  -- Detecting CXX compile features - done
+  -- Looking for sys/types.h
+  -- Looking for sys/types.h - found
+  -- Looking for stdint.h
+  -- Looking for stdint.h - found
+  -- Looking for stddef.h
+  -- Looking for stddef.h - found
+  -- Check size of off64_t
+  -- Check size of off64_t - failed
+  -- Looking for fseeko
+  -- Looking for fseeko - not found
+  -- Looking for unistd.h
+  -- Looking for unistd.h - not found
+  CMake Warning at CMakeLists.txt:120 (message):
+    gRPC_INSTALL will be forced to FALSE because gRPC_ZLIB_PROVIDER is "module"
+  
+  
+  -- Looking for pthread.h
+  -- Looking for pthread.h - not found
+  -- Found Threads: TRUE  
+  -- Check size of __int32
+  -- Check size of __int32 - done
+  -- Found Git: C:/Program Files/Git/cmd/git.exe (found version "2.10.1.windows.1") 
+  -- git Version: v1.3.5-781fd6f6-dirty
+  -- Version: 1.3.5
+  -- Performing Test HAVE_STD_REGEX
+  -- Performing Test HAVE_STD_REGEX -- success
+  -- Performing Test HAVE_GNU_POSIX_REGEX
+  -- Performing Test HAVE_GNU_POSIX_REGEX -- failed to compile
+  -- Performing Test HAVE_POSIX_REGEX
+  -- Performing Test HAVE_POSIX_REGEX -- failed to compile
+  -- Performing Test HAVE_STEADY_CLOCK
+  -- Performing Test HAVE_STEADY_CLOCK -- success
+  -- Performing Test BENCHMARK_HAS_CXX03_FLAG
+  -- Performing Test BENCHMARK_HAS_CXX03_FLAG - Failed
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/grpc/src/grpc
+  Performing copy_rand step for 'grpc'
+  Performing build step for 'grpc'
+  Microsoft (R) Build Engine version 14.0.25420.1
+  Copyright (C) Microsoft Corporation. All rights reserved.
+  
+  Build started 18/08/2017 14:56:03.
+  Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\grpc++_unsecure.vcxproj" on node 1 (default targets).
+  Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\grpc++_unsecure.vcxproj" (1) is building "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\ZERO_CHECK.vcxproj" (2) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "x64\Release\ZERO_CHECK\".
+    Creating directory "x64\Release\ZERO_CHECK\ZERO_CHECK.tlog\".
+  InitializeBuildStatus:
+    Creating "x64\Release\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Checking Build System
+    CMake does not need to re-run because C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/grpc/src/grpc/CMakeFiles/generate.stamp is up-to-date.
+    CMake does not need to re-run because C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/grpc/src/grpc/third_party/zlib/CMakeFiles/generate.stamp is up-to-date.
+    CMake does not need to re-run because C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/grpc/src/grpc/third_party/cares/CMakeFiles/generate.stamp is up-to-date.
+    CMake does not need to re-run because C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/grpc/src/grpc/third_party/protobuf/CMakeFiles/generate.stamp is up-to-date.
+    CMake does not need to re-run because C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/grpc/src/grpc/third_party/gflags/CMakeFiles/generate.stamp is up-to-date.
+    CMake does not need to re-run because C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/grpc/src/grpc/third_party/benchmark/CMakeFiles/generate.stamp is up-to-date.
+    CMake does not need to re-run because C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/grpc/src/grpc/third_party/benchmark/src/CMakeFiles/generate.stamp is up-to-date.
+    CMake does not need to re-run because C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/grpc/src/grpc/third_party/benchmark/test/CMakeFiles/generate.stamp is up-to-date.
+  FinalizeBuildStatus:
+    Deleting file "x64\Release\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild".
+    Touching "x64\Release\ZERO_CHECK\ZERO_CHECK.tlog\ZERO_CHECK.lastbuildstate".
+  Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\ZERO_CHECK.vcxproj" (default targets).
+  Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\grpc++_unsecure.vcxproj" (1) is building "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\cares\cares.vcxproj" (3) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "cares.dir\Release\".
+    Creating directory "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\cares\Release\".
+    Creating directory "cares.dir\Release\cares.tlog\".
+  InitializeBuildStatus:
+    Creating "cares.dir\Release\cares.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/grpc/src/grpc/src/c-ares/CMakeLists.txt
+    CMake does not need to re-run because C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/grpc/src/grpc/third_party/cares/CMakeFiles/generate.stamp is up-to-date.
+  ClCompile:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\zlib" /I"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\c-ares\..\..\third_party\cares" /I"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\c-ares\..\..\third_party\cares\cares" /nologo /W3 /WX- /O2 /Ob2 /D WIN32 /D _WINDOWS /D NDEBUG /D _WIN32_WINNT=0x600 /D _SCL_SECURE_NO_WARNINGS /D _CRT_SECURE_NO_WARNINGS /D _WINSOCK_DEPRECATED_NO_WARNINGS /D CARES_STATICLIB=1 /D WIN32_LEAN_AND_MEAN=1 /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cares.dir\Release\\" /Fd"cares.dir\Release\cares.pdb" /Gd /TC /wd4065 /wd4506 /wd4267 /errorReport:queue "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\cares\cares\acountry.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\cares\cares\adig.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\cares\cares\ahost.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\cares\cares\ares__close_sockets.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\cares\cares\ares__get_hostent.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\cares\cares\ares__read_line.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\cares\cares\ares__timeval.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\cares\cares\ares_cancel.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\cares\cares\ares_create_query.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\cares\cares\ares_data.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\cares\cares\ares_destroy.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\cares\cares\ares_expand_name.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\cares\cares\ares_expand_string.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\cares\cares\ares_fds.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\cares\cares\ares_free_hostent.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\cares\cares\ares_free_string.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\cares\cares\ares_getenv.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\cares\cares\ares_gethostbyaddr.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\cares\cares\ares_gethostbyname.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\cares\cares\ares_getnameinfo.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\cares\cares\ares_getopt.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\cares\cares\ares_getsock.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\cares\cares\ares_init.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\cares\cares\ares_library_init.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\cares\cares\ares_llist.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\cares\cares\ares_mkquery.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\cares\cares\ares_nowarn.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\cares\cares\ares_options.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\cares\cares\ares_parse_a_reply.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\cares\cares\ares_parse_aaaa_reply.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\cares\cares\ares_parse_mx_reply.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\cares\cares\ares_parse_naptr_reply.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\cares\cares\ares_parse_ns_reply.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\cares\cares\ares_parse_ptr_reply.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\cares\cares\ares_parse_soa_reply.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\cares\cares\ares_parse_srv_reply.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\cares\cares\ares_parse_txt_reply.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\cares\cares\ares_platform.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\cares\cares\ares_process.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\cares\cares\ares_query.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\cares\cares\ares_search.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\cares\cares\ares_send.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\cares\cares\ares_strcasecmp.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\cares\cares\ares_strdup.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\cares\cares\ares_strerror.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\cares\cares\ares_timeout.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\cares\cares\ares_version.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\cares\cares\ares_writev.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\cares\cares\bitncmp.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\cares\cares\inet_net_pton.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\cares\cares\inet_ntop.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\cares\cares\windows_port.c"
+    acountry.c
+    adig.c
+    ahost.c
+    ares__close_sockets.c
+    ares__get_hostent.c
+    ares__read_line.c
+    ares__timeval.c
+    ares_cancel.c
+    ares_create_query.c
+    ares_data.c
+    ares_destroy.c
+    ares_expand_name.c
+    ares_expand_string.c
+    ares_fds.c
+    ares_free_hostent.c
+    ares_free_string.c
+    ares_getenv.c
+    ares_gethostbyaddr.c
+    ares_gethostbyname.c
+    ares_getnameinfo.c
+    Generating Code...
+    Compiling...
+    ares_getopt.c
+    ares_getsock.c
+    ares_init.c
+    ares_library_init.c
+    ares_llist.c
+    ares_mkquery.c
+    ares_nowarn.c
+    ares_options.c
+    ares_parse_a_reply.c
+    ares_parse_aaaa_reply.c
+    ares_parse_mx_reply.c
+    ares_parse_naptr_reply.c
+    ares_parse_ns_reply.c
+    ares_parse_ptr_reply.c
+    ares_parse_soa_reply.c
+    ares_parse_srv_reply.c
+    ares_parse_txt_reply.c
+    ares_platform.c
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\cares\cares\ares_platform.c(39): warning C4996: 'GetVersionExA': was declared deprecated [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\cares\cares.vcxproj]
+    C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(433): note: see declaration of 'GetVersionExA'
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\cares\cares\ares_platform.c(43): warning C4996: 'GetVersionExA': was declared deprecated [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\cares\cares.vcxproj]
+    C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(433): note: see declaration of 'GetVersionExA'
+    ares_process.c
+    ares_query.c
+    Generating Code...
+    Compiling...
+    ares_search.c
+    ares_send.c
+    ares_strcasecmp.c
+    ares_strdup.c
+    ares_strerror.c
+    ares_timeout.c
+    ares_version.c
+    ares_writev.c
+    bitncmp.c
+    inet_net_pton.c
+    inet_ntop.c
+    windows_port.c
+    Generating Code...
+  Lib:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\Lib.exe /OUT:"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\cares\Release\cares.lib" /NOLOGO /MACHINE:X64  /machine:x64 cares.dir\Release\acountry.obj
+    cares.dir\Release\adig.obj
+    cares.dir\Release\ahost.obj
+    cares.dir\Release\ares__close_sockets.obj
+    cares.dir\Release\ares__get_hostent.obj
+    cares.dir\Release\ares__read_line.obj
+    cares.dir\Release\ares__timeval.obj
+    cares.dir\Release\ares_cancel.obj
+    cares.dir\Release\ares_create_query.obj
+    cares.dir\Release\ares_data.obj
+    cares.dir\Release\ares_destroy.obj
+    cares.dir\Release\ares_expand_name.obj
+    cares.dir\Release\ares_expand_string.obj
+    cares.dir\Release\ares_fds.obj
+    cares.dir\Release\ares_free_hostent.obj
+    cares.dir\Release\ares_free_string.obj
+    cares.dir\Release\ares_getenv.obj
+    cares.dir\Release\ares_gethostbyaddr.obj
+    cares.dir\Release\ares_gethostbyname.obj
+    cares.dir\Release\ares_getnameinfo.obj
+    cares.dir\Release\ares_getopt.obj
+    cares.dir\Release\ares_getsock.obj
+    cares.dir\Release\ares_init.obj
+    cares.dir\Release\ares_library_init.obj
+    cares.dir\Release\ares_llist.obj
+    cares.dir\Release\ares_mkquery.obj
+    cares.dir\Release\ares_nowarn.obj
+    cares.dir\Release\ares_options.obj
+    cares.dir\Release\ares_parse_a_reply.obj
+    cares.dir\Release\ares_parse_aaaa_reply.obj
+    cares.dir\Release\ares_parse_mx_reply.obj
+    cares.dir\Release\ares_parse_naptr_reply.obj
+    cares.dir\Release\ares_parse_ns_reply.obj
+    cares.dir\Release\ares_parse_ptr_reply.obj
+    cares.dir\Release\ares_parse_soa_reply.obj
+    cares.dir\Release\ares_parse_srv_reply.obj
+    cares.dir\Release\ares_parse_txt_reply.obj
+    cares.dir\Release\ares_platform.obj
+    cares.dir\Release\ares_process.obj
+    cares.dir\Release\ares_query.obj
+    cares.dir\Release\ares_search.obj
+    cares.dir\Release\ares_send.obj
+    cares.dir\Release\ares_strcasecmp.obj
+    cares.dir\Release\ares_strdup.obj
+    cares.dir\Release\ares_strerror.obj
+    cares.dir\Release\ares_timeout.obj
+    cares.dir\Release\ares_version.obj
+    cares.dir\Release\ares_writev.obj
+    cares.dir\Release\bitncmp.obj
+    cares.dir\Release\inet_net_pton.obj
+    cares.dir\Release\inet_ntop.obj
+    cares.dir\Release\windows_port.obj
+adig.obj : warning LNK4006: main already defined in ahost.obj; second definition ignored [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\cares\cares.vcxproj]
+acountry.obj : warning LNK4006: main already defined in ahost.obj; second definition ignored [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\cares\cares.vcxproj]
+    cares.vcxproj -> C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\cares\Release\cares.lib
+  FinalizeBuildStatus:
+    Deleting file "cares.dir\Release\cares.tlog\unsuccessfulbuild".
+    Touching "cares.dir\Release\cares.tlog\cares.lastbuildstate".
+  Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\cares\cares.vcxproj" (default targets).
+  Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\grpc++_unsecure.vcxproj" (1) is building "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\gpr.vcxproj" (4) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "gpr.dir\Release\".
+    Creating directory "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\Release\".
+    Creating directory "gpr.dir\Release\gpr.tlog\".
+  InitializeBuildStatus:
+    Creating "gpr.dir\Release\gpr.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/grpc/src/grpc/CMakeLists.txt
+    CMake does not need to re-run because C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/grpc/src/grpc/CMakeFiles/generate.stamp is up-to-date.
+  ClCompile:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\zlib" /I"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\include" /I"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc" /I\include /I"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\protobuf\src" /I"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\cares" /I"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\cares\cares" /I"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\cares\config_windows" /I"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\gflags\include" /nologo /W3 /WX- /O2 /Ob2 /D WIN32 /D _WINDOWS /D NDEBUG /D _WIN32_WINNT=0x600 /D _SCL_SECURE_NO_WARNINGS /D _CRT_SECURE_NO_WARNINGS /D _WINSOCK_DEPRECATED_NO_WARNINGS /D CARES_STATICLIB=1 /D WIN32_LEAN_AND_MEAN=1 /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"gpr.dir\Release\\" /Fd"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\Release\gpr.pdb" /Gd /TC /wd4065 /wd4506 /wd4267 /errorReport:queue "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\profiling\basic_timers.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\profiling\stap_timers.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\support\alloc.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\support\arena.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\support\atm.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\support\avl.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\support\backoff.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\support\cmdline.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\support\cpu_iphone.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\support\cpu_linux.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\support\cpu_posix.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\support\cpu_windows.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\support\env_linux.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\support\env_posix.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\support\env_windows.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\support\histogram.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\support\host_port.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\support\log.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\support\log_android.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\support\log_linux.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\support\log_posix.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\support\log_windows.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\support\mpscq.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\support\murmur_hash.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\support\stack_lockfree.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\support\string.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\support\string_posix.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\support\string_util_windows.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\support\string_windows.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\support\subprocess_posix.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\support\subprocess_windows.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\support\sync.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\support\sync_posix.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\support\sync_windows.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\support\thd.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\support\thd_posix.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\support\thd_windows.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\support\time.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\support\time_posix.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\support\time_precise.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\support\time_windows.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\support\tls_pthread.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\support\tmpfile_msys.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\support\tmpfile_posix.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\support\tmpfile_windows.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\support\wrap_memcpy.c"
+    basic_timers.c
+    stap_timers.c
+    alloc.c
+    arena.c
+    atm.c
+    avl.c
+    backoff.c
+    cmdline.c
+    cpu_iphone.c
+    cpu_linux.c
+    cpu_posix.c
+    cpu_windows.c
+    env_linux.c
+    env_posix.c
+    env_windows.c
+    histogram.c
+    host_port.c
+    log.c
+    log_android.c
+    log_linux.c
+    Generating Code...
+    Compiling...
+    log_posix.c
+    log_windows.c
+    mpscq.c
+    murmur_hash.c
+    stack_lockfree.c
+    string.c
+    string_posix.c
+    string_util_windows.c
+    string_windows.c
+    subprocess_posix.c
+    subprocess_windows.c
+    sync.c
+    sync_posix.c
+    sync_windows.c
+    thd.c
+    thd_posix.c
+    thd_windows.c
+    time.c
+    time_posix.c
+    time_precise.c
+    Generating Code...
+    Compiling...
+    time_windows.c
+    tls_pthread.c
+    tmpfile_msys.c
+    tmpfile_posix.c
+    tmpfile_windows.c
+    wrap_memcpy.c
+    Generating Code...
+  Lib:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\Lib.exe /OUT:"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\Release\gpr.lib" /NOLOGO /MACHINE:X64  /machine:x64 gpr.dir\Release\basic_timers.obj
+    gpr.dir\Release\stap_timers.obj
+    gpr.dir\Release\alloc.obj
+    gpr.dir\Release\arena.obj
+    gpr.dir\Release\atm.obj
+    gpr.dir\Release\avl.obj
+    gpr.dir\Release\backoff.obj
+    gpr.dir\Release\cmdline.obj
+    gpr.dir\Release\cpu_iphone.obj
+    gpr.dir\Release\cpu_linux.obj
+    gpr.dir\Release\cpu_posix.obj
+    gpr.dir\Release\cpu_windows.obj
+    gpr.dir\Release\env_linux.obj
+    gpr.dir\Release\env_posix.obj
+    gpr.dir\Release\env_windows.obj
+    gpr.dir\Release\histogram.obj
+    gpr.dir\Release\host_port.obj
+    gpr.dir\Release\log.obj
+    gpr.dir\Release\log_android.obj
+    gpr.dir\Release\log_linux.obj
+    gpr.dir\Release\log_posix.obj
+    gpr.dir\Release\log_windows.obj
+    gpr.dir\Release\mpscq.obj
+    gpr.dir\Release\murmur_hash.obj
+    gpr.dir\Release\stack_lockfree.obj
+    gpr.dir\Release\string.obj
+    gpr.dir\Release\string_posix.obj
+    gpr.dir\Release\string_util_windows.obj
+    gpr.dir\Release\string_windows.obj
+    gpr.dir\Release\subprocess_posix.obj
+    gpr.dir\Release\subprocess_windows.obj
+    gpr.dir\Release\sync.obj
+    gpr.dir\Release\sync_posix.obj
+    gpr.dir\Release\sync_windows.obj
+    gpr.dir\Release\thd.obj
+    gpr.dir\Release\thd_posix.obj
+    gpr.dir\Release\thd_windows.obj
+    gpr.dir\Release\time.obj
+    gpr.dir\Release\time_posix.obj
+    gpr.dir\Release\time_precise.obj
+    gpr.dir\Release\time_windows.obj
+    gpr.dir\Release\tls_pthread.obj
+    gpr.dir\Release\tmpfile_msys.obj
+    gpr.dir\Release\tmpfile_posix.obj
+    gpr.dir\Release\tmpfile_windows.obj
+    gpr.dir\Release\wrap_memcpy.obj
+    gpr.vcxproj -> C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\Release\gpr.lib
+  FinalizeBuildStatus:
+    Deleting file "gpr.dir\Release\gpr.tlog\unsuccessfulbuild".
+    Touching "gpr.dir\Release\gpr.tlog\gpr.lastbuildstate".
+  Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\gpr.vcxproj" (default targets).
+  Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\grpc++_unsecure.vcxproj" (1) is building "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\grpc_unsecure.vcxproj" (5) on node 1 (default targets).
+  Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\grpc_unsecure.vcxproj" (5) is building "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\zlib\zlibstatic.vcxproj" (6) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "zlibstatic.dir\Release\".
+    Creating directory "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\zlib\Release\".
+    Creating directory "zlibstatic.dir\Release\zlibstatic.tlog\".
+  InitializeBuildStatus:
+    Creating "zlibstatic.dir\Release\zlibstatic.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/grpc/src/grpc/third_party/zlib/CMakeLists.txt
+    CMake does not need to re-run because C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/grpc/src/grpc/third_party/zlib/CMakeFiles/generate.stamp is up-to-date.
+  ClCompile:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\zlib" /I"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc" /nologo /W3 /WX- /O2 /Ob2 /D WIN32 /D _WINDOWS /D NDEBUG /D _WIN32_WINNT=0x600 /D _SCL_SECURE_NO_WARNINGS /D _CRT_SECURE_NO_WARNINGS /D _WINSOCK_DEPRECATED_NO_WARNINGS /D NO_FSEEKO /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"zlibstatic.dir\Release\\" /Fd"zlibstatic.dir\Release\zlibstatic.pdb" /Gd /TC /wd4065 /wd4506 /wd4267 /errorReport:queue "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\zlib\adler32.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\zlib\compress.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\zlib\crc32.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\zlib\deflate.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\zlib\gzclose.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\zlib\gzlib.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\zlib\gzread.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\zlib\gzwrite.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\zlib\inflate.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\zlib\infback.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\zlib\inftrees.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\zlib\inffast.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\zlib\trees.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\zlib\uncompr.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\zlib\zutil.c"
+    adler32.c
+    compress.c
+    crc32.c
+    deflate.c
+    gzclose.c
+    gzlib.c
+    gzread.c
+    gzwrite.c
+    inflate.c
+    infback.c
+    inftrees.c
+    inffast.c
+    trees.c
+    uncompr.c
+    zutil.c
+    Generating Code...
+  Lib:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\Lib.exe /OUT:"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\zlib\Release\zlibstatic.lib" /NOLOGO /MACHINE:X64  /machine:x64 zlibstatic.dir\Release\adler32.obj
+    zlibstatic.dir\Release\compress.obj
+    zlibstatic.dir\Release\crc32.obj
+    zlibstatic.dir\Release\deflate.obj
+    zlibstatic.dir\Release\gzclose.obj
+    zlibstatic.dir\Release\gzlib.obj
+    zlibstatic.dir\Release\gzread.obj
+    zlibstatic.dir\Release\gzwrite.obj
+    zlibstatic.dir\Release\inflate.obj
+    zlibstatic.dir\Release\infback.obj
+    zlibstatic.dir\Release\inftrees.obj
+    zlibstatic.dir\Release\inffast.obj
+    zlibstatic.dir\Release\trees.obj
+    zlibstatic.dir\Release\uncompr.obj
+    zlibstatic.dir\Release\zutil.obj
+    zlibstatic.vcxproj -> C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\zlib\Release\zlibstatic.lib
+  FinalizeBuildStatus:
+    Deleting file "zlibstatic.dir\Release\zlibstatic.tlog\unsuccessfulbuild".
+    Touching "zlibstatic.dir\Release\zlibstatic.tlog\zlibstatic.lastbuildstate".
+  Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\zlib\zlibstatic.vcxproj" (default targets).
+  PrepareForBuild:
+    Creating directory "grpc_unsecure.dir\Release\".
+    Creating directory "grpc_unsecure.dir\Release\grpc_unsecure.tlog\".
+  InitializeBuildStatus:
+    Creating "grpc_unsecure.dir\Release\grpc_unsecure.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/grpc/src/grpc/CMakeLists.txt
+    CMake does not need to re-run because C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/grpc/src/grpc/CMakeFiles/generate.stamp is up-to-date.
+  ClCompile:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\zlib" /I"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\include" /I"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc" /I\include /I"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\protobuf\src" /I"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\cares" /I"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\cares\cares" /I"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\cares\config_windows" /I"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\gflags\include" /nologo /W3 /WX- /O2 /Ob2 /D WIN32 /D _WINDOWS /D NDEBUG /D _WIN32_WINNT=0x600 /D _SCL_SECURE_NO_WARNINGS /D _CRT_SECURE_NO_WARNINGS /D _WINSOCK_DEPRECATED_NO_WARNINGS /D CARES_STATICLIB=1 /D WIN32_LEAN_AND_MEAN=1 /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"grpc_unsecure.dir\Release\\" /Fd"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\Release\grpc_unsecure.pdb" /Gd /TC /wd4065 /wd4506 /wd4267 /errorReport:queue "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\surface\init.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\surface\init_unsecure.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\channel\channel_args.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\channel\channel_stack.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\channel\channel_stack_builder.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\channel\connected_channel.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\channel\handshaker.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\channel\handshaker_factory.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\channel\handshaker_registry.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\compression\compression.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\compression\message_compress.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\compression\stream_compression.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\http\format_request.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\http\httpcli.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\http\parser.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\iomgr\closure.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\iomgr\combiner.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\iomgr\endpoint.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\iomgr\endpoint_pair_posix.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\iomgr\endpoint_pair_uv.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\iomgr\endpoint_pair_windows.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\iomgr\error.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\iomgr\ev_epoll1_linux.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\iomgr\ev_epoll_limited_pollers_linux.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\iomgr\ev_epoll_thread_pool_linux.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\iomgr\ev_epollex_linux.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\iomgr\ev_epollsig_linux.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\iomgr\ev_poll_posix.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\iomgr\ev_posix.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\iomgr\ev_windows.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\iomgr\exec_ctx.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\iomgr\executor.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\iomgr\iocp_windows.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\iomgr\iomgr.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\iomgr\iomgr_posix.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\iomgr\iomgr_uv.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\iomgr\iomgr_windows.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\iomgr\is_epollexclusive_available.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\iomgr\load_file.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\iomgr\lockfree_event.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\iomgr\network_status_tracker.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\iomgr\polling_entity.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\iomgr\pollset_set_uv.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\iomgr\pollset_set_windows.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\iomgr\pollset_uv.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\iomgr\pollset_windows.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\iomgr\resolve_address_posix.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\iomgr\resolve_address_uv.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\iomgr\resolve_address_windows.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\iomgr\resource_quota.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\iomgr\sockaddr_utils.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\iomgr\socket_factory_posix.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\iomgr\socket_mutator.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\iomgr\socket_utils_common_posix.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\iomgr\socket_utils_linux.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\iomgr\socket_utils_posix.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\iomgr\socket_utils_uv.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\iomgr\socket_utils_windows.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\iomgr\socket_windows.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\iomgr\tcp_client_posix.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\iomgr\tcp_client_uv.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\iomgr\tcp_client_windows.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\iomgr\tcp_posix.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\iomgr\tcp_server_posix.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\iomgr\tcp_server_utils_posix_common.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\iomgr\tcp_server_utils_posix_ifaddrs.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\iomgr\tcp_server_utils_posix_noifaddrs.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\iomgr\tcp_server_uv.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\iomgr\tcp_server_windows.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\iomgr\tcp_uv.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\iomgr\tcp_windows.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\iomgr\time_averaged_stats.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\iomgr\timer_generic.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\iomgr\timer_heap.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\iomgr\timer_manager.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\iomgr\timer_uv.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\iomgr\udp_server.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\iomgr\unix_sockets_posix.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\iomgr\unix_sockets_posix_noop.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\iomgr\wakeup_fd_cv.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\iomgr\wakeup_fd_eventfd.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\iomgr\wakeup_fd_nospecial.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\iomgr\wakeup_fd_pipe.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\iomgr\wakeup_fd_posix.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\json\json.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\json\json_reader.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\json\json_string.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\json\json_writer.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\slice\b64.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\slice\percent_encoding.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\slice\slice.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\slice\slice_buffer.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\slice\slice_hash_table.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\slice\slice_intern.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\slice\slice_string_helpers.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\surface\alarm.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\surface\api_trace.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\surface\byte_buffer.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\surface\byte_buffer_reader.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\surface\call.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\surface\call_details.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\surface\call_log_batch.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\surface\channel.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\surface\channel_init.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\surface\channel_ping.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\surface\channel_stack_type.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\surface\completion_queue.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\surface\completion_queue_factory.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\surface\event_string.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\surface\metadata_array.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\surface\server.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\surface\validate_metadata.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\surface\version.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\transport\bdp_estimator.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\transport\byte_stream.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\transport\connectivity_state.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\transport\error_utils.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\transport\metadata.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\transport\metadata_batch.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\transport\pid_controller.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\transport\service_config.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\transport\static_metadata.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\transport\status_conversion.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\transport\timeout_encoding.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\transport\transport.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\transport\transport_op_string.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\debug\trace.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\ext\transport\chttp2\server\insecure\server_chttp2.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\ext\transport\chttp2\server\insecure\server_chttp2_posix.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\ext\transport\chttp2\transport\bin_decoder.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\ext\transport\chttp2\transport\bin_encoder.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\ext\transport\chttp2\transport\chttp2_plugin.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\ext\transport\chttp2\transport\chttp2_transport.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\ext\transport\chttp2\transport\frame_data.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\ext\transport\chttp2\transport\frame_goaway.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\ext\transport\chttp2\transport\frame_ping.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\ext\transport\chttp2\transport\frame_rst_stream.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\ext\transport\chttp2\transport\frame_settings.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\ext\transport\chttp2\transport\frame_window_update.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\ext\transport\chttp2\transport\hpack_encoder.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\ext\transport\chttp2\transport\hpack_parser.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\ext\transport\chttp2\transport\hpack_table.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\ext\transport\chttp2\transport\http2_settings.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\ext\transport\chttp2\transport\huffsyms.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\ext\transport\chttp2\transport\incoming_metadata.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\ext\transport\chttp2\transport\parsing.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\ext\transport\chttp2\transport\stream_lists.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\ext\transport\chttp2\transport\stream_map.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\ext\transport\chttp2\transport\varint.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\ext\transport\chttp2\transport\writing.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\ext\transport\chttp2\alpn\alpn.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\ext\filters\http\client\http_client_filter.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\ext\filters\http\http_filters_plugin.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\ext\filters\http\message_compress\message_compress_filter.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\ext\filters\http\server\http_server_filter.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\ext\transport\chttp2\server\chttp2_server.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\ext\transport\chttp2\client\insecure\channel_create.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\ext\transport\chttp2\client\insecure\channel_create_posix.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\ext\transport\chttp2\client\chttp2_connector.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\ext\filters\client_channel\channel_connectivity.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\ext\filters\client_channel\client_channel.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\ext\filters\client_channel\client_channel_factory.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\ext\filters\client_channel\client_channel_plugin.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\ext\filters\client_channel\connector.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\ext\filters\client_channel\http_connect_handshaker.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\ext\filters\client_channel\http_proxy.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\ext\filters\client_channel\lb_policy.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\ext\filters\client_channel\lb_policy_factory.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\ext\filters\client_channel\lb_policy_registry.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\ext\filters\client_channel\parse_address.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\ext\filters\client_channel\proxy_mapper.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\ext\filters\client_channel\proxy_mapper_registry.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\ext\filters\client_channel\resolver.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\ext\filters\client_channel\resolver_factory.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\ext\filters\client_channel\resolver_registry.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\ext\filters\client_channel\retry_throttle.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\ext\filters\client_channel\subchannel.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\ext\filters\client_channel\subchannel_index.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\ext\filters\client_channel\uri_parser.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\ext\filters\deadline\deadline_filter.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\ext\transport\inproc\inproc_plugin.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\ext\transport\inproc\inproc_transport.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\ext\filters\client_channel\resolver\dns\c_ares\dns_resolver_ares.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\ext\filters\client_channel\resolver\dns\c_ares\grpc_ares_ev_driver_posix.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\ext\filters\client_channel\resolver\dns\c_ares\grpc_ares_wrapper.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\ext\filters\client_channel\resolver\dns\c_ares\grpc_ares_wrapper_fallback.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\ext\filters\client_channel\resolver\dns\native\dns_resolver.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\ext\filters\client_channel\resolver\sockaddr\sockaddr_resolver.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\ext\filters\client_channel\resolver\fake\fake_resolver.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\ext\filters\load_reporting\load_reporting.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\ext\filters\load_reporting\load_reporting_filter.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\ext\filters\client_channel\lb_policy\grpclb\client_load_reporting_filter.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\ext\filters\client_channel\lb_policy\grpclb\grpclb.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\ext\filters\client_channel\lb_policy\grpclb\grpclb_channel.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\ext\filters\client_channel\lb_policy\grpclb\grpclb_client_stats.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\ext\filters\client_channel\lb_policy\grpclb\load_balancer_api.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\ext\filters\client_channel\lb_policy\grpclb\proto\grpc\lb\v1\load_balancer.pb.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\nanopb\pb_common.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\nanopb\pb_decode.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\nanopb\pb_encode.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\ext\filters\client_channel\lb_policy\pick_first\pick_first.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\ext\filters\client_channel\lb_policy\round_robin\round_robin.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\ext\census\base_resources.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\ext\census\context.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\ext\census\gen\census.pb.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\ext\census\gen\trace_context.pb.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\ext\census\grpc_context.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\ext\census\grpc_filter.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\ext\census\grpc_plugin.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\ext\census\initialize.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\ext\census\intrusive_hash_map.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\ext\census\mlog.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\ext\census\operation.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\ext\census\placeholders.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\ext\census\resource.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\ext\census\trace_context.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\ext\census\tracing.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\ext\filters\max_age\max_age_filter.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\ext\filters\message_size\message_size_filter.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\ext\filters\workarounds\workaround_cronet_compression_filter.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\ext\filters\workarounds\workaround_utils.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\plugin_registry\grpc_unsecure_plugin_registry.c"
+    init.c
+    init_unsecure.c
+    channel_args.c
+    channel_stack.c
+    channel_stack_builder.c
+    connected_channel.c
+    handshaker.c
+    handshaker_factory.c
+    handshaker_registry.c
+    compression.c
+    message_compress.c
+    stream_compression.c
+    format_request.c
+    httpcli.c
+    parser.c
+    closure.c
+    combiner.c
+    endpoint.c
+    endpoint_pair_posix.c
+    endpoint_pair_uv.c
+    Generating Code...
+    Compiling...
+    endpoint_pair_windows.c
+    error.c
+    ev_epoll1_linux.c
+    ev_epoll_limited_pollers_linux.c
+    ev_epoll_thread_pool_linux.c
+    ev_epollex_linux.c
+    ev_epollsig_linux.c
+    ev_poll_posix.c
+    ev_posix.c
+    ev_windows.c
+    exec_ctx.c
+    executor.c
+    iocp_windows.c
+    iomgr.c
+    iomgr_posix.c
+    iomgr_uv.c
+    iomgr_windows.c
+    is_epollexclusive_available.c
+    load_file.c
+    lockfree_event.c
+    Generating Code...
+    Compiling...
+    network_status_tracker.c
+    polling_entity.c
+    pollset_set_uv.c
+    pollset_set_windows.c
+    pollset_uv.c
+    pollset_windows.c
+    resolve_address_posix.c
+    resolve_address_uv.c
+    resolve_address_windows.c
+    resource_quota.c
+    sockaddr_utils.c
+    socket_factory_posix.c
+    socket_mutator.c
+    socket_utils_common_posix.c
+    socket_utils_linux.c
+    socket_utils_posix.c
+    socket_utils_uv.c
+    socket_utils_windows.c
+    socket_windows.c
+    tcp_client_posix.c
+    Generating Code...
+    Compiling...
+    tcp_client_uv.c
+    tcp_client_windows.c
+    tcp_posix.c
+    tcp_server_posix.c
+    tcp_server_utils_posix_common.c
+    tcp_server_utils_posix_ifaddrs.c
+    tcp_server_utils_posix_noifaddrs.c
+    tcp_server_uv.c
+    tcp_server_windows.c
+    tcp_uv.c
+    tcp_windows.c
+    time_averaged_stats.c
+    timer_generic.c
+    timer_heap.c
+    timer_manager.c
+    timer_uv.c
+    udp_server.c
+    unix_sockets_posix.c
+    unix_sockets_posix_noop.c
+    wakeup_fd_cv.c
+    Generating Code...
+    Compiling...
+    wakeup_fd_eventfd.c
+    wakeup_fd_nospecial.c
+    wakeup_fd_pipe.c
+    wakeup_fd_posix.c
+    json.c
+    json_reader.c
+    json_string.c
+    json_writer.c
+    b64.c
+    percent_encoding.c
+    slice.c
+    slice_buffer.c
+    slice_hash_table.c
+    slice_intern.c
+    slice_string_helpers.c
+    alarm.c
+    api_trace.c
+    byte_buffer.c
+    byte_buffer_reader.c
+    call.c
+    Generating Code...
+    Compiling...
+    call_details.c
+    call_log_batch.c
+    channel.c
+    channel_init.c
+    channel_ping.c
+    channel_stack_type.c
+    completion_queue.c
+    completion_queue_factory.c
+    event_string.c
+    metadata_array.c
+    server.c
+    validate_metadata.c
+    version.c
+    bdp_estimator.c
+    byte_stream.c
+    connectivity_state.c
+    error_utils.c
+    metadata.c
+    metadata_batch.c
+    pid_controller.c
+    Generating Code...
+    Compiling...
+    service_config.c
+    static_metadata.c
+    status_conversion.c
+    timeout_encoding.c
+    transport.c
+    transport_op_string.c
+    trace.c
+    server_chttp2.c
+    server_chttp2_posix.c
+    bin_decoder.c
+    bin_encoder.c
+    chttp2_plugin.c
+    chttp2_transport.c
+    frame_data.c
+    frame_goaway.c
+    frame_ping.c
+    frame_rst_stream.c
+    frame_settings.c
+    frame_window_update.c
+    hpack_encoder.c
+    Generating Code...
+    Compiling...
+    hpack_parser.c
+    hpack_table.c
+    http2_settings.c
+    huffsyms.c
+    incoming_metadata.c
+    parsing.c
+    stream_lists.c
+    stream_map.c
+    varint.c
+    writing.c
+    alpn.c
+    http_client_filter.c
+    http_filters_plugin.c
+    message_compress_filter.c
+    http_server_filter.c
+    chttp2_server.c
+    channel_create.c
+    channel_create_posix.c
+    chttp2_connector.c
+    channel_connectivity.c
+    Generating Code...
+    Compiling...
+    client_channel.c
+    client_channel_factory.c
+    client_channel_plugin.c
+    connector.c
+    http_connect_handshaker.c
+    http_proxy.c
+    lb_policy.c
+    lb_policy_factory.c
+    lb_policy_registry.c
+    parse_address.c
+    proxy_mapper.c
+    proxy_mapper_registry.c
+    resolver.c
+    resolver_factory.c
+    resolver_registry.c
+    retry_throttle.c
+    subchannel.c
+    subchannel_index.c
+    uri_parser.c
+    deadline_filter.c
+    Generating Code...
+    Compiling...
+    inproc_plugin.c
+    inproc_transport.c
+    dns_resolver_ares.c
+    grpc_ares_ev_driver_posix.c
+    grpc_ares_wrapper.c
+    grpc_ares_wrapper_fallback.c
+    dns_resolver.c
+    sockaddr_resolver.c
+    fake_resolver.c
+    load_reporting.c
+    load_reporting_filter.c
+    client_load_reporting_filter.c
+    grpclb.c
+    grpclb_channel.c
+    grpclb_client_stats.c
+    load_balancer_api.c
+    load_balancer.pb.c
+    pb_common.c
+    pb_decode.c
+    pb_encode.c
+    Generating Code...
+    Compiling...
+    pick_first.c
+    round_robin.c
+    base_resources.c
+    context.c
+    census.pb.c
+    trace_context.pb.c
+    grpc_context.c
+    grpc_filter.c
+    grpc_plugin.c
+    initialize.c
+    intrusive_hash_map.c
+    mlog.c
+    operation.c
+    placeholders.c
+    resource.c
+    trace_context.c
+    tracing.c
+    max_age_filter.c
+    message_size_filter.c
+    workaround_cronet_compression_filter.c
+    Generating Code...
+    Compiling...
+    workaround_utils.c
+    grpc_unsecure_plugin_registry.c
+    Generating Code...
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\zlib" /I"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\include" /I"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc" /I\include /I"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\protobuf\src" /I"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\cares" /I"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\cares\cares" /I"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\cares\config_windows" /I"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\gflags\include" /nologo /W3 /WX- /O2 /Ob2 /D WIN32 /D _WINDOWS /D NDEBUG /D _WIN32_WINNT=0x600 /D _SCL_SECURE_NO_WARNINGS /D _CRT_SECURE_NO_WARNINGS /D _WINSOCK_DEPRECATED_NO_WARNINGS /D CARES_STATICLIB=1 /D WIN32_LEAN_AND_MEAN=1 /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"grpc_unsecure.dir\Release\\" /Fd"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\Release\grpc_unsecure.pdb" /Gd /TP /wd4065 /wd4506 /wd4267 /errorReport:queue "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\core\lib\surface\lame_client.cc"
+    lame_client.cc
+  Lib:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\Lib.exe /OUT:"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\Release\grpc_unsecure.lib" /NOLOGO /MACHINE:X64  /machine:x64 grpc_unsecure.dir\Release\init.obj
+    grpc_unsecure.dir\Release\init_unsecure.obj
+    grpc_unsecure.dir\Release\channel_args.obj
+    grpc_unsecure.dir\Release\channel_stack.obj
+    grpc_unsecure.dir\Release\channel_stack_builder.obj
+    grpc_unsecure.dir\Release\connected_channel.obj
+    grpc_unsecure.dir\Release\handshaker.obj
+    grpc_unsecure.dir\Release\handshaker_factory.obj
+    grpc_unsecure.dir\Release\handshaker_registry.obj
+    grpc_unsecure.dir\Release\compression.obj
+    grpc_unsecure.dir\Release\message_compress.obj
+    grpc_unsecure.dir\Release\stream_compression.obj
+    grpc_unsecure.dir\Release\format_request.obj
+    grpc_unsecure.dir\Release\httpcli.obj
+    grpc_unsecure.dir\Release\parser.obj
+    grpc_unsecure.dir\Release\closure.obj
+    grpc_unsecure.dir\Release\combiner.obj
+    grpc_unsecure.dir\Release\endpoint.obj
+    grpc_unsecure.dir\Release\endpoint_pair_posix.obj
+    grpc_unsecure.dir\Release\endpoint_pair_uv.obj
+    grpc_unsecure.dir\Release\endpoint_pair_windows.obj
+    grpc_unsecure.dir\Release\error.obj
+    grpc_unsecure.dir\Release\ev_epoll1_linux.obj
+    grpc_unsecure.dir\Release\ev_epoll_limited_pollers_linux.obj
+    grpc_unsecure.dir\Release\ev_epoll_thread_pool_linux.obj
+    grpc_unsecure.dir\Release\ev_epollex_linux.obj
+    grpc_unsecure.dir\Release\ev_epollsig_linux.obj
+    grpc_unsecure.dir\Release\ev_poll_posix.obj
+    grpc_unsecure.dir\Release\ev_posix.obj
+    grpc_unsecure.dir\Release\ev_windows.obj
+    grpc_unsecure.dir\Release\exec_ctx.obj
+    grpc_unsecure.dir\Release\executor.obj
+    grpc_unsecure.dir\Release\iocp_windows.obj
+    grpc_unsecure.dir\Release\iomgr.obj
+    grpc_unsecure.dir\Release\iomgr_posix.obj
+    grpc_unsecure.dir\Release\iomgr_uv.obj
+    grpc_unsecure.dir\Release\iomgr_windows.obj
+    grpc_unsecure.dir\Release\is_epollexclusive_available.obj
+    grpc_unsecure.dir\Release\load_file.obj
+    grpc_unsecure.dir\Release\lockfree_event.obj
+    grpc_unsecure.dir\Release\network_status_tracker.obj
+    grpc_unsecure.dir\Release\polling_entity.obj
+    grpc_unsecure.dir\Release\pollset_set_uv.obj
+    grpc_unsecure.dir\Release\pollset_set_windows.obj
+    grpc_unsecure.dir\Release\pollset_uv.obj
+    grpc_unsecure.dir\Release\pollset_windows.obj
+    grpc_unsecure.dir\Release\resolve_address_posix.obj
+    grpc_unsecure.dir\Release\resolve_address_uv.obj
+    grpc_unsecure.dir\Release\resolve_address_windows.obj
+    grpc_unsecure.dir\Release\resource_quota.obj
+    grpc_unsecure.dir\Release\sockaddr_utils.obj
+    grpc_unsecure.dir\Release\socket_factory_posix.obj
+    grpc_unsecure.dir\Release\socket_mutator.obj
+    grpc_unsecure.dir\Release\socket_utils_common_posix.obj
+    grpc_unsecure.dir\Release\socket_utils_linux.obj
+    grpc_unsecure.dir\Release\socket_utils_posix.obj
+    grpc_unsecure.dir\Release\socket_utils_uv.obj
+    grpc_unsecure.dir\Release\socket_utils_windows.obj
+    grpc_unsecure.dir\Release\socket_windows.obj
+    grpc_unsecure.dir\Release\tcp_client_posix.obj
+    grpc_unsecure.dir\Release\tcp_client_uv.obj
+    grpc_unsecure.dir\Release\tcp_client_windows.obj
+    grpc_unsecure.dir\Release\tcp_posix.obj
+    grpc_unsecure.dir\Release\tcp_server_posix.obj
+    grpc_unsecure.dir\Release\tcp_server_utils_posix_common.obj
+    grpc_unsecure.dir\Release\tcp_server_utils_posix_ifaddrs.obj
+    grpc_unsecure.dir\Release\tcp_server_utils_posix_noifaddrs.obj
+    grpc_unsecure.dir\Release\tcp_server_uv.obj
+    grpc_unsecure.dir\Release\tcp_server_windows.obj
+    grpc_unsecure.dir\Release\tcp_uv.obj
+    grpc_unsecure.dir\Release\tcp_windows.obj
+    grpc_unsecure.dir\Release\time_averaged_stats.obj
+    grpc_unsecure.dir\Release\timer_generic.obj
+    grpc_unsecure.dir\Release\timer_heap.obj
+    grpc_unsecure.dir\Release\timer_manager.obj
+    grpc_unsecure.dir\Release\timer_uv.obj
+    grpc_unsecure.dir\Release\udp_server.obj
+    grpc_unsecure.dir\Release\unix_sockets_posix.obj
+    grpc_unsecure.dir\Release\unix_sockets_posix_noop.obj
+    grpc_unsecure.dir\Release\wakeup_fd_cv.obj
+    grpc_unsecure.dir\Release\wakeup_fd_eventfd.obj
+    grpc_unsecure.dir\Release\wakeup_fd_nospecial.obj
+    grpc_unsecure.dir\Release\wakeup_fd_pipe.obj
+    grpc_unsecure.dir\Release\wakeup_fd_posix.obj
+    grpc_unsecure.dir\Release\json.obj
+    grpc_unsecure.dir\Release\json_reader.obj
+    grpc_unsecure.dir\Release\json_string.obj
+    grpc_unsecure.dir\Release\json_writer.obj
+    grpc_unsecure.dir\Release\b64.obj
+    grpc_unsecure.dir\Release\percent_encoding.obj
+    grpc_unsecure.dir\Release\slice.obj
+    grpc_unsecure.dir\Release\slice_buffer.obj
+    grpc_unsecure.dir\Release\slice_hash_table.obj
+    grpc_unsecure.dir\Release\slice_intern.obj
+    grpc_unsecure.dir\Release\slice_string_helpers.obj
+    grpc_unsecure.dir\Release\alarm.obj
+    grpc_unsecure.dir\Release\api_trace.obj
+    grpc_unsecure.dir\Release\byte_buffer.obj
+    grpc_unsecure.dir\Release\byte_buffer_reader.obj
+    grpc_unsecure.dir\Release\call.obj
+    grpc_unsecure.dir\Release\call_details.obj
+    grpc_unsecure.dir\Release\call_log_batch.obj
+    grpc_unsecure.dir\Release\channel.obj
+    grpc_unsecure.dir\Release\channel_init.obj
+    grpc_unsecure.dir\Release\channel_ping.obj
+    grpc_unsecure.dir\Release\channel_stack_type.obj
+    grpc_unsecure.dir\Release\completion_queue.obj
+    grpc_unsecure.dir\Release\completion_queue_factory.obj
+    grpc_unsecure.dir\Release\event_string.obj
+    grpc_unsecure.dir\Release\lame_client.obj
+    grpc_unsecure.dir\Release\metadata_array.obj
+    grpc_unsecure.dir\Release\server.obj
+    grpc_unsecure.dir\Release\validate_metadata.obj
+    grpc_unsecure.dir\Release\version.obj
+    grpc_unsecure.dir\Release\bdp_estimator.obj
+    grpc_unsecure.dir\Release\byte_stream.obj
+    grpc_unsecure.dir\Release\connectivity_state.obj
+    grpc_unsecure.dir\Release\error_utils.obj
+    grpc_unsecure.dir\Release\metadata.obj
+    grpc_unsecure.dir\Release\metadata_batch.obj
+    grpc_unsecure.dir\Release\pid_controller.obj
+    grpc_unsecure.dir\Release\service_config.obj
+    grpc_unsecure.dir\Release\static_metadata.obj
+    grpc_unsecure.dir\Release\status_conversion.obj
+    grpc_unsecure.dir\Release\timeout_encoding.obj
+    grpc_unsecure.dir\Release\transport.obj
+    grpc_unsecure.dir\Release\transport_op_string.obj
+    grpc_unsecure.dir\Release\trace.obj
+    grpc_unsecure.dir\Release\server_chttp2.obj
+    grpc_unsecure.dir\Release\server_chttp2_posix.obj
+    grpc_unsecure.dir\Release\bin_decoder.obj
+    grpc_unsecure.dir\Release\bin_encoder.obj
+    grpc_unsecure.dir\Release\chttp2_plugin.obj
+    grpc_unsecure.dir\Release\chttp2_transport.obj
+    grpc_unsecure.dir\Release\frame_data.obj
+    grpc_unsecure.dir\Release\frame_goaway.obj
+    grpc_unsecure.dir\Release\frame_ping.obj
+    grpc_unsecure.dir\Release\frame_rst_stream.obj
+    grpc_unsecure.dir\Release\frame_settings.obj
+    grpc_unsecure.dir\Release\frame_window_update.obj
+    grpc_unsecure.dir\Release\hpack_encoder.obj
+    grpc_unsecure.dir\Release\hpack_parser.obj
+    grpc_unsecure.dir\Release\hpack_table.obj
+    grpc_unsecure.dir\Release\http2_settings.obj
+    grpc_unsecure.dir\Release\huffsyms.obj
+    grpc_unsecure.dir\Release\incoming_metadata.obj
+    grpc_unsecure.dir\Release\parsing.obj
+    grpc_unsecure.dir\Release\stream_lists.obj
+    grpc_unsecure.dir\Release\stream_map.obj
+    grpc_unsecure.dir\Release\varint.obj
+    grpc_unsecure.dir\Release\writing.obj
+    grpc_unsecure.dir\Release\alpn.obj
+    grpc_unsecure.dir\Release\http_client_filter.obj
+    grpc_unsecure.dir\Release\http_filters_plugin.obj
+    grpc_unsecure.dir\Release\message_compress_filter.obj
+    grpc_unsecure.dir\Release\http_server_filter.obj
+    grpc_unsecure.dir\Release\chttp2_server.obj
+    grpc_unsecure.dir\Release\channel_create.obj
+    grpc_unsecure.dir\Release\channel_create_posix.obj
+    grpc_unsecure.dir\Release\chttp2_connector.obj
+    grpc_unsecure.dir\Release\channel_connectivity.obj
+    grpc_unsecure.dir\Release\client_channel.obj
+    grpc_unsecure.dir\Release\client_channel_factory.obj
+    grpc_unsecure.dir\Release\client_channel_plugin.obj
+    grpc_unsecure.dir\Release\connector.obj
+    grpc_unsecure.dir\Release\http_connect_handshaker.obj
+    grpc_unsecure.dir\Release\http_proxy.obj
+    grpc_unsecure.dir\Release\lb_policy.obj
+    grpc_unsecure.dir\Release\lb_policy_factory.obj
+    grpc_unsecure.dir\Release\lb_policy_registry.obj
+    grpc_unsecure.dir\Release\parse_address.obj
+    grpc_unsecure.dir\Release\proxy_mapper.obj
+    grpc_unsecure.dir\Release\proxy_mapper_registry.obj
+    grpc_unsecure.dir\Release\resolver.obj
+    grpc_unsecure.dir\Release\resolver_factory.obj
+    grpc_unsecure.dir\Release\resolver_registry.obj
+    grpc_unsecure.dir\Release\retry_throttle.obj
+    grpc_unsecure.dir\Release\subchannel.obj
+    grpc_unsecure.dir\Release\subchannel_index.obj
+    grpc_unsecure.dir\Release\uri_parser.obj
+    grpc_unsecure.dir\Release\deadline_filter.obj
+    grpc_unsecure.dir\Release\inproc_plugin.obj
+    grpc_unsecure.dir\Release\inproc_transport.obj
+    grpc_unsecure.dir\Release\dns_resolver_ares.obj
+    grpc_unsecure.dir\Release\grpc_ares_ev_driver_posix.obj
+    grpc_unsecure.dir\Release\grpc_ares_wrapper.obj
+    grpc_unsecure.dir\Release\grpc_ares_wrapper_fallback.obj
+    grpc_unsecure.dir\Release\dns_resolver.obj
+    grpc_unsecure.dir\Release\sockaddr_resolver.obj
+    grpc_unsecure.dir\Release\fake_resolver.obj
+    grpc_unsecure.dir\Release\load_reporting.obj
+    grpc_unsecure.dir\Release\load_reporting_filter.obj
+    grpc_unsecure.dir\Release\client_load_reporting_filter.obj
+    grpc_unsecure.dir\Release\grpclb.obj
+    grpc_unsecure.dir\Release\grpclb_channel.obj
+    grpc_unsecure.dir\Release\grpclb_client_stats.obj
+    grpc_unsecure.dir\Release\load_balancer_api.obj
+    grpc_unsecure.dir\Release\load_balancer.pb.obj
+    grpc_unsecure.dir\Release\pb_common.obj
+    grpc_unsecure.dir\Release\pb_decode.obj
+    grpc_unsecure.dir\Release\pb_encode.obj
+    grpc_unsecure.dir\Release\pick_first.obj
+    grpc_unsecure.dir\Release\round_robin.obj
+    grpc_unsecure.dir\Release\base_resources.obj
+    grpc_unsecure.dir\Release\context.obj
+    grpc_unsecure.dir\Release\census.pb.obj
+    grpc_unsecure.dir\Release\trace_context.pb.obj
+    grpc_unsecure.dir\Release\grpc_context.obj
+    grpc_unsecure.dir\Release\grpc_filter.obj
+    grpc_unsecure.dir\Release\grpc_plugin.obj
+    grpc_unsecure.dir\Release\initialize.obj
+    grpc_unsecure.dir\Release\intrusive_hash_map.obj
+    grpc_unsecure.dir\Release\mlog.obj
+    grpc_unsecure.dir\Release\operation.obj
+    grpc_unsecure.dir\Release\placeholders.obj
+    grpc_unsecure.dir\Release\resource.obj
+    grpc_unsecure.dir\Release\trace_context.obj
+    grpc_unsecure.dir\Release\tracing.obj
+    grpc_unsecure.dir\Release\max_age_filter.obj
+    grpc_unsecure.dir\Release\message_size_filter.obj
+    grpc_unsecure.dir\Release\workaround_cronet_compression_filter.obj
+    grpc_unsecure.dir\Release\workaround_utils.obj
+    grpc_unsecure.dir\Release\grpc_unsecure_plugin_registry.obj
+    grpc_unsecure.vcxproj -> C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\Release\grpc_unsecure.lib
+  FinalizeBuildStatus:
+    Deleting file "grpc_unsecure.dir\Release\grpc_unsecure.tlog\unsuccessfulbuild".
+    Touching "grpc_unsecure.dir\Release\grpc_unsecure.tlog\grpc_unsecure.lastbuildstate".
+  Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\grpc_unsecure.vcxproj" (default targets).
+  Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\grpc++_unsecure.vcxproj" (1) is building "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\protobuf\libprotobuf.vcxproj" (7) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "libprotobuf.dir\Release\".
+    Creating directory "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\protobuf\Release\".
+    Creating directory "libprotobuf.dir\Release\libprotobuf.tlog\".
+  InitializeBuildStatus:
+    Creating "libprotobuf.dir\Release\libprotobuf.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/grpc/src/grpc/third_party/protobuf/cmake/CMakeLists.txt
+    CMake does not need to re-run because C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/grpc/src/grpc/third_party/protobuf/CMakeFiles/generate.stamp is up-to-date.
+  ClCompile:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\zlib" /I"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\protobuf" /I"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\protobuf\src" /nologo /W3 /WX- /MP /O2 /Ob2 /D WIN32 /D _WINDOWS /D NDEBUG /D _WIN32_WINNT=0x600 /D _SCL_SECURE_NO_WARNINGS /D _CRT_SECURE_NO_WARNINGS /D _WINSOCK_DEPRECATED_NO_WARNINGS /D CARES_STATICLIB=1 /D WIN32_LEAN_AND_MEAN=1 /D GOOGLE_PROTOBUF_CMAKE_BUILD /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"libprotobuf.dir\Release\\" /Fd"libprotobuf.dir\Release\libprotobuf.pdb" /Gd /TP /wd4065 /wd4506 /wd4267 /wd4244 /wd4267 /wd4018 /wd4355 /wd4800 /wd4251 /wd4996 /wd4146 /wd4305 /wd4309 /errorReport:queue  /bigobj "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\protobuf\src\google\protobuf\arena.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\protobuf\src\google\protobuf\arenastring.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\protobuf\src\google\protobuf\extension_set.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\protobuf\src\google\protobuf\generated_message_util.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\protobuf\src\google\protobuf\io\coded_stream.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\protobuf\src\google\protobuf\io\zero_copy_stream.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\protobuf\src\google\protobuf\io\zero_copy_stream_impl_lite.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\protobuf\src\google\protobuf\message_lite.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\protobuf\src\google\protobuf\repeated_field.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\protobuf\src\google\protobuf\stubs\atomicops_internals_x86_gcc.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\protobuf\src\google\protobuf\stubs\atomicops_internals_x86_msvc.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\protobuf\src\google\protobuf\stubs\bytestream.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\protobuf\src\google\protobuf\stubs\common.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\protobuf\src\google\protobuf\stubs\int128.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\protobuf\src\google\protobuf\stubs\once.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\protobuf\src\google\protobuf\stubs\status.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\protobuf\src\google\protobuf\stubs\statusor.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\protobuf\src\google\protobuf\stubs\stringpiece.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\protobuf\src\google\protobuf\stubs\stringprintf.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\protobuf\src\google\protobuf\stubs\structurally_valid.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\protobuf\src\google\protobuf\stubs\strutil.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\protobuf\src\google\protobuf\stubs\time.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\protobuf\src\google\protobuf\wire_format_lite.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\protobuf\src\google\protobuf\any.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\protobuf\src\google\protobuf\any.pb.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\protobuf\src\google\protobuf\api.pb.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\protobuf\src\google\protobuf\compiler\importer.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\protobuf\src\google\protobuf\compiler\parser.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\protobuf\src\google\protobuf\descriptor.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\protobuf\src\google\protobuf\descriptor.pb.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\protobuf\src\google\protobuf\descriptor_database.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\protobuf\src\google\protobuf\duration.pb.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\protobuf\src\google\protobuf\dynamic_message.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\protobuf\src\google\protobuf\empty.pb.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\protobuf\src\google\protobuf\extension_set_heavy.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\protobuf\src\google\protobuf\field_mask.pb.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\protobuf\src\google\protobuf\generated_message_reflection.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\protobuf\src\google\protobuf\io\gzip_stream.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\protobuf\src\google\protobuf\io\printer.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\protobuf\src\google\protobuf\io\strtod.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\protobuf\src\google\protobuf\io\tokenizer.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\protobuf\src\google\protobuf\io\zero_copy_stream_impl.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\protobuf\src\google\protobuf\map_field.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\protobuf\src\google\protobuf\message.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\protobuf\src\google\protobuf\reflection_ops.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\protobuf\src\google\protobuf\service.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\protobuf\src\google\protobuf\source_context.pb.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\protobuf\src\google\protobuf\struct.pb.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\protobuf\src\google\protobuf\stubs\mathlimits.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\protobuf\src\google\protobuf\stubs\substitute.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\protobuf\src\google\protobuf\text_format.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\protobuf\src\google\protobuf\timestamp.pb.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\protobuf\src\google\protobuf\type.pb.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\protobuf\src\google\protobuf\unknown_field_set.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\protobuf\src\google\protobuf\util\delimited_message_util.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\protobuf\src\google\protobuf\util\field_comparator.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\protobuf\src\google\protobuf\util\field_mask_util.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\protobuf\src\google\protobuf\util\internal\datapiece.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\protobuf\src\google\protobuf\util\internal\default_value_objectwriter.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\protobuf\src\google\protobuf\util\internal\error_listener.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\protobuf\src\google\protobuf\util\internal\field_mask_utility.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\protobuf\src\google\protobuf\util\internal\json_escaping.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\protobuf\src\google\protobuf\util\internal\json_objectwriter.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\protobuf\src\google\protobuf\util\internal\json_stream_parser.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\protobuf\src\google\protobuf\util\internal\object_writer.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\protobuf\src\google\protobuf\util\internal\proto_writer.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\protobuf\src\google\protobuf\util\internal\protostream_objectsource.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\protobuf\src\google\protobuf\util\internal\protostream_objectwriter.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\protobuf\src\google\protobuf\util\internal\type_info.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\protobuf\src\google\protobuf\util\internal\type_info_test_helper.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\protobuf\src\google\protobuf\util\internal\utility.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\protobuf\src\google\protobuf\util\json_util.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\protobuf\src\google\protobuf\util\message_differencer.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\protobuf\src\google\protobuf\util\time_util.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\protobuf\src\google\protobuf\util\type_resolver_util.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\protobuf\src\google\protobuf\wire_format.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\protobuf\src\google\protobuf\wrappers.pb.cc"
+    arena.cc
+    arenastring.cc
+    extension_set.cc
+    generated_message_util.cc
+    coded_stream.cc
+    zero_copy_stream.cc
+    zero_copy_stream_impl_lite.cc
+    message_lite.cc
+    repeated_field.cc
+    atomicops_internals_x86_gcc.cc
+    atomicops_internals_x86_msvc.cc
+    bytestream.cc
+    common.cc
+    int128.cc
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\protobuf\src\google\protobuf\stubs\common.cc(45): warning C4005: 'WIN32_LEAN_AND_MEAN': macro redefinition [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\protobuf\libprotobuf.vcxproj]
+    C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\protobuf\src\google\protobuf\stubs\common.cc(45): note: command-line arguments:  see previous definition of 'WIN32_LEAN_AND_MEAN'
+    once.cc
+    status.cc
+    statusor.cc
+    stringpiece.cc
+    stringprintf.cc
+    structurally_valid.cc
+    strutil.cc
+    time.cc
+    wire_format_lite.cc
+    any.cc
+    any.pb.cc
+    api.pb.cc
+    importer.cc
+    parser.cc
+    descriptor.cc
+    descriptor.pb.cc
+    descriptor_database.cc
+    duration.pb.cc
+    dynamic_message.cc
+    empty.pb.cc
+    extension_set_heavy.cc
+    field_mask.pb.cc
+    generated_message_reflection.cc
+    gzip_stream.cc
+    printer.cc
+    strtod.cc
+    tokenizer.cc
+    zero_copy_stream_impl.cc
+    map_field.cc
+    message.cc
+    reflection_ops.cc
+    service.cc
+    source_context.pb.cc
+    struct.pb.cc
+    mathlimits.cc
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\protobuf\src\google\protobuf\struct.pb.cc(90): warning C4838: conversion from 'int' to 'const google::protobuf::uint32' requires a narrowing conversion [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\protobuf\libprotobuf.vcxproj]
+    substitute.cc
+    text_format.cc
+    timestamp.pb.cc
+    type.pb.cc
+    unknown_field_set.cc
+    delimited_message_util.cc
+    field_comparator.cc
+    field_mask_util.cc
+    datapiece.cc
+    default_value_objectwriter.cc
+    error_listener.cc
+    field_mask_utility.cc
+    json_escaping.cc
+    json_objectwriter.cc
+    json_stream_parser.cc
+    object_writer.cc
+    proto_writer.cc
+    protostream_objectsource.cc
+    protostream_objectwriter.cc
+    type_info.cc
+    type_info_test_helper.cc
+    utility.cc
+    json_util.cc
+    message_differencer.cc
+    time_util.cc
+    type_resolver_util.cc
+    wire_format.cc
+    wrappers.pb.cc
+  Lib:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\Lib.exe /OUT:"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\protobuf\Release\libprotobuf.lib" /NOLOGO /MACHINE:X64  /machine:x64 libprotobuf.dir\Release\arena.obj
+    libprotobuf.dir\Release\arenastring.obj
+    libprotobuf.dir\Release\extension_set.obj
+    libprotobuf.dir\Release\generated_message_util.obj
+    libprotobuf.dir\Release\coded_stream.obj
+    libprotobuf.dir\Release\zero_copy_stream.obj
+    libprotobuf.dir\Release\zero_copy_stream_impl_lite.obj
+    libprotobuf.dir\Release\message_lite.obj
+    libprotobuf.dir\Release\repeated_field.obj
+    libprotobuf.dir\Release\atomicops_internals_x86_gcc.obj
+    libprotobuf.dir\Release\atomicops_internals_x86_msvc.obj
+    libprotobuf.dir\Release\bytestream.obj
+    libprotobuf.dir\Release\common.obj
+    libprotobuf.dir\Release\int128.obj
+    libprotobuf.dir\Release\once.obj
+    libprotobuf.dir\Release\status.obj
+    libprotobuf.dir\Release\statusor.obj
+    libprotobuf.dir\Release\stringpiece.obj
+    libprotobuf.dir\Release\stringprintf.obj
+    libprotobuf.dir\Release\structurally_valid.obj
+    libprotobuf.dir\Release\strutil.obj
+    libprotobuf.dir\Release\time.obj
+    libprotobuf.dir\Release\wire_format_lite.obj
+    libprotobuf.dir\Release\any.obj
+    libprotobuf.dir\Release\any.pb.obj
+    libprotobuf.dir\Release\api.pb.obj
+    libprotobuf.dir\Release\importer.obj
+    libprotobuf.dir\Release\parser.obj
+    libprotobuf.dir\Release\descriptor.obj
+    libprotobuf.dir\Release\descriptor.pb.obj
+    libprotobuf.dir\Release\descriptor_database.obj
+    libprotobuf.dir\Release\duration.pb.obj
+    libprotobuf.dir\Release\dynamic_message.obj
+    libprotobuf.dir\Release\empty.pb.obj
+    libprotobuf.dir\Release\extension_set_heavy.obj
+    libprotobuf.dir\Release\field_mask.pb.obj
+    libprotobuf.dir\Release\generated_message_reflection.obj
+    libprotobuf.dir\Release\gzip_stream.obj
+    libprotobuf.dir\Release\printer.obj
+    libprotobuf.dir\Release\strtod.obj
+    libprotobuf.dir\Release\tokenizer.obj
+    libprotobuf.dir\Release\zero_copy_stream_impl.obj
+    libprotobuf.dir\Release\map_field.obj
+    libprotobuf.dir\Release\message.obj
+    libprotobuf.dir\Release\reflection_ops.obj
+    libprotobuf.dir\Release\service.obj
+    libprotobuf.dir\Release\source_context.pb.obj
+    libprotobuf.dir\Release\struct.pb.obj
+    libprotobuf.dir\Release\mathlimits.obj
+    libprotobuf.dir\Release\substitute.obj
+    libprotobuf.dir\Release\text_format.obj
+    libprotobuf.dir\Release\timestamp.pb.obj
+    libprotobuf.dir\Release\type.pb.obj
+    libprotobuf.dir\Release\unknown_field_set.obj
+    libprotobuf.dir\Release\delimited_message_util.obj
+    libprotobuf.dir\Release\field_comparator.obj
+    libprotobuf.dir\Release\field_mask_util.obj
+    libprotobuf.dir\Release\datapiece.obj
+    libprotobuf.dir\Release\default_value_objectwriter.obj
+    libprotobuf.dir\Release\error_listener.obj
+    libprotobuf.dir\Release\field_mask_utility.obj
+    libprotobuf.dir\Release\json_escaping.obj
+    libprotobuf.dir\Release\json_objectwriter.obj
+    libprotobuf.dir\Release\json_stream_parser.obj
+    libprotobuf.dir\Release\object_writer.obj
+    libprotobuf.dir\Release\proto_writer.obj
+    libprotobuf.dir\Release\protostream_objectsource.obj
+    libprotobuf.dir\Release\protostream_objectwriter.obj
+    libprotobuf.dir\Release\type_info.obj
+    libprotobuf.dir\Release\type_info_test_helper.obj
+    libprotobuf.dir\Release\utility.obj
+    libprotobuf.dir\Release\json_util.obj
+    libprotobuf.dir\Release\message_differencer.obj
+    libprotobuf.dir\Release\time_util.obj
+    libprotobuf.dir\Release\type_resolver_util.obj
+    libprotobuf.dir\Release\wire_format.obj
+    libprotobuf.dir\Release\wrappers.pb.obj
+    libprotobuf.vcxproj -> C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\protobuf\Release\libprotobuf.lib
+  FinalizeBuildStatus:
+    Deleting file "libprotobuf.dir\Release\libprotobuf.tlog\unsuccessfulbuild".
+    Touching "libprotobuf.dir\Release\libprotobuf.tlog\libprotobuf.lastbuildstate".
+  Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\protobuf\libprotobuf.vcxproj" (default targets).
+  PrepareForBuild:
+    Creating directory "grpc++_unsecure.dir\Release\".
+    Creating directory "grpc++_unsecure.dir\Release\grpc++_unsecure.tlog\".
+  InitializeBuildStatus:
+    Creating "grpc++_unsecure.dir\Release\grpc++_unsecure.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/grpc/src/grpc/CMakeLists.txt
+    CMake does not need to re-run because C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/grpc/src/grpc/CMakeFiles/generate.stamp is up-to-date.
+  ClCompile:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\zlib" /I"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\include" /I"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc" /I\include /I"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\protobuf\src" /I"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\cares" /I"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\cares\cares" /I"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\cares\config_windows" /I"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\gflags\include" /I"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\gens" /nologo /W3 /WX- /O2 /Ob2 /D WIN32 /D _WINDOWS /D NDEBUG /D _WIN32_WINNT=0x600 /D _SCL_SECURE_NO_WARNINGS /D _CRT_SECURE_NO_WARNINGS /D _WINSOCK_DEPRECATED_NO_WARNINGS /D CARES_STATICLIB=1 /D WIN32_LEAN_AND_MEAN=1 /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"grpc++_unsecure.dir\Release\\" /Fd"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\Release\grpc++_unsecure.pdb" /Gd /TP /wd4065 /wd4506 /wd4267 /errorReport:queue "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\cpp\client\insecure_credentials.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\cpp\common\insecure_create_auth_context.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\cpp\server\insecure_server_credentials.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\cpp\client\channel_cc.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\cpp\client\client_context.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\cpp\client\create_channel.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\cpp\client\create_channel_internal.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\cpp\client\create_channel_posix.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\cpp\client\credentials_cc.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\cpp\client\generic_stub.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\cpp\common\channel_arguments.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\cpp\common\channel_filter.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\cpp\common\completion_queue_cc.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\cpp\common\core_codegen.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\cpp\common\resource_quota_cc.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\cpp\common\rpc_method.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\cpp\common\version_cc.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\cpp\server\async_generic_service.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\cpp\server\channel_argument_option.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\cpp\server\create_default_thread_pool.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\cpp\server\dynamic_thread_pool.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\cpp\server\health\default_health_check_service.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\cpp\server\health\health_check_service.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\cpp\server\health\health_check_service_server_builder_option.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\cpp\server\server_builder.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\cpp\server\server_cc.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\cpp\server\server_context.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\cpp\server\server_credentials.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\cpp\server\server_posix.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\cpp\thread_manager\thread_manager.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\cpp\util\byte_buffer_cc.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\cpp\util\slice_cc.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\cpp\util\status.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\cpp\util\string_ref.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\cpp\util\time_cc.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\cpp\codegen\codegen_init.cc"
+    insecure_credentials.cc
+    insecure_create_auth_context.cc
+    insecure_server_credentials.cc
+    channel_cc.cc
+    client_context.cc
+    create_channel.cc
+    create_channel_internal.cc
+    create_channel_posix.cc
+    credentials_cc.cc
+    generic_stub.cc
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\include\grpc++/impl/codegen/async_stream.h(429): warning C4291: 'void *operator new(std::size_t,void *) throw()': no matching operator delete found; memory will not be freed if initialization throws an exception [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\grpc++_unsecure.vcxproj]
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\vcruntime_new.h(86): note: see declaration of 'operator new'
+    C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\include\grpc++/impl/codegen/async_stream.h(424): note: while compiling class template member function 'grpc::ClientAsyncReaderWriter<grpc::ByteBuffer,grpc::ByteBuffer> *grpc::ClientAsyncReaderWriter<grpc::ByteBuffer,grpc::ByteBuffer>::internal::Create(grpc::ChannelInterface *,grpc::CompletionQueue *,const grpc::internal::RpcMethod &,grpc::ClientContext *,void *)'
+    C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\cpp\client\generic_stub.cc(29): note: see reference to function template instantiation 'grpc::ClientAsyncReaderWriter<grpc::ByteBuffer,grpc::ByteBuffer> *grpc::ClientAsyncReaderWriter<grpc::ByteBuffer,grpc::ByteBuffer>::internal::Create(grpc::ChannelInterface *,grpc::CompletionQueue *,const grpc::internal::RpcMethod &,grpc::ClientContext *,void *)' being compiled
+    C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\cpp\client\generic_stub.cc(30): note: see reference to class template instantiation 'grpc::ClientAsyncReaderWriter<grpc::ByteBuffer,grpc::ByteBuffer>::internal' being compiled
+    channel_arguments.cc
+    channel_filter.cc
+    completion_queue_cc.cc
+    core_codegen.cc
+    resource_quota_cc.cc
+    rpc_method.cc
+    version_cc.cc
+    async_generic_service.cc
+    channel_argument_option.cc
+    create_default_thread_pool.cc
+    Generating Code...
+    Compiling...
+    dynamic_thread_pool.cc
+    default_health_check_service.cc
+    health_check_service.cc
+    health_check_service_server_builder_option.cc
+    server_builder.cc
+    server_cc.cc
+    server_context.cc
+    server_credentials.cc
+    server_posix.cc
+    thread_manager.cc
+    byte_buffer_cc.cc
+    slice_cc.cc
+    status.cc
+    string_ref.cc
+    time_cc.cc
+    codegen_init.cc
+    Generating Code...
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\zlib" /I"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\include" /I"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc" /I\include /I"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\protobuf\src" /I"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\cares" /I"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\cares\cares" /I"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\cares\config_windows" /I"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\gflags\include" /I"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\gens" /nologo /W3 /WX- /O2 /Ob2 /D WIN32 /D _WINDOWS /D NDEBUG /D _WIN32_WINNT=0x600 /D _SCL_SECURE_NO_WARNINGS /D _CRT_SECURE_NO_WARNINGS /D _WINSOCK_DEPRECATED_NO_WARNINGS /D CARES_STATICLIB=1 /D WIN32_LEAN_AND_MEAN=1 /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"grpc++_unsecure.dir\Release\\" /Fd"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\Release\grpc++_unsecure.pdb" /Gd /TC /wd4065 /wd4506 /wd4267 /errorReport:queue "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\src\cpp\server\health\health.pb.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\nanopb\pb_common.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\nanopb\pb_decode.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\nanopb\pb_encode.c"
+    health.pb.c
+    pb_common.c
+    pb_decode.c
+    pb_encode.c
+    Generating Code...
+  Lib:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\Lib.exe /OUT:"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\Release\grpc++_unsecure.lib" /NOLOGO /MACHINE:X64  /machine:x64 grpc++_unsecure.dir\Release\insecure_credentials.obj
+    grpc++_unsecure.dir\Release\insecure_create_auth_context.obj
+    grpc++_unsecure.dir\Release\insecure_server_credentials.obj
+    grpc++_unsecure.dir\Release\channel_cc.obj
+    grpc++_unsecure.dir\Release\client_context.obj
+    grpc++_unsecure.dir\Release\create_channel.obj
+    grpc++_unsecure.dir\Release\create_channel_internal.obj
+    grpc++_unsecure.dir\Release\create_channel_posix.obj
+    grpc++_unsecure.dir\Release\credentials_cc.obj
+    grpc++_unsecure.dir\Release\generic_stub.obj
+    grpc++_unsecure.dir\Release\channel_arguments.obj
+    grpc++_unsecure.dir\Release\channel_filter.obj
+    grpc++_unsecure.dir\Release\completion_queue_cc.obj
+    grpc++_unsecure.dir\Release\core_codegen.obj
+    grpc++_unsecure.dir\Release\resource_quota_cc.obj
+    grpc++_unsecure.dir\Release\rpc_method.obj
+    grpc++_unsecure.dir\Release\version_cc.obj
+    grpc++_unsecure.dir\Release\async_generic_service.obj
+    grpc++_unsecure.dir\Release\channel_argument_option.obj
+    grpc++_unsecure.dir\Release\create_default_thread_pool.obj
+    grpc++_unsecure.dir\Release\dynamic_thread_pool.obj
+    grpc++_unsecure.dir\Release\default_health_check_service.obj
+    grpc++_unsecure.dir\Release\health.pb.obj
+    grpc++_unsecure.dir\Release\health_check_service.obj
+    grpc++_unsecure.dir\Release\health_check_service_server_builder_option.obj
+    grpc++_unsecure.dir\Release\server_builder.obj
+    grpc++_unsecure.dir\Release\server_cc.obj
+    grpc++_unsecure.dir\Release\server_context.obj
+    grpc++_unsecure.dir\Release\server_credentials.obj
+    grpc++_unsecure.dir\Release\server_posix.obj
+    grpc++_unsecure.dir\Release\thread_manager.obj
+    grpc++_unsecure.dir\Release\byte_buffer_cc.obj
+    grpc++_unsecure.dir\Release\slice_cc.obj
+    grpc++_unsecure.dir\Release\status.obj
+    grpc++_unsecure.dir\Release\string_ref.obj
+    grpc++_unsecure.dir\Release\time_cc.obj
+    grpc++_unsecure.dir\Release\pb_common.obj
+    grpc++_unsecure.dir\Release\pb_decode.obj
+    grpc++_unsecure.dir\Release\pb_encode.obj
+    grpc++_unsecure.dir\Release\codegen_init.obj
+server_posix.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\grpc++_unsecure.vcxproj]
+create_channel_posix.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\grpc++_unsecure.vcxproj]
+    grpc++_unsecure.vcxproj -> C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\Release\grpc++_unsecure.lib
+  FinalizeBuildStatus:
+    Deleting file "grpc++_unsecure.dir\Release\grpc++_unsecure.tlog\unsuccessfulbuild".
+    Touching "grpc++_unsecure.dir\Release\grpc++_unsecure.tlog\grpc++_unsecure.lastbuildstate".
+  Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\grpc++_unsecure.vcxproj" (default targets).
+  
+  Build succeeded.
+  
+  "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\grpc++_unsecure.vcxproj" (default target) (1) ->
+  "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\cares\cares.vcxproj" (default target) (3) ->
+  (ClCompile target) -> 
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\cares\cares\ares_platform.c(39): warning C4996: 'GetVersionExA': was declared deprecated [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\cares\cares.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\cares\cares\ares_platform.c(43): warning C4996: 'GetVersionExA': was declared deprecated [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\cares\cares.vcxproj]
+  
+  
+  "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\grpc++_unsecure.vcxproj" (default target) (1) ->
+  "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\cares\cares.vcxproj" (default target) (3) ->
+  (Lib target) -> 
+adig.obj : warning LNK4006: main already defined in ahost.obj; second definition ignored [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\cares\cares.vcxproj]
+acountry.obj : warning LNK4006: main already defined in ahost.obj; second definition ignored [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\cares\cares.vcxproj]
+  
+  
+  "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\grpc++_unsecure.vcxproj" (default target) (1) ->
+  "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\protobuf\libprotobuf.vcxproj" (default target) (7) ->
+  (ClCompile target) -> 
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\protobuf\src\google\protobuf\stubs\common.cc(45): warning C4005: 'WIN32_LEAN_AND_MEAN': macro redefinition [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\protobuf\libprotobuf.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\protobuf\src\google\protobuf\struct.pb.cc(90): warning C4838: conversion from 'int' to 'const google::protobuf::uint32' requires a narrowing conversion [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\third_party\protobuf\libprotobuf.vcxproj]
+  
+  
+  "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\grpc++_unsecure.vcxproj" (default target) (1) ->
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\include\grpc++/impl/codegen/async_stream.h(429): warning C4291: 'void *operator new(std::size_t,void *) throw()': no matching operator delete found; memory will not be freed if initialization throws an exception [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\grpc++_unsecure.vcxproj]
+  
+  
+  "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\grpc++_unsecure.vcxproj" (default target) (1) ->
+  (Lib target) -> 
+server_posix.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\grpc++_unsecure.vcxproj]
+create_channel_posix.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\grpc++_unsecure.vcxproj]
+  
+      9 Warning(s)
+      0 Error(s)
+  
+  Time Elapsed 00:03:47.40
+  No install step for 'grpc'
+  Completed 'grpc'

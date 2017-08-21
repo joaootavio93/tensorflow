@@ -1,0 +1,631 @@
+The system is: Windows - 10.0.15063 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 18/08/2017 14:48:40.
+Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\fft2d\src\fft2d\CMakeFiles\3.9.0\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdC.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdC.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /nologo /W0 /WX- /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TC /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X64 Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\fft2d\src\fft2d\CMakeFiles\3.9.0\CompilerIdC\.\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdC.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
+Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\fft2d\src\fft2d\CMakeFiles\3.9.0\CompilerIdC\CompilerIdC.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.82
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/fft2d/src/fft2d/CMakeFiles/3.9.0/CompilerIdC/CompilerIdC.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 18/08/2017 14:48:43.
+Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\fft2d\src\fft2d\CMakeFiles\3.9.0\CompilerIdCXX\CompilerIdCXX.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdCXX.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdCXX.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /nologo /W0 /WX- /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X64 Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\fft2d\src\fft2d\CMakeFiles\3.9.0\CompilerIdCXX\.\CompilerIdCXX.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_CXX_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdCXX.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate".
+Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\fft2d\src\fft2d\CMakeFiles\3.9.0\CompilerIdCXX\CompilerIdCXX.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:04.34
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/fft2d/src/fft2d/CMakeFiles/3.9.0/CompilerIdCXX/CompilerIdCXX.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/fft2d/src/fft2d/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_d8a0f.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 18/08/2017 14:48:50.
+Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\fft2d\src\fft2d\CMakeFiles\CMakeTmp\cmTC_d8a0f.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_d8a0f.dir\Debug\".
+  Creating directory "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\fft2d\src\fft2d\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_d8a0f.dir\Debug\cmTC_d8a0f.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_d8a0f.dir\Debug\cmTC_d8a0f.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d8a0f.dir\Debug\\" /Fd"cmTC_d8a0f.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\fft2d\src\fft2d\CMakeFiles\CMakeTmp\testCCompiler.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d8a0f.dir\Debug\\" /Fd"cmTC_d8a0f.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\fft2d\src\fft2d\CMakeFiles\CMakeTmp\testCCompiler.c"
+  
+  testCCompiler.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\fft2d\src\fft2d\CMakeFiles\CMakeTmp\Debug\cmTC_d8a0f.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/fft2d/src/fft2d/CMakeFiles/CMakeTmp/Debug/cmTC_d8a0f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/fft2d/src/fft2d/CMakeFiles/CMakeTmp/Debug/cmTC_d8a0f.lib" /MACHINE:X64  /machine:x64 cmTC_d8a0f.dir\Debug\testCCompiler.obj
+  cmTC_d8a0f.vcxproj -> C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\fft2d\src\fft2d\CMakeFiles\CMakeTmp\Debug\cmTC_d8a0f.exe
+  cmTC_d8a0f.vcxproj -> C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/fft2d/src/fft2d/CMakeFiles/CMakeTmp/Debug/cmTC_d8a0f.pdb (Full PDB)
+FinalizeBuildStatus:
+  Deleting file "cmTC_d8a0f.dir\Debug\cmTC_d8a0f.tlog\unsuccessfulbuild".
+  Touching "cmTC_d8a0f.dir\Debug\cmTC_d8a0f.tlog\cmTC_d8a0f.lastbuildstate".
+Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\fft2d\src\fft2d\CMakeFiles\CMakeTmp\cmTC_d8a0f.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:04.81
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/fft2d/src/fft2d/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_0c4b6.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 18/08/2017 14:48:56.
+Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\fft2d\src\fft2d\CMakeFiles\CMakeTmp\cmTC_0c4b6.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_0c4b6.dir\Debug\".
+  Creating directory "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\fft2d\src\fft2d\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_0c4b6.dir\Debug\cmTC_0c4b6.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_0c4b6.dir\Debug\cmTC_0c4b6.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0c4b6.dir\Debug\\" /Fd"cmTC_0c4b6.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCCompilerABI.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0c4b6.dir\Debug\\" /Fd"cmTC_0c4b6.dir\Debug\vc140.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCCompilerABI.c"
+  
+  CMakeCCompilerABI.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\fft2d\src\fft2d\CMakeFiles\CMakeTmp\Debug\cmTC_0c4b6.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/fft2d/src/fft2d/CMakeFiles/CMakeTmp/Debug/cmTC_0c4b6.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/fft2d/src/fft2d/CMakeFiles/CMakeTmp/Debug/cmTC_0c4b6.lib" /MACHINE:X64  /machine:x64 cmTC_0c4b6.dir\Debug\CMakeCCompilerABI.obj
+  cmTC_0c4b6.vcxproj -> C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\fft2d\src\fft2d\CMakeFiles\CMakeTmp\Debug\cmTC_0c4b6.exe
+  cmTC_0c4b6.vcxproj -> C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/fft2d/src/fft2d/CMakeFiles/CMakeTmp/Debug/cmTC_0c4b6.pdb (Full PDB)
+FinalizeBuildStatus:
+  Deleting file "cmTC_0c4b6.dir\Debug\cmTC_0c4b6.tlog\unsuccessfulbuild".
+  Touching "cmTC_0c4b6.dir\Debug\cmTC_0c4b6.tlog\cmTC_0c4b6.lastbuildstate".
+Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\fft2d\src\fft2d\CMakeFiles\CMakeTmp\cmTC_0c4b6.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:17.86
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/fft2d/src/fft2d/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_f9205.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 18/08/2017 14:49:18.
+Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\fft2d\src\fft2d\CMakeFiles\CMakeTmp\cmTC_f9205.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_f9205.dir\Debug\".
+  Creating directory "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\fft2d\src\fft2d\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_f9205.dir\Debug\cmTC_f9205.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_f9205.dir\Debug\cmTC_f9205.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_f9205.dir\Debug\\" /Fd"cmTC_f9205.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\fft2d\src\fft2d\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_f9205.dir\Debug\\" /Fd"cmTC_f9205.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\fft2d\src\fft2d\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
+  
+  testCXXCompiler.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\fft2d\src\fft2d\CMakeFiles\CMakeTmp\Debug\cmTC_f9205.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/fft2d/src/fft2d/CMakeFiles/CMakeTmp/Debug/cmTC_f9205.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/fft2d/src/fft2d/CMakeFiles/CMakeTmp/Debug/cmTC_f9205.lib" /MACHINE:X64  /machine:x64 cmTC_f9205.dir\Debug\testCXXCompiler.obj
+  cmTC_f9205.vcxproj -> C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\fft2d\src\fft2d\CMakeFiles\CMakeTmp\Debug\cmTC_f9205.exe
+  cmTC_f9205.vcxproj -> C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/fft2d/src/fft2d/CMakeFiles/CMakeTmp/Debug/cmTC_f9205.pdb (Full PDB)
+FinalizeBuildStatus:
+  Deleting file "cmTC_f9205.dir\Debug\cmTC_f9205.tlog\unsuccessfulbuild".
+  Touching "cmTC_f9205.dir\Debug\cmTC_f9205.tlog\cmTC_f9205.lastbuildstate".
+Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\fft2d\src\fft2d\CMakeFiles\CMakeTmp\cmTC_f9205.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:11.36
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/fft2d/src/fft2d/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_24ed0.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 18/08/2017 14:49:30.
+Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\fft2d\src\fft2d\CMakeFiles\CMakeTmp\cmTC_24ed0.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_24ed0.dir\Debug\".
+  Creating directory "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\fft2d\src\fft2d\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_24ed0.dir\Debug\cmTC_24ed0.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_24ed0.dir\Debug\cmTC_24ed0.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_24ed0.dir\Debug\\" /Fd"cmTC_24ed0.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCXXCompilerABI.cpp"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_24ed0.dir\Debug\\" /Fd"cmTC_24ed0.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCXXCompilerABI.cpp"
+  
+  CMakeCXXCompilerABI.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\fft2d\src\fft2d\CMakeFiles\CMakeTmp\Debug\cmTC_24ed0.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/fft2d/src/fft2d/CMakeFiles/CMakeTmp/Debug/cmTC_24ed0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/fft2d/src/fft2d/CMakeFiles/CMakeTmp/Debug/cmTC_24ed0.lib" /MACHINE:X64  /machine:x64 cmTC_24ed0.dir\Debug\CMakeCXXCompilerABI.obj
+  cmTC_24ed0.vcxproj -> C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\fft2d\src\fft2d\CMakeFiles\CMakeTmp\Debug\cmTC_24ed0.exe
+  cmTC_24ed0.vcxproj -> C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/fft2d/src/fft2d/CMakeFiles/CMakeTmp/Debug/cmTC_24ed0.pdb (Full PDB)
+FinalizeBuildStatus:
+  Deleting file "cmTC_24ed0.dir\Debug\cmTC_24ed0.tlog\unsuccessfulbuild".
+  Touching "cmTC_24ed0.dir\Debug\cmTC_24ed0.tlog\cmTC_24ed0.lastbuildstate".
+Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\fft2d\src\fft2d\CMakeFiles\CMakeTmp\cmTC_24ed0.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:08.50
+
+
+
+
+Detecting CXX [] compiler features compiled with the following output:
+Change Dir: C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/fft2d/src/fft2d/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_65731.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 18/08/2017 14:49:45.
+Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\fft2d\src\fft2d\CMakeFiles\CMakeTmp\cmTC_65731.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_65731.dir\Debug\".
+  Creating directory "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\fft2d\src\fft2d\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_65731.dir\Debug\cmTC_65731.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_65731.dir\Debug\cmTC_65731.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_65731.dir\Debug\\" /Fd"cmTC_65731.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\fft2d\src\fft2d\CMakeFiles\feature_tests.cxx"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_65731.dir\Debug\\" /Fd"cmTC_65731.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\fft2d\src\fft2d\CMakeFiles\feature_tests.cxx"
+  
+  feature_tests.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\fft2d\src\fft2d\CMakeFiles\CMakeTmp\Debug\cmTC_65731.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/fft2d/src/fft2d/CMakeFiles/CMakeTmp/Debug/cmTC_65731.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/fft2d/src/fft2d/CMakeFiles/CMakeTmp/Debug/cmTC_65731.lib" /MACHINE:X64  /machine:x64 cmTC_65731.dir\Debug\feature_tests.obj
+  cmTC_65731.vcxproj -> C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\fft2d\src\fft2d\CMakeFiles\CMakeTmp\Debug\cmTC_65731.exe
+  cmTC_65731.vcxproj -> C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/fft2d/src/fft2d/CMakeFiles/CMakeTmp/Debug/cmTC_65731.pdb (Full PDB)
+FinalizeBuildStatus:
+  Deleting file "cmTC_65731.dir\Debug\cmTC_65731.tlog\unsuccessfulbuild".
+  Touching "cmTC_65731.dir\Debug\cmTC_65731.tlog\cmTC_65731.lastbuildstate".
+Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\fft2d\src\fft2d\CMakeFiles\CMakeTmp\cmTC_65731.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:06.96
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [] compiler features compiled with the following output:
+Change Dir: C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/fft2d/src/fft2d/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_c28fc.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 18/08/2017 14:49:58.
+Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\fft2d\src\fft2d\CMakeFiles\CMakeTmp\cmTC_c28fc.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_c28fc.dir\Debug\".
+  Creating directory "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\fft2d\src\fft2d\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_c28fc.dir\Debug\cmTC_c28fc.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_c28fc.dir\Debug\cmTC_c28fc.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_c28fc.dir\Debug\\" /Fd"cmTC_c28fc.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\fft2d\src\fft2d\CMakeFiles\feature_tests.cxx"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_c28fc.dir\Debug\\" /Fd"cmTC_c28fc.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\fft2d\src\fft2d\CMakeFiles\feature_tests.cxx"
+  
+  feature_tests.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\fft2d\src\fft2d\CMakeFiles\CMakeTmp\Debug\cmTC_c28fc.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/fft2d/src/fft2d/CMakeFiles/CMakeTmp/Debug/cmTC_c28fc.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/fft2d/src/fft2d/CMakeFiles/CMakeTmp/Debug/cmTC_c28fc.lib" /MACHINE:X64  /machine:x64 cmTC_c28fc.dir\Debug\feature_tests.obj
+  cmTC_c28fc.vcxproj -> C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\fft2d\src\fft2d\CMakeFiles\CMakeTmp\Debug\cmTC_c28fc.exe
+  cmTC_c28fc.vcxproj -> C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/fft2d/src/fft2d/CMakeFiles/CMakeTmp/Debug/cmTC_c28fc.pdb (Full PDB)
+FinalizeBuildStatus:
+  Deleting file "cmTC_c28fc.dir\Debug\cmTC_c28fc.tlog\unsuccessfulbuild".
+  Touching "cmTC_c28fc.dir\Debug\cmTC_c28fc.tlog\cmTC_c28fc.lastbuildstate".
+Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\fft2d\src\fft2d\CMakeFiles\CMakeTmp\cmTC_c28fc.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.16
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [] compiler features compiled with the following output:
+Change Dir: C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/fft2d/src/fft2d/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_be887.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 18/08/2017 14:50:02.
+Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\fft2d\src\fft2d\CMakeFiles\CMakeTmp\cmTC_be887.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_be887.dir\Debug\".
+  Creating directory "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\fft2d\src\fft2d\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_be887.dir\Debug\cmTC_be887.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_be887.dir\Debug\cmTC_be887.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_be887.dir\Debug\\" /Fd"cmTC_be887.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\fft2d\src\fft2d\CMakeFiles\feature_tests.cxx"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_be887.dir\Debug\\" /Fd"cmTC_be887.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\fft2d\src\fft2d\CMakeFiles\feature_tests.cxx"
+  
+  feature_tests.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\fft2d\src\fft2d\CMakeFiles\CMakeTmp\Debug\cmTC_be887.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/fft2d/src/fft2d/CMakeFiles/CMakeTmp/Debug/cmTC_be887.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/fft2d/src/fft2d/CMakeFiles/CMakeTmp/Debug/cmTC_be887.lib" /MACHINE:X64  /machine:x64 cmTC_be887.dir\Debug\feature_tests.obj
+  cmTC_be887.vcxproj -> C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\fft2d\src\fft2d\CMakeFiles\CMakeTmp\Debug\cmTC_be887.exe
+  cmTC_be887.vcxproj -> C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/fft2d/src/fft2d/CMakeFiles/CMakeTmp/Debug/cmTC_be887.pdb (Full PDB)
+FinalizeBuildStatus:
+  Deleting file "cmTC_be887.dir\Debug\cmTC_be887.tlog\unsuccessfulbuild".
+  Touching "cmTC_be887.dir\Debug\cmTC_be887.tlog\cmTC_be887.lastbuildstate".
+Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\fft2d\src\fft2d\CMakeFiles\CMakeTmp\cmTC_be887.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.40
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [] compiler features compiled with the following output:
+Change Dir: C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/fft2d/src/fft2d/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_92fbe.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 18/08/2017 14:50:09.
+Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\fft2d\src\fft2d\CMakeFiles\CMakeTmp\cmTC_92fbe.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_92fbe.dir\Debug\".
+  Creating directory "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\fft2d\src\fft2d\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_92fbe.dir\Debug\cmTC_92fbe.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_92fbe.dir\Debug\cmTC_92fbe.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_92fbe.dir\Debug\\" /Fd"cmTC_92fbe.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\fft2d\src\fft2d\CMakeFiles\feature_tests.cxx"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_92fbe.dir\Debug\\" /Fd"cmTC_92fbe.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\fft2d\src\fft2d\CMakeFiles\feature_tests.cxx"
+  
+  feature_tests.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\fft2d\src\fft2d\CMakeFiles\CMakeTmp\Debug\cmTC_92fbe.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/fft2d/src/fft2d/CMakeFiles/CMakeTmp/Debug/cmTC_92fbe.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/fft2d/src/fft2d/CMakeFiles/CMakeTmp/Debug/cmTC_92fbe.lib" /MACHINE:X64  /machine:x64 cmTC_92fbe.dir\Debug\feature_tests.obj
+  cmTC_92fbe.vcxproj -> C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\fft2d\src\fft2d\CMakeFiles\CMakeTmp\Debug\cmTC_92fbe.exe
+  cmTC_92fbe.vcxproj -> C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/fft2d/src/fft2d/CMakeFiles/CMakeTmp/Debug/cmTC_92fbe.pdb (Full PDB)
+FinalizeBuildStatus:
+  Deleting file "cmTC_92fbe.dir\Debug\cmTC_92fbe.tlog\unsuccessfulbuild".
+  Touching "cmTC_92fbe.dir\Debug\cmTC_92fbe.tlog\cmTC_92fbe.lastbuildstate".
+Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\fft2d\src\fft2d\CMakeFiles\CMakeTmp\cmTC_92fbe.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:05.33
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates

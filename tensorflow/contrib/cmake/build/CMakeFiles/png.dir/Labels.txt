@@ -1,0 +1,14 @@
+# Target labels
+ png
+# Source files and their labels
+C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/png
+C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/CMakeLists.txt
+C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/bb01c56cf9406b145ba9a57cac476823/png.rule
+C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/79294db29758ff69b1b73858bd3118a7/png-complete.rule
+C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/9c78ee38d0c9d4c054ff81ae00e2ef28/png-install.rule
+C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/9c78ee38d0c9d4c054ff81ae00e2ef28/png-mkdir.rule
+C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/9c78ee38d0c9d4c054ff81ae00e2ef28/png-download.rule
+C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/9c78ee38d0c9d4c054ff81ae00e2ef28/png-update.rule
+C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/9c78ee38d0c9d4c054ff81ae00e2ef28/png-patch.rule
+C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/9c78ee38d0c9d4c054ff81ae00e2ef28/png-configure.rule
+C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/9c78ee38d0c9d4c054ff81ae00e2ef28/png-build.rule

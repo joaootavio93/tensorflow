@@ -1,0 +1,10 @@
+prefix=C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/png/install
+exec_prefix=C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/png/install
+libdir=C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/png/install/lib
+includedir=C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/png/install/include/libpng12
+
+Name: libpng
+Description: Loads and saves PNG files
+Version: 1.2.53
+Libs: -LC:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/png/install/lib -lpng12
+Cflags: -IC:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/png/install/include

@@ -1,0 +1,27 @@
+﻿  Building Custom Rule C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/CMakeLists.txt
+  CMake does not need to re-run because C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/generate.stamp is up-to-date.
+  Running C++ protocol buffer compiler on tensorflow/core/profiler/profile.proto
+  Running C++ protocol buffer compiler on tensorflow/core/profiler/tfprof_log.proto
+  Running C++ protocol buffer compiler on tensorflow/core/profiler/tfprof_options.proto
+  Running C++ protocol buffer compiler on tensorflow/core/profiler/tfprof_output.proto
+  Running C++ protocol buffer compiler on tensorflow/python/framework/cpp_shape_inference.proto
+  Running C++ protocol buffer compiler on tensorflow/python/training/checkpoint_state.proto
+  Running C++ protocol buffer compiler on tensorflow/python/util/protobuf/compare_test.proto
+  Running C++ protocol buffer compiler on tensorflow/contrib/session_bundle/manifest.proto
+  Running C++ protocol buffer compiler on tensorflow/contrib/tensorboard/graph_explorer/proto/graph_explorer.proto
+  Running C++ protocol buffer compiler on tensorflow/contrib/tensorboard/plugins/projector/projector_config.proto
+  Running C++ protocol buffer compiler on tensorflow/contrib/tensorboard/plugins/trace/trace_info.proto
+  Running C++ protocol buffer compiler on tensorflow/contrib/training/python/training/hparam.proto
+  profile.pb.cc
+  tfprof_log.pb.cc
+  tfprof_options.pb.cc
+  tfprof_output.pb.cc
+  cpp_shape_inference.pb.cc
+  checkpoint_state.pb.cc
+  compare_test.pb.cc
+  manifest.pb.cc
+  graph_explorer.pb.cc
+  projector_config.pb.cc
+  trace_info.pb.cc
+  hparam.pb.cc
+  tf_python_protos_cc.vcxproj -> C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\Release\tf_python_protos_cc.lib

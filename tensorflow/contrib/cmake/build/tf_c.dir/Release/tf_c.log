@@ -1,0 +1,31 @@
+﻿  Building Custom Rule C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/CMakeLists.txt
+  CMake does not need to re-run because C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/generate.stamp is up-to-date.
+  c_api.cc
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow/c/c_api.h(967): warning C4190: 'TF_NewWhile' has C-linkage specified, but returns UDT 'TF_WhileParams' which is incompatible with C
+  C:\Visual Studio 2015\Projects\tensorflow\tensorflow/c/c_api.h(923): note: see declaration of 'TF_WhileParams'
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\c\c_api.cc(168): warning C4190: 'MessageToBuffer' has C-linkage specified, but returns UDT 'tensorflow::Status' which is incompatible with C
+  C:\Visual Studio 2015\Projects\tensorflow\tensorflow/core/lib/core/status.h(37): note: see declaration of 'tensorflow::Status'
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\c\c_api.cc(271): warning C4190: 'TF_StringDecode_Impl' has C-linkage specified, but returns UDT 'tensorflow::Status' which is incompatible with C
+  C:\Visual Studio 2015\Projects\tensorflow\tensorflow/core/lib/core/status.h(37): note: see declaration of 'tensorflow::Status'
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\c\c_api.cc(1726): warning C4190: 'ToTensorId' has C-linkage specified, but returns UDT 'tensorflow::TensorId' which is incompatible with C
+  C:\Visual Studio 2015\Projects\tensorflow\tensorflow/core/graph/tensor_id.h(31): note: see declaration of 'tensorflow::TensorId'
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\c\c_api.cc(1991): warning C4190: 'EmptyWhileParams' has C-linkage specified, but returns UDT 'TF_WhileParams' which is incompatible with C
+  C:\Visual Studio 2015\Projects\tensorflow\tensorflow/c/c_api.h(923): note: see declaration of 'TF_WhileParams'
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\c\c_api.cc(1999): warning C4190: 'TF_NewWhile' has C-linkage specified, but returns UDT 'TF_WhileParams' which is incompatible with C
+  C:\Visual Studio 2015\Projects\tensorflow\tensorflow/c/c_api.h(923): note: see declaration of 'TF_WhileParams'
+c:\visual studio 2015\projects\tensorflow\tensorflow\c\c_api.cc(1362): warning C4700: uninitialized local variable 'metadata' used
+  c_api.cc
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow/c/c_api.h(967): warning C4190: 'TF_NewWhile' has C-linkage specified, but returns UDT 'TF_WhileParams' which is incompatible with C
+  C:\Visual Studio 2015\Projects\tensorflow\tensorflow/c/c_api.h(923): note: see declaration of 'TF_WhileParams'
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\c\eager\c_api.cc(436): warning C4190: 'ValidateInputTypeAndPlacement' has C-linkage specified, but returns UDT 'tensorflow::Status' which is incompatible with C
+  C:\Visual Studio 2015\Projects\tensorflow\tensorflow/core/lib/core/status.h(37): note: see declaration of 'tensorflow::Status'
+  runtime.cc
+  checkpoint_reader.cc
+  tf_status_helper.cc
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow/c/c_api.h(967): warning C4190: 'TF_NewWhile' has C-linkage specified, but returns UDT 'TF_WhileParams' which is incompatible with C (compiling source file C:\Visual Studio 2015\Projects\tensorflow\tensorflow\c\tf_status_helper.cc)C:\Visual Studio 2015\Projects\tensorflow\tensorflow/c/c_api.h(967): warning C4190: 'TF_NewWhile' has C-linkage specified, but returns UDT 'TF_WhileParams' which is incompatible with C (compiling source file C:\Visual Studio 2015\Projects\tensorflow\tensorflow\c\checkpoint_reader.cc)
+  
+  C:\Visual Studio 2015\Projects\tensorflow\tensorflow/c/c_api.h(923): note: see declaration of 'TF_WhileParams' (compiling source file C:\Visual Studio 2015\Projects\tensorflow\tensorflow\c\checkpoint_reader.cc)
+  C:\Visual Studio 2015\Projects\tensorflow\tensorflow/c/c_api.h(923): note: see declaration of 'TF_WhileParams' (compiling source file C:\Visual Studio 2015\Projects\tensorflow\tensorflow\c\tf_status_helper.cc)
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow/c/c_api.h(967): warning C4190: 'TF_NewWhile' has C-linkage specified, but returns UDT 'TF_WhileParams' which is incompatible with C (compiling source file C:\Visual Studio 2015\Projects\tensorflow\tensorflow\c\eager\runtime.cc)
+  C:\Visual Studio 2015\Projects\tensorflow\tensorflow/c/c_api.h(923): note: see declaration of 'TF_WhileParams' (compiling source file C:\Visual Studio 2015\Projects\tensorflow\tensorflow\c\eager\runtime.cc)
+  tf_c.vcxproj -> C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_c.dir\Release\tf_c.lib

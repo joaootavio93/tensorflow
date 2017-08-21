@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\tensor_forest\hybrid\core\ops\hard_routing_function_op.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\tensor_forest\hybrid\core\ops\k_feature_gradient_op.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\tensor_forest\hybrid\core\ops\k_feature_routing_function_op.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\tensor_forest\hybrid\core\ops\routing_function_op.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\tensor_forest\hybrid\core\ops\routing_gradient_op.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\tensor_forest\hybrid\core\ops\stochastic_hard_routing_function_op.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\tensor_forest\hybrid\core\ops\stochastic_hard_routing_gradient_op.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\tensor_forest\hybrid\core\ops\unpack_path_op.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\tensor_forest\hybrid\core\ops\utils.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{80822BFC-6A8E-334B-A740-78ABA611BFC2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

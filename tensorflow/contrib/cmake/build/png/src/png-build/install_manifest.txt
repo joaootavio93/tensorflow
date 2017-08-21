@@ -1,0 +1,16 @@
+C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/png/install/lib/png12.lib
+C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/png/install/bin/libpng12.dll
+C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/png/install/lib/libpng12_static.lib
+C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/png/install/include/png.h
+C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/png/install/include/pngconf.h
+C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/png/install/include/libpng12/png.h
+C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/png/install/include/libpng12/pngconf.h
+C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/png/install/bin/libpng-config
+C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/png/install/bin/libpng12-config
+C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/png/install/man/man3/libpng.3
+C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/png/install/man/man3/libpngpf.3
+C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/png/install/man/man5/png.5
+C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/png/install/lib/pkgconfig/libpng.pc
+C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/png/install/bin/libpng-config
+C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/png/install/lib/pkgconfig/libpng12.pc
+C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/png/install/bin/libpng12-config

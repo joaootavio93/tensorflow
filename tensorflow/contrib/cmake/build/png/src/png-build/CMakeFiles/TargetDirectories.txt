@@ -1,0 +1,7 @@
+C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/png/src/png-build/CMakeFiles/INSTALL.dir
+C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/png/src/png-build/CMakeFiles/png12.dir
+C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/png/src/png-build/CMakeFiles/png12_static.dir
+C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/png/src/png-build/CMakeFiles/pngtest.dir
+C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/png/src/png-build/CMakeFiles/RUN_TESTS.dir
+C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/png/src/png-build/CMakeFiles/ALL_BUILD.dir
+C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/png/src/png-build/CMakeFiles/ZERO_CHECK.dir

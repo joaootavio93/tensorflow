@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\farmhash\src\farmhash\CMakeFiles\53a4640d03565e4c3fe5b5099c70ef2f\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{FE2CFA18-E1AE-3605-AC72-9EA7DB43FEDB}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

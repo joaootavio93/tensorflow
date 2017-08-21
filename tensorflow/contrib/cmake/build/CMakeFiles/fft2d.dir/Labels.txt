@@ -1,0 +1,14 @@
+# Target labels
+ fft2d
+# Source files and their labels
+C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/fft2d
+C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/CMakeLists.txt
+C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/bb01c56cf9406b145ba9a57cac476823/fft2d.rule
+C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/79294db29758ff69b1b73858bd3118a7/fft2d-complete.rule
+C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/9828ac4690ab30816345b2d9298df1f9/fft2d-install.rule
+C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/9828ac4690ab30816345b2d9298df1f9/fft2d-mkdir.rule
+C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/9828ac4690ab30816345b2d9298df1f9/fft2d-download.rule
+C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/9828ac4690ab30816345b2d9298df1f9/fft2d-update.rule
+C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/9828ac4690ab30816345b2d9298df1f9/fft2d-patch.rule
+C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/9828ac4690ab30816345b2d9298df1f9/fft2d-configure.rule
+C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/9828ac4690ab30816345b2d9298df1f9/fft2d-build.rule

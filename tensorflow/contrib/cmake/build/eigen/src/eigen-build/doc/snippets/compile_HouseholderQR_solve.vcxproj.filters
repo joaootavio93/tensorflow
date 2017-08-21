@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\eigen\src\eigen-build\doc\snippets\compile_HouseholderQR_solve.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\eigen\src\eigen\doc\snippets\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{6F52AF07-2A7F-3E73-872A-95443065E48A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,63 @@
+Determining if the C compiler works failed with the following output:
+Change Dir: C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_4aca6.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 18/08/2017 14:35:27.
+Attempting to cancel the build...
+
+Build FAILED.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.29
+
+
+Performing C++ SOURCE FILE Test COMPILER_OPT_ARCH_NATIVE_SUPPORTED failed with the following output:
+Change Dir: C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_f8ad0.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.25420.1
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 18/08/2017 14:40:14.
+Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\CMakeTmp\cmTC_f8ad0.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_f8ad0.dir\Debug\".
+  Creating directory "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_f8ad0.dir\Debug\cmTC_f8ad0.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_f8ad0.dir\Debug\cmTC_f8ad0.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Zi /W3 /WX- /MP /Od /Ob0 /D WIN32 /D _WINDOWS /D COMPILER_OPT_ARCH_NATIVE_SUPPORTED /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_f8ad0.dir\Debug\\" /Fd"cmTC_f8ad0.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue  -march=native "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\CMakeTmp\src.cxx"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.24215.1 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /MP /Od /Ob0 /D WIN32 /D _WINDOWS /D COMPILER_OPT_ARCH_NATIVE_SUPPORTED /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_f8ad0.dir\Debug\\" /Fd"cmTC_f8ad0.dir\Debug\vc140.pdb" /Gd /TP /errorReport:queue  -march=native "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\CMakeTmp\src.cxx"
+  
+cl : Command line warning D9002: ignoring unknown option '-march=native' [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\CMakeTmp\cmTC_f8ad0.vcxproj]
+  src.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\CMakeTmp\Debug\cmTC_f8ad0.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/CMakeTmp/Debug/cmTC_f8ad0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/CMakeTmp/Debug/cmTC_f8ad0.lib" /MACHINE:X64  /machine:x64 /ignore:4049 /ignore:4197 /ignore:4217 /ignore:4221 cmTC_f8ad0.dir\Debug\src.obj
+  cmTC_f8ad0.vcxproj -> C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\CMakeTmp\Debug\cmTC_f8ad0.exe
+  cmTC_f8ad0.vcxproj -> C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/CMakeTmp/Debug/cmTC_f8ad0.pdb (Full PDB)
+FinalizeBuildStatus:
+  Deleting file "cmTC_f8ad0.dir\Debug\cmTC_f8ad0.tlog\unsuccessfulbuild".
+  Touching "cmTC_f8ad0.dir\Debug\cmTC_f8ad0.tlog\cmTC_f8ad0.lastbuildstate".
+Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\CMakeTmp\cmTC_f8ad0.vcxproj" (default targets).
+
+Build succeeded.
+
+"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\CMakeTmp\cmTC_f8ad0.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  cl : Command line warning D9002: ignoring unknown option '-march=native' [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\CMakeTmp\cmTC_f8ad0.vcxproj]
+
+    1 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.00
+
+Source file was:
+int main() { return 0; }

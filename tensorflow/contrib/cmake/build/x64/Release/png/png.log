@@ -1,0 +1,516 @@
+﻿  Building Custom Rule C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/CMakeLists.txt
+  CMake does not need to re-run because C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/generate.stamp is up-to-date.
+  Creating directories for 'png'
+  Performing download step (download, verify and extract) for 'png'
+  -- Downloading...
+     dst='C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/downloads/libpng-1.2.53.tar.gz'
+     timeout='none'
+  -- Using src='https://storage.googleapis.com/libpng-public-archive/libpng-1.2.53.tar.gz'
+  -- [download 0% complete]
+  -- [download 1% complete]
+  -- [download 2% complete]
+  -- [download 3% complete]
+  -- [download 4% complete]
+  -- [download 5% complete]
+  -- [download 6% complete]
+  -- [download 7% complete]
+  -- [download 8% complete]
+  -- [download 9% complete]
+  -- [download 10% complete]
+  -- [download 11% complete]
+  -- [download 12% complete]
+  -- [download 13% complete]
+  -- [download 14% complete]
+  -- [download 15% complete]
+  -- [download 16% complete]
+  -- [download 17% complete]
+  -- [download 18% complete]
+  -- [download 19% complete]
+  -- [download 20% complete]
+  -- [download 21% complete]
+  -- [download 22% complete]
+  -- [download 23% complete]
+  -- [download 24% complete]
+  -- [download 25% complete]
+  -- [download 26% complete]
+  -- [download 27% complete]
+  -- [download 28% complete]
+  -- [download 29% complete]
+  -- [download 30% complete]
+  -- [download 31% complete]
+  -- [download 32% complete]
+  -- [download 33% complete]
+  -- [download 34% complete]
+  -- [download 35% complete]
+  -- [download 36% complete]
+  -- [download 37% complete]
+  -- [download 38% complete]
+  -- [download 39% complete]
+  -- [download 40% complete]
+  -- [download 41% complete]
+  -- [download 42% complete]
+  -- [download 43% complete]
+  -- [download 44% complete]
+  -- [download 45% complete]
+  -- [download 46% complete]
+  -- [download 47% complete]
+  -- [download 48% complete]
+  -- [download 49% complete]
+  -- [download 50% complete]
+  -- [download 51% complete]
+  -- [download 52% complete]
+  -- [download 53% complete]
+  -- [download 54% complete]
+  -- [download 55% complete]
+  -- [download 56% complete]
+  -- [download 57% complete]
+  -- [download 58% complete]
+  -- [download 59% complete]
+  -- [download 60% complete]
+  -- [download 61% complete]
+  -- [download 62% complete]
+  -- [download 63% complete]
+  -- [download 64% complete]
+  -- [download 65% complete]
+  -- [download 66% complete]
+  -- [download 67% complete]
+  -- [download 68% complete]
+  -- [download 69% complete]
+  -- [download 70% complete]
+  -- [download 71% complete]
+  -- [download 72% complete]
+  -- [download 73% complete]
+  -- [download 74% complete]
+  -- [download 75% complete]
+  -- [download 76% complete]
+  -- [download 77% complete]
+  -- [download 78% complete]
+  -- [download 79% complete]
+  -- [download 80% complete]
+  -- [download 81% complete]
+  -- [download 82% complete]
+  -- [download 83% complete]
+  -- [download 84% complete]
+  -- [download 85% complete]
+  -- [download 86% complete]
+  -- [download 87% complete]
+  -- [download 88% complete]
+  -- [download 89% complete]
+  -- [download 90% complete]
+  -- [download 91% complete]
+  -- [download 92% complete]
+  -- [download 93% complete]
+  -- [download 94% complete]
+  -- [download 95% complete]
+  -- [download 96% complete]
+  -- [download 97% complete]
+  -- [download 98% complete]
+  -- [download 99% complete]
+  -- [download 100% complete]
+  -- verifying file...
+         file='C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/downloads/libpng-1.2.53.tar.gz'
+  -- Downloading... done
+  -- extracting...
+       src='C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/downloads/libpng-1.2.53.tar.gz'
+       dst='C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/png/src/png'
+  -- extracting... [tar xfz]
+  -- extracting... [analysis]
+  -- extracting... [rename]
+  -- extracting... [clean up]
+  -- extracting... done
+  No update step for 'png'
+  No patch step for 'png'
+  Performing configure step for 'png'
+  loading initial cache file C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/png/tmp/png-cache-Release.cmake
+  -- The C compiler identification is MSVC 19.0.24215.1
+  -- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/x86_amd64/cl.exe
+  -- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/x86_amd64/cl.exe -- works
+  -- Detecting C compiler ABI info
+  -- Detecting C compiler ABI info - done
+  -- Found ZLIB: C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/zlib/install/lib/zlib.lib (found version "1.2.8") 
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/png/src/png-build
+  Performing build step for 'png'
+  Microsoft (R) Build Engine version 14.0.25420.1
+  Copyright (C) Microsoft Corporation. All rights reserved.
+  
+  Build started 18/08/2017 14:47:34.
+  Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\ALL_BUILD.vcxproj" on node 1 (default targets).
+  Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\ALL_BUILD.vcxproj" (1) is building "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\ZERO_CHECK.vcxproj" (2) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "x64\Release\ZERO_CHECK\".
+    Creating directory "x64\Release\ZERO_CHECK\ZERO_CHECK.tlog\".
+  InitializeBuildStatus:
+    Creating "x64\Release\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Checking Build System
+    CMake does not need to re-run because C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/png/src/png-build/CMakeFiles/generate.stamp is up-to-date.
+  FinalizeBuildStatus:
+    Deleting file "x64\Release\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild".
+    Touching "x64\Release\ZERO_CHECK\ZERO_CHECK.tlog\ZERO_CHECK.lastbuildstate".
+  Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\ZERO_CHECK.vcxproj" (default targets).
+  Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\ALL_BUILD.vcxproj" (1) is building "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\png12.vcxproj" (3) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "png12.dir\Release\".
+    Creating directory "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\Release\".
+    Creating directory "png12.dir\Release\png12.tlog\".
+  InitializeBuildStatus:
+    Creating "png12.dir\Release\png12.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/png/src/png/CMakeLists.txt
+    CMake does not need to re-run because C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/png/src/png-build/CMakeFiles/generate.stamp is up-to-date.
+  ClCompile:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\zlib\install\include" /I"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png" /nologo /W3 /WX- /O2 /Ob2 /D WIN32 /D _WINDOWS /D NDEBUG /D PNG_CONFIGURE_LIBPNG /D PNG_NO_MODULEDEF /D _CRT_SECURE_NO_DEPRECATE /D ZLIB_DLL /D LIBPNG_NO_MMX /D PNG_NO_MMX_CODE /D PNG_NO_CONSOLE_IO /D PNG_NO_STDIO /D "CMAKE_INTDIR=\"Release\"" /D PNG_BUILD_DLL /D _WINDLL /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"png12.dir\Release\\" /Fd"png12.dir\Release\vc140.pdb" /Gd /TC /errorReport:queue "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\png.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngerror.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngget.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngmem.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngpread.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngread.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngrio.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngrtran.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngrutil.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngset.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngtrans.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngwio.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngwrite.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngwtran.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngwutil.c"
+    png.c
+    pngerror.c
+    pngget.c
+    pngmem.c
+    pngpread.c
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngpread.c(572): warning C4267: '-=': conversion from 'size_t' to 'png_uint_32', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\png12.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngpread.c(588): warning C4267: '-=': conversion from 'size_t' to 'png_uint_32', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\png12.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngpread.c(767): warning C4267: '-=': conversion from 'size_t' to 'png_uint_32', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\png12.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngpread.c(791): warning C4267: '-=': conversion from 'size_t' to 'png_uint_32', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\png12.vcxproj]
+    pngread.c
+    pngrio.c
+    pngrtran.c
+    pngrutil.c
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngrutil.c(228): warning C4267: '=': conversion from 'size_t' to 'uInt', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\png12.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngrutil.c(238): warning C4267: '=': conversion from 'size_t' to 'uInt', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\png12.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngrutil.c(241): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\png12.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngrutil.c(365): warning C4267: 'function': conversion from 'size_t' to 'png_uint_32', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\png12.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngrutil.c(412): warning C4267: 'function': conversion from 'size_t' to 'png_uint_32', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\png12.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngrutil.c(1124): warning C4267: '=': conversion from 'size_t' to 'png_uint_32', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\png12.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngrutil.c(1241): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\png12.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngrutil.c(3356): warning C4267: 'function': conversion from 'size_t' to 'png_uint_32', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\png12.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngrutil.c(3359): warning C4267: 'function': conversion from 'size_t' to 'png_uint_32', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\png12.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngrutil.c(3360): warning C4267: '=': conversion from 'size_t' to 'png_uint_32', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\png12.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngrutil.c(3364): warning C4267: '=': conversion from 'size_t' to 'png_uint_32', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\png12.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngrutil.c(3379): warning C4267: 'function': conversion from 'size_t' to 'png_uint_32', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\png12.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngrutil.c(3380): warning C4267: '=': conversion from 'size_t' to 'png_uint_32', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\png12.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngrutil.c(3383): warning C4267: '=': conversion from 'size_t' to 'png_uint_32', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\png12.vcxproj]
+    pngset.c
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngset.c(305): warning C4267: '=': conversion from 'size_t' to 'png_uint_32', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\png12.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngset.c(322): warning C4267: '=': conversion from 'size_t' to 'png_uint_32', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\png12.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngset.c(345): warning C4267: '=': conversion from 'size_t' to 'png_uint_32', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\png12.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngset.c(609): warning C4267: '=': conversion from 'size_t' to 'png_uint_32', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\png12.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngset.c(947): warning C4267: '=': conversion from 'size_t' to 'png_uint_32', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\png12.vcxproj]
+    pngtrans.c
+    pngwio.c
+    pngwrite.c
+    pngwtran.c
+    pngwutil.c
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngwutil.c(191): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\png12.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngwutil.c(1594): warning C4267: '=': conversion from 'size_t' to 'png_uint_32', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\png12.vcxproj]
+    Generating Code...
+  Link:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\Release\libpng12.dll" /INCREMENTAL:NO /NOLOGO "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\zlib\install\lib\zlib.lib" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/png/src/png-build/Release/libpng12.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/png/src/png-build/Release/png12.lib" /MACHINE:X64  /machine:x64 /DLL png12.dir\Release\png.obj
+    png12.dir\Release\pngerror.obj
+    png12.dir\Release\pngget.obj
+    png12.dir\Release\pngmem.obj
+    png12.dir\Release\pngpread.obj
+    png12.dir\Release\pngread.obj
+    png12.dir\Release\pngrio.obj
+    png12.dir\Release\pngrtran.obj
+    png12.dir\Release\pngrutil.obj
+    png12.dir\Release\pngset.obj
+    png12.dir\Release\pngtrans.obj
+    png12.dir\Release\pngwio.obj
+    png12.dir\Release\pngwrite.obj
+    png12.dir\Release\pngwtran.obj
+    png12.dir\Release\pngwutil.obj
+       Creating library C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/png/src/png-build/Release/png12.lib and object C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/png/src/png-build/Release/png12.exp
+    png12.vcxproj -> C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\Release\libpng12.dll
+  FinalizeBuildStatus:
+    Deleting file "png12.dir\Release\png12.tlog\unsuccessfulbuild".
+    Touching "png12.dir\Release\png12.tlog\png12.lastbuildstate".
+  Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\png12.vcxproj" (default targets).
+  Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\ALL_BUILD.vcxproj" (1) is building "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\png12_static.vcxproj" (4) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "png12_static.dir\Release\".
+    Creating directory "png12_static.dir\Release\png12_static.tlog\".
+  InitializeBuildStatus:
+    Creating "png12_static.dir\Release\png12_static.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/png/src/png/CMakeLists.txt
+    CMake does not need to re-run because C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/png/src/png-build/CMakeFiles/generate.stamp is up-to-date.
+  ClCompile:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\zlib\install\include" /I"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png" /nologo /W3 /WX- /O2 /Ob2 /D WIN32 /D _WINDOWS /D NDEBUG /D PNG_CONFIGURE_LIBPNG /D PNG_NO_MODULEDEF /D _CRT_SECURE_NO_DEPRECATE /D ZLIB_DLL /D LIBPNG_NO_MMX /D PNG_NO_MMX_CODE /D PNG_NO_CONSOLE_IO /D PNG_NO_STDIO /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"png12_static.dir\Release\\" /Fd"png12_static.dir\Release\png12_static.pdb" /Gd /TC /errorReport:queue "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\png.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngerror.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngget.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngmem.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngpread.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngread.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngrio.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngrtran.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngrutil.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngset.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngtrans.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngwio.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngwrite.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngwtran.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngwutil.c"
+    png.c
+    pngerror.c
+    pngget.c
+    pngmem.c
+    pngpread.c
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngpread.c(572): warning C4267: '-=': conversion from 'size_t' to 'png_uint_32', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\png12_static.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngpread.c(588): warning C4267: '-=': conversion from 'size_t' to 'png_uint_32', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\png12_static.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngpread.c(767): warning C4267: '-=': conversion from 'size_t' to 'png_uint_32', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\png12_static.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngpread.c(791): warning C4267: '-=': conversion from 'size_t' to 'png_uint_32', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\png12_static.vcxproj]
+    pngread.c
+    pngrio.c
+    pngrtran.c
+    pngrutil.c
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngrutil.c(228): warning C4267: '=': conversion from 'size_t' to 'uInt', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\png12_static.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngrutil.c(238): warning C4267: '=': conversion from 'size_t' to 'uInt', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\png12_static.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngrutil.c(241): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\png12_static.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngrutil.c(365): warning C4267: 'function': conversion from 'size_t' to 'png_uint_32', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\png12_static.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngrutil.c(412): warning C4267: 'function': conversion from 'size_t' to 'png_uint_32', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\png12_static.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngrutil.c(1124): warning C4267: '=': conversion from 'size_t' to 'png_uint_32', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\png12_static.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngrutil.c(1241): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\png12_static.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngrutil.c(3356): warning C4267: 'function': conversion from 'size_t' to 'png_uint_32', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\png12_static.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngrutil.c(3359): warning C4267: 'function': conversion from 'size_t' to 'png_uint_32', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\png12_static.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngrutil.c(3360): warning C4267: '=': conversion from 'size_t' to 'png_uint_32', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\png12_static.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngrutil.c(3364): warning C4267: '=': conversion from 'size_t' to 'png_uint_32', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\png12_static.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngrutil.c(3379): warning C4267: 'function': conversion from 'size_t' to 'png_uint_32', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\png12_static.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngrutil.c(3380): warning C4267: '=': conversion from 'size_t' to 'png_uint_32', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\png12_static.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngrutil.c(3383): warning C4267: '=': conversion from 'size_t' to 'png_uint_32', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\png12_static.vcxproj]
+    pngset.c
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngset.c(305): warning C4267: '=': conversion from 'size_t' to 'png_uint_32', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\png12_static.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngset.c(322): warning C4267: '=': conversion from 'size_t' to 'png_uint_32', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\png12_static.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngset.c(345): warning C4267: '=': conversion from 'size_t' to 'png_uint_32', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\png12_static.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngset.c(609): warning C4267: '=': conversion from 'size_t' to 'png_uint_32', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\png12_static.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngset.c(947): warning C4267: '=': conversion from 'size_t' to 'png_uint_32', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\png12_static.vcxproj]
+    pngtrans.c
+    pngwio.c
+    pngwrite.c
+    pngwtran.c
+    pngwutil.c
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngwutil.c(191): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\png12_static.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngwutil.c(1594): warning C4267: '=': conversion from 'size_t' to 'png_uint_32', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\png12_static.vcxproj]
+    Generating Code...
+  Lib:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\Lib.exe /OUT:"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\Release\libpng12_static.lib" /NOLOGO /MACHINE:X64  /machine:x64 png12_static.dir\Release\png.obj
+    png12_static.dir\Release\pngerror.obj
+    png12_static.dir\Release\pngget.obj
+    png12_static.dir\Release\pngmem.obj
+    png12_static.dir\Release\pngpread.obj
+    png12_static.dir\Release\pngread.obj
+    png12_static.dir\Release\pngrio.obj
+    png12_static.dir\Release\pngrtran.obj
+    png12_static.dir\Release\pngrutil.obj
+    png12_static.dir\Release\pngset.obj
+    png12_static.dir\Release\pngtrans.obj
+    png12_static.dir\Release\pngwio.obj
+    png12_static.dir\Release\pngwrite.obj
+    png12_static.dir\Release\pngwtran.obj
+    png12_static.dir\Release\pngwutil.obj
+    png12_static.vcxproj -> C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\Release\libpng12_static.lib
+  FinalizeBuildStatus:
+    Deleting file "png12_static.dir\Release\png12_static.tlog\unsuccessfulbuild".
+    Touching "png12_static.dir\Release\png12_static.tlog\png12_static.lastbuildstate".
+  Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\png12_static.vcxproj" (default targets).
+  Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\ALL_BUILD.vcxproj" (1) is building "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\pngtest.vcxproj" (5) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "pngtest.dir\Release\".
+    Creating directory "pngtest.dir\Release\pngtest.tlog\".
+  InitializeBuildStatus:
+    Creating "pngtest.dir\Release\pngtest.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/png/src/png/CMakeLists.txt
+    CMake does not need to re-run because C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/png/src/png-build/CMakeFiles/generate.stamp is up-to-date.
+  ClCompile:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\zlib\install\include" /I"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png" /nologo /W3 /WX- /O2 /Ob2 /D WIN32 /D _WINDOWS /D NDEBUG /D PNG_CONFIGURE_LIBPNG /D PNG_NO_MODULEDEF /D _CRT_SECURE_NO_DEPRECATE /D ZLIB_DLL /D LIBPNG_NO_MMX /D PNG_NO_MMX_CODE /D PNG_NO_CONSOLE_IO /D PNG_NO_STDIO /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"pngtest.dir\Release\\" /Fd"pngtest.dir\Release\vc140.pdb" /Gd /TC /errorReport:queue "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngtest.c"
+    pngtest.c
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngtest.c(400): warning C4267: '=': conversion from 'size_t' to 'png_uint_32', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\pngtest.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngtest.c(1155): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\pngtest.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngtest.c(1321): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\pngtest.vcxproj]
+  Link:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\Release\pngtest.exe" /INCREMENTAL:NO /NOLOGO Release\png12.lib "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\zlib\install\lib\zlib.lib" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/png/src/png-build/Release/pngtest.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/png/src/png-build/Release/pngtest.lib" /MACHINE:X64  /machine:x64 pngtest.dir\Release\pngtest.obj
+    pngtest.vcxproj -> C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\Release\pngtest.exe
+  FinalizeBuildStatus:
+    Deleting file "pngtest.dir\Release\pngtest.tlog\unsuccessfulbuild".
+    Touching "pngtest.dir\Release\pngtest.tlog\pngtest.lastbuildstate".
+  Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\pngtest.vcxproj" (default targets).
+  PrepareForBuild:
+    Creating directory "x64\Release\ALL_BUILD\".
+    Creating directory "x64\Release\ALL_BUILD\ALL_BUILD.tlog\".
+  InitializeBuildStatus:
+    Creating "x64\Release\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/png/src/png/CMakeLists.txt
+    CMake does not need to re-run because C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/png/src/png-build/CMakeFiles/generate.stamp is up-to-date.
+  FinalizeBuildStatus:
+    Deleting file "x64\Release\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild".
+    Touching "x64\Release\ALL_BUILD\ALL_BUILD.tlog\ALL_BUILD.lastbuildstate".
+  Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\ALL_BUILD.vcxproj" (default targets).
+  
+  Build succeeded.
+  
+  "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\ALL_BUILD.vcxproj" (default target) (1) ->
+  "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\png12.vcxproj" (default target) (3) ->
+  (ClCompile target) -> 
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngpread.c(572): warning C4267: '-=': conversion from 'size_t' to 'png_uint_32', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\png12.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngpread.c(588): warning C4267: '-=': conversion from 'size_t' to 'png_uint_32', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\png12.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngpread.c(767): warning C4267: '-=': conversion from 'size_t' to 'png_uint_32', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\png12.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngpread.c(791): warning C4267: '-=': conversion from 'size_t' to 'png_uint_32', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\png12.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngrutil.c(228): warning C4267: '=': conversion from 'size_t' to 'uInt', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\png12.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngrutil.c(238): warning C4267: '=': conversion from 'size_t' to 'uInt', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\png12.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngrutil.c(241): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\png12.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngrutil.c(365): warning C4267: 'function': conversion from 'size_t' to 'png_uint_32', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\png12.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngrutil.c(412): warning C4267: 'function': conversion from 'size_t' to 'png_uint_32', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\png12.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngrutil.c(1124): warning C4267: '=': conversion from 'size_t' to 'png_uint_32', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\png12.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngrutil.c(1241): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\png12.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngrutil.c(3356): warning C4267: 'function': conversion from 'size_t' to 'png_uint_32', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\png12.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngrutil.c(3359): warning C4267: 'function': conversion from 'size_t' to 'png_uint_32', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\png12.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngrutil.c(3360): warning C4267: '=': conversion from 'size_t' to 'png_uint_32', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\png12.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngrutil.c(3364): warning C4267: '=': conversion from 'size_t' to 'png_uint_32', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\png12.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngrutil.c(3379): warning C4267: 'function': conversion from 'size_t' to 'png_uint_32', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\png12.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngrutil.c(3380): warning C4267: '=': conversion from 'size_t' to 'png_uint_32', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\png12.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngrutil.c(3383): warning C4267: '=': conversion from 'size_t' to 'png_uint_32', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\png12.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngset.c(305): warning C4267: '=': conversion from 'size_t' to 'png_uint_32', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\png12.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngset.c(322): warning C4267: '=': conversion from 'size_t' to 'png_uint_32', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\png12.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngset.c(345): warning C4267: '=': conversion from 'size_t' to 'png_uint_32', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\png12.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngset.c(609): warning C4267: '=': conversion from 'size_t' to 'png_uint_32', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\png12.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngset.c(947): warning C4267: '=': conversion from 'size_t' to 'png_uint_32', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\png12.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngwutil.c(191): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\png12.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngwutil.c(1594): warning C4267: '=': conversion from 'size_t' to 'png_uint_32', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\png12.vcxproj]
+  
+  
+  "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\ALL_BUILD.vcxproj" (default target) (1) ->
+  "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\png12_static.vcxproj" (default target) (4) ->
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngpread.c(572): warning C4267: '-=': conversion from 'size_t' to 'png_uint_32', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\png12_static.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngpread.c(588): warning C4267: '-=': conversion from 'size_t' to 'png_uint_32', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\png12_static.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngpread.c(767): warning C4267: '-=': conversion from 'size_t' to 'png_uint_32', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\png12_static.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngpread.c(791): warning C4267: '-=': conversion from 'size_t' to 'png_uint_32', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\png12_static.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngrutil.c(228): warning C4267: '=': conversion from 'size_t' to 'uInt', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\png12_static.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngrutil.c(238): warning C4267: '=': conversion from 'size_t' to 'uInt', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\png12_static.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngrutil.c(241): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\png12_static.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngrutil.c(365): warning C4267: 'function': conversion from 'size_t' to 'png_uint_32', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\png12_static.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngrutil.c(412): warning C4267: 'function': conversion from 'size_t' to 'png_uint_32', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\png12_static.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngrutil.c(1124): warning C4267: '=': conversion from 'size_t' to 'png_uint_32', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\png12_static.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngrutil.c(1241): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\png12_static.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngrutil.c(3356): warning C4267: 'function': conversion from 'size_t' to 'png_uint_32', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\png12_static.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngrutil.c(3359): warning C4267: 'function': conversion from 'size_t' to 'png_uint_32', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\png12_static.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngrutil.c(3360): warning C4267: '=': conversion from 'size_t' to 'png_uint_32', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\png12_static.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngrutil.c(3364): warning C4267: '=': conversion from 'size_t' to 'png_uint_32', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\png12_static.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngrutil.c(3379): warning C4267: 'function': conversion from 'size_t' to 'png_uint_32', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\png12_static.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngrutil.c(3380): warning C4267: '=': conversion from 'size_t' to 'png_uint_32', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\png12_static.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngrutil.c(3383): warning C4267: '=': conversion from 'size_t' to 'png_uint_32', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\png12_static.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngset.c(305): warning C4267: '=': conversion from 'size_t' to 'png_uint_32', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\png12_static.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngset.c(322): warning C4267: '=': conversion from 'size_t' to 'png_uint_32', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\png12_static.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngset.c(345): warning C4267: '=': conversion from 'size_t' to 'png_uint_32', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\png12_static.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngset.c(609): warning C4267: '=': conversion from 'size_t' to 'png_uint_32', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\png12_static.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngset.c(947): warning C4267: '=': conversion from 'size_t' to 'png_uint_32', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\png12_static.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngwutil.c(191): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\png12_static.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngwutil.c(1594): warning C4267: '=': conversion from 'size_t' to 'png_uint_32', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\png12_static.vcxproj]
+  
+  
+  "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\ALL_BUILD.vcxproj" (default target) (1) ->
+  "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\pngtest.vcxproj" (default target) (5) ->
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngtest.c(400): warning C4267: '=': conversion from 'size_t' to 'png_uint_32', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\pngtest.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngtest.c(1155): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\pngtest.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png\pngtest.c(1321): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\pngtest.vcxproj]
+  
+      53 Warning(s)
+      0 Error(s)
+  
+  Time Elapsed 00:00:11.17
+  Performing install step for 'png'
+  Microsoft (R) Build Engine version 14.0.25420.1
+  Copyright (C) Microsoft Corporation. All rights reserved.
+  
+  Build started 18/08/2017 14:47:46.
+  Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\install.vcxproj" on node 1 (default targets).
+  Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\install.vcxproj" (1) is building "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\ZERO_CHECK.vcxproj" (2) on node 1 (default targets).
+  InitializeBuildStatus:
+    Creating "x64\Release\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  FinalizeBuildStatus:
+    Deleting file "x64\Release\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild".
+    Touching "x64\Release\ZERO_CHECK\ZERO_CHECK.tlog\ZERO_CHECK.lastbuildstate".
+  Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\ZERO_CHECK.vcxproj" (default targets).
+  Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\install.vcxproj" (1) is building "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\ALL_BUILD.vcxproj" (3) on node 1 (default targets).
+  Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\ALL_BUILD.vcxproj" (3) is building "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\png12.vcxproj" (4) on node 1 (default targets).
+  InitializeBuildStatus:
+    Creating "png12.dir\Release\png12.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  ClCompile:
+    All outputs are up-to-date.
+  Link:
+    All outputs are up-to-date.
+    png12.vcxproj -> C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\Release\libpng12.dll
+  FinalizeBuildStatus:
+    Deleting file "png12.dir\Release\png12.tlog\unsuccessfulbuild".
+    Touching "png12.dir\Release\png12.tlog\png12.lastbuildstate".
+  Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\png12.vcxproj" (default targets).
+  Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\ALL_BUILD.vcxproj" (3) is building "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\png12_static.vcxproj" (5) on node 1 (default targets).
+  InitializeBuildStatus:
+    Creating "png12_static.dir\Release\png12_static.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  ClCompile:
+    All outputs are up-to-date.
+  Lib:
+    All outputs are up-to-date.
+    png12_static.vcxproj -> C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\Release\libpng12_static.lib
+  FinalizeBuildStatus:
+    Deleting file "png12_static.dir\Release\png12_static.tlog\unsuccessfulbuild".
+    Touching "png12_static.dir\Release\png12_static.tlog\png12_static.lastbuildstate".
+  Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\png12_static.vcxproj" (default targets).
+  Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\ALL_BUILD.vcxproj" (3) is building "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\pngtest.vcxproj" (6) on node 1 (default targets).
+  InitializeBuildStatus:
+    Creating "pngtest.dir\Release\pngtest.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  ClCompile:
+    All outputs are up-to-date.
+  Link:
+    All outputs are up-to-date.
+    pngtest.vcxproj -> C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\Release\pngtest.exe
+  FinalizeBuildStatus:
+    Deleting file "pngtest.dir\Release\pngtest.tlog\unsuccessfulbuild".
+    Touching "pngtest.dir\Release\pngtest.tlog\pngtest.lastbuildstate".
+  Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\pngtest.vcxproj" (default targets).
+  InitializeBuildStatus:
+    Creating "x64\Release\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  FinalizeBuildStatus:
+    Deleting file "x64\Release\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild".
+    Touching "x64\Release\ALL_BUILD\ALL_BUILD.tlog\ALL_BUILD.lastbuildstate".
+  Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\ALL_BUILD.vcxproj" (default targets).
+  PrepareForBuild:
+    Creating directory "x64\Release\INSTALL\".
+    Creating directory "x64\Release\INSTALL\INSTALL.tlog\".
+  InitializeBuildStatus:
+    Creating "x64\Release\INSTALL\INSTALL.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  PostBuildEvent:
+    setlocal
+    "C:\Program Files\CMake\bin\cmake.exe" -DBUILD_TYPE=Release -P cmake_install.cmake
+    if %errorlevel% neq 0 goto :cmEnd
+    :cmEnd
+    endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+    :cmErrorLevel
+    exit /b %1
+    :cmDone
+    if %errorlevel% neq 0 goto :VCEnd
+    :VCEnd
+    -- Install configuration: "Release"
+    -- Installing: C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/png/install/lib/png12.lib
+    -- Installing: C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/png/install/bin/libpng12.dll
+    -- Installing: C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/png/install/lib/libpng12_static.lib
+    -- Installing: C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/png/install/include/png.h
+    -- Installing: C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/png/install/include/pngconf.h
+    -- Installing: C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/png/install/include/libpng12/png.h
+    -- Installing: C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/png/install/include/libpng12/pngconf.h
+    -- Installing: C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/png/install/bin/libpng-config
+    -- Installing: C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/png/install/bin/libpng12-config
+    -- Installing: C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/png/install/man/man3/libpng.3
+    -- Installing: C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/png/install/man/man3/libpngpf.3
+    -- Installing: C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/png/install/man/man5/png.5
+    -- Installing: C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/png/install/lib/pkgconfig/libpng.pc
+    -- Up-to-date: C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/png/install/bin/libpng-config
+    -- Installing: C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/png/install/lib/pkgconfig/libpng12.pc
+    -- Up-to-date: C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/png/install/bin/libpng12-config
+  FinalizeBuildStatus:
+    Deleting file "x64\Release\INSTALL\INSTALL.tlog\unsuccessfulbuild".
+    Touching "x64\Release\INSTALL\INSTALL.tlog\INSTALL.lastbuildstate".
+  Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\src\png-build\install.vcxproj" (default targets).
+  
+  Build succeeded.
+      0 Warning(s)
+      0 Error(s)
+  
+  Time Elapsed 00:00:03.23
+  Completed 'png'

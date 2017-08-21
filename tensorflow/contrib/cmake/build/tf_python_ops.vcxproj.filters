@@ -1,0 +1,541 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\CMakeLists.txt" />
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\8405eddefe4aaef5aeb5ff486f690d4a\gen_array_ops.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\8405eddefe4aaef5aeb5ff486f690d4a\gen_bitwise_ops.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\8405eddefe4aaef5aeb5ff486f690d4a\gen_math_ops.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\8405eddefe4aaef5aeb5ff486f690d4a\gen_functional_ops.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\8405eddefe4aaef5aeb5ff486f690d4a\gen_candidate_sampling_ops.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\8405eddefe4aaef5aeb5ff486f690d4a\gen_control_flow_ops.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\8405eddefe4aaef5aeb5ff486f690d4a\gen_ctc_ops.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\8405eddefe4aaef5aeb5ff486f690d4a\gen_data_flow_ops.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\8405eddefe4aaef5aeb5ff486f690d4a\gen_dataset_ops.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\8405eddefe4aaef5aeb5ff486f690d4a\gen_image_ops.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\8405eddefe4aaef5aeb5ff486f690d4a\gen_io_ops.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\8405eddefe4aaef5aeb5ff486f690d4a\gen_linalg_ops.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\8405eddefe4aaef5aeb5ff486f690d4a\gen_logging_ops.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\8405eddefe4aaef5aeb5ff486f690d4a\gen_lookup_ops.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\8405eddefe4aaef5aeb5ff486f690d4a\gen_nn_ops.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\8405eddefe4aaef5aeb5ff486f690d4a\gen_parsing_ops.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\8405eddefe4aaef5aeb5ff486f690d4a\gen_random_ops.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\24988893f431ec313ee051ffa5e372d7\gen_remote_fused_graph_ops.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\8405eddefe4aaef5aeb5ff486f690d4a\gen_resource_variable_ops.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\8405eddefe4aaef5aeb5ff486f690d4a\gen_script_ops.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\8405eddefe4aaef5aeb5ff486f690d4a\gen_sdca_ops.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\8405eddefe4aaef5aeb5ff486f690d4a\gen_set_ops.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\8405eddefe4aaef5aeb5ff486f690d4a\gen_state_ops.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\8405eddefe4aaef5aeb5ff486f690d4a\gen_sparse_ops.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\8405eddefe4aaef5aeb5ff486f690d4a\gen_spectral_ops.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\8405eddefe4aaef5aeb5ff486f690d4a\gen_string_ops.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\8405eddefe4aaef5aeb5ff486f690d4a\gen_user_ops.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\7cfd605452cbebb987af1dac460d5bd0\gen_training_ops.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\febd4853907b1ea4bea680d33cbc30f5\gen_model_ops.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\febd4853907b1ea4bea680d33cbc30f5\gen_split_handler_ops.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\febd4853907b1ea4bea680d33cbc30f5\gen_training_ops.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\febd4853907b1ea4bea680d33cbc30f5\gen_prediction_ops.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\febd4853907b1ea4bea680d33cbc30f5\gen_quantile_ops.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\febd4853907b1ea4bea680d33cbc30f5\gen_ensemble_optimizer_ops.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\febd4853907b1ea4bea680d33cbc30f5\gen_stats_accumulator_ops.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\0da159bcc18eb5a72da16965b78adadb\gen_cudnn_rnn_ops.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\9109d40520832d5280ab8fcc3565b274\gen_clustering_ops.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\9109d40520832d5280ab8fcc3565b274\gen_factorization_ops.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\acdacf0ba2dbced90f2e794bc3d13953\gen_checkpoint_ops.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\acdacf0ba2dbced90f2e794bc3d13953\gen_variable_ops.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\fb9c4fff80da1f717b1d49aa9087ac12\gen_input_pipeline_ops.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\d500a6d7a852e33e9285754c265e04bc\gen_image_ops.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\95f168805601279debf422b476b58a7c\gen_sparse_feature_cross_op.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\fa86bce3fb4012d4a87a82c780ac92f7\gen_memory_stats_ops.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\47fc4bef3e2fc37322ac8275e2da434e\gen_nccl_ops.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\f9413a195c340903a0ab8c940bd61057\gen_resampler_ops.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\816694d3562770f4b1705d589cc41e81\gen_gru_ops.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\816694d3562770f4b1705d589cc41e81\gen_lstm_ops.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\16e8c5c86b8cdb3ae510bcdfd3337380\gen_beam_search_ops.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\20daca09e05a771925fcb2b98bd69478\gen_tensor_forest_ops.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\208a05302252294ca7dedf424317ceb3\gen_training_ops.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\20daca09e05a771925fcb2b98bd69478\gen_model_ops.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\20daca09e05a771925fcb2b98bd69478\gen_stats_ops.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\d032b14dc9a6e98690858e5a53b48852\gen_skip_gram_ops.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\9737dadfe9897b5f39967836111c331b\gen_bigquery_reader_ops.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\0a39dddc60d744dc3977bfaaf3faa34f\gen_stateless_random_ops.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\cec127f55e6ba789d9e8da8aa83cc4ee\gen_debug_ops.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\1ca62e2f1a5a6d4088e77a642eb66761\debug_service_pb2.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\1ca62e2f1a5a6d4088e77a642eb66761\debugger_event_metadata_pb2.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\8ce5b7e753df6f235e2cfdf51aee7b30\example_pb2.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\8ce5b7e753df6f235e2cfdf51aee7b30\example_parser_configuration_pb2.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\8ce5b7e753df6f235e2cfdf51aee7b30\feature_pb2.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\07c2b066fa4a911ab001722fb3220a1f\allocation_description_pb2.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\07c2b066fa4a911ab001722fb3220a1f\attr_value_pb2.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\07c2b066fa4a911ab001722fb3220a1f\cost_graph_pb2.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\07c2b066fa4a911ab001722fb3220a1f\device_attributes_pb2.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\07c2b066fa4a911ab001722fb3220a1f\function_pb2.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\07c2b066fa4a911ab001722fb3220a1f\graph_pb2.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\07c2b066fa4a911ab001722fb3220a1f\graph_transfer_info_pb2.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\07c2b066fa4a911ab001722fb3220a1f\kernel_def_pb2.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\07c2b066fa4a911ab001722fb3220a1f\log_memory_pb2.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\07c2b066fa4a911ab001722fb3220a1f\node_def_pb2.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\07c2b066fa4a911ab001722fb3220a1f\op_def_pb2.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\07c2b066fa4a911ab001722fb3220a1f\op_gen_overrides_pb2.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\07c2b066fa4a911ab001722fb3220a1f\reader_base_pb2.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\07c2b066fa4a911ab001722fb3220a1f\remote_fused_graph_execute_info_pb2.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\07c2b066fa4a911ab001722fb3220a1f\resource_handle_pb2.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\07c2b066fa4a911ab001722fb3220a1f\step_stats_pb2.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\07c2b066fa4a911ab001722fb3220a1f\summary_pb2.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\07c2b066fa4a911ab001722fb3220a1f\tensor_pb2.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\07c2b066fa4a911ab001722fb3220a1f\tensor_description_pb2.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\07c2b066fa4a911ab001722fb3220a1f\tensor_shape_pb2.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\07c2b066fa4a911ab001722fb3220a1f\tensor_slice_pb2.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\07c2b066fa4a911ab001722fb3220a1f\types_pb2.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\07c2b066fa4a911ab001722fb3220a1f\variable_pb2.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\07c2b066fa4a911ab001722fb3220a1f\versions_pb2.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\7324f47f86779c823962d63484d68f61\op_performance_data_pb2.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\3cf28b34e67de3ceab49247920d2fa0a\error_codes_pb2.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\bdf103ea6f04f4b98fd8023e2b744797\profile_pb2.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\bdf103ea6f04f4b98fd8023e2b744797\tfprof_log_pb2.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\bdf103ea6f04f4b98fd8023e2b744797\tfprof_options_pb2.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\bdf103ea6f04f4b98fd8023e2b744797\tfprof_output_pb2.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\efcf9497f37eab4648157b8f651bbc81\cluster_pb2.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\efcf9497f37eab4648157b8f651bbc81\config_pb2.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\efcf9497f37eab4648157b8f651bbc81\control_flow_pb2.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\efcf9497f37eab4648157b8f651bbc81\debug_pb2.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\efcf9497f37eab4648157b8f651bbc81\device_properties_pb2.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\efcf9497f37eab4648157b8f651bbc81\master_pb2.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\efcf9497f37eab4648157b8f651bbc81\master_service_pb2.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\efcf9497f37eab4648157b8f651bbc81\meta_graph_pb2.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\efcf9497f37eab4648157b8f651bbc81\named_tensor_pb2.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\efcf9497f37eab4648157b8f651bbc81\queue_runner_pb2.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\efcf9497f37eab4648157b8f651bbc81\rewriter_config_pb2.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\efcf9497f37eab4648157b8f651bbc81\saved_model_pb2.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\efcf9497f37eab4648157b8f651bbc81\saver_pb2.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\efcf9497f37eab4648157b8f651bbc81\tensor_bundle_pb2.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\efcf9497f37eab4648157b8f651bbc81\tensorflow_server_pb2.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\efcf9497f37eab4648157b8f651bbc81\worker_pb2.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\efcf9497f37eab4648157b8f651bbc81\worker_service_pb2.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\54bbf3d4d32946532ef90b1cb7ff62ee\event_pb2.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\54bbf3d4d32946532ef90b1cb7ff62ee\example_proto_fast_parsing_test_pb2.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\54bbf3d4d32946532ef90b1cb7ff62ee\memmapped_file_system_pb2.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\54bbf3d4d32946532ef90b1cb7ff62ee\saved_tensor_slice_pb2.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\54bbf3d4d32946532ef90b1cb7ff62ee\test_log_pb2.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\507e6b4f7e84bdad8474a74412ba74e0\cpp_shape_inference_pb2.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\7cfd605452cbebb987af1dac460d5bd0\checkpoint_state_pb2.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\5df6028fd6bfb0bb19c18f13a97f4047\compare_test_pb2.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\2bdb7adaf1dd753ce2dc84ca7a81d0e0\learner_pb2.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\2bdb7adaf1dd753ce2dc84ca7a81d0e0\quantiles_pb2.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\2bdb7adaf1dd753ce2dc84ca7a81d0e0\split_info_pb2.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\2bdb7adaf1dd753ce2dc84ca7a81d0e0\tree_config_pb2.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\8a16c7ba3d61e783d7453f5672958a7e\generic_tree_model_pb2.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\8a16c7ba3d61e783d7453f5672958a7e\generic_tree_model_extensions_pb2.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\4df3587ecd3a3cd2833f37838fe8beaf\manifest_pb2.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\655d9446d00fed4fa79217fed959389d\fertile_stats_pb2.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\655d9446d00fed4fa79217fed959389d\tensor_forest_params_pb2.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\49c1d933cb580075524b652821b7d938\graph_explorer_pb2.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\05e3ebe2aafad8ea526cda7e1f40b5c8\projector_config_pb2.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\a72c5ee217ca9a601d9fd8a73c16d804\trace_info_pb2.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\19cd913a2d57a8155a0dd3446fd28db3\tpu_profiler_pb2.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\19cd913a2d57a8155a0dd3446fd28db3\trace_events_pb2.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\ac9608af06555ee4b6c7bad58bb9d434\hparam_pb2.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\python\ops\gen_array_ops.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\python\ops\gen_bitwise_ops.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\python\ops\gen_math_ops.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\python\ops\gen_functional_ops.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\python\ops\gen_candidate_sampling_ops.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\python\ops\gen_control_flow_ops.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\python\ops\gen_ctc_ops.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\python\ops\gen_data_flow_ops.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\python\ops\gen_dataset_ops.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\python\ops\gen_image_ops.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\python\ops\gen_io_ops.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\python\ops\gen_linalg_ops.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\python\ops\gen_logging_ops.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\python\ops\gen_lookup_ops.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\python\ops\gen_nn_ops.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\python\ops\gen_parsing_ops.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\python\ops\gen_random_ops.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\contrib\remote_fused_graph\pylib\python\ops\gen_remote_fused_graph_ops.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\python\ops\gen_resource_variable_ops.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\python\ops\gen_script_ops.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\python\ops\gen_sdca_ops.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\python\ops\gen_set_ops.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\python\ops\gen_state_ops.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\python\ops\gen_sparse_ops.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\python\ops\gen_spectral_ops.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\python\ops\gen_string_ops.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\python\ops\gen_user_ops.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\python\training\gen_training_ops.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\contrib\boosted_trees\python\ops\gen_model_ops.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\contrib\boosted_trees\python\ops\gen_split_handler_ops.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\contrib\boosted_trees\python\ops\gen_training_ops.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\contrib\boosted_trees\python\ops\gen_prediction_ops.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\contrib\boosted_trees\python\ops\gen_quantile_ops.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\contrib\boosted_trees\python\ops\gen_ensemble_optimizer_ops.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\contrib\boosted_trees\python\ops\gen_stats_accumulator_ops.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\contrib\cudnn_rnn\ops\gen_cudnn_rnn_ops.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\contrib\factorization\python\ops\gen_clustering_ops.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\contrib\factorization\python\ops\gen_factorization_ops.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\contrib\framework\python\ops\gen_checkpoint_ops.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\contrib\framework\python\ops\gen_variable_ops.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\contrib\input_pipeline\ops\gen_input_pipeline_ops.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\contrib\image\ops\gen_image_ops.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\contrib\layers\ops\gen_sparse_feature_cross_op.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\contrib\memory_stats\ops\gen_memory_stats_ops.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\contrib\nccl\ops\gen_nccl_ops.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\contrib\resampler\ops\gen_resampler_ops.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\contrib\rnn\ops\gen_gru_ops.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\contrib\rnn\ops\gen_lstm_ops.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\contrib\seq2seq\ops\gen_beam_search_ops.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\contrib\tensor_forest\python\ops\gen_tensor_forest_ops.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\contrib\tensor_forest\hybrid\ops\gen_training_ops.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\contrib\tensor_forest\python\ops\gen_model_ops.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\contrib\tensor_forest\python\ops\gen_stats_ops.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\contrib\text\python\ops\gen_skip_gram_ops.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\contrib\cloud\python\ops\gen_bigquery_reader_ops.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\contrib\stateless\gen_stateless_random_ops.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\python\debug\ops\gen_debug_ops.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\core\debug\debug_service_pb2.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\core\debug\debugger_event_metadata_pb2.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\core\example\example_pb2.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\core\example\example_parser_configuration_pb2.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\core\example\feature_pb2.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\core\framework\allocation_description_pb2.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\core\framework\attr_value_pb2.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\core\framework\cost_graph_pb2.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\core\framework\device_attributes_pb2.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\core\framework\function_pb2.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\core\framework\graph_pb2.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\core\framework\graph_transfer_info_pb2.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\core\framework\kernel_def_pb2.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\core\framework\log_memory_pb2.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\core\framework\node_def_pb2.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\core\framework\op_def_pb2.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\core\framework\op_gen_overrides_pb2.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\core\framework\reader_base_pb2.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\core\framework\remote_fused_graph_execute_info_pb2.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\core\framework\resource_handle_pb2.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\core\framework\step_stats_pb2.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\core\framework\summary_pb2.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\core\framework\tensor_pb2.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\core\framework\tensor_description_pb2.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\core\framework\tensor_shape_pb2.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\core\framework\tensor_slice_pb2.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\core\framework\types_pb2.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\core\framework\variable_pb2.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\core\framework\versions_pb2.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\core\grappler\costs\op_performance_data_pb2.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\core\lib\core\error_codes_pb2.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\core\profiler\profile_pb2.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\core\profiler\tfprof_log_pb2.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\core\profiler\tfprof_options_pb2.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\core\profiler\tfprof_output_pb2.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\core\protobuf\cluster_pb2.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\core\protobuf\config_pb2.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\core\protobuf\control_flow_pb2.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\core\protobuf\debug_pb2.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\core\protobuf\device_properties_pb2.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\core\protobuf\master_pb2.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\core\protobuf\master_service_pb2.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\core\protobuf\meta_graph_pb2.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\core\protobuf\named_tensor_pb2.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\core\protobuf\queue_runner_pb2.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\core\protobuf\rewriter_config_pb2.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\core\protobuf\saved_model_pb2.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\core\protobuf\saver_pb2.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\core\protobuf\tensor_bundle_pb2.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\core\protobuf\tensorflow_server_pb2.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\core\protobuf\worker_pb2.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\core\protobuf\worker_service_pb2.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\core\util\event_pb2.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\core\util\example_proto_fast_parsing_test_pb2.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\core\util\memmapped_file_system_pb2.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\core\util\saved_tensor_slice_pb2.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\core\util\test_log_pb2.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\python\framework\cpp_shape_inference_pb2.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\python\training\checkpoint_state_pb2.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\python\util\protobuf\compare_test_pb2.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\contrib\boosted_trees\proto\learner_pb2.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\contrib\boosted_trees\proto\quantiles_pb2.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\contrib\boosted_trees\proto\split_info_pb2.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\contrib\boosted_trees\proto\tree_config_pb2.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\contrib\decision_trees\proto\generic_tree_model_pb2.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\contrib\decision_trees\proto\generic_tree_model_extensions_pb2.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\contrib\session_bundle\manifest_pb2.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\contrib\tensor_forest\proto\fertile_stats_pb2.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\contrib\tensor_forest\proto\tensor_forest_params_pb2.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\contrib\tensorboard\graph_explorer\proto\graph_explorer_pb2.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\contrib\tensorboard\plugins\projector\projector_config_pb2.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\contrib\tensorboard\plugins\trace\trace_info_pb2.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\contrib\tpu\profiler\tpu_profiler_pb2.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\contrib\tpu\profiler\trace_events_pb2.py" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python\tensorflow\contrib\training\python\training\hparam_pb2.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{A2344FA9-8293-397A-82F9-4519D7D89E56}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

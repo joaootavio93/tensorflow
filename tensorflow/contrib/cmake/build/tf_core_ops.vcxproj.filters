@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\ops\array_grad.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\ops\array_ops.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\ops\audio_ops.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\ops\bitwise_ops.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\ops\candidate_sampling_ops.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\ops\compat\op_compatibility_lib.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\ops\control_flow_ops.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\ops\ctc_ops.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\ops\data_flow_ops.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\ops\dataset_ops.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\ops\debug_ops.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\ops\function_ops.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\ops\functional_grad.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\ops\functional_ops.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\ops\image_ops.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\ops\io_ops.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\ops\linalg_ops.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\ops\logging_ops.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\ops\lookup_ops.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\ops\math_grad.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\ops\math_ops.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\ops\nn_grad.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\ops\nn_ops.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\ops\no_op.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\ops\parsing_ops.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\ops\random_grad.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\ops\random_ops.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\ops\remote_fused_graph_ops.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\ops\resource_variable_ops.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\ops\script_ops.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\ops\sdca_ops.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\ops\sendrecv_ops.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\ops\set_ops.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\ops\sparse_ops.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\ops\spectral_ops.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\ops\state_ops.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\ops\stateless_random_ops.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\ops\string_ops.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\ops\training_ops.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\ops\word2vec_ops.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\user_ops\fact.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\ops\compat\op_compatibility_lib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{80822BFC-6A8E-334B-A740-78ABA611BFC2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{C698933A-6F58-3ACB-831E-DAF1772ABBD1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

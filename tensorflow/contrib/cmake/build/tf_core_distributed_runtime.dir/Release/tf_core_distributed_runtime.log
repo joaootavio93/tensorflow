@@ -1,0 +1,32 @@
+﻿  Building Custom Rule C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/CMakeLists.txt
+  CMake does not need to re-run because C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/generate.stamp is up-to-date.
+  base_rendezvous_mgr.cc
+  graph_mgr.cc
+  call_options.cc
+  local_master.cc
+  master.cc
+  master_session.cc
+  message_wrappers.cc
+  partial_run_mgr.cc
+  remote_device.cc
+  grpc_channel.cc
+  grpc_master_service.cc
+  grpc_master_service_impl.cc
+  grpc_remote_master.cc
+  grpc_remote_worker.cc
+  grpc_server_lib.cc
+  grpc_session.cc
+  grpc_tensor_coding.cc
+  grpc_util.cc
+  grpc_worker_cache.cc
+  grpc_worker_service.cc
+  grpc_worker_service_impl.cc
+  rpc_rendezvous_mgr.cc
+  scheduler.cc
+  session_mgr.cc
+  tensor_coding.cc
+  worker.cc
+  worker_cache_logger.cc
+  worker_cache_partial.cc
+  worker_session.cc
+  tf_core_distributed_runtime.vcxproj -> C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_core_distributed_runtime.dir\Release\tf_core_distributed_runtime.lib

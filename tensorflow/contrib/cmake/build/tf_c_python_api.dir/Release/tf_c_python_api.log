@@ -1,0 +1,6 @@
+﻿  Building Custom Rule C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/CMakeLists.txt
+  CMake does not need to re-run because C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/generate.stamp is up-to-date.
+  python_api.cc
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow/c/c_api.h(967): warning C4190: 'TF_NewWhile' has C-linkage specified, but returns UDT 'TF_WhileParams' which is incompatible with C
+  C:\Visual Studio 2015\Projects\tensorflow\tensorflow/c/c_api.h(923): note: see declaration of 'TF_WhileParams'
+  tf_c_python_api.vcxproj -> C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_c_python_api.dir\Release\tf_c_python_api.lib

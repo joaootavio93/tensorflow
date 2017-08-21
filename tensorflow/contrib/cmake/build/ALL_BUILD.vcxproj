@@ -1,0 +1,958 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{5DB75682-9574-3F74-B4DA-115FB074CBCB}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Visual Studio 2015\Projects\tensorflow;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\external\zlib_archive;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\external\gif_archive\giflib-5.1.4;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\external\png_archive;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\external\jpeg_archive;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\external\lmdb;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\external\eigen_archive;C:\Visual Studio 2015\Projects\tensorflow\third_party\eigen3;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gemmlowp\src\gemmlowp;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jsoncpp\src\jsoncpp;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\external\farmhash_archive;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\external\farmhash_archive\util;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\external\highwayhash;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\src\cub;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\install\include;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Visual Studio 2015\Projects\tensorflow;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\external\zlib_archive;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\external\gif_archive\giflib-5.1.4;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\external\png_archive;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\external\jpeg_archive;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\external\lmdb;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\external\eigen_archive;C:\Visual Studio 2015\Projects\tensorflow\third_party\eigen3;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gemmlowp\src\gemmlowp;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jsoncpp\src\jsoncpp;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\external\farmhash_archive;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\external\farmhash_archive\util;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\external\highwayhash;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\src\cub;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\install\include;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Visual Studio 2015\Projects\tensorflow;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\external\zlib_archive;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\external\gif_archive\giflib-5.1.4;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\external\png_archive;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\external\jpeg_archive;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\external\lmdb;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\external\eigen_archive;C:\Visual Studio 2015\Projects\tensorflow\third_party\eigen3;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gemmlowp\src\gemmlowp;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jsoncpp\src\jsoncpp;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\external\farmhash_archive;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\external\farmhash_archive\util;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\external\highwayhash;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\src\cub;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\install\include;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Visual Studio 2015\Projects\tensorflow;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\external\zlib_archive;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\external\gif_archive\giflib-5.1.4;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\external\png_archive;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\external\jpeg_archive;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\external\lmdb;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\external\eigen_archive;C:\Visual Studio 2015\Projects\tensorflow\third_party\eigen3;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gemmlowp\src\gemmlowp;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jsoncpp\src\jsoncpp;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\external\farmhash_archive;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\external\farmhash_archive\util;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\external\highwayhash;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\src\cub;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\install\include;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\src\grpc\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-HC:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake" "-BC:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build" --check-stamp-file "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/CMakeLists.txt;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\CMakeLists.txt;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\3.9.0\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeSystemSpecificInitialize.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\3.9.0\CMakeCCompiler.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\3.9.0\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\3.9.0\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\external\zlib.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\zlib\tmp\zlib-cfgcmd.txt.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\external\gif.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject-download.cmake.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\tmp\gif-cfgcmd.txt.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\external\png.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject-download.cmake.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\tmp\png-cfgcmd.txt.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\external\jpeg.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject-download.cmake.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\tmp\jpeg-cfgcmd.txt.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\external\lmdb.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject-download.cmake.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\tmp\lmdb-cfgcmd.txt.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\external\eigen.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject-download.cmake.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\eigen\tmp\eigen-cfgcmd.txt.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\external\gemmlowp.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject-download.cmake.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gemmlowp\tmp\gemmlowp-cfgcmd.txt.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\external\jsoncpp.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jsoncpp\tmp\jsoncpp-cfgcmd.txt.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\external\farmhash.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject-download.cmake.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\farmhash\tmp\farmhash-cfgcmd.txt.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\external\fft2d.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject-download.cmake.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\fft2d\tmp\fft2d-cfgcmd.txt.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\external\highwayhash.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\highwayhash\tmp\highwayhash-cfgcmd.txt.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\external\protobuf.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\tmp\protobuf-cfgcmd.txt.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\external\re2.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\tmp\re2-cfgcmd.txt.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\external\cub.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject-download.cmake.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\tmp\cub-cfgcmd.txt.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\external\grpc.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\tmp\grpc-cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPythonInterp.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\tf_core_framework.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\tf_core_cpu.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\tf_core_ops.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\tf_core_direct_session.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\tf_core_kernels.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\tf_core_distributed_runtime.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\tf_cc_ops.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\tf_c.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\tf_grappler.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\tf_core_profiler.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\tf_tutorials.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\tf_label_image_example.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\tf_tools.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\tf_python.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPythonLibs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeFindFrameworks.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindSWIG.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-HC:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake" "-BC:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build" --check-stamp-file "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/CMakeLists.txt;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\CMakeLists.txt;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\3.9.0\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeSystemSpecificInitialize.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\3.9.0\CMakeCCompiler.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\3.9.0\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\3.9.0\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\external\zlib.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\zlib\tmp\zlib-cfgcmd.txt.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\external\gif.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject-download.cmake.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\tmp\gif-cfgcmd.txt.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\external\png.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject-download.cmake.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\tmp\png-cfgcmd.txt.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\external\jpeg.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject-download.cmake.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\tmp\jpeg-cfgcmd.txt.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\external\lmdb.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject-download.cmake.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\tmp\lmdb-cfgcmd.txt.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\external\eigen.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject-download.cmake.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\eigen\tmp\eigen-cfgcmd.txt.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\external\gemmlowp.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject-download.cmake.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gemmlowp\tmp\gemmlowp-cfgcmd.txt.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\external\jsoncpp.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jsoncpp\tmp\jsoncpp-cfgcmd.txt.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\external\farmhash.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject-download.cmake.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\farmhash\tmp\farmhash-cfgcmd.txt.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\external\fft2d.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject-download.cmake.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\fft2d\tmp\fft2d-cfgcmd.txt.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\external\highwayhash.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\highwayhash\tmp\highwayhash-cfgcmd.txt.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\external\protobuf.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\tmp\protobuf-cfgcmd.txt.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\external\re2.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\tmp\re2-cfgcmd.txt.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\external\cub.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject-download.cmake.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\tmp\cub-cfgcmd.txt.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\external\grpc.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\tmp\grpc-cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPythonInterp.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\tf_core_framework.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\tf_core_cpu.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\tf_core_ops.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\tf_core_direct_session.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\tf_core_kernels.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\tf_core_distributed_runtime.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\tf_cc_ops.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\tf_c.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\tf_grappler.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\tf_core_profiler.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\tf_tutorials.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\tf_label_image_example.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\tf_tools.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\tf_python.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPythonLibs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeFindFrameworks.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindSWIG.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-HC:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake" "-BC:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build" --check-stamp-file "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/CMakeLists.txt;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\CMakeLists.txt;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\3.9.0\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeSystemSpecificInitialize.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\3.9.0\CMakeCCompiler.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\3.9.0\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\3.9.0\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\external\zlib.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\zlib\tmp\zlib-cfgcmd.txt.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\external\gif.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject-download.cmake.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\tmp\gif-cfgcmd.txt.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\external\png.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject-download.cmake.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\tmp\png-cfgcmd.txt.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\external\jpeg.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject-download.cmake.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\tmp\jpeg-cfgcmd.txt.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\external\lmdb.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject-download.cmake.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\tmp\lmdb-cfgcmd.txt.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\external\eigen.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject-download.cmake.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\eigen\tmp\eigen-cfgcmd.txt.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\external\gemmlowp.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject-download.cmake.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gemmlowp\tmp\gemmlowp-cfgcmd.txt.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\external\jsoncpp.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jsoncpp\tmp\jsoncpp-cfgcmd.txt.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\external\farmhash.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject-download.cmake.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\farmhash\tmp\farmhash-cfgcmd.txt.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\external\fft2d.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject-download.cmake.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\fft2d\tmp\fft2d-cfgcmd.txt.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\external\highwayhash.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\highwayhash\tmp\highwayhash-cfgcmd.txt.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\external\protobuf.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\tmp\protobuf-cfgcmd.txt.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\external\re2.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\tmp\re2-cfgcmd.txt.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\external\cub.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject-download.cmake.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\tmp\cub-cfgcmd.txt.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\external\grpc.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\tmp\grpc-cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPythonInterp.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\tf_core_framework.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\tf_core_cpu.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\tf_core_ops.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\tf_core_direct_session.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\tf_core_kernels.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\tf_core_distributed_runtime.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\tf_cc_ops.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\tf_c.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\tf_grappler.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\tf_core_profiler.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\tf_tutorials.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\tf_label_image_example.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\tf_tools.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\tf_python.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPythonLibs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeFindFrameworks.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindSWIG.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-HC:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake" "-BC:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build" --check-stamp-file "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/CMakeLists.txt;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\CMakeLists.txt;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\3.9.0\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeSystemSpecificInitialize.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\3.9.0\CMakeCCompiler.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\3.9.0\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\3.9.0\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\external\zlib.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\zlib\tmp\zlib-cfgcmd.txt.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\external\gif.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject-download.cmake.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif\tmp\gif-cfgcmd.txt.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\external\png.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject-download.cmake.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png\tmp\png-cfgcmd.txt.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\external\jpeg.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject-download.cmake.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg\tmp\jpeg-cfgcmd.txt.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\external\lmdb.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject-download.cmake.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\tmp\lmdb-cfgcmd.txt.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\external\eigen.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject-download.cmake.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\eigen\tmp\eigen-cfgcmd.txt.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\external\gemmlowp.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject-download.cmake.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gemmlowp\tmp\gemmlowp-cfgcmd.txt.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\external\jsoncpp.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jsoncpp\tmp\jsoncpp-cfgcmd.txt.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\external\farmhash.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject-download.cmake.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\farmhash\tmp\farmhash-cfgcmd.txt.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\external\fft2d.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject-download.cmake.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\fft2d\tmp\fft2d-cfgcmd.txt.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\external\highwayhash.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\highwayhash\tmp\highwayhash-cfgcmd.txt.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\external\protobuf.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\tmp\protobuf-cfgcmd.txt.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\external\re2.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\tmp\re2-cfgcmd.txt.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\external\cub.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject-download.cmake.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub\tmp\cub-cfgcmd.txt.in;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\external\grpc.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\RepositoryInfo.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc\tmp\grpc-cfgcmd.txt.in;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPythonInterp.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\tf_core_framework.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\tf_core_cpu.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\tf_core_ops.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\tf_core_direct_session.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\tf_core_kernels.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\tf_core_distributed_runtime.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\tf_cc_ops.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\tf_c.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\tf_grappler.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\tf_core_profiler.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\tf_tutorials.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\tf_label_image_example.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\tf_tools.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\tf_python.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPythonLibs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeFindFrameworks.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindSWIG.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\ZERO_CHECK.vcxproj">
+      <Project>{9267AF0E-FC88-3170-9EA0-BC0CE87B8631}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\_beam_search_ops.vcxproj">
+      <Project>{EB2962DF-3A0E-345D-BAA3-639654636E0F}</Project>
+      <Name>_beam_search_ops</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\_gru_ops.vcxproj">
+      <Project>{F2420E4B-765D-3617-A0CC-10D1BB0E923D}</Project>
+      <Name>_gru_ops</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\_lstm_ops.vcxproj">
+      <Project>{D525212F-389D-3517-A4ED-47360FB0527B}</Project>
+      <Name>_lstm_ops</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\array_ops_gen_cc.vcxproj">
+      <Project>{10B21A06-5E9F-30D9-B128-03AF15B2637C}</Project>
+      <Name>array_ops_gen_cc</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\array_ops_gen_python.vcxproj">
+      <Project>{E807131A-2263-3C1C-B23F-08BD5B955991}</Project>
+      <Name>array_ops_gen_python</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\benchmark_model.vcxproj">
+      <Project>{C5A94E34-5059-3CB2-8221-AFE69D075621}</Project>
+      <Name>benchmark_model</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\bitwise_ops_gen_cc.vcxproj">
+      <Project>{EBB5E57E-0B5E-39D9-9ADC-D7F17957956D}</Project>
+      <Name>bitwise_ops_gen_cc</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\bitwise_ops_gen_python.vcxproj">
+      <Project>{0B123296-D6D1-32A7-B3D4-535D41AA9CDD}</Project>
+      <Name>bitwise_ops_gen_python</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\candidate_sampling_ops_gen_cc.vcxproj">
+      <Project>{719A323D-8FC7-339A-8878-28952BB4DF4F}</Project>
+      <Name>candidate_sampling_ops_gen_cc</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\candidate_sampling_ops_gen_python.vcxproj">
+      <Project>{5ED08FC6-0E8C-3DAC-9F73-FDC572FDB28F}</Project>
+      <Name>candidate_sampling_ops_gen_python</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\compare_graphs.vcxproj">
+      <Project>{E0900F12-D53B-3D86-AC91-9B7E1C9D807F}</Project>
+      <Name>compare_graphs</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\contrib_bigquery_reader_ops_gen_python.vcxproj">
+      <Project>{87AE366B-FE3F-33C5-876B-2EF3363E9C87}</Project>
+      <Name>contrib_bigquery_reader_ops_gen_python</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\contrib_boosted_trees_ensemble_optimzier_ops_gen_python.vcxproj">
+      <Project>{CF87C166-A7FE-3416-BBD4-D0C8EDA30AFA}</Project>
+      <Name>contrib_boosted_trees_ensemble_optimzier_ops_gen_python</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\contrib_boosted_trees_model_ops_gen_python.vcxproj">
+      <Project>{822E6346-AD44-3174-B294-7C0CA10062A8}</Project>
+      <Name>contrib_boosted_trees_model_ops_gen_python</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\contrib_boosted_trees_prediction_ops_gen_python.vcxproj">
+      <Project>{9BF9B032-6A8F-37F3-9F5A-0DDE07C0D826}</Project>
+      <Name>contrib_boosted_trees_prediction_ops_gen_python</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\contrib_boosted_trees_quantiles_ops_gen_python.vcxproj">
+      <Project>{A1C41EA4-B68F-345E-94C1-85FB02F43A03}</Project>
+      <Name>contrib_boosted_trees_quantiles_ops_gen_python</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\contrib_boosted_trees_split_handler_ops_gen_python.vcxproj">
+      <Project>{4434CD08-C716-3A25-A177-19962CF19765}</Project>
+      <Name>contrib_boosted_trees_split_handler_ops_gen_python</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\contrib_boosted_trees_stats_accumulator_ops_gen_python.vcxproj">
+      <Project>{A92D8942-B2CF-3D83-B010-303968C5DCF4}</Project>
+      <Name>contrib_boosted_trees_stats_accumulator_ops_gen_python</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\contrib_boosted_trees_training_ops_gen_python.vcxproj">
+      <Project>{A699257C-CF06-35D6-913E-E2786160E3C6}</Project>
+      <Name>contrib_boosted_trees_training_ops_gen_python</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\contrib_cudnn_rnn_ops_gen_python.vcxproj">
+      <Project>{2A0D7FCE-2A5B-378C-BD0E-648A5C253B0C}</Project>
+      <Name>contrib_cudnn_rnn_ops_gen_python</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\contrib_factorization_clustering_ops_gen_python.vcxproj">
+      <Project>{E7EFE279-1E56-3E14-9C8F-4176CC94DBE1}</Project>
+      <Name>contrib_factorization_clustering_ops_gen_python</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\contrib_factorization_factorization_ops_gen_python.vcxproj">
+      <Project>{AB017AD0-6ECB-3E63-A5AF-3EE215D2EDA6}</Project>
+      <Name>contrib_factorization_factorization_ops_gen_python</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\contrib_framework_checkpoint_ops_gen_python.vcxproj">
+      <Project>{59928E03-36CF-3A0B-9267-B0981924BD47}</Project>
+      <Name>contrib_framework_checkpoint_ops_gen_python</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\contrib_framework_variable_ops_gen_python.vcxproj">
+      <Project>{E21A21DF-D330-3112-B141-12E0BEA3E000}</Project>
+      <Name>contrib_framework_variable_ops_gen_python</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\contrib_image_ops_gen_python.vcxproj">
+      <Project>{B550D367-F2E0-3779-A850-4434F92FF9F5}</Project>
+      <Name>contrib_image_ops_gen_python</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\contrib_input_pipeline_ops_gen_python.vcxproj">
+      <Project>{65604887-BE0F-3305-BFE9-7EDC14ACDCFE}</Project>
+      <Name>contrib_input_pipeline_ops_gen_python</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\contrib_layers_sparse_feature_cross_ops_gen_python.vcxproj">
+      <Project>{40769D82-DF4A-3779-B755-BE1D980B15DE}</Project>
+      <Name>contrib_layers_sparse_feature_cross_ops_gen_python</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\contrib_memory_stats_ops_gen_python.vcxproj">
+      <Project>{C7A72EB8-3746-3B53-BAE2-F3058FF73260}</Project>
+      <Name>contrib_memory_stats_ops_gen_python</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\contrib_nccl_ops_gen_python.vcxproj">
+      <Project>{86DB4588-0E3D-32DA-B343-36BA1A6DD8AC}</Project>
+      <Name>contrib_nccl_ops_gen_python</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\contrib_resampler_ops_gen_python.vcxproj">
+      <Project>{9612BC20-4499-39FC-B3BA-3158B36CDEA9}</Project>
+      <Name>contrib_resampler_ops_gen_python</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\contrib_rnn_gru_ops_gen_python.vcxproj">
+      <Project>{E9659340-CD7D-30FE-AD48-79B9E8B43D1E}</Project>
+      <Name>contrib_rnn_gru_ops_gen_python</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\contrib_rnn_lstm_ops_gen_python.vcxproj">
+      <Project>{53474448-7EE7-3595-9EC2-5695B4AD6810}</Project>
+      <Name>contrib_rnn_lstm_ops_gen_python</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\contrib_seq2seq_beam_search_ops_gen_python.vcxproj">
+      <Project>{30923829-D856-39E6-9E0F-5FD475D24B9D}</Project>
+      <Name>contrib_seq2seq_beam_search_ops_gen_python</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\contrib_tensor_forest_hybrid_ops_gen_python.vcxproj">
+      <Project>{F0B717B5-16F3-363F-9BE3-096A63C75D9A}</Project>
+      <Name>contrib_tensor_forest_hybrid_ops_gen_python</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\contrib_tensor_forest_model_ops_gen_python.vcxproj">
+      <Project>{547679BB-F03B-3576-B0B6-48157FA427BA}</Project>
+      <Name>contrib_tensor_forest_model_ops_gen_python</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\contrib_tensor_forest_ops_gen_python.vcxproj">
+      <Project>{197B7FF3-4353-35AE-B8B5-D0EE755B1280}</Project>
+      <Name>contrib_tensor_forest_ops_gen_python</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\contrib_tensor_forest_stats_ops_gen_python.vcxproj">
+      <Project>{089D6B2E-3922-32CB-892E-B7A1936EFDA4}</Project>
+      <Name>contrib_tensor_forest_stats_ops_gen_python</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\contrib_text_skip_gram_ops_gen_python.vcxproj">
+      <Project>{9557C596-A7E4-3D97-9F49-014D250B1F73}</Project>
+      <Name>contrib_text_skip_gram_ops_gen_python</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\control_flow_ops_gen_cc.vcxproj">
+      <Project>{01D9D528-1061-3BD2-A4A3-F40B4BD608EE}</Project>
+      <Name>control_flow_ops_gen_cc</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\control_flow_ops_gen_python.vcxproj">
+      <Project>{5CBAC198-D721-3A47-9967-DEE2B4DF9BEA}</Project>
+      <Name>control_flow_ops_gen_python</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\ctc_ops_gen_cc.vcxproj">
+      <Project>{B36608B3-A898-3A2F-B981-3013BDDB9A3C}</Project>
+      <Name>ctc_ops_gen_cc</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\ctc_ops_gen_python.vcxproj">
+      <Project>{845CA8F8-7627-39BB-AF64-19A3AF9B4A38}</Project>
+      <Name>ctc_ops_gen_python</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\cub.vcxproj">
+      <Project>{0DC97F9B-D325-32C8-82B6-5F943325FD29}</Project>
+      <Name>cub</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\data_flow_ops_gen_cc.vcxproj">
+      <Project>{8016733B-7493-3EE1-B113-1908794402D5}</Project>
+      <Name>data_flow_ops_gen_cc</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\data_flow_ops_gen_python.vcxproj">
+      <Project>{50D15017-BA89-3383-B9BD-0DF6756F6F45}</Project>
+      <Name>data_flow_ops_gen_python</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\dataset_ops_gen_cc.vcxproj">
+      <Project>{87AF763D-A7AF-300F-9D5D-3C9B87CFA260}</Project>
+      <Name>dataset_ops_gen_cc</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\dataset_ops_gen_python.vcxproj">
+      <Project>{509A992B-221C-3535-BD83-87FD117A4EDB}</Project>
+      <Name>dataset_ops_gen_python</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\debug_ops_gen_python.vcxproj">
+      <Project>{CCFC000D-A5FF-3ACE-BBBF-E58F6799261F}</Project>
+      <Name>debug_ops_gen_python</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\eigen.vcxproj">
+      <Project>{D4A27A8E-6BE3-38F8-869C-4B2F86B0F5CB}</Project>
+      <Name>eigen</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\farmhash.vcxproj">
+      <Project>{922BED2E-E1F5-3B98-B5B6-592369702FEE}</Project>
+      <Name>farmhash</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\fft2d.vcxproj">
+      <Project>{4F20ADDF-30E3-3768-8251-18C40FB309C5}</Project>
+      <Name>fft2d</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\force_rebuild_target.vcxproj">
+      <Project>{A51E73D9-612B-3783-BD48-E54410C823B2}</Project>
+      <Name>force_rebuild_target</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\functional_ops_gen_cc.vcxproj">
+      <Project>{4504A269-812C-332C-B10E-B6A7270EC413}</Project>
+      <Name>functional_ops_gen_cc</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\functional_ops_gen_python.vcxproj">
+      <Project>{69949214-6182-3FF1-B917-EFE4EBDB25A8}</Project>
+      <Name>functional_ops_gen_python</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gemmlowp.vcxproj">
+      <Project>{96C4E94B-BFC2-369F-B157-DEE06B15241A}</Project>
+      <Name>gemmlowp</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gif.vcxproj">
+      <Project>{2D3A548E-6565-38C9-8E2A-716BD810BF10}</Project>
+      <Name>gif</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc.vcxproj">
+      <Project>{C68C87AA-745D-30A1-9F37-7406368CEE0B}</Project>
+      <Name>grpc</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\grpc_tensorflow_server.vcxproj">
+      <Project>{60FE2F54-9BD7-39EA-942E-18CB295C2ADD}</Project>
+      <Name>grpc_tensorflow_server</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\highwayhash.vcxproj">
+      <Project>{205ADBE6-F40D-36AF-AD21-ED9EBD50A021}</Project>
+      <Name>highwayhash</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\image_ops_gen_cc.vcxproj">
+      <Project>{F75E25B8-EEB7-399D-BED5-F637B685C3C8}</Project>
+      <Name>image_ops_gen_cc</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\image_ops_gen_python.vcxproj">
+      <Project>{DC194241-2654-352B-8BCF-030784FDE20F}</Project>
+      <Name>image_ops_gen_python</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\io_ops_gen_cc.vcxproj">
+      <Project>{6C1865CB-3300-301B-B10D-043724FDA013}</Project>
+      <Name>io_ops_gen_cc</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\io_ops_gen_python.vcxproj">
+      <Project>{B07C7377-9FB0-3D57-93E8-1EC59A6CDC4B}</Project>
+      <Name>io_ops_gen_python</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jpeg.vcxproj">
+      <Project>{81F6356F-3CE4-34D5-8076-076B7D14C4FE}</Project>
+      <Name>jpeg</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jsoncpp.vcxproj">
+      <Project>{9D15F46D-BE58-310D-A7F6-89E5B227F061}</Project>
+      <Name>jsoncpp</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\linalg_ops_gen_cc.vcxproj">
+      <Project>{E3D5E81A-01EE-3B19-8C05-8A0D01D2B5AE}</Project>
+      <Name>linalg_ops_gen_cc</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\linalg_ops_gen_python.vcxproj">
+      <Project>{3A4FD56B-1F30-31AC-B579-A2BBD602E15F}</Project>
+      <Name>linalg_ops_gen_python</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb.vcxproj">
+      <Project>{CCE082EE-2BA4-3423-8757-F1CAFB5C0C2B}</Project>
+      <Name>lmdb</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\logging_ops_gen_cc.vcxproj">
+      <Project>{1DB19264-8DC9-3AE9-989C-FC885EFFBF71}</Project>
+      <Name>logging_ops_gen_cc</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\logging_ops_gen_python.vcxproj">
+      <Project>{E92EABE3-02F3-3CAA-A677-FA0FAE0F4223}</Project>
+      <Name>logging_ops_gen_python</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lookup_ops_gen_cc.vcxproj">
+      <Project>{2103B12A-6BFF-3295-A5FF-D7149985A620}</Project>
+      <Name>lookup_ops_gen_cc</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lookup_ops_gen_python.vcxproj">
+      <Project>{C918D100-39D2-317D-AC3A-91CD3C12088D}</Project>
+      <Name>lookup_ops_gen_python</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\math_ops_gen_cc.vcxproj">
+      <Project>{F4035A4D-784B-3639-BEB5-19673E1CF991}</Project>
+      <Name>math_ops_gen_cc</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\math_ops_gen_python.vcxproj">
+      <Project>{265BBB01-BAC8-3F66-B9DA-A27CE0BBAA6F}</Project>
+      <Name>math_ops_gen_python</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\nn_ops_gen_cc.vcxproj">
+      <Project>{16ABA91D-E609-3488-B38F-3A5DF6776C6C}</Project>
+      <Name>nn_ops_gen_cc</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\nn_ops_gen_python.vcxproj">
+      <Project>{29E0E607-6F96-3763-88F5-D8A56D873A0C}</Project>
+      <Name>nn_ops_gen_python</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\no_op_gen_cc.vcxproj">
+      <Project>{173E40CB-9076-32AA-B596-BB84C8C568C0}</Project>
+      <Name>no_op_gen_cc</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\parsing_ops_gen_cc.vcxproj">
+      <Project>{425543A9-72FB-3FF3-A1F8-EF3ACFC7A7F6}</Project>
+      <Name>parsing_ops_gen_cc</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\parsing_ops_gen_python.vcxproj">
+      <Project>{A73548F2-D69B-35F4-AB30-C535831C98C0}</Project>
+      <Name>parsing_ops_gen_python</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\png.vcxproj">
+      <Project>{A4636274-7C52-3BD0-BF11-DCC3E5F728FD}</Project>
+      <Name>png</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\proto_text.vcxproj">
+      <Project>{EA2E5A90-E22E-3F13-99B8-7B2506384BE4}</Project>
+      <Name>proto_text</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf.vcxproj">
+      <Project>{144E0295-B0FD-3C8A-9E1B-819F12C6EFC8}</Project>
+      <Name>protobuf</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\pywrap_tensorflow_internal.vcxproj">
+      <Project>{C6A0FDF7-45BA-3B6A-B9C8-D647ED1BA25B}</Project>
+      <Name>pywrap_tensorflow_internal</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\pywrap_tensorflow_internal_static.vcxproj">
+      <Project>{A5345542-2301-30AD-A027-F3C25E4BAF11}</Project>
+      <Name>pywrap_tensorflow_internal_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\random_ops_gen_cc.vcxproj">
+      <Project>{47500792-3B7D-3065-9DBE-D142FFD7E60D}</Project>
+      <Name>random_ops_gen_cc</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\random_ops_gen_python.vcxproj">
+      <Project>{7D60CFC2-2694-3EA0-BBAB-8D3D7F69B6AD}</Project>
+      <Name>random_ops_gen_python</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2.vcxproj">
+      <Project>{7FF9CE4B-7320-3598-A3EC-7BF7142A8FF8}</Project>
+      <Name>re2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\remote_fused_graph_ops_gen_cc.vcxproj">
+      <Project>{78CAE131-1B6A-3447-A8D2-B0AD476133E9}</Project>
+      <Name>remote_fused_graph_ops_gen_cc</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\remote_fused_graph_ops_gen_python.vcxproj">
+      <Project>{1C188C45-3FAB-3264-BAFA-F67E7051705F}</Project>
+      <Name>remote_fused_graph_ops_gen_python</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\resource_variable_ops_gen_cc.vcxproj">
+      <Project>{829ECE6F-F218-3395-96BC-C9F7A90877D8}</Project>
+      <Name>resource_variable_ops_gen_cc</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\resource_variable_ops_gen_python.vcxproj">
+      <Project>{6163E4ED-6242-362D-8D74-D023701A0DE2}</Project>
+      <Name>resource_variable_ops_gen_python</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\script_ops_gen_cc.vcxproj">
+      <Project>{80C37A7F-290E-3796-B102-65C6DA966986}</Project>
+      <Name>script_ops_gen_cc</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\script_ops_gen_python.vcxproj">
+      <Project>{9A649AD6-E316-3E4C-BB5A-047A67D9D34C}</Project>
+      <Name>script_ops_gen_python</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\sdca_ops_gen_cc.vcxproj">
+      <Project>{CE6A8845-20BB-36BB-A5EB-531DAEF2C348}</Project>
+      <Name>sdca_ops_gen_cc</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\sdca_ops_gen_python.vcxproj">
+      <Project>{043AFD08-3539-3DBC-A422-7345622FB612}</Project>
+      <Name>sdca_ops_gen_python</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\sendrecv_ops_gen_cc.vcxproj">
+      <Project>{18C21A3B-B90C-3B88-BA6E-FC1DF10EF0BF}</Project>
+      <Name>sendrecv_ops_gen_cc</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\set_ops_gen_cc.vcxproj">
+      <Project>{BA8903A5-3EDF-30F4-BA5E-16A196444151}</Project>
+      <Name>set_ops_gen_cc</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\set_ops_gen_python.vcxproj">
+      <Project>{8540E1F0-6B0B-3DC6-B1F6-34851B88A291}</Project>
+      <Name>set_ops_gen_python</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\sparse_ops_gen_cc.vcxproj">
+      <Project>{6A5D0DA3-B923-3168-8D30-9C97B052B85D}</Project>
+      <Name>sparse_ops_gen_cc</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\sparse_ops_gen_python.vcxproj">
+      <Project>{A13DC989-4F55-301F-9E60-4B4DE22F6719}</Project>
+      <Name>sparse_ops_gen_python</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\spectral_ops_gen_cc.vcxproj">
+      <Project>{CE8E9784-238E-3C3B-8BA0-94C94B932477}</Project>
+      <Name>spectral_ops_gen_cc</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\spectral_ops_gen_python.vcxproj">
+      <Project>{EBEA58CC-5219-30E7-873D-A33507C71FA7}</Project>
+      <Name>spectral_ops_gen_python</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\state_ops_gen_cc.vcxproj">
+      <Project>{33439162-EECB-3A72-90C5-543A1AD4D4D3}</Project>
+      <Name>state_ops_gen_cc</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\state_ops_gen_python.vcxproj">
+      <Project>{2E5FF05F-2718-3993-A14A-DEA19D1E98ED}</Project>
+      <Name>state_ops_gen_python</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\stateless_random_ops_gen_cc.vcxproj">
+      <Project>{E2B62727-8C46-360A-9DFA-D6A646E4F7AE}</Project>
+      <Name>stateless_random_ops_gen_cc</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\stateless_random_ops_gen_python.vcxproj">
+      <Project>{D479F452-B13C-3FC9-9F9D-A7E01AC5F519}</Project>
+      <Name>stateless_random_ops_gen_python</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\string_ops_gen_cc.vcxproj">
+      <Project>{86231F6C-83C1-3A2A-A816-A159958ED81F}</Project>
+      <Name>string_ops_gen_cc</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\string_ops_gen_python.vcxproj">
+      <Project>{C691D4BB-6D7F-37D2-A18A-DEEEDB6BFE34}</Project>
+      <Name>string_ops_gen_python</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\summarize_graph.vcxproj">
+      <Project>{5A52E8F2-9549-3776-B807-1F5861A445DA}</Project>
+      <Name>summarize_graph</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_array_ops.vcxproj">
+      <Project>{9A470570-72AD-32FA-B21D-82F238FC220C}</Project>
+      <Name>tf_array_ops</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_bitwise_ops.vcxproj">
+      <Project>{AAB95A78-55DB-3148-8ED8-F83F05BB27C0}</Project>
+      <Name>tf_bitwise_ops</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_c.vcxproj">
+      <Project>{8A88BFC6-4CE9-37D4-9C65-E6B3634E5D6F}</Project>
+      <Name>tf_c</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_c_python_api.vcxproj">
+      <Project>{AC0A66D6-F356-3B55-825F-AFD9D16E1E6D}</Project>
+      <Name>tf_c_python_api</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_candidate_sampling_ops.vcxproj">
+      <Project>{242D0718-40B9-3264-A79F-802DC1A69652}</Project>
+      <Name>tf_candidate_sampling_ops</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_cc.vcxproj">
+      <Project>{23091074-9FA7-3292-9612-A82F681E83E5}</Project>
+      <Name>tf_cc</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_cc_framework.vcxproj">
+      <Project>{2EC8EFDF-7920-3214-83DF-A14A6C31A2B3}</Project>
+      <Name>tf_cc_framework</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_cc_op_gen_main.vcxproj">
+      <Project>{389263A1-AE52-361C-B65A-C85793F099C2}</Project>
+      <Name>tf_cc_op_gen_main</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_cc_ops.vcxproj">
+      <Project>{BB9C2CAC-B399-3086-92EC-39A6F67BD28F}</Project>
+      <Name>tf_cc_ops</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_contrib_bigquery_reader_ops.vcxproj">
+      <Project>{203C1FE5-F2EA-3002-B30E-43F5A8519B93}</Project>
+      <Name>tf_contrib_bigquery_reader_ops</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_contrib_boosted_trees_ensemble_optimzier_ops.vcxproj">
+      <Project>{1D40DAEB-1F13-33B3-B22D-FD259D051F80}</Project>
+      <Name>tf_contrib_boosted_trees_ensemble_optimzier_ops</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_contrib_boosted_trees_model_ops.vcxproj">
+      <Project>{83651371-4988-3299-90DA-6B0970E7A34C}</Project>
+      <Name>tf_contrib_boosted_trees_model_ops</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_contrib_boosted_trees_prediction_ops.vcxproj">
+      <Project>{D62FF4F9-AAD8-3E4D-98B9-76A900E5324B}</Project>
+      <Name>tf_contrib_boosted_trees_prediction_ops</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_contrib_boosted_trees_quantiles_ops.vcxproj">
+      <Project>{FC0B9213-C837-3CF1-B70C-E8AD0BB8DC5A}</Project>
+      <Name>tf_contrib_boosted_trees_quantiles_ops</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_contrib_boosted_trees_split_handler_ops.vcxproj">
+      <Project>{73986CF0-91AD-3BF9-91B9-1528DB1F0BB8}</Project>
+      <Name>tf_contrib_boosted_trees_split_handler_ops</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_contrib_boosted_trees_stats_accumulator_ops.vcxproj">
+      <Project>{D3B266BD-A77B-3848-A6E7-A475F9C11DA4}</Project>
+      <Name>tf_contrib_boosted_trees_stats_accumulator_ops</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_contrib_boosted_trees_training_ops.vcxproj">
+      <Project>{87200C2C-0174-3094-8E8E-79D4AC07D2DF}</Project>
+      <Name>tf_contrib_boosted_trees_training_ops</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_contrib_cudnn_rnn_ops.vcxproj">
+      <Project>{32CCDE82-9172-37D8-B8F0-F7D34D6E6001}</Project>
+      <Name>tf_contrib_cudnn_rnn_ops</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_contrib_factorization_clustering_ops.vcxproj">
+      <Project>{272C5229-0C67-3C64-95C3-3CA9DD8F6A87}</Project>
+      <Name>tf_contrib_factorization_clustering_ops</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_contrib_factorization_factorization_ops.vcxproj">
+      <Project>{170B1DF9-5D96-39F2-BAB2-2B6A999460A5}</Project>
+      <Name>tf_contrib_factorization_factorization_ops</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_contrib_framework_checkpoint_ops.vcxproj">
+      <Project>{4B205419-25DB-3F7A-B2B9-976AF3FCECB9}</Project>
+      <Name>tf_contrib_framework_checkpoint_ops</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_contrib_framework_variable_ops.vcxproj">
+      <Project>{E9C818D8-651B-3F0D-B08A-FAE88DAC38E8}</Project>
+      <Name>tf_contrib_framework_variable_ops</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_contrib_image_ops.vcxproj">
+      <Project>{B19D82E7-FF59-357C-A6F6-B74ED16590C2}</Project>
+      <Name>tf_contrib_image_ops</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_contrib_input_pipeline_ops.vcxproj">
+      <Project>{91811BFD-D129-39B7-B802-B91BC37D1E91}</Project>
+      <Name>tf_contrib_input_pipeline_ops</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_contrib_layers_sparse_feature_cross_ops.vcxproj">
+      <Project>{7D4FF7F6-2CE6-3BF6-863A-DF10E8E74611}</Project>
+      <Name>tf_contrib_layers_sparse_feature_cross_ops</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_contrib_memory_stats_ops.vcxproj">
+      <Project>{FEE14B92-5AEC-3C8F-88E2-556C51026E42}</Project>
+      <Name>tf_contrib_memory_stats_ops</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_contrib_nccl_ops.vcxproj">
+      <Project>{9114D51E-04BB-324A-96CE-4C02F0119352}</Project>
+      <Name>tf_contrib_nccl_ops</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_contrib_reduce_slice_ops_ops.vcxproj">
+      <Project>{FDD84835-5D4E-3FD7-8E44-215F5844D100}</Project>
+      <Name>tf_contrib_reduce_slice_ops_ops</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_contrib_resampler_ops.vcxproj">
+      <Project>{F88AA7C4-E608-39F9-AA29-2A893D388DEF}</Project>
+      <Name>tf_contrib_resampler_ops</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_contrib_rnn_gru_ops.vcxproj">
+      <Project>{CBFE062C-7F90-3AFA-8687-23AF10E80D64}</Project>
+      <Name>tf_contrib_rnn_gru_ops</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_contrib_rnn_lstm_ops.vcxproj">
+      <Project>{1AEBA151-75CC-3715-83D1-EEBBF25DAFB3}</Project>
+      <Name>tf_contrib_rnn_lstm_ops</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_contrib_seq2seq_beam_search_ops.vcxproj">
+      <Project>{C12B1849-755E-3F66-8DCD-3D99DE6F04BB}</Project>
+      <Name>tf_contrib_seq2seq_beam_search_ops</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_contrib_tensor_forest_hybrid_ops.vcxproj">
+      <Project>{0F82F4C9-0956-3C78-8487-39F1A0144AC6}</Project>
+      <Name>tf_contrib_tensor_forest_hybrid_ops</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_contrib_tensor_forest_model_ops.vcxproj">
+      <Project>{108EC499-AD30-3D28-B72B-237B60FB5B72}</Project>
+      <Name>tf_contrib_tensor_forest_model_ops</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_contrib_tensor_forest_ops.vcxproj">
+      <Project>{5DAFB2DE-EEA8-3DDB-ACB7-1A31468042EA}</Project>
+      <Name>tf_contrib_tensor_forest_ops</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_contrib_tensor_forest_stats_ops.vcxproj">
+      <Project>{AE062FE0-C800-37BC-BB85-9DDAA7972677}</Project>
+      <Name>tf_contrib_tensor_forest_stats_ops</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_contrib_text_skip_gram_ops.vcxproj">
+      <Project>{7A4A0982-EADD-37CC-B60D-E6271633E8AF}</Project>
+      <Name>tf_contrib_text_skip_gram_ops</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_contrib_tpu_ops.vcxproj">
+      <Project>{EA4099AD-B398-332D-8910-06E2FFC782D1}</Project>
+      <Name>tf_contrib_tpu_ops</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_control_flow_ops.vcxproj">
+      <Project>{CF63DE86-09D5-33D6-913F-3E1A7C9FBB68}</Project>
+      <Name>tf_control_flow_ops</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_core_cpu.vcxproj">
+      <Project>{BE0E2786-2349-39E1-B7DB-93E8B504F192}</Project>
+      <Name>tf_core_cpu</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_core_direct_session.vcxproj">
+      <Project>{4AA99BE2-9E12-37AD-8168-5199E251DF19}</Project>
+      <Name>tf_core_direct_session</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_core_distributed_runtime.vcxproj">
+      <Project>{B79C020D-CB92-369E-BD87-B7789681E22F}</Project>
+      <Name>tf_core_distributed_runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_core_framework.vcxproj">
+      <Project>{7A23A08B-68C4-3E29-AC90-9518F0F66491}</Project>
+      <Name>tf_core_framework</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_core_kernels.vcxproj">
+      <Project>{AA096C4C-AE43-3672-98CE-CE69E75CD885}</Project>
+      <Name>tf_core_kernels</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_core_lib.vcxproj">
+      <Project>{E2BA2AA4-3B49-3551-BD1F-FAB38AFD86CE}</Project>
+      <Name>tf_core_lib</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_core_ops.vcxproj">
+      <Project>{9C805DCC-BCBC-367E-93E9-8F230E7F255F}</Project>
+      <Name>tf_core_ops</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_core_profiler.vcxproj">
+      <Project>{CF5C5C89-3BFB-3B99-85DA-DA01CEE61253}</Project>
+      <Name>tf_core_profiler</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_ctc_ops.vcxproj">
+      <Project>{7D3FD467-5040-348A-9B99-AEFC932D7191}</Project>
+      <Name>tf_ctc_ops</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_data_flow_ops.vcxproj">
+      <Project>{EFF6F7EF-C83A-37A4-9910-F9936D3681A7}</Project>
+      <Name>tf_data_flow_ops</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_dataset_ops.vcxproj">
+      <Project>{8449D57E-B57A-39FB-A449-405DE02A66F3}</Project>
+      <Name>tf_dataset_ops</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_debug_ops.vcxproj">
+      <Project>{BCF8B8A4-0FEB-36A5-831F-42EB0E71CF1B}</Project>
+      <Name>tf_debug_ops</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_functional_ops.vcxproj">
+      <Project>{2633F2D0-C935-3E27-AE9C-B5EA26DB1E8C}</Project>
+      <Name>tf_functional_ops</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_grappler.vcxproj">
+      <Project>{C793E2C9-104D-3504-A0A5-CC25AC0BF03A}</Project>
+      <Name>tf_grappler</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_image_ops.vcxproj">
+      <Project>{4FD36C65-F760-39D5-ACE6-548E5B9917F8}</Project>
+      <Name>tf_image_ops</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_io_ops.vcxproj">
+      <Project>{9C1AF2BE-DCD8-3187-8734-380BC9D2CE98}</Project>
+      <Name>tf_io_ops</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_label_image_example.vcxproj">
+      <Project>{C32142D3-C66C-36EC-BF69-661885775064}</Project>
+      <Name>tf_label_image_example</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_linalg_ops.vcxproj">
+      <Project>{95FC60A2-20A0-35E2-9CDC-FE828484B2FD}</Project>
+      <Name>tf_linalg_ops</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_logging_ops.vcxproj">
+      <Project>{91105FEE-1519-3C7B-9927-020485C5E0D9}</Project>
+      <Name>tf_logging_ops</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_lookup_ops.vcxproj">
+      <Project>{B27270A9-95A3-3C99-84A3-29F52CAA154D}</Project>
+      <Name>tf_lookup_ops</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_math_ops.vcxproj">
+      <Project>{CBE7B9CF-38C7-3ED6-AD85-B051FC265158}</Project>
+      <Name>tf_math_ops</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_nn_ops.vcxproj">
+      <Project>{05079F74-0214-3698-B00F-34FF90C01A91}</Project>
+      <Name>tf_nn_ops</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_no_op.vcxproj">
+      <Project>{721D0E9B-1DF6-3E5E-BB47-CB251BB9743B}</Project>
+      <Name>tf_no_op</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_parsing_ops.vcxproj">
+      <Project>{202A8A6B-6051-3305-94B4-493FCAB79601}</Project>
+      <Name>tf_parsing_ops</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_protos_cc.vcxproj">
+      <Project>{E649F830-FB58-3124-8FBC-8A4E6E8A19DE}</Project>
+      <Name>tf_protos_cc</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python_op_gen_main.vcxproj">
+      <Project>{AA80A523-38C2-3CA6-802D-DBBF84554B29}</Project>
+      <Name>tf_python_op_gen_main</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_python_protos_cc.vcxproj">
+      <Project>{87C49AA2-4B45-3E9F-87F8-2AAD61EAA972}</Project>
+      <Name>tf_python_protos_cc</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_random_ops.vcxproj">
+      <Project>{36EEE6F2-E63F-312E-931B-AEC09E90E5B4}</Project>
+      <Name>tf_random_ops</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_remote_fused_graph_ops.vcxproj">
+      <Project>{ABAD29C7-23F6-3B33-AE73-1E297D2682DC}</Project>
+      <Name>tf_remote_fused_graph_ops</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_resource_variable_ops.vcxproj">
+      <Project>{35194741-9850-323C-B9C9-65CDD8357028}</Project>
+      <Name>tf_resource_variable_ops</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_script_ops.vcxproj">
+      <Project>{9D9E0201-2512-3A39-9C11-67E8F136621D}</Project>
+      <Name>tf_script_ops</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_sdca_ops.vcxproj">
+      <Project>{E759E259-94BB-36F9-8A8B-B45E8AECD8DA}</Project>
+      <Name>tf_sdca_ops</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_sendrecv_ops.vcxproj">
+      <Project>{45CD57BF-EADE-3AA6-AA18-B6AEEF8743FF}</Project>
+      <Name>tf_sendrecv_ops</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_set_ops.vcxproj">
+      <Project>{567E137D-93BD-38A9-A529-5E6815A31191}</Project>
+      <Name>tf_set_ops</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_sparse_ops.vcxproj">
+      <Project>{94E80B42-2C3A-3DA1-B8CC-C51497B64F58}</Project>
+      <Name>tf_sparse_ops</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_spectral_ops.vcxproj">
+      <Project>{E2A83F43-2C73-392A-B158-020D4DFD24E3}</Project>
+      <Name>tf_spectral_ops</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_state_ops.vcxproj">
+      <Project>{E44549DC-19EC-3B8B-B560-A071732ED1B5}</Project>
+      <Name>tf_state_ops</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_stateless_random_ops.vcxproj">
+      <Project>{4C006FE7-0B30-3D90-BE93-678947AF0736}</Project>
+      <Name>tf_stateless_random_ops</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_string_ops.vcxproj">
+      <Project>{F9B22FBC-135C-3930-A0BD-E6DDCAD4177E}</Project>
+      <Name>tf_string_ops</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_tools_transform_graph_lib.vcxproj">
+      <Project>{81AF82DD-8DE2-32B0-9E5F-BF544B7601C0}</Project>
+      <Name>tf_tools_transform_graph_lib</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_training_ops.vcxproj">
+      <Project>{C70C2B39-9BCE-3185-9F51-50DDF4F2A936}</Project>
+      <Name>tf_training_ops</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_tutorials_example_trainer.vcxproj">
+      <Project>{A3A9BAFD-698B-376C-917A-F36FED719789}</Project>
+      <Name>tf_tutorials_example_trainer</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_user_ops.vcxproj">
+      <Project>{423B452F-2455-3AF9-87B8-A99975B742F7}</Project>
+      <Name>tf_user_ops</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\training_ops_gen_cc.vcxproj">
+      <Project>{05D78663-5E7E-393D-B749-7112B768DF04}</Project>
+      <Name>training_ops_gen_cc</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\training_ops_gen_python.vcxproj">
+      <Project>{6896CFF3-F8B3-3A05-994E-B2F72EF219F3}</Project>
+      <Name>training_ops_gen_python</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\transform_graph.vcxproj">
+      <Project>{BA9FFA49-9494-33B2-A7BA-8227D915F7D0}</Project>
+      <Name>transform_graph</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\user_ops_gen_cc.vcxproj">
+      <Project>{6625690F-23DA-3243-B2FC-983BCFA5D5D9}</Project>
+      <Name>user_ops_gen_cc</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\user_ops_gen_python.vcxproj">
+      <Project>{CAC14FDB-D25D-38EB-B2B4-D6D119C7DCC8}</Project>
+      <Name>user_ops_gen_python</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\zlib.vcxproj">
+      <Project>{34014850-A376-35A4-BED6-F5008EC440FA}</Project>
+      <Name>zlib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

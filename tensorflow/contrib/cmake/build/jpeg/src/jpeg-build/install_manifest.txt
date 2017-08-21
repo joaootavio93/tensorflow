@@ -1,0 +1,10 @@
+C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/jpeg/install/lib/libjpeg.lib
+C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/jpeg/install/include/jconfig.h
+C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/jpeg/install/include/jdct.h
+C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/jpeg/install/include/jerror.h
+C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/jpeg/install/include/jinclude.h
+C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/jpeg/install/include/jmemsys.h
+C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/jpeg/install/include/jmorecfg.h
+C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/jpeg/install/include/jpegint.h
+C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/jpeg/install/include/jpeglib.h
+C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/jpeg/install/include/jversion.h

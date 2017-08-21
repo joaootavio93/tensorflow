@@ -1,0 +1,44 @@
+﻿  Building Custom Rule C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/CMakeLists.txt
+  CMake does not need to re-run because C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/generate.stamp is up-to-date.
+  array_grad.cc
+  array_ops.cc
+  audio_ops.cc
+  bitwise_ops.cc
+  candidate_sampling_ops.cc
+  op_compatibility_lib.cc
+  control_flow_ops.cc
+  ctc_ops.cc
+  data_flow_ops.cc
+  dataset_ops.cc
+  debug_ops.cc
+  function_ops.cc
+  functional_grad.cc
+  functional_ops.cc
+  image_ops.cc
+  io_ops.cc
+  linalg_ops.cc
+  logging_ops.cc
+  lookup_ops.cc
+  math_grad.cc
+  math_ops.cc
+  nn_grad.cc
+  nn_ops.cc
+  no_op.cc
+  parsing_ops.cc
+  random_grad.cc
+  random_ops.cc
+  remote_fused_graph_ops.cc
+  resource_variable_ops.cc
+  script_ops.cc
+  sdca_ops.cc
+  sendrecv_ops.cc
+  set_ops.cc
+  sparse_ops.cc
+  spectral_ops.cc
+  state_ops.cc
+  stateless_random_ops.cc
+  string_ops.cc
+  training_ops.cc
+  word2vec_ops.cc
+  fact.cc
+  tf_core_ops.vcxproj -> C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_core_ops.dir\Release\tf_core_ops.lib

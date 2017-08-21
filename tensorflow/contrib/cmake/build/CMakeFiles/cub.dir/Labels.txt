@@ -1,0 +1,14 @@
+# Target labels
+ cub
+# Source files and their labels
+C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/cub
+C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/CMakeLists.txt
+C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/bb01c56cf9406b145ba9a57cac476823/cub.rule
+C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/79294db29758ff69b1b73858bd3118a7/cub-complete.rule
+C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/661cb2f49c44532d7825e23a0061c8bc/cub-install.rule
+C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/661cb2f49c44532d7825e23a0061c8bc/cub-mkdir.rule
+C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/661cb2f49c44532d7825e23a0061c8bc/cub-download.rule
+C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/661cb2f49c44532d7825e23a0061c8bc/cub-update.rule
+C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/661cb2f49c44532d7825e23a0061c8bc/cub-patch.rule
+C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/661cb2f49c44532d7825e23a0061c8bc/cub-configure.rule
+C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/661cb2f49c44532d7825e23a0061c8bc/cub-build.rule

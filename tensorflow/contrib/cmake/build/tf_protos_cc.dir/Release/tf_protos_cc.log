@@ -1,0 +1,125 @@
+﻿  Building Custom Rule C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/CMakeLists.txt
+  CMake does not need to re-run because C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/generate.stamp is up-to-date.
+  Running C++ protocol buffer compiler on tensorflow/core/debug/debug_service.proto
+  Running C++ protocol buffer compiler on tensorflow/core/debug/debugger_event_metadata.proto
+  Running C++ protocol buffer compiler on tensorflow/core/example/example.proto
+  Running C++ protocol buffer compiler on tensorflow/core/example/example_parser_configuration.proto
+  Running C++ protocol buffer compiler on tensorflow/core/example/feature.proto
+  Running C++ protocol buffer compiler on tensorflow/core/framework/allocation_description.proto
+  Running C++ protocol buffer compiler on tensorflow/core/framework/attr_value.proto
+  Running C++ protocol buffer compiler on tensorflow/core/framework/cost_graph.proto
+  Running C++ protocol buffer compiler on tensorflow/core/framework/device_attributes.proto
+  Running C++ protocol buffer compiler on tensorflow/core/framework/function.proto
+  Running C++ protocol buffer compiler on tensorflow/core/framework/graph.proto
+  Running C++ protocol buffer compiler on tensorflow/core/framework/graph_transfer_info.proto
+  Running C++ protocol buffer compiler on tensorflow/core/framework/kernel_def.proto
+  Running C++ protocol buffer compiler on tensorflow/core/framework/log_memory.proto
+  Running C++ protocol buffer compiler on tensorflow/core/framework/node_def.proto
+  Running C++ protocol buffer compiler on tensorflow/core/framework/op_def.proto
+  Running C++ protocol buffer compiler on tensorflow/core/framework/op_gen_overrides.proto
+  Running C++ protocol buffer compiler on tensorflow/core/framework/reader_base.proto
+  Running C++ protocol buffer compiler on tensorflow/core/framework/remote_fused_graph_execute_info.proto
+  Running C++ protocol buffer compiler on tensorflow/core/framework/resource_handle.proto
+  Running C++ protocol buffer compiler on tensorflow/core/framework/step_stats.proto
+  Running C++ protocol buffer compiler on tensorflow/core/framework/summary.proto
+  Running C++ protocol buffer compiler on tensorflow/core/framework/tensor.proto
+  Running C++ protocol buffer compiler on tensorflow/core/framework/tensor_description.proto
+  Running C++ protocol buffer compiler on tensorflow/core/framework/tensor_shape.proto
+  Running C++ protocol buffer compiler on tensorflow/core/framework/tensor_slice.proto
+  Running C++ protocol buffer compiler on tensorflow/core/framework/types.proto
+  Running C++ protocol buffer compiler on tensorflow/core/framework/variable.proto
+  Running C++ protocol buffer compiler on tensorflow/core/framework/versions.proto
+  Running C++ protocol buffer compiler on tensorflow/core/grappler/costs/op_performance_data.proto
+  Running C++ protocol buffer compiler on tensorflow/core/lib/core/error_codes.proto
+  Running C++ protocol buffer compiler on tensorflow/core/profiler/profile.proto
+  Running C++ protocol buffer compiler on tensorflow/core/profiler/tfprof_log.proto
+  Running C++ protocol buffer compiler on tensorflow/core/profiler/tfprof_options.proto
+  Running C++ protocol buffer compiler on tensorflow/core/profiler/tfprof_output.proto
+  Running C++ protocol buffer compiler on tensorflow/core/protobuf/cluster.proto
+  Running C++ protocol buffer compiler on tensorflow/core/protobuf/config.proto
+  Running C++ protocol buffer compiler on tensorflow/core/protobuf/control_flow.proto
+  Running C++ protocol buffer compiler on tensorflow/core/protobuf/debug.proto
+  Running C++ protocol buffer compiler on tensorflow/core/protobuf/device_properties.proto
+  Running C++ protocol buffer compiler on tensorflow/core/protobuf/master.proto
+  Running C++ protocol buffer compiler on tensorflow/core/protobuf/master_service.proto
+  Running C++ protocol buffer compiler on tensorflow/core/protobuf/meta_graph.proto
+  Running C++ protocol buffer compiler on tensorflow/core/protobuf/named_tensor.proto
+  Running C++ protocol buffer compiler on tensorflow/core/protobuf/queue_runner.proto
+  Running C++ protocol buffer compiler on tensorflow/core/protobuf/rewriter_config.proto
+  Running C++ protocol buffer compiler on tensorflow/core/protobuf/saved_model.proto
+  Running C++ protocol buffer compiler on tensorflow/core/protobuf/saver.proto
+  Running C++ protocol buffer compiler on tensorflow/core/protobuf/tensor_bundle.proto
+  Running C++ protocol buffer compiler on tensorflow/core/protobuf/tensorflow_server.proto
+  Running C++ protocol buffer compiler on tensorflow/core/protobuf/worker.proto
+  Running C++ protocol buffer compiler on tensorflow/core/protobuf/worker_service.proto
+  Running C++ protocol buffer compiler on tensorflow/core/util/event.proto
+  Running C++ protocol buffer compiler on tensorflow/core/util/example_proto_fast_parsing_test.proto
+  Running C++ protocol buffer compiler on tensorflow/core/util/memmapped_file_system.proto
+  Running C++ protocol buffer compiler on tensorflow/core/util/saved_tensor_slice.proto
+  Running C++ protocol buffer compiler on tensorflow/core/util/test_log.proto
+  Running C++ protocol buffer compiler on tensorflow/contrib/boosted_trees/proto/learner.proto
+  Running C++ protocol buffer compiler on tensorflow/contrib/boosted_trees/proto/quantiles.proto
+  Running C++ protocol buffer compiler on tensorflow/contrib/boosted_trees/proto/split_info.proto
+  Running C++ protocol buffer compiler on tensorflow/contrib/boosted_trees/proto/tree_config.proto
+  debug_service.pb.cc
+  debugger_event_metadata.pb.cc
+  example.pb.cc
+  example_parser_configuration.pb.cc
+  feature.pb.cc
+  allocation_description.pb.cc
+  attr_value.pb.cc
+  cost_graph.pb.cc
+  device_attributes.pb.cc
+  function.pb.cc
+  graph.pb.cc
+  graph_transfer_info.pb.cc
+  kernel_def.pb.cc
+  log_memory.pb.cc
+  node_def.pb.cc
+  op_def.pb.cc
+  op_gen_overrides.pb.cc
+  reader_base.pb.cc
+  remote_fused_graph_execute_info.pb.cc
+  resource_handle.pb.cc
+  step_stats.pb.cc
+  summary.pb.cc
+  tensor.pb.cc
+  tensor_description.pb.cc
+  tensor_shape.pb.cc
+  tensor_slice.pb.cc
+  types.pb.cc
+  variable.pb.cc
+  versions.pb.cc
+  op_performance_data.pb.cc
+  error_codes.pb.cc
+  profile.pb.cc
+  tfprof_log.pb.cc
+  tfprof_options.pb.cc
+  tfprof_output.pb.cc
+  cluster.pb.cc
+  config.pb.cc
+  control_flow.pb.cc
+  debug.pb.cc
+  device_properties.pb.cc
+  master.pb.cc
+  master_service.pb.cc
+  meta_graph.pb.cc
+  named_tensor.pb.cc
+  queue_runner.pb.cc
+  rewriter_config.pb.cc
+  saved_model.pb.cc
+  saver.pb.cc
+  tensor_bundle.pb.cc
+  tensorflow_server.pb.cc
+  worker.pb.cc
+  worker_service.pb.cc
+  event.pb.cc
+  example_proto_fast_parsing_test.pb.cc
+  memmapped_file_system.pb.cc
+  saved_tensor_slice.pb.cc
+  test_log.pb.cc
+  learner.pb.cc
+  quantiles.pb.cc
+  split_info.pb.cc
+  tree_config.pb.cc
+  tf_protos_cc.vcxproj -> C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\Release\tf_protos_cc.lib

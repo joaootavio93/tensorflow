@@ -1,0 +1,2 @@
+C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/gemmlowp/src/gemmlowp/CMakeFiles/ALL_BUILD.dir
+C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/gemmlowp/src/gemmlowp/CMakeFiles/ZERO_CHECK.dir

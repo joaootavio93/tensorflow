@@ -1,0 +1,31 @@
+﻿  Building Custom Rule C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/CMakeLists.txt
+  CMake does not need to re-run because C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/generate.stamp is up-to-date.
+  internal_checker_runner_dummy.cc
+  tfprof_code.cc
+  tfprof_graph.cc
+  tfprof_node.cc
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow/c/c_api.h(967): warning C4190: 'TF_NewWhile' has C-linkage specified, but returns UDT 'TF_WhileParams' which is incompatible with C (compiling source file C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\profiler\internal\tfprof_graph.cc)
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow/c/c_api.h(967): warning C4190: 'TF_NewWhile' has C-linkage specified, but returns UDT 'TF_WhileParams' which is incompatible with C (compiling source file C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\profiler\internal\tfprof_code.cc)
+  C:\Visual Studio 2015\Projects\tensorflow\tensorflow/c/c_api.h(923): note: see declaration of 'TF_WhileParams' (compiling source file C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\profiler\internal\tfprof_graph.cc)
+  C:\Visual Studio 2015\Projects\tensorflow\tensorflow/c/c_api.h(923): note: see declaration of 'TF_WhileParams' (compiling source file C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\profiler\internal\tfprof_code.cc)
+  tfprof_node_show.cc
+  tfprof_op.cc
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow/c/c_api.h(967): warning C4190: 'TF_NewWhile' has C-linkage specified, but returns UDT 'TF_WhileParams' which is incompatible with C (compiling source file C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\profiler\internal\tfprof_op.cc)
+  C:\Visual Studio 2015\Projects\tensorflow\tensorflow/c/c_api.h(923): note: see declaration of 'TF_WhileParams' (compiling source file C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\profiler\internal\tfprof_op.cc)
+  tfprof_options.cc
+  tfprof_scope.cc
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow/c/c_api.h(967): warning C4190: 'TF_NewWhile' has C-linkage specified, but returns UDT 'TF_WhileParams' which is incompatible with C (compiling source file C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\profiler\internal\tfprof_scope.cc)
+  C:\Visual Studio 2015\Projects\tensorflow\tensorflow/c/c_api.h(923): note: see declaration of 'TF_WhileParams' (compiling source file C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\profiler\internal\tfprof_scope.cc)
+  tfprof_show.cc
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow/c/c_api.h(967): warning C4190: 'TF_NewWhile' has C-linkage specified, but returns UDT 'TF_WhileParams' which is incompatible with C (compiling source file C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\profiler\internal\tfprof_show.cc)
+  C:\Visual Studio 2015\Projects\tensorflow\tensorflow/c/c_api.h(923): note: see declaration of 'TF_WhileParams' (compiling source file C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\profiler\internal\tfprof_show.cc)
+  tfprof_show_multi.cc
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow/c/c_api.h(967): warning C4190: 'TF_NewWhile' has C-linkage specified, but returns UDT 'TF_WhileParams' which is incompatible with C (compiling source file C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\profiler\internal\tfprof_show_multi.cc)
+  C:\Visual Studio 2015\Projects\tensorflow\tensorflow/c/c_api.h(923): note: see declaration of 'TF_WhileParams' (compiling source file C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\profiler\internal\tfprof_show_multi.cc)
+  tfprof_stats.cc
+  tfprof_tensor.cc
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow/c/c_api.h(967): warning C4190: 'TF_NewWhile' has C-linkage specified, but returns UDT 'TF_WhileParams' which is incompatible with C (compiling source file C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\profiler\internal\tfprof_stats.cc)
+  C:\Visual Studio 2015\Projects\tensorflow\tensorflow/c/c_api.h(923): note: see declaration of 'TF_WhileParams' (compiling source file C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\profiler\internal\tfprof_stats.cc)
+  tfprof_timeline.cc
+  tfprof_utils.cc
+  tf_core_profiler.vcxproj -> C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_core_profiler.dir\Release\tf_core_profiler.lib

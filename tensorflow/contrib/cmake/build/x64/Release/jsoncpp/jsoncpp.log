@@ -1,0 +1,219 @@
+﻿  Building Custom Rule C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/CMakeLists.txt
+  CMake does not need to re-run because C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/generate.stamp is up-to-date.
+  Creating directories for 'jsoncpp'
+  Performing download step (git clone) for 'jsoncpp'
+  Cloning into 'jsoncpp'...
+  Note: checking out '4356d9b'.
+  
+  You are in 'detached HEAD' state. You can look around, make experimental
+  changes and commit them, and you can discard any commits you make in this
+  state without impacting any branches by performing another checkout.
+  
+  If you want to create a new branch to retain commits you create, you may
+  do so (now or later) by using -b with the checkout command again. Example:
+  
+    git checkout -b <new-branch-name>
+  
+  HEAD is now at 4356d9b... Merge pull request #474 from cdunn2001/fix-warning
+  Performing update step for 'jsoncpp'
+  No patch step for 'jsoncpp'
+  Performing configure step for 'jsoncpp'
+  loading initial cache file C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/jsoncpp/tmp/jsoncpp-cache-Release.cmake
+  -- The C compiler identification is MSVC 19.0.24215.1
+  -- The CXX compiler identification is MSVC 19.0.24215.1
+  -- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/x86_amd64/cl.exe
+  -- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/x86_amd64/cl.exe -- works
+  -- Detecting C compiler ABI info
+  -- Detecting C compiler ABI info - done
+  -- Check for working CXX compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/x86_amd64/cl.exe
+  -- Check for working CXX compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/x86_amd64/cl.exe -- works
+  -- Detecting CXX compiler ABI info
+  -- Detecting CXX compiler ABI info - done
+  -- Detecting CXX compile features
+  -- Detecting CXX compile features - done
+  -- JsonCpp Version: 1.7.2
+  -- Found PythonInterp: C:/Python 3.5/python.exe (found suitable version "3.5", minimum required is "2.6") 
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/jsoncpp/src/jsoncpp
+  Performing build step for 'jsoncpp'
+  Microsoft (R) Build Engine version 14.0.25420.1
+  Copyright (C) Microsoft Corporation. All rights reserved.
+  
+  Build started 18/08/2017 14:53:16.
+  Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jsoncpp\src\jsoncpp\ALL_BUILD.vcxproj" on node 1 (default targets).
+  Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jsoncpp\src\jsoncpp\ALL_BUILD.vcxproj" (1) is building "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jsoncpp\src\jsoncpp\ZERO_CHECK.vcxproj" (2) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "x64\Release\ZERO_CHECK\".
+    Creating directory "x64\Release\ZERO_CHECK\ZERO_CHECK.tlog\".
+  InitializeBuildStatus:
+    Creating "x64\Release\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Checking Build System
+    CMake does not need to re-run because C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/jsoncpp/src/jsoncpp/CMakeFiles/generate.stamp is up-to-date.
+    CMake does not need to re-run because C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/jsoncpp/src/jsoncpp/src/CMakeFiles/generate.stamp is up-to-date.
+    CMake does not need to re-run because C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/jsoncpp/src/jsoncpp/src/lib_json/CMakeFiles/generate.stamp is up-to-date.
+    CMake does not need to re-run because C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/jsoncpp/src/jsoncpp/src/jsontestrunner/CMakeFiles/generate.stamp is up-to-date.
+    CMake does not need to re-run because C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/jsoncpp/src/jsoncpp/src/test_lib_json/CMakeFiles/generate.stamp is up-to-date.
+    CMake does not need to re-run because C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/jsoncpp/src/jsoncpp/include/CMakeFiles/generate.stamp is up-to-date.
+  FinalizeBuildStatus:
+    Deleting file "x64\Release\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild".
+    Touching "x64\Release\ZERO_CHECK\ZERO_CHECK.tlog\ZERO_CHECK.lastbuildstate".
+  Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jsoncpp\src\jsoncpp\ZERO_CHECK.vcxproj" (default targets).
+  Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jsoncpp\src\jsoncpp\ALL_BUILD.vcxproj" (1) is building "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jsoncpp\src\jsoncpp\src\lib_json\jsoncpp_lib_static.vcxproj" (3) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "jsoncpp_lib_static.dir\Release\".
+    Creating directory "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jsoncpp\src\jsoncpp\src\lib_json\Release\".
+    Creating directory "jsoncpp_lib_static.dir\Release\jsoncpp_.C40B2971.tlog\".
+  InitializeBuildStatus:
+    Creating "jsoncpp_lib_static.dir\Release\jsoncpp_.C40B2971.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/jsoncpp/src/jsoncpp/src/lib_json/CMakeLists.txt
+    CMake does not need to re-run because C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/jsoncpp/src/jsoncpp/src/lib_json/CMakeFiles/generate.stamp is up-to-date.
+  ClCompile:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jsoncpp\src\jsoncpp\include" /I"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jsoncpp\src\jsoncpp\src\lib_json\..\..\include" /nologo /W3 /WX- /O2 /Ob2 /D WIN32 /D _WINDOWS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"jsoncpp_lib_static.dir\Release\\" /Fd"jsoncpp_lib_static.dir\Release\jsoncpp_lib_static.pdb" /Gd /TP /errorReport:queue "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jsoncpp\src\jsoncpp\src\lib_json\json_reader.cpp" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jsoncpp\src\jsoncpp\src\lib_json\json_value.cpp" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jsoncpp\src\jsoncpp\src\lib_json\json_writer.cpp"
+    json_reader.cpp
+    json_value.cpp
+    json_writer.cpp
+    Generating Code...
+  Lib:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\Lib.exe /OUT:"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jsoncpp\src\jsoncpp\src\lib_json\Release\jsoncpp.lib" /NOLOGO /MACHINE:X64  /machine:x64 jsoncpp_lib_static.dir\Release\json_reader.obj
+    jsoncpp_lib_static.dir\Release\json_value.obj
+    jsoncpp_lib_static.dir\Release\json_writer.obj
+    jsoncpp_lib_static.vcxproj -> C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jsoncpp\src\jsoncpp\src\lib_json\Release\jsoncpp.lib
+  FinalizeBuildStatus:
+    Deleting file "jsoncpp_lib_static.dir\Release\jsoncpp_.C40B2971.tlog\unsuccessfulbuild".
+    Touching "jsoncpp_lib_static.dir\Release\jsoncpp_.C40B2971.tlog\jsoncpp_lib_static.lastbuildstate".
+  Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jsoncpp\src\jsoncpp\src\lib_json\jsoncpp_lib_static.vcxproj" (default targets).
+  Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jsoncpp\src\jsoncpp\ALL_BUILD.vcxproj" (1) is building "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jsoncpp\src\jsoncpp\src\test_lib_json\jsoncpp_test.vcxproj" (4) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "jsoncpp_test.dir\Release\".
+    Creating directory "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jsoncpp\src\jsoncpp\src\test_lib_json\Release\".
+    Creating directory "jsoncpp_test.dir\Release\jsoncpp_test.tlog\".
+  InitializeBuildStatus:
+    Creating "jsoncpp_test.dir\Release\jsoncpp_test.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/jsoncpp/src/jsoncpp/src/test_lib_json/CMakeLists.txt
+    CMake does not need to re-run because C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/jsoncpp/src/jsoncpp/src/test_lib_json/CMakeFiles/generate.stamp is up-to-date.
+  ClCompile:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jsoncpp\src\jsoncpp\include" /I"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jsoncpp\src\jsoncpp\src\lib_json\..\..\include" /nologo /W3 /WX- /O2 /Ob2 /D WIN32 /D _WINDOWS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"jsoncpp_test.dir\Release\\" /Fd"jsoncpp_test.dir\Release\vc140.pdb" /Gd /TP /errorReport:queue "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jsoncpp\src\jsoncpp\src\test_lib_json\jsontest.cpp" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jsoncpp\src\jsoncpp\src\test_lib_json\main.cpp"
+    jsontest.cpp
+    main.cpp
+    Generating Code...
+  Link:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jsoncpp\src\jsoncpp\src\test_lib_json\Release\jsoncpp_test.exe" /INCREMENTAL:NO /NOLOGO ..\lib_json\Release\jsoncpp.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/jsoncpp/src/jsoncpp/src/test_lib_json/Release/jsoncpp_test.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/jsoncpp/src/jsoncpp/src/test_lib_json/Release/jsoncpp_test.lib" /MACHINE:X64  /machine:x64 jsoncpp_test.dir\Release\jsontest.obj
+    jsoncpp_test.dir\Release\main.obj
+    jsoncpp_test.vcxproj -> C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jsoncpp\src\jsoncpp\src\test_lib_json\Release\jsoncpp_test.exe
+  PostBuildEvent:
+    setlocal
+    Release\jsoncpp_test.exe
+    if %errorlevel% neq 0 goto :cmEnd
+    :cmEnd
+    endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+    :cmErrorLevel
+    exit /b %1
+    :cmDone
+    if %errorlevel% neq 0 goto :VCEnd
+    :VCEnd
+    Testing ValueTest/checkNormalizeFloatingPointStr: OK
+    Testing ValueTest/memberCount: OK
+    Testing ValueTest/objects: OK
+    Testing ValueTest/arrays: OK
+    Testing ValueTest/arrayIssue252: OK
+    Testing ValueTest/null: OK
+    Testing ValueTest/strings: OK
+    Testing ValueTest/bools: OK
+    Testing ValueTest/integers: OK
+    Testing ValueTest/nonIntegers: OK
+    Testing ValueTest/compareNull: OK
+    Testing ValueTest/compareInt: OK
+    Testing ValueTest/compareUInt: OK
+    Testing ValueTest/compareDouble: OK
+    Testing ValueTest/compareString: OK
+    Testing ValueTest/compareBoolean: OK
+    Testing ValueTest/compareArray: OK
+    Testing ValueTest/compareObject: OK
+    Testing ValueTest/compareType: OK
+    Testing ValueTest/offsetAccessors: OK
+    Testing ValueTest/typeChecksThrowExceptions: OK
+    Testing ValueTest/StaticString: OK
+    Testing ValueTest/CommentBefore: OK
+    Testing ValueTest/zeroes: OK
+    Testing ValueTest/zeroesInKeys: OK
+    Testing ValueTest/specialFloats: OK
+    Testing ValueTest/precision: OK
+    Testing WriterTest/dropNullPlaceholders: OK
+    Testing StreamWriterTest/dropNullPlaceholders: OK
+    Testing StreamWriterTest/writeZeroes: OK
+    Testing ReaderTest/parseWithNoErrors: OK
+    Testing ReaderTest/parseWithNoErrorsTestingOffsets: OK
+    Testing ReaderTest/parseWithOneError: OK
+    Testing ReaderTest/parseChineseWithOneError: OK
+    Testing ReaderTest/parseWithDetailError: OK
+    Testing CharReaderTest/parseWithNoErrors: OK
+    Testing CharReaderTest/parseWithNoErrorsTestingOffsets: OK
+    Testing CharReaderTest/parseWithOneError: OK
+    Testing CharReaderTest/parseChineseWithOneError: OK
+    Testing CharReaderTest/parseWithDetailError: OK
+    Testing CharReaderTest/parseWithStackLimit: OK
+    Testing CharReaderStrictModeTest/dupKeys: OK
+    Testing CharReaderFailIfExtraTest/issue164: OK
+    Testing CharReaderFailIfExtraTest/issue107: OK
+    Testing CharReaderFailIfExtraTest/commentAfterObject: OK
+    Testing CharReaderFailIfExtraTest/commentAfterArray: OK
+    Testing CharReaderFailIfExtraTest/commentAfterBool: OK
+    Testing CharReaderAllowDropNullTest/issue178: OK
+    Testing CharReaderAllowSingleQuotesTest/issue182: OK
+    Testing CharReaderAllowZeroesTest/issue176: OK
+    Testing CharReaderAllowSpecialFloatsTest/issue209: OK
+    Testing BuilderTest/settings: OK
+    Testing IteratorTest/distance: OK
+    Testing IteratorTest/names: OK
+    Testing IteratorTest/indexes: OK
+    Testing IteratorTest/const: OK
+    Testing RValueTest/moveConstruction: OK
+    All 57 tests passed
+  FinalizeBuildStatus:
+    Deleting file "jsoncpp_test.dir\Release\jsoncpp_test.tlog\unsuccessfulbuild".
+    Touching "jsoncpp_test.dir\Release\jsoncpp_test.tlog\jsoncpp_test.lastbuildstate".
+  Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jsoncpp\src\jsoncpp\src\test_lib_json\jsoncpp_test.vcxproj" (default targets).
+  Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jsoncpp\src\jsoncpp\ALL_BUILD.vcxproj" (1) is building "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jsoncpp\src\jsoncpp\src\jsontestrunner\jsontestrunner_exe.vcxproj" (5) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "jsontestrunner_exe.dir\Release\".
+    Creating directory "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jsoncpp\src\jsoncpp\src\jsontestrunner\Release\".
+    Creating directory "jsontestrunner_exe.dir\Release\jsontest.C64B7974.tlog\".
+  InitializeBuildStatus:
+    Creating "jsontestrunner_exe.dir\Release\jsontest.C64B7974.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/jsoncpp/src/jsoncpp/src/jsontestrunner/CMakeLists.txt
+    CMake does not need to re-run because C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/jsoncpp/src/jsoncpp/src/jsontestrunner/CMakeFiles/generate.stamp is up-to-date.
+  ClCompile:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jsoncpp\src\jsoncpp\include" /I"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jsoncpp\src\jsoncpp\src\lib_json\..\..\include" /nologo /W3 /WX- /O2 /Ob2 /D WIN32 /D _WINDOWS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"jsontestrunner_exe.dir\Release\\" /Fd"jsontestrunner_exe.dir\Release\vc140.pdb" /Gd /TP /errorReport:queue "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jsoncpp\src\jsoncpp\src\jsontestrunner\main.cpp"
+    main.cpp
+  Link:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jsoncpp\src\jsoncpp\src\jsontestrunner\Release\jsontestrunner_exe.exe" /INCREMENTAL:NO /NOLOGO ..\lib_json\Release\jsoncpp.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/jsoncpp/src/jsoncpp/src/jsontestrunner/Release/jsontestrunner_exe.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/jsoncpp/src/jsoncpp/src/jsontestrunner/Release/jsontestrunner_exe.lib" /MACHINE:X64  /machine:x64 jsontestrunner_exe.dir\Release\main.obj
+    jsontestrunner_exe.vcxproj -> C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jsoncpp\src\jsoncpp\src\jsontestrunner\Release\jsontestrunner_exe.exe
+  FinalizeBuildStatus:
+    Deleting file "jsontestrunner_exe.dir\Release\jsontest.C64B7974.tlog\unsuccessfulbuild".
+    Touching "jsontestrunner_exe.dir\Release\jsontest.C64B7974.tlog\jsontestrunner_exe.lastbuildstate".
+  Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jsoncpp\src\jsoncpp\src\jsontestrunner\jsontestrunner_exe.vcxproj" (default targets).
+  PrepareForBuild:
+    Creating directory "x64\Release\ALL_BUILD\".
+    Creating directory "x64\Release\ALL_BUILD\ALL_BUILD.tlog\".
+  InitializeBuildStatus:
+    Creating "x64\Release\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/jsoncpp/src/jsoncpp/CMakeLists.txt
+    CMake does not need to re-run because C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/jsoncpp/src/jsoncpp/CMakeFiles/generate.stamp is up-to-date.
+  FinalizeBuildStatus:
+    Deleting file "x64\Release\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild".
+    Touching "x64\Release\ALL_BUILD\ALL_BUILD.tlog\ALL_BUILD.lastbuildstate".
+  Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\jsoncpp\src\jsoncpp\ALL_BUILD.vcxproj" (default targets).
+  
+  Build succeeded.
+      0 Warning(s)
+      0 Error(s)
+  
+  Time Elapsed 00:00:23.77
+  No install step for 'jsoncpp'
+  Completed 'jsoncpp'

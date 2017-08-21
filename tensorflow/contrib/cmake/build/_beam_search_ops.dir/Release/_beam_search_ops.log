@@ -1,0 +1,7 @@
+﻿  Building Custom Rule C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/CMakeLists.txt
+  CMake does not need to re-run because C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/generate.stamp is up-to-date.
+cl : Command line warning D9025: overriding '/DTF_COMPILE_LIBRARY' with '/UTF_COMPILE_LIBRARY'
+  beam_search_ops.cc
+cl : Command line warning D9025: overriding '/DTF_COMPILE_LIBRARY' with '/UTF_COMPILE_LIBRARY'
+  beam_search_ops.cc
+  _beam_search_ops.vcxproj -> C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\Release\_beam_search_ops.dll

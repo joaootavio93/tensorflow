@@ -1,0 +1,3 @@
+repository='external project URL'
+module='http://www.kurims.kyoto-u.ac.jp/~ooura/fft.tgz'
+tag='SHA256=52bb637c70b971958ec79c9c8752b1df5ff0218a4db4510e60826e0cb79b5296'

@@ -1,0 +1,1017 @@
+﻿  Building Custom Rule C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/CMakeLists.txt
+  CMake does not need to re-run because C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/generate.stamp is up-to-date.
+  Creating directories for 're2'
+  Performing download step (git clone) for 're2'
+  Cloning into 're2'...
+  Note: checking out 'e7efc48'.
+  
+  You are in 'detached HEAD' state. You can look around, make experimental
+  changes and commit them, and you can discard any commits you make in this
+  state without impacting any branches by performing another checkout.
+  
+  If you want to create a new branch to retain commits you create, you may
+  do so (now or later) by using -b with the checkout command again. Example:
+  
+    git checkout -b <new-branch-name>
+  
+  HEAD is now at e7efc48... Disable various warnings that aren't particularly helpful.
+  Performing update step for 're2'
+  No patch step for 're2'
+  Performing configure step for 're2'
+  loading initial cache file C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/re2/tmp/re2-cache-Release.cmake
+  -- The CXX compiler identification is MSVC 19.0.24215.1
+  -- Check for working CXX compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/x86_amd64/cl.exe
+  -- Check for working CXX compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/x86_amd64/cl.exe -- works
+  -- Detecting CXX compiler ABI info
+  -- Detecting CXX compiler ABI info - done
+  -- Detecting CXX compile features
+  -- Detecting CXX compile features - done
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/re2/src/re2
+  Performing build step for 're2'
+  Microsoft (R) Build Engine version 14.0.25420.1
+  Copyright (C) Microsoft Corporation. All rights reserved.
+  
+  Build started 18/08/2017 14:48:25.
+  Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\ALL_BUILD.vcxproj" on node 1 (default targets).
+  Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\ALL_BUILD.vcxproj" (1) is building "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\ZERO_CHECK.vcxproj" (2) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "x64\Release\ZERO_CHECK\".
+    Creating directory "x64\Release\ZERO_CHECK\ZERO_CHECK.tlog\".
+  InitializeBuildStatus:
+    Creating "x64\Release\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Checking Build System
+    CMake does not need to re-run because C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/re2/src/re2/CMakeFiles/generate.stamp is up-to-date.
+  FinalizeBuildStatus:
+    Deleting file "x64\Release\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild".
+    Touching "x64\Release\ZERO_CHECK\ZERO_CHECK.tlog\ZERO_CHECK.lastbuildstate".
+  Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\ZERO_CHECK.vcxproj" (default targets).
+  Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\ALL_BUILD.vcxproj" (1) is building "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\charclass_test.vcxproj" (3) on node 1 (default targets).
+  Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\charclass_test.vcxproj" (3) is building "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\re2.vcxproj" (4) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "re2.dir\Release\".
+    Creating directory "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\Release\".
+    Creating directory "re2.dir\Release\re2.tlog\".
+  InitializeBuildStatus:
+    Creating "re2.dir\Release\re2.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/re2/src/re2/CMakeLists.txt
+    CMake does not need to re-run because C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/re2/src/re2/CMakeFiles/generate.stamp is up-to-date.
+  ClCompile:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2" /nologo /W3 /WX- /O2 /Ob2 /D WIN32 /D _WINDOWS /D NDEBUG /D UNICODE /D _UNICODE /D STRICT /D NOMINMAX /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Release\"" /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"re2.dir\Release\\" /Fd"re2.dir\Release\re2.pdb" /Gd /TP /wd4100 /wd4201 /wd4456 /wd4457 /wd4702 /wd4815 /errorReport:queue "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\re2\bitstate.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\re2\compile.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\re2\dfa.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\re2\filtered_re2.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\re2\mimics_pcre.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\re2\nfa.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\re2\onepass.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\re2\parse.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\re2\perl_groups.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\re2\prefilter.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\re2\prefilter_tree.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\re2\prog.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\re2\re2.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\re2\regexp.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\re2\set.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\re2\simplify.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\re2\stringpiece.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\re2\tostring.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\re2\unicode_casefold.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\re2\unicode_groups.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\util\rune.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\util\strutil.cc"
+    bitstate.cc
+    compile.cc
+    dfa.cc
+    filtered_re2.cc
+    mimics_pcre.cc
+    nfa.cc
+    onepass.cc
+    parse.cc
+    perl_groups.cc
+    prefilter.cc
+    prefilter_tree.cc
+    prog.cc
+    re2.cc
+    regexp.cc
+    set.cc
+    simplify.cc
+    stringpiece.cc
+    tostring.cc
+    unicode_casefold.cc
+    unicode_groups.cc
+    Generating Code...
+    Compiling...
+    rune.cc
+    strutil.cc
+    Generating Code...
+  Lib:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\Lib.exe /OUT:"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\Release\re2.lib" /NOLOGO /MACHINE:X64  /machine:x64 re2.dir\Release\bitstate.obj
+    re2.dir\Release\compile.obj
+    re2.dir\Release\dfa.obj
+    re2.dir\Release\filtered_re2.obj
+    re2.dir\Release\mimics_pcre.obj
+    re2.dir\Release\nfa.obj
+    re2.dir\Release\onepass.obj
+    re2.dir\Release\parse.obj
+    re2.dir\Release\perl_groups.obj
+    re2.dir\Release\prefilter.obj
+    re2.dir\Release\prefilter_tree.obj
+    re2.dir\Release\prog.obj
+    re2.dir\Release\re2.obj
+    re2.dir\Release\regexp.obj
+    re2.dir\Release\set.obj
+    re2.dir\Release\simplify.obj
+    re2.dir\Release\stringpiece.obj
+    re2.dir\Release\tostring.obj
+    re2.dir\Release\unicode_casefold.obj
+    re2.dir\Release\unicode_groups.obj
+    re2.dir\Release\rune.obj
+    re2.dir\Release\strutil.obj
+    re2.vcxproj -> C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\Release\re2.lib
+  FinalizeBuildStatus:
+    Deleting file "re2.dir\Release\re2.tlog\unsuccessfulbuild".
+    Touching "re2.dir\Release\re2.tlog\re2.lastbuildstate".
+  Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\re2.vcxproj" (default targets).
+  Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\charclass_test.vcxproj" (3) is building "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\testing.vcxproj" (5) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "testing.dir\Release\".
+    Creating directory "testing.dir\Release\testing.tlog\".
+  InitializeBuildStatus:
+    Creating "testing.dir\Release\testing.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/re2/src/re2/CMakeLists.txt
+    CMake does not need to re-run because C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/re2/src/re2/CMakeFiles/generate.stamp is up-to-date.
+  ClCompile:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2" /nologo /W3 /WX- /O2 /Ob2 /D WIN32 /D _WINDOWS /D NDEBUG /D UNICODE /D _UNICODE /D STRICT /D NOMINMAX /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Release\"" /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"testing.dir\Release\\" /Fd"testing.dir\Release\testing.pdb" /Gd /TP /wd4100 /wd4201 /wd4456 /wd4457 /wd4702 /wd4815 /errorReport:queue "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\re2\testing\backtrack.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\re2\testing\dump.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\re2\testing\exhaustive_tester.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\re2\testing\null_walker.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\re2\testing\regexp_generator.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\re2\testing\string_generator.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\re2\testing\tester.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\util\pcre.cc"
+    backtrack.cc
+    dump.cc
+    exhaustive_tester.cc
+    null_walker.cc
+    regexp_generator.cc
+    string_generator.cc
+    tester.cc
+    pcre.cc
+    Generating Code...
+  Lib:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\Lib.exe /OUT:"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\Release\testing.lib" /NOLOGO /MACHINE:X64  /machine:x64 testing.dir\Release\backtrack.obj
+    testing.dir\Release\dump.obj
+    testing.dir\Release\exhaustive_tester.obj
+    testing.dir\Release\null_walker.obj
+    testing.dir\Release\regexp_generator.obj
+    testing.dir\Release\string_generator.obj
+    testing.dir\Release\tester.obj
+    testing.dir\Release\pcre.obj
+    testing.vcxproj -> C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\Release\testing.lib
+  FinalizeBuildStatus:
+    Deleting file "testing.dir\Release\testing.tlog\unsuccessfulbuild".
+    Touching "testing.dir\Release\testing.tlog\testing.lastbuildstate".
+  Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\testing.vcxproj" (default targets).
+  PrepareForBuild:
+    Creating directory "charclass_test.dir\Release\".
+    Creating directory "charclass_test.dir\Release\charclass_test.tlog\".
+  InitializeBuildStatus:
+    Creating "charclass_test.dir\Release\charclass_test.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/re2/src/re2/CMakeLists.txt
+    CMake does not need to re-run because C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/re2/src/re2/CMakeFiles/generate.stamp is up-to-date.
+  ClCompile:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2" /nologo /W3 /WX- /O2 /Ob2 /D WIN32 /D _WINDOWS /D NDEBUG /D UNICODE /D _UNICODE /D STRICT /D NOMINMAX /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Release\"" /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"charclass_test.dir\Release\\" /Fd"charclass_test.dir\Release\vc140.pdb" /Gd /TP /wd4100 /wd4201 /wd4456 /wd4457 /wd4702 /wd4815 /errorReport:queue "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\re2\testing\charclass_test.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\util\test.cc"
+    charclass_test.cc
+    test.cc
+    Generating Code...
+  Link:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\Release\charclass_test.exe" /INCREMENTAL:NO /NOLOGO Release\testing.lib Release\re2.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/re2/src/re2/Release/charclass_test.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/re2/src/re2/Release/charclass_test.lib" /MACHINE:X64  /machine:x64 charclass_test.dir\Release\charclass_test.obj
+    charclass_test.dir\Release\test.obj
+    charclass_test.vcxproj -> C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\Release\charclass_test.exe
+  FinalizeBuildStatus:
+    Deleting file "charclass_test.dir\Release\charclass_test.tlog\unsuccessfulbuild".
+    Touching "charclass_test.dir\Release\charclass_test.tlog\charclass_test.lastbuildstate".
+  Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\charclass_test.vcxproj" (default targets).
+  Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\ALL_BUILD.vcxproj" (1) is building "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\compile_test.vcxproj" (6) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "compile_test.dir\Release\".
+    Creating directory "compile_test.dir\Release\compile_test.tlog\".
+  InitializeBuildStatus:
+    Creating "compile_test.dir\Release\compile_test.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/re2/src/re2/CMakeLists.txt
+    CMake does not need to re-run because C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/re2/src/re2/CMakeFiles/generate.stamp is up-to-date.
+  ClCompile:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2" /nologo /W3 /WX- /O2 /Ob2 /D WIN32 /D _WINDOWS /D NDEBUG /D UNICODE /D _UNICODE /D STRICT /D NOMINMAX /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Release\"" /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"compile_test.dir\Release\\" /Fd"compile_test.dir\Release\vc140.pdb" /Gd /TP /wd4100 /wd4201 /wd4456 /wd4457 /wd4702 /wd4815 /errorReport:queue "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\re2\testing\compile_test.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\util\test.cc"
+    compile_test.cc
+    test.cc
+    Generating Code...
+  Link:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\Release\compile_test.exe" /INCREMENTAL:NO /NOLOGO Release\testing.lib Release\re2.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/re2/src/re2/Release/compile_test.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/re2/src/re2/Release/compile_test.lib" /MACHINE:X64  /machine:x64 compile_test.dir\Release\compile_test.obj
+    compile_test.dir\Release\test.obj
+    compile_test.vcxproj -> C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\Release\compile_test.exe
+  FinalizeBuildStatus:
+    Deleting file "compile_test.dir\Release\compile_test.tlog\unsuccessfulbuild".
+    Touching "compile_test.dir\Release\compile_test.tlog\compile_test.lastbuildstate".
+  Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\compile_test.vcxproj" (default targets).
+  Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\ALL_BUILD.vcxproj" (1) is building "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\dfa_test.vcxproj" (7) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "dfa_test.dir\Release\".
+    Creating directory "dfa_test.dir\Release\dfa_test.tlog\".
+  InitializeBuildStatus:
+    Creating "dfa_test.dir\Release\dfa_test.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/re2/src/re2/CMakeLists.txt
+    CMake does not need to re-run because C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/re2/src/re2/CMakeFiles/generate.stamp is up-to-date.
+  ClCompile:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2" /nologo /W3 /WX- /O2 /Ob2 /D WIN32 /D _WINDOWS /D NDEBUG /D UNICODE /D _UNICODE /D STRICT /D NOMINMAX /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Release\"" /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"dfa_test.dir\Release\\" /Fd"dfa_test.dir\Release\vc140.pdb" /Gd /TP /wd4100 /wd4201 /wd4456 /wd4457 /wd4702 /wd4815 /errorReport:queue "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\re2\testing\dfa_test.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\util\test.cc"
+    dfa_test.cc
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\re2\testing\dfa_test.cc(82): warning C4334: '<<': result of 32-bit shift implicitly converted to 64 bits (was 64-bit shift intended?) [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\dfa_test.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\re2\testing\dfa_test.cc(123): warning C4334: '<<': result of 32-bit shift implicitly converted to 64 bits (was 64-bit shift intended?) [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\dfa_test.vcxproj]
+    test.cc
+    Generating Code...
+  Link:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\Release\dfa_test.exe" /INCREMENTAL:NO /NOLOGO Release\testing.lib Release\re2.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/re2/src/re2/Release/dfa_test.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/re2/src/re2/Release/dfa_test.lib" /MACHINE:X64  /machine:x64 dfa_test.dir\Release\dfa_test.obj
+    dfa_test.dir\Release\test.obj
+    dfa_test.vcxproj -> C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\Release\dfa_test.exe
+  FinalizeBuildStatus:
+    Deleting file "dfa_test.dir\Release\dfa_test.tlog\unsuccessfulbuild".
+    Touching "dfa_test.dir\Release\dfa_test.tlog\dfa_test.lastbuildstate".
+  Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\dfa_test.vcxproj" (default targets).
+  Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\ALL_BUILD.vcxproj" (1) is building "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\exhaustive1_test.vcxproj" (8) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "exhaustive1_test.dir\Release\".
+    Creating directory "exhaustive1_test.dir\Release\exhaustive1_test.tlog\".
+  InitializeBuildStatus:
+    Creating "exhaustive1_test.dir\Release\exhaustive1_test.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/re2/src/re2/CMakeLists.txt
+    CMake does not need to re-run because C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/re2/src/re2/CMakeFiles/generate.stamp is up-to-date.
+  ClCompile:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2" /nologo /W3 /WX- /O2 /Ob2 /D WIN32 /D _WINDOWS /D NDEBUG /D UNICODE /D _UNICODE /D STRICT /D NOMINMAX /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Release\"" /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"exhaustive1_test.dir\Release\\" /Fd"exhaustive1_test.dir\Release\vc140.pdb" /Gd /TP /wd4100 /wd4201 /wd4456 /wd4457 /wd4702 /wd4815 /errorReport:queue "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\re2\testing\exhaustive1_test.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\util\test.cc"
+    exhaustive1_test.cc
+    test.cc
+    Generating Code...
+  Link:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\Release\exhaustive1_test.exe" /INCREMENTAL:NO /NOLOGO Release\testing.lib Release\re2.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/re2/src/re2/Release/exhaustive1_test.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/re2/src/re2/Release/exhaustive1_test.lib" /MACHINE:X64  /machine:x64 exhaustive1_test.dir\Release\exhaustive1_test.obj
+    exhaustive1_test.dir\Release\test.obj
+    exhaustive1_test.vcxproj -> C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\Release\exhaustive1_test.exe
+  FinalizeBuildStatus:
+    Deleting file "exhaustive1_test.dir\Release\exhaustive1_test.tlog\unsuccessfulbuild".
+    Touching "exhaustive1_test.dir\Release\exhaustive1_test.tlog\exhaustive1_test.lastbuildstate".
+  Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\exhaustive1_test.vcxproj" (default targets).
+  Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\ALL_BUILD.vcxproj" (1) is building "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\exhaustive2_test.vcxproj" (9) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "exhaustive2_test.dir\Release\".
+    Creating directory "exhaustive2_test.dir\Release\exhaustive2_test.tlog\".
+  InitializeBuildStatus:
+    Creating "exhaustive2_test.dir\Release\exhaustive2_test.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/re2/src/re2/CMakeLists.txt
+    CMake does not need to re-run because C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/re2/src/re2/CMakeFiles/generate.stamp is up-to-date.
+  ClCompile:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2" /nologo /W3 /WX- /O2 /Ob2 /D WIN32 /D _WINDOWS /D NDEBUG /D UNICODE /D _UNICODE /D STRICT /D NOMINMAX /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Release\"" /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"exhaustive2_test.dir\Release\\" /Fd"exhaustive2_test.dir\Release\vc140.pdb" /Gd /TP /wd4100 /wd4201 /wd4456 /wd4457 /wd4702 /wd4815 /errorReport:queue "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\re2\testing\exhaustive2_test.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\util\test.cc"
+    exhaustive2_test.cc
+    test.cc
+    Generating Code...
+  Link:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\Release\exhaustive2_test.exe" /INCREMENTAL:NO /NOLOGO Release\testing.lib Release\re2.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/re2/src/re2/Release/exhaustive2_test.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/re2/src/re2/Release/exhaustive2_test.lib" /MACHINE:X64  /machine:x64 exhaustive2_test.dir\Release\exhaustive2_test.obj
+    exhaustive2_test.dir\Release\test.obj
+    exhaustive2_test.vcxproj -> C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\Release\exhaustive2_test.exe
+  FinalizeBuildStatus:
+    Deleting file "exhaustive2_test.dir\Release\exhaustive2_test.tlog\unsuccessfulbuild".
+    Touching "exhaustive2_test.dir\Release\exhaustive2_test.tlog\exhaustive2_test.lastbuildstate".
+  Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\exhaustive2_test.vcxproj" (default targets).
+  Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\ALL_BUILD.vcxproj" (1) is building "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\exhaustive3_test.vcxproj" (10) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "exhaustive3_test.dir\Release\".
+    Creating directory "exhaustive3_test.dir\Release\exhaustive3_test.tlog\".
+  InitializeBuildStatus:
+    Creating "exhaustive3_test.dir\Release\exhaustive3_test.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/re2/src/re2/CMakeLists.txt
+    CMake does not need to re-run because C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/re2/src/re2/CMakeFiles/generate.stamp is up-to-date.
+  ClCompile:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2" /nologo /W3 /WX- /O2 /Ob2 /D WIN32 /D _WINDOWS /D NDEBUG /D UNICODE /D _UNICODE /D STRICT /D NOMINMAX /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Release\"" /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"exhaustive3_test.dir\Release\\" /Fd"exhaustive3_test.dir\Release\vc140.pdb" /Gd /TP /wd4100 /wd4201 /wd4456 /wd4457 /wd4702 /wd4815 /errorReport:queue "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\re2\testing\exhaustive3_test.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\util\test.cc"
+    exhaustive3_test.cc
+    test.cc
+    Generating Code...
+  Link:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\Release\exhaustive3_test.exe" /INCREMENTAL:NO /NOLOGO Release\testing.lib Release\re2.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/re2/src/re2/Release/exhaustive3_test.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/re2/src/re2/Release/exhaustive3_test.lib" /MACHINE:X64  /machine:x64 exhaustive3_test.dir\Release\exhaustive3_test.obj
+    exhaustive3_test.dir\Release\test.obj
+    exhaustive3_test.vcxproj -> C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\Release\exhaustive3_test.exe
+  FinalizeBuildStatus:
+    Deleting file "exhaustive3_test.dir\Release\exhaustive3_test.tlog\unsuccessfulbuild".
+    Touching "exhaustive3_test.dir\Release\exhaustive3_test.tlog\exhaustive3_test.lastbuildstate".
+  Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\exhaustive3_test.vcxproj" (default targets).
+  Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\ALL_BUILD.vcxproj" (1) is building "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\exhaustive_test.vcxproj" (11) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "exhaustive_test.dir\Release\".
+    Creating directory "exhaustive_test.dir\Release\exhaustive_test.tlog\".
+  InitializeBuildStatus:
+    Creating "exhaustive_test.dir\Release\exhaustive_test.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/re2/src/re2/CMakeLists.txt
+    CMake does not need to re-run because C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/re2/src/re2/CMakeFiles/generate.stamp is up-to-date.
+  ClCompile:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2" /nologo /W3 /WX- /O2 /Ob2 /D WIN32 /D _WINDOWS /D NDEBUG /D UNICODE /D _UNICODE /D STRICT /D NOMINMAX /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Release\"" /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"exhaustive_test.dir\Release\\" /Fd"exhaustive_test.dir\Release\vc140.pdb" /Gd /TP /wd4100 /wd4201 /wd4456 /wd4457 /wd4702 /wd4815 /errorReport:queue "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\re2\testing\exhaustive_test.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\util\test.cc"
+    exhaustive_test.cc
+    test.cc
+    Generating Code...
+  Link:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\Release\exhaustive_test.exe" /INCREMENTAL:NO /NOLOGO Release\testing.lib Release\re2.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/re2/src/re2/Release/exhaustive_test.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/re2/src/re2/Release/exhaustive_test.lib" /MACHINE:X64  /machine:x64 exhaustive_test.dir\Release\exhaustive_test.obj
+    exhaustive_test.dir\Release\test.obj
+    exhaustive_test.vcxproj -> C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\Release\exhaustive_test.exe
+  FinalizeBuildStatus:
+    Deleting file "exhaustive_test.dir\Release\exhaustive_test.tlog\unsuccessfulbuild".
+    Touching "exhaustive_test.dir\Release\exhaustive_test.tlog\exhaustive_test.lastbuildstate".
+  Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\exhaustive_test.vcxproj" (default targets).
+  Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\ALL_BUILD.vcxproj" (1) is building "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\filtered_re2_test.vcxproj" (12) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "filtered_re2_test.dir\Release\".
+    Creating directory "filtered_re2_test.dir\Release\filtered.B985D10C.tlog\".
+  InitializeBuildStatus:
+    Creating "filtered_re2_test.dir\Release\filtered.B985D10C.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/re2/src/re2/CMakeLists.txt
+    CMake does not need to re-run because C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/re2/src/re2/CMakeFiles/generate.stamp is up-to-date.
+  ClCompile:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2" /nologo /W3 /WX- /O2 /Ob2 /D WIN32 /D _WINDOWS /D NDEBUG /D UNICODE /D _UNICODE /D STRICT /D NOMINMAX /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Release\"" /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"filtered_re2_test.dir\Release\\" /Fd"filtered_re2_test.dir\Release\vc140.pdb" /Gd /TP /wd4100 /wd4201 /wd4456 /wd4457 /wd4702 /wd4815 /errorReport:queue "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\re2\testing\filtered_re2_test.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\util\test.cc"
+    filtered_re2_test.cc
+    test.cc
+    Generating Code...
+  Link:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\Release\filtered_re2_test.exe" /INCREMENTAL:NO /NOLOGO Release\testing.lib Release\re2.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/re2/src/re2/Release/filtered_re2_test.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/re2/src/re2/Release/filtered_re2_test.lib" /MACHINE:X64  /machine:x64 filtered_re2_test.dir\Release\filtered_re2_test.obj
+    filtered_re2_test.dir\Release\test.obj
+    filtered_re2_test.vcxproj -> C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\Release\filtered_re2_test.exe
+  FinalizeBuildStatus:
+    Deleting file "filtered_re2_test.dir\Release\filtered.B985D10C.tlog\unsuccessfulbuild".
+    Touching "filtered_re2_test.dir\Release\filtered.B985D10C.tlog\filtered_re2_test.lastbuildstate".
+  Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\filtered_re2_test.vcxproj" (default targets).
+  Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\ALL_BUILD.vcxproj" (1) is building "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\mimics_pcre_test.vcxproj" (13) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "mimics_pcre_test.dir\Release\".
+    Creating directory "mimics_pcre_test.dir\Release\mimics_pcre_test.tlog\".
+  InitializeBuildStatus:
+    Creating "mimics_pcre_test.dir\Release\mimics_pcre_test.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/re2/src/re2/CMakeLists.txt
+    CMake does not need to re-run because C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/re2/src/re2/CMakeFiles/generate.stamp is up-to-date.
+  ClCompile:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2" /nologo /W3 /WX- /O2 /Ob2 /D WIN32 /D _WINDOWS /D NDEBUG /D UNICODE /D _UNICODE /D STRICT /D NOMINMAX /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Release\"" /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"mimics_pcre_test.dir\Release\\" /Fd"mimics_pcre_test.dir\Release\vc140.pdb" /Gd /TP /wd4100 /wd4201 /wd4456 /wd4457 /wd4702 /wd4815 /errorReport:queue "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\re2\testing\mimics_pcre_test.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\util\test.cc"
+    mimics_pcre_test.cc
+    test.cc
+    Generating Code...
+  Link:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\Release\mimics_pcre_test.exe" /INCREMENTAL:NO /NOLOGO Release\testing.lib Release\re2.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/re2/src/re2/Release/mimics_pcre_test.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/re2/src/re2/Release/mimics_pcre_test.lib" /MACHINE:X64  /machine:x64 mimics_pcre_test.dir\Release\mimics_pcre_test.obj
+    mimics_pcre_test.dir\Release\test.obj
+    mimics_pcre_test.vcxproj -> C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\Release\mimics_pcre_test.exe
+  FinalizeBuildStatus:
+    Deleting file "mimics_pcre_test.dir\Release\mimics_pcre_test.tlog\unsuccessfulbuild".
+    Touching "mimics_pcre_test.dir\Release\mimics_pcre_test.tlog\mimics_pcre_test.lastbuildstate".
+  Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\mimics_pcre_test.vcxproj" (default targets).
+  Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\ALL_BUILD.vcxproj" (1) is building "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\parse_test.vcxproj" (14) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "parse_test.dir\Release\".
+    Creating directory "parse_test.dir\Release\parse_test.tlog\".
+  InitializeBuildStatus:
+    Creating "parse_test.dir\Release\parse_test.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/re2/src/re2/CMakeLists.txt
+    CMake does not need to re-run because C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/re2/src/re2/CMakeFiles/generate.stamp is up-to-date.
+  ClCompile:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2" /nologo /W3 /WX- /O2 /Ob2 /D WIN32 /D _WINDOWS /D NDEBUG /D UNICODE /D _UNICODE /D STRICT /D NOMINMAX /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Release\"" /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"parse_test.dir\Release\\" /Fd"parse_test.dir\Release\vc140.pdb" /Gd /TP /wd4100 /wd4201 /wd4456 /wd4457 /wd4702 /wd4815 /errorReport:queue "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\re2\testing\parse_test.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\util\test.cc"
+    parse_test.cc
+    test.cc
+    Generating Code...
+  Link:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\Release\parse_test.exe" /INCREMENTAL:NO /NOLOGO Release\testing.lib Release\re2.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/re2/src/re2/Release/parse_test.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/re2/src/re2/Release/parse_test.lib" /MACHINE:X64  /machine:x64 parse_test.dir\Release\parse_test.obj
+    parse_test.dir\Release\test.obj
+    parse_test.vcxproj -> C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\Release\parse_test.exe
+  FinalizeBuildStatus:
+    Deleting file "parse_test.dir\Release\parse_test.tlog\unsuccessfulbuild".
+    Touching "parse_test.dir\Release\parse_test.tlog\parse_test.lastbuildstate".
+  Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\parse_test.vcxproj" (default targets).
+  Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\ALL_BUILD.vcxproj" (1) is building "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\possible_match_test.vcxproj" (15) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "possible_match_test.dir\Release\".
+    Creating directory "possible_match_test.dir\Release\possible.CBCB1CF5.tlog\".
+  InitializeBuildStatus:
+    Creating "possible_match_test.dir\Release\possible.CBCB1CF5.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/re2/src/re2/CMakeLists.txt
+    CMake does not need to re-run because C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/re2/src/re2/CMakeFiles/generate.stamp is up-to-date.
+  ClCompile:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2" /nologo /W3 /WX- /O2 /Ob2 /D WIN32 /D _WINDOWS /D NDEBUG /D UNICODE /D _UNICODE /D STRICT /D NOMINMAX /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Release\"" /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"possible_match_test.dir\Release\\" /Fd"possible_match_test.dir\Release\vc140.pdb" /Gd /TP /wd4100 /wd4201 /wd4456 /wd4457 /wd4702 /wd4815 /errorReport:queue "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\re2\testing\possible_match_test.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\util\test.cc"
+    possible_match_test.cc
+    test.cc
+    Generating Code...
+  Link:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\Release\possible_match_test.exe" /INCREMENTAL:NO /NOLOGO Release\testing.lib Release\re2.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/re2/src/re2/Release/possible_match_test.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/re2/src/re2/Release/possible_match_test.lib" /MACHINE:X64  /machine:x64 possible_match_test.dir\Release\possible_match_test.obj
+    possible_match_test.dir\Release\test.obj
+    possible_match_test.vcxproj -> C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\Release\possible_match_test.exe
+  FinalizeBuildStatus:
+    Deleting file "possible_match_test.dir\Release\possible.CBCB1CF5.tlog\unsuccessfulbuild".
+    Touching "possible_match_test.dir\Release\possible.CBCB1CF5.tlog\possible_match_test.lastbuildstate".
+  Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\possible_match_test.vcxproj" (default targets).
+  Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\ALL_BUILD.vcxproj" (1) is building "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\random_test.vcxproj" (16) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "random_test.dir\Release\".
+    Creating directory "random_test.dir\Release\random_test.tlog\".
+  InitializeBuildStatus:
+    Creating "random_test.dir\Release\random_test.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/re2/src/re2/CMakeLists.txt
+    CMake does not need to re-run because C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/re2/src/re2/CMakeFiles/generate.stamp is up-to-date.
+  ClCompile:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2" /nologo /W3 /WX- /O2 /Ob2 /D WIN32 /D _WINDOWS /D NDEBUG /D UNICODE /D _UNICODE /D STRICT /D NOMINMAX /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Release\"" /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"random_test.dir\Release\\" /Fd"random_test.dir\Release\vc140.pdb" /Gd /TP /wd4100 /wd4201 /wd4456 /wd4457 /wd4702 /wd4815 /errorReport:queue "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\re2\testing\random_test.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\util\test.cc"
+    random_test.cc
+    test.cc
+    Generating Code...
+  Link:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\Release\random_test.exe" /INCREMENTAL:NO /NOLOGO Release\testing.lib Release\re2.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/re2/src/re2/Release/random_test.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/re2/src/re2/Release/random_test.lib" /MACHINE:X64  /machine:x64 random_test.dir\Release\random_test.obj
+    random_test.dir\Release\test.obj
+    random_test.vcxproj -> C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\Release\random_test.exe
+  FinalizeBuildStatus:
+    Deleting file "random_test.dir\Release\random_test.tlog\unsuccessfulbuild".
+    Touching "random_test.dir\Release\random_test.tlog\random_test.lastbuildstate".
+  Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\random_test.vcxproj" (default targets).
+  Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\ALL_BUILD.vcxproj" (1) is building "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\re2_arg_test.vcxproj" (17) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "re2_arg_test.dir\Release\".
+    Creating directory "re2_arg_test.dir\Release\re2_arg_test.tlog\".
+  InitializeBuildStatus:
+    Creating "re2_arg_test.dir\Release\re2_arg_test.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/re2/src/re2/CMakeLists.txt
+    CMake does not need to re-run because C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/re2/src/re2/CMakeFiles/generate.stamp is up-to-date.
+  ClCompile:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2" /nologo /W3 /WX- /O2 /Ob2 /D WIN32 /D _WINDOWS /D NDEBUG /D UNICODE /D _UNICODE /D STRICT /D NOMINMAX /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Release\"" /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"re2_arg_test.dir\Release\\" /Fd"re2_arg_test.dir\Release\vc140.pdb" /Gd /TP /wd4100 /wd4201 /wd4456 /wd4457 /wd4702 /wd4815 /errorReport:queue "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\re2\testing\re2_arg_test.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\util\test.cc"
+    re2_arg_test.cc
+    test.cc
+    Generating Code...
+  Link:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\Release\re2_arg_test.exe" /INCREMENTAL:NO /NOLOGO Release\testing.lib Release\re2.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/re2/src/re2/Release/re2_arg_test.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/re2/src/re2/Release/re2_arg_test.lib" /MACHINE:X64  /machine:x64 re2_arg_test.dir\Release\re2_arg_test.obj
+    re2_arg_test.dir\Release\test.obj
+    re2_arg_test.vcxproj -> C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\Release\re2_arg_test.exe
+  FinalizeBuildStatus:
+    Deleting file "re2_arg_test.dir\Release\re2_arg_test.tlog\unsuccessfulbuild".
+    Touching "re2_arg_test.dir\Release\re2_arg_test.tlog\re2_arg_test.lastbuildstate".
+  Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\re2_arg_test.vcxproj" (default targets).
+  Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\ALL_BUILD.vcxproj" (1) is building "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\re2_test.vcxproj" (18) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "re2_test.dir\Release\".
+    Creating directory "re2_test.dir\Release\re2_test.tlog\".
+  InitializeBuildStatus:
+    Creating "re2_test.dir\Release\re2_test.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/re2/src/re2/CMakeLists.txt
+    CMake does not need to re-run because C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/re2/src/re2/CMakeFiles/generate.stamp is up-to-date.
+  ClCompile:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2" /nologo /W3 /WX- /O2 /Ob2 /D WIN32 /D _WINDOWS /D NDEBUG /D UNICODE /D _UNICODE /D STRICT /D NOMINMAX /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Release\"" /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"re2_test.dir\Release\\" /Fd"re2_test.dir\Release\vc140.pdb" /Gd /TP /wd4100 /wd4201 /wd4456 /wd4457 /wd4702 /wd4815 /errorReport:queue "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\re2\testing\re2_test.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\util\test.cc"
+    re2_test.cc
+    test.cc
+    Generating Code...
+  Link:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\Release\re2_test.exe" /INCREMENTAL:NO /NOLOGO Release\testing.lib Release\re2.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/re2/src/re2/Release/re2_test.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/re2/src/re2/Release/re2_test.lib" /MACHINE:X64  /machine:x64 re2_test.dir\Release\re2_test.obj
+    re2_test.dir\Release\test.obj
+    re2_test.vcxproj -> C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\Release\re2_test.exe
+  FinalizeBuildStatus:
+    Deleting file "re2_test.dir\Release\re2_test.tlog\unsuccessfulbuild".
+    Touching "re2_test.dir\Release\re2_test.tlog\re2_test.lastbuildstate".
+  Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\re2_test.vcxproj" (default targets).
+  Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\ALL_BUILD.vcxproj" (1) is building "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\regexp_benchmark.vcxproj" (19) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "regexp_benchmark.dir\Release\".
+    Creating directory "regexp_benchmark.dir\Release\regexp_benchmark.tlog\".
+  InitializeBuildStatus:
+    Creating "regexp_benchmark.dir\Release\regexp_benchmark.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/re2/src/re2/CMakeLists.txt
+    CMake does not need to re-run because C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/re2/src/re2/CMakeFiles/generate.stamp is up-to-date.
+  ClCompile:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2" /nologo /W3 /WX- /O2 /Ob2 /D WIN32 /D _WINDOWS /D NDEBUG /D UNICODE /D _UNICODE /D STRICT /D NOMINMAX /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Release\"" /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"regexp_benchmark.dir\Release\\" /Fd"regexp_benchmark.dir\Release\vc140.pdb" /Gd /TP /wd4100 /wd4201 /wd4456 /wd4457 /wd4702 /wd4815 /errorReport:queue "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\re2\testing\regexp_benchmark.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\util\benchmark.cc"
+    regexp_benchmark.cc
+    benchmark.cc
+    Generating Code...
+  Link:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\Release\regexp_benchmark.exe" /INCREMENTAL:NO /NOLOGO Release\testing.lib Release\re2.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/re2/src/re2/Release/regexp_benchmark.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/re2/src/re2/Release/regexp_benchmark.lib" /MACHINE:X64  /machine:x64 regexp_benchmark.dir\Release\regexp_benchmark.obj
+    regexp_benchmark.dir\Release\benchmark.obj
+    regexp_benchmark.vcxproj -> C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\Release\regexp_benchmark.exe
+  FinalizeBuildStatus:
+    Deleting file "regexp_benchmark.dir\Release\regexp_benchmark.tlog\unsuccessfulbuild".
+    Touching "regexp_benchmark.dir\Release\regexp_benchmark.tlog\regexp_benchmark.lastbuildstate".
+  Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\regexp_benchmark.vcxproj" (default targets).
+  Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\ALL_BUILD.vcxproj" (1) is building "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\regexp_test.vcxproj" (20) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "regexp_test.dir\Release\".
+    Creating directory "regexp_test.dir\Release\regexp_test.tlog\".
+  InitializeBuildStatus:
+    Creating "regexp_test.dir\Release\regexp_test.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/re2/src/re2/CMakeLists.txt
+    CMake does not need to re-run because C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/re2/src/re2/CMakeFiles/generate.stamp is up-to-date.
+  ClCompile:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2" /nologo /W3 /WX- /O2 /Ob2 /D WIN32 /D _WINDOWS /D NDEBUG /D UNICODE /D _UNICODE /D STRICT /D NOMINMAX /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Release\"" /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"regexp_test.dir\Release\\" /Fd"regexp_test.dir\Release\vc140.pdb" /Gd /TP /wd4100 /wd4201 /wd4456 /wd4457 /wd4702 /wd4815 /errorReport:queue "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\re2\testing\regexp_test.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\util\test.cc"
+    regexp_test.cc
+    test.cc
+    Generating Code...
+  Link:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\Release\regexp_test.exe" /INCREMENTAL:NO /NOLOGO Release\testing.lib Release\re2.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/re2/src/re2/Release/regexp_test.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/re2/src/re2/Release/regexp_test.lib" /MACHINE:X64  /machine:x64 regexp_test.dir\Release\regexp_test.obj
+    regexp_test.dir\Release\test.obj
+    regexp_test.vcxproj -> C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\Release\regexp_test.exe
+  FinalizeBuildStatus:
+    Deleting file "regexp_test.dir\Release\regexp_test.tlog\unsuccessfulbuild".
+    Touching "regexp_test.dir\Release\regexp_test.tlog\regexp_test.lastbuildstate".
+  Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\regexp_test.vcxproj" (default targets).
+  Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\ALL_BUILD.vcxproj" (1) is building "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\required_prefix_test.vcxproj" (21) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "required_prefix_test.dir\Release\".
+    Creating directory "required_prefix_test.dir\Release\required.5DFDC808.tlog\".
+  InitializeBuildStatus:
+    Creating "required_prefix_test.dir\Release\required.5DFDC808.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/re2/src/re2/CMakeLists.txt
+    CMake does not need to re-run because C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/re2/src/re2/CMakeFiles/generate.stamp is up-to-date.
+  ClCompile:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2" /nologo /W3 /WX- /O2 /Ob2 /D WIN32 /D _WINDOWS /D NDEBUG /D UNICODE /D _UNICODE /D STRICT /D NOMINMAX /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Release\"" /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"required_prefix_test.dir\Release\\" /Fd"required_prefix_test.dir\Release\vc140.pdb" /Gd /TP /wd4100 /wd4201 /wd4456 /wd4457 /wd4702 /wd4815 /errorReport:queue "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\re2\testing\required_prefix_test.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\util\test.cc"
+    required_prefix_test.cc
+    test.cc
+    Generating Code...
+  Link:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\Release\required_prefix_test.exe" /INCREMENTAL:NO /NOLOGO Release\testing.lib Release\re2.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/re2/src/re2/Release/required_prefix_test.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/re2/src/re2/Release/required_prefix_test.lib" /MACHINE:X64  /machine:x64 required_prefix_test.dir\Release\required_prefix_test.obj
+    required_prefix_test.dir\Release\test.obj
+    required_prefix_test.vcxproj -> C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\Release\required_prefix_test.exe
+  FinalizeBuildStatus:
+    Deleting file "required_prefix_test.dir\Release\required.5DFDC808.tlog\unsuccessfulbuild".
+    Touching "required_prefix_test.dir\Release\required.5DFDC808.tlog\required_prefix_test.lastbuildstate".
+  Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\required_prefix_test.vcxproj" (default targets).
+  Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\ALL_BUILD.vcxproj" (1) is building "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\search_test.vcxproj" (22) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "search_test.dir\Release\".
+    Creating directory "search_test.dir\Release\search_test.tlog\".
+  InitializeBuildStatus:
+    Creating "search_test.dir\Release\search_test.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/re2/src/re2/CMakeLists.txt
+    CMake does not need to re-run because C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/re2/src/re2/CMakeFiles/generate.stamp is up-to-date.
+  ClCompile:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2" /nologo /W3 /WX- /O2 /Ob2 /D WIN32 /D _WINDOWS /D NDEBUG /D UNICODE /D _UNICODE /D STRICT /D NOMINMAX /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Release\"" /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"search_test.dir\Release\\" /Fd"search_test.dir\Release\vc140.pdb" /Gd /TP /wd4100 /wd4201 /wd4456 /wd4457 /wd4702 /wd4815 /errorReport:queue "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\re2\testing\search_test.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\util\test.cc"
+    search_test.cc
+    test.cc
+    Generating Code...
+  Link:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\Release\search_test.exe" /INCREMENTAL:NO /NOLOGO Release\testing.lib Release\re2.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/re2/src/re2/Release/search_test.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/re2/src/re2/Release/search_test.lib" /MACHINE:X64  /machine:x64 search_test.dir\Release\search_test.obj
+    search_test.dir\Release\test.obj
+    search_test.vcxproj -> C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\Release\search_test.exe
+  FinalizeBuildStatus:
+    Deleting file "search_test.dir\Release\search_test.tlog\unsuccessfulbuild".
+    Touching "search_test.dir\Release\search_test.tlog\search_test.lastbuildstate".
+  Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\search_test.vcxproj" (default targets).
+  Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\ALL_BUILD.vcxproj" (1) is building "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\set_test.vcxproj" (23) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "set_test.dir\Release\".
+    Creating directory "set_test.dir\Release\set_test.tlog\".
+  InitializeBuildStatus:
+    Creating "set_test.dir\Release\set_test.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/re2/src/re2/CMakeLists.txt
+    CMake does not need to re-run because C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/re2/src/re2/CMakeFiles/generate.stamp is up-to-date.
+  ClCompile:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2" /nologo /W3 /WX- /O2 /Ob2 /D WIN32 /D _WINDOWS /D NDEBUG /D UNICODE /D _UNICODE /D STRICT /D NOMINMAX /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Release\"" /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"set_test.dir\Release\\" /Fd"set_test.dir\Release\vc140.pdb" /Gd /TP /wd4100 /wd4201 /wd4456 /wd4457 /wd4702 /wd4815 /errorReport:queue "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\re2\testing\set_test.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\util\test.cc"
+    set_test.cc
+    test.cc
+    Generating Code...
+  Link:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\Release\set_test.exe" /INCREMENTAL:NO /NOLOGO Release\testing.lib Release\re2.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/re2/src/re2/Release/set_test.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/re2/src/re2/Release/set_test.lib" /MACHINE:X64  /machine:x64 set_test.dir\Release\set_test.obj
+    set_test.dir\Release\test.obj
+    set_test.vcxproj -> C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\Release\set_test.exe
+  FinalizeBuildStatus:
+    Deleting file "set_test.dir\Release\set_test.tlog\unsuccessfulbuild".
+    Touching "set_test.dir\Release\set_test.tlog\set_test.lastbuildstate".
+  Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\set_test.vcxproj" (default targets).
+  Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\ALL_BUILD.vcxproj" (1) is building "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\simplify_test.vcxproj" (24) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "simplify_test.dir\Release\".
+    Creating directory "simplify_test.dir\Release\simplify_test.tlog\".
+  InitializeBuildStatus:
+    Creating "simplify_test.dir\Release\simplify_test.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/re2/src/re2/CMakeLists.txt
+    CMake does not need to re-run because C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/re2/src/re2/CMakeFiles/generate.stamp is up-to-date.
+  ClCompile:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2" /nologo /W3 /WX- /O2 /Ob2 /D WIN32 /D _WINDOWS /D NDEBUG /D UNICODE /D _UNICODE /D STRICT /D NOMINMAX /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Release\"" /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"simplify_test.dir\Release\\" /Fd"simplify_test.dir\Release\vc140.pdb" /Gd /TP /wd4100 /wd4201 /wd4456 /wd4457 /wd4702 /wd4815 /errorReport:queue "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\re2\testing\simplify_test.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\util\test.cc"
+    simplify_test.cc
+    test.cc
+    Generating Code...
+  Link:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\Release\simplify_test.exe" /INCREMENTAL:NO /NOLOGO Release\testing.lib Release\re2.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/re2/src/re2/Release/simplify_test.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/re2/src/re2/Release/simplify_test.lib" /MACHINE:X64  /machine:x64 simplify_test.dir\Release\simplify_test.obj
+    simplify_test.dir\Release\test.obj
+    simplify_test.vcxproj -> C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\Release\simplify_test.exe
+  FinalizeBuildStatus:
+    Deleting file "simplify_test.dir\Release\simplify_test.tlog\unsuccessfulbuild".
+    Touching "simplify_test.dir\Release\simplify_test.tlog\simplify_test.lastbuildstate".
+  Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\simplify_test.vcxproj" (default targets).
+  Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\ALL_BUILD.vcxproj" (1) is building "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\string_generator_test.vcxproj" (25) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "string_generator_test.dir\Release\".
+    Creating directory "string_generator_test.dir\Release\string_g.9147DEC7.tlog\".
+  InitializeBuildStatus:
+    Creating "string_generator_test.dir\Release\string_g.9147DEC7.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/re2/src/re2/CMakeLists.txt
+    CMake does not need to re-run because C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/re2/src/re2/CMakeFiles/generate.stamp is up-to-date.
+  ClCompile:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2" /nologo /W3 /WX- /O2 /Ob2 /D WIN32 /D _WINDOWS /D NDEBUG /D UNICODE /D _UNICODE /D STRICT /D NOMINMAX /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Release\"" /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"string_generator_test.dir\Release\\" /Fd"string_generator_test.dir\Release\vc140.pdb" /Gd /TP /wd4100 /wd4201 /wd4456 /wd4457 /wd4702 /wd4815 /errorReport:queue "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\re2\testing\string_generator_test.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\util\test.cc"
+    string_generator_test.cc
+    test.cc
+    Generating Code...
+  Link:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\Release\string_generator_test.exe" /INCREMENTAL:NO /NOLOGO Release\testing.lib Release\re2.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/re2/src/re2/Release/string_generator_test.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/re2/src/re2/Release/string_generator_test.lib" /MACHINE:X64  /machine:x64 string_generator_test.dir\Release\string_generator_test.obj
+    string_generator_test.dir\Release\test.obj
+    string_generator_test.vcxproj -> C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\Release\string_generator_test.exe
+  FinalizeBuildStatus:
+    Deleting file "string_generator_test.dir\Release\string_g.9147DEC7.tlog\unsuccessfulbuild".
+    Touching "string_generator_test.dir\Release\string_g.9147DEC7.tlog\string_generator_test.lastbuildstate".
+  Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\string_generator_test.vcxproj" (default targets).
+  PrepareForBuild:
+    Creating directory "x64\Release\ALL_BUILD\".
+    Creating directory "x64\Release\ALL_BUILD\ALL_BUILD.tlog\".
+  InitializeBuildStatus:
+    Creating "x64\Release\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/re2/src/re2/CMakeLists.txt
+    CMake does not need to re-run because C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/re2/src/re2/CMakeFiles/generate.stamp is up-to-date.
+  FinalizeBuildStatus:
+    Deleting file "x64\Release\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild".
+    Touching "x64\Release\ALL_BUILD\ALL_BUILD.tlog\ALL_BUILD.lastbuildstate".
+  Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\ALL_BUILD.vcxproj" (default targets).
+  
+  Build succeeded.
+  
+  "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\ALL_BUILD.vcxproj" (default target) (1) ->
+  "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\dfa_test.vcxproj" (default target) (7) ->
+  (ClCompile target) -> 
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\re2\testing\dfa_test.cc(82): warning C4334: '<<': result of 32-bit shift implicitly converted to 64 bits (was 64-bit shift intended?) [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\dfa_test.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\re2\testing\dfa_test.cc(123): warning C4334: '<<': result of 32-bit shift implicitly converted to 64 bits (was 64-bit shift intended?) [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\dfa_test.vcxproj]
+  
+      2 Warning(s)
+      0 Error(s)
+  
+  Time Elapsed 00:04:01.43
+  Performing install step for 're2'
+  Microsoft (R) Build Engine version 14.0.25420.1
+  Copyright (C) Microsoft Corporation. All rights reserved.
+  
+  Build started 18/08/2017 14:52:27.
+  Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\install.vcxproj" on node 1 (default targets).
+  Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\install.vcxproj" (1) is building "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\ZERO_CHECK.vcxproj" (2) on node 1 (default targets).
+  InitializeBuildStatus:
+    Creating "x64\Release\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  FinalizeBuildStatus:
+    Deleting file "x64\Release\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild".
+    Touching "x64\Release\ZERO_CHECK\ZERO_CHECK.tlog\ZERO_CHECK.lastbuildstate".
+  Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\ZERO_CHECK.vcxproj" (default targets).
+  Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\install.vcxproj" (1) is building "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\ALL_BUILD.vcxproj" (3) on node 1 (default targets).
+  Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\ALL_BUILD.vcxproj" (3) is building "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\charclass_test.vcxproj" (4) on node 1 (default targets).
+  Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\charclass_test.vcxproj" (4) is building "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\re2.vcxproj" (5) on node 1 (default targets).
+  InitializeBuildStatus:
+    Creating "re2.dir\Release\re2.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  ClCompile:
+    All outputs are up-to-date.
+  Lib:
+    All outputs are up-to-date.
+    re2.vcxproj -> C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\Release\re2.lib
+  FinalizeBuildStatus:
+    Deleting file "re2.dir\Release\re2.tlog\unsuccessfulbuild".
+    Touching "re2.dir\Release\re2.tlog\re2.lastbuildstate".
+  Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\re2.vcxproj" (default targets).
+  Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\charclass_test.vcxproj" (4) is building "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\testing.vcxproj" (6) on node 1 (default targets).
+  InitializeBuildStatus:
+    Creating "testing.dir\Release\testing.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  ClCompile:
+    All outputs are up-to-date.
+  Lib:
+    All outputs are up-to-date.
+    testing.vcxproj -> C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\Release\testing.lib
+  FinalizeBuildStatus:
+    Deleting file "testing.dir\Release\testing.tlog\unsuccessfulbuild".
+    Touching "testing.dir\Release\testing.tlog\testing.lastbuildstate".
+  Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\testing.vcxproj" (default targets).
+  InitializeBuildStatus:
+    Creating "charclass_test.dir\Release\charclass_test.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  ClCompile:
+    All outputs are up-to-date.
+  Link:
+    All outputs are up-to-date.
+    charclass_test.vcxproj -> C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\Release\charclass_test.exe
+  FinalizeBuildStatus:
+    Deleting file "charclass_test.dir\Release\charclass_test.tlog\unsuccessfulbuild".
+    Touching "charclass_test.dir\Release\charclass_test.tlog\charclass_test.lastbuildstate".
+  Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\charclass_test.vcxproj" (default targets).
+  Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\ALL_BUILD.vcxproj" (3) is building "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\compile_test.vcxproj" (7) on node 1 (default targets).
+  InitializeBuildStatus:
+    Creating "compile_test.dir\Release\compile_test.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  ClCompile:
+    All outputs are up-to-date.
+  Link:
+    All outputs are up-to-date.
+    compile_test.vcxproj -> C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\Release\compile_test.exe
+  FinalizeBuildStatus:
+    Deleting file "compile_test.dir\Release\compile_test.tlog\unsuccessfulbuild".
+    Touching "compile_test.dir\Release\compile_test.tlog\compile_test.lastbuildstate".
+  Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\compile_test.vcxproj" (default targets).
+  Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\ALL_BUILD.vcxproj" (3) is building "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\dfa_test.vcxproj" (8) on node 1 (default targets).
+  InitializeBuildStatus:
+    Creating "dfa_test.dir\Release\dfa_test.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  ClCompile:
+    All outputs are up-to-date.
+  Link:
+    All outputs are up-to-date.
+    dfa_test.vcxproj -> C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\Release\dfa_test.exe
+  FinalizeBuildStatus:
+    Deleting file "dfa_test.dir\Release\dfa_test.tlog\unsuccessfulbuild".
+    Touching "dfa_test.dir\Release\dfa_test.tlog\dfa_test.lastbuildstate".
+  Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\dfa_test.vcxproj" (default targets).
+  Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\ALL_BUILD.vcxproj" (3) is building "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\exhaustive1_test.vcxproj" (9) on node 1 (default targets).
+  InitializeBuildStatus:
+    Creating "exhaustive1_test.dir\Release\exhaustive1_test.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  ClCompile:
+    All outputs are up-to-date.
+  Link:
+    All outputs are up-to-date.
+    exhaustive1_test.vcxproj -> C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\Release\exhaustive1_test.exe
+  FinalizeBuildStatus:
+    Deleting file "exhaustive1_test.dir\Release\exhaustive1_test.tlog\unsuccessfulbuild".
+    Touching "exhaustive1_test.dir\Release\exhaustive1_test.tlog\exhaustive1_test.lastbuildstate".
+  Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\exhaustive1_test.vcxproj" (default targets).
+  Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\ALL_BUILD.vcxproj" (3) is building "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\exhaustive2_test.vcxproj" (10) on node 1 (default targets).
+  InitializeBuildStatus:
+    Creating "exhaustive2_test.dir\Release\exhaustive2_test.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  ClCompile:
+    All outputs are up-to-date.
+  Link:
+    All outputs are up-to-date.
+    exhaustive2_test.vcxproj -> C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\Release\exhaustive2_test.exe
+  FinalizeBuildStatus:
+    Deleting file "exhaustive2_test.dir\Release\exhaustive2_test.tlog\unsuccessfulbuild".
+    Touching "exhaustive2_test.dir\Release\exhaustive2_test.tlog\exhaustive2_test.lastbuildstate".
+  Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\exhaustive2_test.vcxproj" (default targets).
+  Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\ALL_BUILD.vcxproj" (3) is building "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\exhaustive3_test.vcxproj" (11) on node 1 (default targets).
+  InitializeBuildStatus:
+    Creating "exhaustive3_test.dir\Release\exhaustive3_test.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  ClCompile:
+    All outputs are up-to-date.
+  Link:
+    All outputs are up-to-date.
+    exhaustive3_test.vcxproj -> C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\Release\exhaustive3_test.exe
+  FinalizeBuildStatus:
+    Deleting file "exhaustive3_test.dir\Release\exhaustive3_test.tlog\unsuccessfulbuild".
+    Touching "exhaustive3_test.dir\Release\exhaustive3_test.tlog\exhaustive3_test.lastbuildstate".
+  Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\exhaustive3_test.vcxproj" (default targets).
+  Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\ALL_BUILD.vcxproj" (3) is building "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\exhaustive_test.vcxproj" (12) on node 1 (default targets).
+  InitializeBuildStatus:
+    Creating "exhaustive_test.dir\Release\exhaustive_test.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  ClCompile:
+    All outputs are up-to-date.
+  Link:
+    All outputs are up-to-date.
+    exhaustive_test.vcxproj -> C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\Release\exhaustive_test.exe
+  FinalizeBuildStatus:
+    Deleting file "exhaustive_test.dir\Release\exhaustive_test.tlog\unsuccessfulbuild".
+    Touching "exhaustive_test.dir\Release\exhaustive_test.tlog\exhaustive_test.lastbuildstate".
+  Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\exhaustive_test.vcxproj" (default targets).
+  Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\ALL_BUILD.vcxproj" (3) is building "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\filtered_re2_test.vcxproj" (13) on node 1 (default targets).
+  InitializeBuildStatus:
+    Creating "filtered_re2_test.dir\Release\filtered.B985D10C.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  ClCompile:
+    All outputs are up-to-date.
+  Link:
+    All outputs are up-to-date.
+    filtered_re2_test.vcxproj -> C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\Release\filtered_re2_test.exe
+  FinalizeBuildStatus:
+    Deleting file "filtered_re2_test.dir\Release\filtered.B985D10C.tlog\unsuccessfulbuild".
+    Touching "filtered_re2_test.dir\Release\filtered.B985D10C.tlog\filtered_re2_test.lastbuildstate".
+  Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\filtered_re2_test.vcxproj" (default targets).
+  Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\ALL_BUILD.vcxproj" (3) is building "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\mimics_pcre_test.vcxproj" (14) on node 1 (default targets).
+  InitializeBuildStatus:
+    Creating "mimics_pcre_test.dir\Release\mimics_pcre_test.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  ClCompile:
+    All outputs are up-to-date.
+  Link:
+    All outputs are up-to-date.
+    mimics_pcre_test.vcxproj -> C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\Release\mimics_pcre_test.exe
+  FinalizeBuildStatus:
+    Deleting file "mimics_pcre_test.dir\Release\mimics_pcre_test.tlog\unsuccessfulbuild".
+    Touching "mimics_pcre_test.dir\Release\mimics_pcre_test.tlog\mimics_pcre_test.lastbuildstate".
+  Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\mimics_pcre_test.vcxproj" (default targets).
+  Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\ALL_BUILD.vcxproj" (3) is building "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\parse_test.vcxproj" (15) on node 1 (default targets).
+  InitializeBuildStatus:
+    Creating "parse_test.dir\Release\parse_test.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  ClCompile:
+    All outputs are up-to-date.
+  Link:
+    All outputs are up-to-date.
+    parse_test.vcxproj -> C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\Release\parse_test.exe
+  FinalizeBuildStatus:
+    Deleting file "parse_test.dir\Release\parse_test.tlog\unsuccessfulbuild".
+    Touching "parse_test.dir\Release\parse_test.tlog\parse_test.lastbuildstate".
+  Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\parse_test.vcxproj" (default targets).
+  Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\ALL_BUILD.vcxproj" (3) is building "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\possible_match_test.vcxproj" (16) on node 1 (default targets).
+  InitializeBuildStatus:
+    Creating "possible_match_test.dir\Release\possible.CBCB1CF5.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  ClCompile:
+    All outputs are up-to-date.
+  Link:
+    All outputs are up-to-date.
+    possible_match_test.vcxproj -> C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\Release\possible_match_test.exe
+  FinalizeBuildStatus:
+    Deleting file "possible_match_test.dir\Release\possible.CBCB1CF5.tlog\unsuccessfulbuild".
+    Touching "possible_match_test.dir\Release\possible.CBCB1CF5.tlog\possible_match_test.lastbuildstate".
+  Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\possible_match_test.vcxproj" (default targets).
+  Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\ALL_BUILD.vcxproj" (3) is building "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\random_test.vcxproj" (17) on node 1 (default targets).
+  InitializeBuildStatus:
+    Creating "random_test.dir\Release\random_test.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  ClCompile:
+    All outputs are up-to-date.
+  Link:
+    All outputs are up-to-date.
+    random_test.vcxproj -> C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\Release\random_test.exe
+  FinalizeBuildStatus:
+    Deleting file "random_test.dir\Release\random_test.tlog\unsuccessfulbuild".
+    Touching "random_test.dir\Release\random_test.tlog\random_test.lastbuildstate".
+  Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\random_test.vcxproj" (default targets).
+  Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\ALL_BUILD.vcxproj" (3) is building "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\re2_arg_test.vcxproj" (18) on node 1 (default targets).
+  InitializeBuildStatus:
+    Creating "re2_arg_test.dir\Release\re2_arg_test.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  ClCompile:
+    All outputs are up-to-date.
+  Link:
+    All outputs are up-to-date.
+    re2_arg_test.vcxproj -> C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\Release\re2_arg_test.exe
+  FinalizeBuildStatus:
+    Deleting file "re2_arg_test.dir\Release\re2_arg_test.tlog\unsuccessfulbuild".
+    Touching "re2_arg_test.dir\Release\re2_arg_test.tlog\re2_arg_test.lastbuildstate".
+  Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\re2_arg_test.vcxproj" (default targets).
+  Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\ALL_BUILD.vcxproj" (3) is building "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\re2_test.vcxproj" (19) on node 1 (default targets).
+  InitializeBuildStatus:
+    Creating "re2_test.dir\Release\re2_test.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  ClCompile:
+    All outputs are up-to-date.
+  Link:
+    All outputs are up-to-date.
+    re2_test.vcxproj -> C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\Release\re2_test.exe
+  FinalizeBuildStatus:
+    Deleting file "re2_test.dir\Release\re2_test.tlog\unsuccessfulbuild".
+    Touching "re2_test.dir\Release\re2_test.tlog\re2_test.lastbuildstate".
+  Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\re2_test.vcxproj" (default targets).
+  Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\ALL_BUILD.vcxproj" (3) is building "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\regexp_benchmark.vcxproj" (20) on node 1 (default targets).
+  InitializeBuildStatus:
+    Creating "regexp_benchmark.dir\Release\regexp_benchmark.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  ClCompile:
+    All outputs are up-to-date.
+  Link:
+    All outputs are up-to-date.
+    regexp_benchmark.vcxproj -> C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\Release\regexp_benchmark.exe
+  FinalizeBuildStatus:
+    Deleting file "regexp_benchmark.dir\Release\regexp_benchmark.tlog\unsuccessfulbuild".
+    Touching "regexp_benchmark.dir\Release\regexp_benchmark.tlog\regexp_benchmark.lastbuildstate".
+  Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\regexp_benchmark.vcxproj" (default targets).
+  Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\ALL_BUILD.vcxproj" (3) is building "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\regexp_test.vcxproj" (21) on node 1 (default targets).
+  InitializeBuildStatus:
+    Creating "regexp_test.dir\Release\regexp_test.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  ClCompile:
+    All outputs are up-to-date.
+  Link:
+    All outputs are up-to-date.
+    regexp_test.vcxproj -> C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\Release\regexp_test.exe
+  FinalizeBuildStatus:
+    Deleting file "regexp_test.dir\Release\regexp_test.tlog\unsuccessfulbuild".
+    Touching "regexp_test.dir\Release\regexp_test.tlog\regexp_test.lastbuildstate".
+  Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\regexp_test.vcxproj" (default targets).
+  Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\ALL_BUILD.vcxproj" (3) is building "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\required_prefix_test.vcxproj" (22) on node 1 (default targets).
+  InitializeBuildStatus:
+    Creating "required_prefix_test.dir\Release\required.5DFDC808.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  ClCompile:
+    All outputs are up-to-date.
+  Link:
+    All outputs are up-to-date.
+    required_prefix_test.vcxproj -> C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\Release\required_prefix_test.exe
+  FinalizeBuildStatus:
+    Deleting file "required_prefix_test.dir\Release\required.5DFDC808.tlog\unsuccessfulbuild".
+    Touching "required_prefix_test.dir\Release\required.5DFDC808.tlog\required_prefix_test.lastbuildstate".
+  Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\required_prefix_test.vcxproj" (default targets).
+  Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\ALL_BUILD.vcxproj" (3) is building "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\search_test.vcxproj" (23) on node 1 (default targets).
+  InitializeBuildStatus:
+    Creating "search_test.dir\Release\search_test.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  ClCompile:
+    All outputs are up-to-date.
+  Link:
+    All outputs are up-to-date.
+    search_test.vcxproj -> C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\Release\search_test.exe
+  FinalizeBuildStatus:
+    Deleting file "search_test.dir\Release\search_test.tlog\unsuccessfulbuild".
+    Touching "search_test.dir\Release\search_test.tlog\search_test.lastbuildstate".
+  Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\search_test.vcxproj" (default targets).
+  Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\ALL_BUILD.vcxproj" (3) is building "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\set_test.vcxproj" (24) on node 1 (default targets).
+  InitializeBuildStatus:
+    Creating "set_test.dir\Release\set_test.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  ClCompile:
+    All outputs are up-to-date.
+  Link:
+    All outputs are up-to-date.
+    set_test.vcxproj -> C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\Release\set_test.exe
+  FinalizeBuildStatus:
+    Deleting file "set_test.dir\Release\set_test.tlog\unsuccessfulbuild".
+    Touching "set_test.dir\Release\set_test.tlog\set_test.lastbuildstate".
+  Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\set_test.vcxproj" (default targets).
+  Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\ALL_BUILD.vcxproj" (3) is building "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\simplify_test.vcxproj" (25) on node 1 (default targets).
+  InitializeBuildStatus:
+    Creating "simplify_test.dir\Release\simplify_test.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  ClCompile:
+    All outputs are up-to-date.
+  Link:
+    All outputs are up-to-date.
+    simplify_test.vcxproj -> C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\Release\simplify_test.exe
+  FinalizeBuildStatus:
+    Deleting file "simplify_test.dir\Release\simplify_test.tlog\unsuccessfulbuild".
+    Touching "simplify_test.dir\Release\simplify_test.tlog\simplify_test.lastbuildstate".
+  Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\simplify_test.vcxproj" (default targets).
+  Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\ALL_BUILD.vcxproj" (3) is building "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\string_generator_test.vcxproj" (26) on node 1 (default targets).
+  InitializeBuildStatus:
+    Creating "string_generator_test.dir\Release\string_g.9147DEC7.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  ClCompile:
+    All outputs are up-to-date.
+  Link:
+    All outputs are up-to-date.
+    string_generator_test.vcxproj -> C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\Release\string_generator_test.exe
+  FinalizeBuildStatus:
+    Deleting file "string_generator_test.dir\Release\string_g.9147DEC7.tlog\unsuccessfulbuild".
+    Touching "string_generator_test.dir\Release\string_g.9147DEC7.tlog\string_generator_test.lastbuildstate".
+  Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\string_generator_test.vcxproj" (default targets).
+  InitializeBuildStatus:
+    Creating "x64\Release\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  FinalizeBuildStatus:
+    Deleting file "x64\Release\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild".
+    Touching "x64\Release\ALL_BUILD\ALL_BUILD.tlog\ALL_BUILD.lastbuildstate".
+  Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\ALL_BUILD.vcxproj" (default targets).
+  PrepareForBuild:
+    Creating directory "x64\Release\INSTALL\".
+    Creating directory "x64\Release\INSTALL\INSTALL.tlog\".
+  InitializeBuildStatus:
+    Creating "x64\Release\INSTALL\INSTALL.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  PostBuildEvent:
+    setlocal
+    "C:\Program Files\CMake\bin\cmake.exe" -DBUILD_TYPE=Release -P cmake_install.cmake
+    if %errorlevel% neq 0 goto :cmEnd
+    :cmEnd
+    endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+    :cmErrorLevel
+    exit /b %1
+    :cmDone
+    if %errorlevel% neq 0 goto :VCEnd
+    :VCEnd
+    -- Install configuration: "Release"
+    -- Installing: C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/re2/install/include/re2/filtered_re2.h
+    -- Installing: C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/re2/install/include/re2/re2.h
+    -- Installing: C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/re2/install/include/re2/set.h
+    -- Installing: C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/re2/install/include/re2/stringpiece.h
+    -- Installing: C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/re2/install/lib/re2.lib
+  FinalizeBuildStatus:
+    Deleting file "x64\Release\INSTALL\INSTALL.tlog\unsuccessfulbuild".
+    Touching "x64\Release\INSTALL\INSTALL.tlog\INSTALL.lastbuildstate".
+  Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\re2\src\re2\install.vcxproj" (default targets).
+  
+  Build succeeded.
+      0 Warning(s)
+      0 Error(s)
+  
+  Time Elapsed 00:00:07.57
+  Completed 're2'

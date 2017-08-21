@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\tools\proto_text\gen_proto_text_functions.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\tools\proto_text\gen_proto_text_functions_lib.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\tools\proto_text\gen_proto_text_functions_lib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_core_lib.dir\$(Configuration)\arena.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_core_lib.dir\$(Configuration)\bitmap.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_core_lib.dir\$(Configuration)\coding.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_core_lib.dir\$(Configuration)\status.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_core_lib.dir\$(Configuration)\stringpiece.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_core_lib.dir\$(Configuration)\threadpool.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_core_lib.dir\$(Configuration)\gif_io.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_core_lib.dir\$(Configuration)\crc32c.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_core_lib.dir\$(Configuration)\crc32c_accelerate.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_core_lib.dir\$(Configuration)\hash.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_core_lib.dir\$(Configuration)\histogram.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_core_lib.dir\$(Configuration)\block.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_core_lib.dir\$(Configuration)\block_builder.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_core_lib.dir\$(Configuration)\buffered_inputstream.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_core_lib.dir\$(Configuration)\compression.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_core_lib.dir\$(Configuration)\format.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_core_lib.dir\$(Configuration)\inputbuffer.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_core_lib.dir\$(Configuration)\inputstream_interface.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_core_lib.dir\$(Configuration)\iterator.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_core_lib.dir\$(Configuration)\path.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_core_lib.dir\$(Configuration)\random_inputstream.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_core_lib.dir\$(Configuration)\record_reader.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_core_lib.dir\$(Configuration)\record_writer.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_core_lib.dir\$(Configuration)\snappy_inputbuffer.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_core_lib.dir\$(Configuration)\snappy_outputbuffer.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_core_lib.dir\$(Configuration)\table.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_core_lib.dir\$(Configuration)\table_builder.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_core_lib.dir\$(Configuration)\two_level_iterator.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_core_lib.dir\$(Configuration)\zlib_inputstream.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_core_lib.dir\$(Configuration)\zlib_outputbuffer.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_core_lib.dir\$(Configuration)\jpeg_handle.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_core_lib.dir\$(Configuration)\jpeg_mem.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_core_lib.dir\$(Configuration)\collection_registry.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_core_lib.dir\$(Configuration)\png_io.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_core_lib.dir\$(Configuration)\distribution_sampler.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_core_lib.dir\$(Configuration)\random.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_core_lib.dir\$(Configuration)\simple_philox.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_core_lib.dir\$(Configuration)\weighted_picker.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_core_lib.dir\$(Configuration)\base64.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_core_lib.dir\$(Configuration)\numbers.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_core_lib.dir\$(Configuration)\ordered_code.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_core_lib.dir\$(Configuration)\proto_text_util.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_core_lib.dir\$(Configuration)\scanner.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_core_lib.dir\$(Configuration)\str_util.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_core_lib.dir\$(Configuration)\strcat.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_core_lib.dir\$(Configuration)\stringprintf.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_core_lib.dir\$(Configuration)\wav_io.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_core_lib.dir\$(Configuration)\cpu_feature_guard.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_core_lib.dir\$(Configuration)\cpu_info.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_core_lib.dir\$(Configuration)\denormal.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_core_lib.dir\$(Configuration)\C_\Visual_Studio_2015\Projects\tensorflow\tensorflow\core\platform\env.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_core_lib.dir\$(Configuration)\C_\Visual_Studio_2015\Projects\tensorflow\tensorflow\core\platform\env_time.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_core_lib.dir\$(Configuration)\file_system.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_core_lib.dir\$(Configuration)\protobuf_util.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_core_lib.dir\$(Configuration)\setround.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_core_lib.dir\$(Configuration)\tensor_coding.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_core_lib.dir\$(Configuration)\C_\Visual_Studio_2015\Projects\tensorflow\tensorflow\core\platform\tracing.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_core_lib.dir\$(Configuration)\gpu_tracer.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_core_lib.dir\$(Configuration)\logging.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_core_lib.dir\$(Configuration)\protobuf.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_core_lib.dir\$(Configuration)\C_\Visual_Studio_2015\Projects\tensorflow\tensorflow\core\platform\default\tracing.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_core_lib.dir\$(Configuration)\resource_handle.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_core_lib.dir\$(Configuration)\C_\Visual_Studio_2015\Projects\tensorflow\tensorflow\core\platform\windows\env.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_core_lib.dir\$(Configuration)\C_\Visual_Studio_2015\Projects\tensorflow\tensorflow\core\platform\windows\env_time.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_core_lib.dir\$(Configuration)\C_\Visual_Studio_2015\Projects\tensorflow\tensorflow\core\platform\windows\error.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_core_lib.dir\$(Configuration)\net.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_core_lib.dir\$(Configuration)\port.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_core_lib.dir\$(Configuration)\windows_file_system.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_core_lib.dir\$(Configuration)\C_\Visual_Studio_2015\Projects\tensorflow\tensorflow\core\platform\posix\error.cc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{80822BFC-6A8E-334B-A740-78ABA611BFC2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{C698933A-6F58-3ACB-831E-DAF1772ABBD1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object Libraries">
+      <UniqueIdentifier>{D6D98B16-5156-3EE7-BB1F-09B18591CBF2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

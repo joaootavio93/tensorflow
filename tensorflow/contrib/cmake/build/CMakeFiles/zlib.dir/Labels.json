@@ -1,0 +1,55 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/zlib"
+		},
+		
+		{
+			"file" : "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/CMakeLists.txt"
+		},
+		
+		{
+			"file" : "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/bb01c56cf9406b145ba9a57cac476823/zlib.rule"
+		},
+		
+		{
+			"file" : "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/79294db29758ff69b1b73858bd3118a7/zlib-complete.rule"
+		},
+		
+		{
+			"file" : "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/fddbbf529677e882b5fdc53c7a3d0269/zlib-install.rule"
+		},
+		
+		{
+			"file" : "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/fddbbf529677e882b5fdc53c7a3d0269/zlib-mkdir.rule"
+		},
+		
+		{
+			"file" : "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/fddbbf529677e882b5fdc53c7a3d0269/zlib-download.rule"
+		},
+		
+		{
+			"file" : "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/fddbbf529677e882b5fdc53c7a3d0269/zlib-update.rule"
+		},
+		
+		{
+			"file" : "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/fddbbf529677e882b5fdc53c7a3d0269/zlib-patch.rule"
+		},
+		
+		{
+			"file" : "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/fddbbf529677e882b5fdc53c7a3d0269/zlib-configure.rule"
+		},
+		
+		{
+			"file" : "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/fddbbf529677e882b5fdc53c7a3d0269/zlib-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "zlib" ],
+		"name" : "zlib"
+	}
+}

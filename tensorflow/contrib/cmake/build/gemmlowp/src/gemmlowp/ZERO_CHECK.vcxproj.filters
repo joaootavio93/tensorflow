@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\gemmlowp\src\gemmlowp\CMakeFiles\22d2378e27c4457a4287ced178fbea4b\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{BE1DCE39-17DD-3C76-B0CF-058BEF50DF0E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

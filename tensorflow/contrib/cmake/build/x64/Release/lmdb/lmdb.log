@@ -1,0 +1,385 @@
+﻿  Building Custom Rule C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/CMakeLists.txt
+  CMake does not need to re-run because C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/generate.stamp is up-to-date.
+  Creating directories for 'lmdb'
+  Performing download step (download, verify and extract) for 'lmdb'
+  -- Downloading...
+     dst='C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/downloads/LMDB_0.9.19.tar.gz'
+     timeout='none'
+  -- Using src='http://mirror.bazel.build/github.com/LMDB/lmdb/archive/LMDB_0.9.19.tar.gz'
+  -- [download 0% complete]
+  -- [download 2% complete]
+  -- [download 3% complete]
+  -- [download 5% complete]
+  -- [download 7% complete]
+  -- [download 8% complete]
+  -- [download 9% complete]
+  -- [download 10% complete]
+  -- [download 12% complete]
+  -- [download 24% complete]
+  -- [download 35% complete]
+  -- [download 38% complete]
+  -- [download 41% complete]
+  -- [download 42% complete]
+  -- [download 43% complete]
+  -- [download 44% complete]
+  -- [download 45% complete]
+  -- [download 46% complete]
+  -- [download 47% complete]
+  -- [download 48% complete]
+  -- [download 49% complete]
+  -- [download 50% complete]
+  -- [download 51% complete]
+  -- [download 52% complete]
+  -- [download 53% complete]
+  -- [download 54% complete]
+  -- [download 55% complete]
+  -- [download 56% complete]
+  -- [download 57% complete]
+  -- [download 58% complete]
+  -- [download 59% complete]
+  -- [download 60% complete]
+  -- [download 61% complete]
+  -- [download 62% complete]
+  -- [download 63% complete]
+  -- [download 64% complete]
+  -- [download 65% complete]
+  -- [download 66% complete]
+  -- [download 67% complete]
+  -- [download 68% complete]
+  -- [download 69% complete]
+  -- [download 70% complete]
+  -- [download 71% complete]
+  -- [download 72% complete]
+  -- [download 73% complete]
+  -- [download 74% complete]
+  -- [download 75% complete]
+  -- [download 76% complete]
+  -- [download 77% complete]
+  -- [download 78% complete]
+  -- [download 79% complete]
+  -- [download 80% complete]
+  -- [download 81% complete]
+  -- [download 82% complete]
+  -- [download 83% complete]
+  -- [download 84% complete]
+  -- [download 85% complete]
+  -- [download 86% complete]
+  -- [download 87% complete]
+  -- [download 88% complete]
+  -- [download 89% complete]
+  -- [download 90% complete]
+  -- [download 91% complete]
+  -- [download 92% complete]
+  -- [download 93% complete]
+  -- [download 94% complete]
+  -- [download 95% complete]
+  -- [download 96% complete]
+  -- [download 97% complete]
+  -- [download 98% complete]
+  -- [download 99% complete]
+  -- [download 100% complete]
+  -- verifying file...
+         file='C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/downloads/LMDB_0.9.19.tar.gz'
+  -- Downloading... done
+  -- extracting...
+       src='C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/downloads/LMDB_0.9.19.tar.gz'
+       dst='C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/lmdb/src/lmdb'
+  -- extracting... [tar xfz]
+  -- extracting... [analysis]
+  -- extracting... [rename]
+  -- extracting... [clean up]
+  -- extracting... done
+  No update step for 'lmdb'
+  Performing patch step for 'lmdb'
+  Performing configure step for 'lmdb'
+  loading initial cache file C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/lmdb/tmp/lmdb-cache-Release.cmake
+  -- The C compiler identification is MSVC 19.0.24215.1
+  -- The CXX compiler identification is MSVC 19.0.24215.1
+  -- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/x86_amd64/cl.exe
+  -- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/x86_amd64/cl.exe -- works
+  -- Detecting C compiler ABI info
+  -- Detecting C compiler ABI info - done
+  -- Check for working CXX compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/x86_amd64/cl.exe
+  -- Check for working CXX compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/x86_amd64/cl.exe -- works
+  -- Detecting CXX compiler ABI info
+  -- Detecting CXX compiler ABI info - done
+  -- Detecting CXX compile features
+  -- Detecting CXX compile features - done
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/lmdb/src/lmdb-build
+  Performing build step for 'lmdb'
+  Microsoft (R) Build Engine version 14.0.25420.1
+  Copyright (C) Microsoft Corporation. All rights reserved.
+  
+  Build started 18/08/2017 14:47:39.
+  Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\ALL_BUILD.vcxproj" on node 1 (default targets).
+  Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\ALL_BUILD.vcxproj" (1) is building "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\ZERO_CHECK.vcxproj" (2) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "x64\Release\ZERO_CHECK\".
+    Creating directory "x64\Release\ZERO_CHECK\ZERO_CHECK.tlog\".
+  InitializeBuildStatus:
+    Creating "x64\Release\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Checking Build System
+    CMake does not need to re-run because C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/lmdb/src/lmdb-build/CMakeFiles/generate.stamp is up-to-date.
+  FinalizeBuildStatus:
+    Deleting file "x64\Release\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild".
+    Touching "x64\Release\ZERO_CHECK\ZERO_CHECK.tlog\ZERO_CHECK.lastbuildstate".
+  Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\ZERO_CHECK.vcxproj" (default targets).
+  Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\ALL_BUILD.vcxproj" (1) is building "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj" (3) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "lmdb.dir\Release\".
+    Creating directory "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\Release\".
+    Creating directory "lmdb.dir\Release\lmdb.tlog\".
+  InitializeBuildStatus:
+    Creating "lmdb.dir\Release\lmdb.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/lmdb/src/lmdb/CMakeLists.txt
+    CMake does not need to re-run because C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/lmdb/src/lmdb-build/CMakeFiles/generate.stamp is up-to-date.
+  ClCompile:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb" /nologo /W3 /WX- /O2 /Ob2 /D WIN32 /D _WINDOWS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"lmdb.dir\Release\\" /Fd"lmdb.dir\Release\lmdb.pdb" /Gd /TC /errorReport:queue "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\midl.c"
+    mdb.c
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(1501): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+    C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(178): note: see declaration of 'strerror'
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(1825): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(2008): warning C4267: '+=': conversion from 'size_t' to 'unsigned int', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(2047): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(2022): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(2252): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(2272): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(2158): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(2433): warning C4267: '=': conversion from 'size_t' to 'unsigned short', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(2887): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(2888): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(3323): warning C4267: '=': conversion from 'size_t' to 'DWORD', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(3324): warning C4267: 'function': conversion from 'size_t' to 'DWORD', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(3263): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(3473): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(3477): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(3513): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(3516): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(3531): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(3838): warning C4244: '+=': conversion from '__int64' to 'off_t', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(3951): warning C4267: '=': conversion from 'size_t' to 'LONG', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(4205): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(4297): warning C4996: 'GetVersion': was declared deprecated [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+    C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(110): note: see declaration of 'GetVersion'
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(4682): warning C4244: 'function': conversion from 'mdb_hash_t' to 'unsigned long', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(4798): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+    C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(4799): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+    C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(4942): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details. [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+    C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(552): note: see declaration of 'strdup'
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(5189): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(5192): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(5197): warning C4244: 'return': conversion from 'ssize_t' to 'int', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(5223): warning C4244: 'return': conversion from 'ssize_t' to 'int', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(5661): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(5669): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(5681): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(5682): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(6505): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(6620): warning C4267: '=': conversion from 'size_t' to 'uint16_t', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(6702): warning C4267: '=': conversion from 'size_t' to 'uint16_t', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(6708): warning C4267: '=': conversion from 'size_t' to 'indx_t', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(6764): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(6843): warning C4146: unary minus operator applied to unsigned type, result still unsigned [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(6851): warning C4267: '=': conversion from 'size_t' to 'unsigned short', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(6974): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(6799): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(7251): warning C4267: '-=': conversion from 'size_t' to 'indx_t', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(7291): warning C4267: '=': conversion from 'size_t' to 'indx_t', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(7299): warning C4267: '=': conversion from 'size_t' to 'unsigned short', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(7302): warning C4267: '=': conversion from 'size_t' to 'unsigned short', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(7304): warning C4267: '=': conversion from 'size_t' to 'unsigned short', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(7264): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(7365): warning C4267: '+=': conversion from 'size_t' to 'indx_t', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(7427): warning C4333: '>>': right shift by too large amount, data loss [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(7757): warning C4267: '=': conversion from 'size_t' to 'unsigned short', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(7880): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(8639): warning C4267: '-=': conversion from 'size_t' to 'indx_t', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(8647): warning C4267: '-=': conversion from 'size_t' to 'indx_t', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(8655): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(8657): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(9239): warning C4267: '=': conversion from 'size_t' to 'unsigned short', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(9426): warning C4267: '=': conversion from 'size_t' to 'DWORD', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(9462): warning C4267: '=': conversion from 'size_t' to 'DWORD', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(9741): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details. [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+    C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(552): note: see declaration of 'strdup'
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(10035): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+    C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+    midl.c
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\midl.c(43): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\midl.c(145): warning C4267: '+=': conversion from 'size_t' to 'unsigned int', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\midl.c(175): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+    Generating Code...
+c:\visual studio 2015\projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(1509): warning C4172: returning address of local variable or temporary: buf [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+  Lib:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\Lib.exe /OUT:"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\Release\lmdb.lib" /NOLOGO /MACHINE:X64  /machine:x64 lmdb.dir\Release\mdb.obj
+    lmdb.dir\Release\midl.obj
+    lmdb.vcxproj -> C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\Release\lmdb.lib
+  FinalizeBuildStatus:
+    Deleting file "lmdb.dir\Release\lmdb.tlog\unsuccessfulbuild".
+    Touching "lmdb.dir\Release\lmdb.tlog\lmdb.lastbuildstate".
+  Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj" (default targets).
+  PrepareForBuild:
+    Creating directory "x64\Release\ALL_BUILD\".
+    Creating directory "x64\Release\ALL_BUILD\ALL_BUILD.tlog\".
+  InitializeBuildStatus:
+    Creating "x64\Release\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/lmdb/src/lmdb/CMakeLists.txt
+    CMake does not need to re-run because C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/lmdb/src/lmdb-build/CMakeFiles/generate.stamp is up-to-date.
+  FinalizeBuildStatus:
+    Deleting file "x64\Release\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild".
+    Touching "x64\Release\ALL_BUILD\ALL_BUILD.tlog\ALL_BUILD.lastbuildstate".
+  Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\ALL_BUILD.vcxproj" (default targets).
+  
+  Build succeeded.
+  
+  "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\ALL_BUILD.vcxproj" (default target) (1) ->
+  "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj" (default target) (3) ->
+  (ClCompile target) -> 
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(1501): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(1825): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(2008): warning C4267: '+=': conversion from 'size_t' to 'unsigned int', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(2047): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(2022): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(2252): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(2272): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(2158): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(2433): warning C4267: '=': conversion from 'size_t' to 'unsigned short', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(2887): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(2888): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(3323): warning C4267: '=': conversion from 'size_t' to 'DWORD', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(3324): warning C4267: 'function': conversion from 'size_t' to 'DWORD', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(3263): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(3473): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(3477): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(3513): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(3516): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(3531): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(3838): warning C4244: '+=': conversion from '__int64' to 'off_t', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(3951): warning C4267: '=': conversion from 'size_t' to 'LONG', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(4205): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(4297): warning C4996: 'GetVersion': was declared deprecated [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(4682): warning C4244: 'function': conversion from 'mdb_hash_t' to 'unsigned long', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(4798): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(4799): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(4942): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details. [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(5189): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(5192): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(5197): warning C4244: 'return': conversion from 'ssize_t' to 'int', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(5223): warning C4244: 'return': conversion from 'ssize_t' to 'int', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(5661): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(5669): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(5681): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(5682): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(6505): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(6620): warning C4267: '=': conversion from 'size_t' to 'uint16_t', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(6702): warning C4267: '=': conversion from 'size_t' to 'uint16_t', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(6708): warning C4267: '=': conversion from 'size_t' to 'indx_t', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(6764): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(6843): warning C4146: unary minus operator applied to unsigned type, result still unsigned [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(6851): warning C4267: '=': conversion from 'size_t' to 'unsigned short', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(6974): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(6799): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(7251): warning C4267: '-=': conversion from 'size_t' to 'indx_t', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(7291): warning C4267: '=': conversion from 'size_t' to 'indx_t', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(7299): warning C4267: '=': conversion from 'size_t' to 'unsigned short', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(7302): warning C4267: '=': conversion from 'size_t' to 'unsigned short', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(7304): warning C4267: '=': conversion from 'size_t' to 'unsigned short', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(7264): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(7365): warning C4267: '+=': conversion from 'size_t' to 'indx_t', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(7427): warning C4333: '>>': right shift by too large amount, data loss [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(7757): warning C4267: '=': conversion from 'size_t' to 'unsigned short', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(7880): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(8639): warning C4267: '-=': conversion from 'size_t' to 'indx_t', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(8647): warning C4267: '-=': conversion from 'size_t' to 'indx_t', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(8655): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(8657): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(9239): warning C4267: '=': conversion from 'size_t' to 'unsigned short', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(9426): warning C4267: '=': conversion from 'size_t' to 'DWORD', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(9462): warning C4267: '=': conversion from 'size_t' to 'DWORD', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(9741): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details. [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(10035): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\midl.c(43): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\midl.c(145): warning C4267: '+=': conversion from 'size_t' to 'unsigned int', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\midl.c(175): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+c:\visual studio 2015\projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb\libraries\liblmdb\mdb.c(1509): warning C4172: returning address of local variable or temporary: buf [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj]
+  
+      67 Warning(s)
+      0 Error(s)
+  
+  Time Elapsed 00:00:05.59
+  Performing install step for 'lmdb'
+  Microsoft (R) Build Engine version 14.0.25420.1
+  Copyright (C) Microsoft Corporation. All rights reserved.
+  
+  Build started 18/08/2017 14:47:45.
+  Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\install.vcxproj" on node 1 (default targets).
+  Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\install.vcxproj" (1) is building "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\ZERO_CHECK.vcxproj" (2) on node 1 (default targets).
+  InitializeBuildStatus:
+    Creating "x64\Release\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  FinalizeBuildStatus:
+    Deleting file "x64\Release\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild".
+    Touching "x64\Release\ZERO_CHECK\ZERO_CHECK.tlog\ZERO_CHECK.lastbuildstate".
+  Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\ZERO_CHECK.vcxproj" (default targets).
+  Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\install.vcxproj" (1) is building "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\ALL_BUILD.vcxproj" (3) on node 1 (default targets).
+  Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\ALL_BUILD.vcxproj" (3) is building "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj" (4) on node 1 (default targets).
+  InitializeBuildStatus:
+    Creating "lmdb.dir\Release\lmdb.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  ClCompile:
+    All outputs are up-to-date.
+  Lib:
+    All outputs are up-to-date.
+    lmdb.vcxproj -> C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\Release\lmdb.lib
+  FinalizeBuildStatus:
+    Deleting file "lmdb.dir\Release\lmdb.tlog\unsuccessfulbuild".
+    Touching "lmdb.dir\Release\lmdb.tlog\lmdb.lastbuildstate".
+  Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\lmdb.vcxproj" (default targets).
+  InitializeBuildStatus:
+    Creating "x64\Release\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  FinalizeBuildStatus:
+    Deleting file "x64\Release\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild".
+    Touching "x64\Release\ALL_BUILD\ALL_BUILD.tlog\ALL_BUILD.lastbuildstate".
+  Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\ALL_BUILD.vcxproj" (default targets).
+  PrepareForBuild:
+    Creating directory "x64\Release\INSTALL\".
+    Creating directory "x64\Release\INSTALL\INSTALL.tlog\".
+  InitializeBuildStatus:
+    Creating "x64\Release\INSTALL\INSTALL.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  PostBuildEvent:
+    setlocal
+    "C:\Program Files\CMake\bin\cmake.exe" -DBUILD_TYPE=Release -P cmake_install.cmake
+    if %errorlevel% neq 0 goto :cmEnd
+    :cmEnd
+    endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+    :cmErrorLevel
+    exit /b %1
+    :cmDone
+    if %errorlevel% neq 0 goto :VCEnd
+    :VCEnd
+    -- Install configuration: "Release"
+    -- Installing: C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/lmdb/install/lib/lmdb.lib
+    -- Installing: C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/lmdb/install/include/lmdb.h
+    -- Installing: C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/lmdb/install/include/midl.h
+  FinalizeBuildStatus:
+    Deleting file "x64\Release\INSTALL\INSTALL.tlog\unsuccessfulbuild".
+    Touching "x64\Release\INSTALL\INSTALL.tlog\INSTALL.lastbuildstate".
+  Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\lmdb\src\lmdb-build\install.vcxproj" (default targets).
+  
+  Build succeeded.
+      0 Warning(s)
+      0 Error(s)
+  
+  Time Elapsed 00:00:02.42
+  Completed 'lmdb'

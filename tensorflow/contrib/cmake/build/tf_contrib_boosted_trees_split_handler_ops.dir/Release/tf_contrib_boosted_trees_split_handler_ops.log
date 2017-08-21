@@ -1,0 +1,4 @@
+﻿  Building Custom Rule C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/CMakeLists.txt
+  CMake does not need to re-run because C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/generate.stamp is up-to-date.
+  split_handler_ops.cc
+  tf_contrib_boosted_trees_split_handler_ops.vcxproj -> C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_contrib_boosted_trees_split_handler_ops.dir\Release\tf_contrib_boosted_trees_split_handler_ops.lib

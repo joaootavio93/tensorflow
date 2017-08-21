@@ -1,0 +1,307 @@
+﻿  Building Custom Rule C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/CMakeLists.txt
+  CMake does not need to re-run because C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/generate.stamp is up-to-date.
+  Creating directories for 'farmhash'
+  Performing download step (download, verify and extract) for 'farmhash'
+  -- Downloading...
+     dst='C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/downloads/34c13ddfab0e35422f4c3979f360635a8c050260.zip'
+     timeout='none'
+  -- Using src='https://github.com/google/farmhash/archive/34c13ddfab0e35422f4c3979f360635a8c050260.zip'
+  -- [download 0% complete]
+  -- [download 1% complete]
+  -- [download 2% complete]
+  -- [download 3% complete]
+  -- [download 4% complete]
+  -- [download 5% complete]
+  -- [download 6% complete]
+  -- [download 7% complete]
+  -- [download 8% complete]
+  -- [download 9% complete]
+  -- [download 10% complete]
+  -- [download 11% complete]
+  -- [download 12% complete]
+  -- [download 13% complete]
+  -- [download 14% complete]
+  -- [download 15% complete]
+  -- [download 16% complete]
+  -- [download 17% complete]
+  -- [download 18% complete]
+  -- [download 19% complete]
+  -- [download 20% complete]
+  -- [download 21% complete]
+  -- [download 22% complete]
+  -- [download 23% complete]
+  -- [download 24% complete]
+  -- [download 25% complete]
+  -- [download 26% complete]
+  -- [download 27% complete]
+  -- [download 28% complete]
+  -- [download 29% complete]
+  -- [download 30% complete]
+  -- [download 31% complete]
+  -- [download 32% complete]
+  -- [download 33% complete]
+  -- [download 34% complete]
+  -- [download 35% complete]
+  -- [download 36% complete]
+  -- [download 37% complete]
+  -- [download 38% complete]
+  -- [download 39% complete]
+  -- [download 40% complete]
+  -- [download 41% complete]
+  -- [download 42% complete]
+  -- [download 43% complete]
+  -- [download 44% complete]
+  -- [download 45% complete]
+  -- [download 46% complete]
+  -- [download 47% complete]
+  -- [download 48% complete]
+  -- [download 49% complete]
+  -- [download 50% complete]
+  -- [download 51% complete]
+  -- [download 52% complete]
+  -- [download 53% complete]
+  -- [download 54% complete]
+  -- [download 55% complete]
+  -- [download 56% complete]
+  -- [download 57% complete]
+  -- [download 60% complete]
+  -- [download 64% complete]
+  -- [download 67% complete]
+  -- [download 70% complete]
+  -- [download 74% complete]
+  -- [download 75% complete]
+  -- [download 76% complete]
+  -- [download 77% complete]
+  -- [download 78% complete]
+  -- [download 79% complete]
+  -- [download 80% complete]
+  -- [download 81% complete]
+  -- [download 82% complete]
+  -- [download 83% complete]
+  -- [download 84% complete]
+  -- [download 85% complete]
+  -- [download 86% complete]
+  -- [download 87% complete]
+  -- [download 88% complete]
+  -- [download 89% complete]
+  -- [download 90% complete]
+  -- [download 91% complete]
+  -- [download 92% complete]
+  -- [download 93% complete]
+  -- [download 94% complete]
+  -- [download 95% complete]
+  -- [download 96% complete]
+  -- [download 97% complete]
+  -- [download 98% complete]
+  -- [download 99% complete]
+  -- [download 100% complete]
+  -- verifying file...
+         file='C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/downloads/34c13ddfab0e35422f4c3979f360635a8c050260.zip'
+  -- Downloading... done
+  -- extracting...
+       src='C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/downloads/34c13ddfab0e35422f4c3979f360635a8c050260.zip'
+       dst='C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/farmhash/src/farmhash'
+  -- extracting... [tar xfz]
+  -- extracting... [analysis]
+  -- extracting... [rename]
+  -- extracting... [clean up]
+  -- extracting... done
+  No update step for 'farmhash'
+  Performing patch step for 'farmhash'
+  Performing configure step for 'farmhash'
+  loading initial cache file C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/farmhash/tmp/farmhash-cache-Release.cmake
+  -- The C compiler identification is MSVC 19.0.24215.1
+  -- The CXX compiler identification is MSVC 19.0.24215.1
+  -- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/x86_amd64/cl.exe
+  -- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/x86_amd64/cl.exe -- works
+  -- Detecting C compiler ABI info
+  -- Detecting C compiler ABI info - done
+  -- Check for working CXX compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/x86_amd64/cl.exe
+  -- Check for working CXX compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/x86_amd64/cl.exe -- works
+  -- Detecting CXX compiler ABI info
+  -- Detecting CXX compiler ABI info - done
+  -- Detecting CXX compile features
+  -- Detecting CXX compile features - done
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/farmhash/src/farmhash
+  Performing build step for 'farmhash'
+  Microsoft (R) Build Engine version 14.0.25420.1
+  Copyright (C) Microsoft Corporation. All rights reserved.
+  
+  Build started 18/08/2017 14:46:58.
+  Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\farmhash\src\farmhash\ALL_BUILD.vcxproj" on node 1 (default targets).
+  Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\farmhash\src\farmhash\ALL_BUILD.vcxproj" (1) is building "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\farmhash\src\farmhash\ZERO_CHECK.vcxproj" (2) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "x64\Release\ZERO_CHECK\".
+    Creating directory "x64\Release\ZERO_CHECK\ZERO_CHECK.tlog\".
+  InitializeBuildStatus:
+    Creating "x64\Release\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Checking Build System
+    CMake does not need to re-run because C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/farmhash/src/farmhash/CMakeFiles/generate.stamp is up-to-date.
+  FinalizeBuildStatus:
+    Deleting file "x64\Release\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild".
+    Touching "x64\Release\ZERO_CHECK\ZERO_CHECK.tlog\ZERO_CHECK.lastbuildstate".
+  Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\farmhash\src\farmhash\ZERO_CHECK.vcxproj" (default targets).
+  Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\farmhash\src\farmhash\ALL_BUILD.vcxproj" (1) is building "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\farmhash\src\farmhash\farmhash.vcxproj" (3) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "farmhash.dir\Release\".
+    Creating directory "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\farmhash\src\farmhash\Release\".
+    Creating directory "farmhash.dir\Release\farmhash.tlog\".
+  InitializeBuildStatus:
+    Creating "farmhash.dir\Release\farmhash.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/farmhash/src/farmhash/CMakeLists.txt
+    CMake does not need to re-run because C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/farmhash/src/farmhash/CMakeFiles/generate.stamp is up-to-date.
+  ClCompile:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\farmhash\src\farmhash" /nologo /W3 /WX- /O2 /Ob2 /D WIN32 /D _WINDOWS /D NDEBUG /D FARMHASH_NO_BUILTIN_EXPECT /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"farmhash.dir\Release\\" /Fd"farmhash.dir\Release\farmhash.pdb" /Gd /TP /errorReport:queue "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\farmhash\src\farmhash\src\farmhash.cc"
+    farmhash.cc
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\farmhash\src\farmhash\src\farmhash.cc(454): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\farmhash\src\farmhash\farmhash.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\farmhash\src\farmhash\src\farmhash.cc(528): warning C4307: '*': integral constant overflow [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\farmhash\src\farmhash\farmhash.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\farmhash\src\farmhash\src\farmhash.cc(995): warning C4267: 'return': conversion from 'size_t' to 'uint32_t', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\farmhash\src\farmhash\farmhash.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\farmhash\src\farmhash\src\farmhash.cc(1032): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\farmhash\src\farmhash\farmhash.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\farmhash\src\farmhash\src\farmhash.cc(1050): warning C4267: 'argument': conversion from 'size_t' to 'uint32_t', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\farmhash\src\farmhash\farmhash.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\farmhash\src\farmhash\src\farmhash.cc(1054): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\farmhash\src\farmhash\farmhash.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\farmhash\src\farmhash\src\farmhash.cc(1069): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\farmhash\src\farmhash\farmhash.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\farmhash\src\farmhash\src\farmhash.cc(1125): warning C4267: 'argument': conversion from 'size_t' to 'uint32_t', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\farmhash\src\farmhash\farmhash.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\farmhash\src\farmhash\src\farmhash.cc(1134): warning C4267: 'return': conversion from 'size_t' to 'uint32_t', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\farmhash\src\farmhash\farmhash.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\farmhash\src\farmhash\src\farmhash.cc(1354): warning C4267: 'return': conversion from 'size_t' to 'uint32_t', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\farmhash\src\farmhash\farmhash.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\farmhash\src\farmhash\src\farmhash.cc(1580): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\farmhash\src\farmhash\farmhash.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\farmhash\src\farmhash\src\farmhash.cc(1593): warning C4267: 'argument': conversion from 'size_t' to 'uint32_t', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\farmhash\src\farmhash\farmhash.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\farmhash\src\farmhash\src\farmhash.cc(1597): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\farmhash\src\farmhash\farmhash.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\farmhash\src\farmhash\src\farmhash.cc(1612): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\farmhash\src\farmhash\farmhash.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\farmhash\src\farmhash\src\farmhash.cc(1679): warning C4267: 'argument': conversion from 'size_t' to 'uint32_t', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\farmhash\src\farmhash\farmhash.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\farmhash\src\farmhash\src\farmhash.cc(1729): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\farmhash\src\farmhash\farmhash.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\farmhash\src\farmhash\src\farmhash.cc(1768): warning C4267: 'initializing': conversion from 'size_t' to 'long', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\farmhash\src\farmhash\farmhash.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\farmhash\src\farmhash\src\farmhash.cc(384): warning C4244: 'argument': conversion from 'uint64_t' to 'uint32_t', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\farmhash\src\farmhash\farmhash.vcxproj]
+    C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\farmhash\src\farmhash\src\farmhash.cc(394): note: see reference to function template instantiation 'T util::DebugTweak<uint64_t>(T)' being compiled
+            with
+            [
+                T=uint64_t
+            ]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\farmhash\src\farmhash\src\farmhash.cc(384): warning C4319: '~': zero extending 'uint32_t' to 'uint64_t' of greater size [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\farmhash\src\farmhash\farmhash.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\farmhash\src\farmhash\src\farmhash.cc(386): warning C4244: '=': conversion from 'uint64_t' to 'uint32_t', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\farmhash\src\farmhash\farmhash.vcxproj]
+    C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\farmhash\src\farmhash\src\farmhash.cc(1879): note: see reference to function template instantiation 'T util::DebugTweak<uint32_t>(T)' being compiled
+            with
+            [
+                T=uint32_t
+            ]
+  Lib:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\Lib.exe /OUT:"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\farmhash\src\farmhash\Release\farmhash.lib" /NOLOGO /MACHINE:X64  /machine:x64 farmhash.dir\Release\farmhash.obj
+    farmhash.vcxproj -> C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\farmhash\src\farmhash\Release\farmhash.lib
+  FinalizeBuildStatus:
+    Deleting file "farmhash.dir\Release\farmhash.tlog\unsuccessfulbuild".
+    Touching "farmhash.dir\Release\farmhash.tlog\farmhash.lastbuildstate".
+  Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\farmhash\src\farmhash\farmhash.vcxproj" (default targets).
+  PrepareForBuild:
+    Creating directory "x64\Release\ALL_BUILD\".
+    Creating directory "x64\Release\ALL_BUILD\ALL_BUILD.tlog\".
+  InitializeBuildStatus:
+    Creating "x64\Release\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/farmhash/src/farmhash/CMakeLists.txt
+    CMake does not need to re-run because C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/farmhash/src/farmhash/CMakeFiles/generate.stamp is up-to-date.
+  FinalizeBuildStatus:
+    Deleting file "x64\Release\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild".
+    Touching "x64\Release\ALL_BUILD\ALL_BUILD.tlog\ALL_BUILD.lastbuildstate".
+  Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\farmhash\src\farmhash\ALL_BUILD.vcxproj" (default targets).
+  
+  Build succeeded.
+  
+  "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\farmhash\src\farmhash\ALL_BUILD.vcxproj" (default target) (1) ->
+  "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\farmhash\src\farmhash\farmhash.vcxproj" (default target) (3) ->
+  (ClCompile target) -> 
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\farmhash\src\farmhash\src\farmhash.cc(454): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\farmhash\src\farmhash\farmhash.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\farmhash\src\farmhash\src\farmhash.cc(528): warning C4307: '*': integral constant overflow [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\farmhash\src\farmhash\farmhash.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\farmhash\src\farmhash\src\farmhash.cc(995): warning C4267: 'return': conversion from 'size_t' to 'uint32_t', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\farmhash\src\farmhash\farmhash.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\farmhash\src\farmhash\src\farmhash.cc(1032): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\farmhash\src\farmhash\farmhash.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\farmhash\src\farmhash\src\farmhash.cc(1050): warning C4267: 'argument': conversion from 'size_t' to 'uint32_t', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\farmhash\src\farmhash\farmhash.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\farmhash\src\farmhash\src\farmhash.cc(1054): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\farmhash\src\farmhash\farmhash.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\farmhash\src\farmhash\src\farmhash.cc(1069): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\farmhash\src\farmhash\farmhash.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\farmhash\src\farmhash\src\farmhash.cc(1125): warning C4267: 'argument': conversion from 'size_t' to 'uint32_t', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\farmhash\src\farmhash\farmhash.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\farmhash\src\farmhash\src\farmhash.cc(1134): warning C4267: 'return': conversion from 'size_t' to 'uint32_t', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\farmhash\src\farmhash\farmhash.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\farmhash\src\farmhash\src\farmhash.cc(1354): warning C4267: 'return': conversion from 'size_t' to 'uint32_t', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\farmhash\src\farmhash\farmhash.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\farmhash\src\farmhash\src\farmhash.cc(1580): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\farmhash\src\farmhash\farmhash.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\farmhash\src\farmhash\src\farmhash.cc(1593): warning C4267: 'argument': conversion from 'size_t' to 'uint32_t', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\farmhash\src\farmhash\farmhash.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\farmhash\src\farmhash\src\farmhash.cc(1597): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\farmhash\src\farmhash\farmhash.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\farmhash\src\farmhash\src\farmhash.cc(1612): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\farmhash\src\farmhash\farmhash.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\farmhash\src\farmhash\src\farmhash.cc(1679): warning C4267: 'argument': conversion from 'size_t' to 'uint32_t', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\farmhash\src\farmhash\farmhash.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\farmhash\src\farmhash\src\farmhash.cc(1729): warning C4267: 'initializing': conversion from 'size_t' to 'uint32_t', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\farmhash\src\farmhash\farmhash.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\farmhash\src\farmhash\src\farmhash.cc(1768): warning C4267: 'initializing': conversion from 'size_t' to 'long', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\farmhash\src\farmhash\farmhash.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\farmhash\src\farmhash\src\farmhash.cc(384): warning C4244: 'argument': conversion from 'uint64_t' to 'uint32_t', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\farmhash\src\farmhash\farmhash.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\farmhash\src\farmhash\src\farmhash.cc(384): warning C4319: '~': zero extending 'uint32_t' to 'uint64_t' of greater size [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\farmhash\src\farmhash\farmhash.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\farmhash\src\farmhash\src\farmhash.cc(386): warning C4244: '=': conversion from 'uint64_t' to 'uint32_t', possible loss of data [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\farmhash\src\farmhash\farmhash.vcxproj]
+  
+      20 Warning(s)
+      0 Error(s)
+  
+  Time Elapsed 00:00:04.36
+  Performing install step for 'farmhash'
+  Microsoft (R) Build Engine version 14.0.25420.1
+  Copyright (C) Microsoft Corporation. All rights reserved.
+  
+  Build started 18/08/2017 14:47:03.
+  Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\farmhash\src\farmhash\install.vcxproj" on node 1 (default targets).
+  Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\farmhash\src\farmhash\install.vcxproj" (1) is building "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\farmhash\src\farmhash\ZERO_CHECK.vcxproj" (2) on node 1 (default targets).
+  InitializeBuildStatus:
+    Creating "x64\Release\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  FinalizeBuildStatus:
+    Deleting file "x64\Release\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild".
+    Touching "x64\Release\ZERO_CHECK\ZERO_CHECK.tlog\ZERO_CHECK.lastbuildstate".
+  Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\farmhash\src\farmhash\ZERO_CHECK.vcxproj" (default targets).
+  Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\farmhash\src\farmhash\install.vcxproj" (1) is building "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\farmhash\src\farmhash\ALL_BUILD.vcxproj" (3) on node 1 (default targets).
+  Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\farmhash\src\farmhash\ALL_BUILD.vcxproj" (3) is building "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\farmhash\src\farmhash\farmhash.vcxproj" (4) on node 1 (default targets).
+  InitializeBuildStatus:
+    Creating "farmhash.dir\Release\farmhash.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  ClCompile:
+    All outputs are up-to-date.
+  Lib:
+    All outputs are up-to-date.
+    farmhash.vcxproj -> C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\farmhash\src\farmhash\Release\farmhash.lib
+  FinalizeBuildStatus:
+    Deleting file "farmhash.dir\Release\farmhash.tlog\unsuccessfulbuild".
+    Touching "farmhash.dir\Release\farmhash.tlog\farmhash.lastbuildstate".
+  Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\farmhash\src\farmhash\farmhash.vcxproj" (default targets).
+  InitializeBuildStatus:
+    Creating "x64\Release\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    All outputs are up-to-date.
+  FinalizeBuildStatus:
+    Deleting file "x64\Release\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild".
+    Touching "x64\Release\ALL_BUILD\ALL_BUILD.tlog\ALL_BUILD.lastbuildstate".
+  Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\farmhash\src\farmhash\ALL_BUILD.vcxproj" (default targets).
+  PrepareForBuild:
+    Creating directory "x64\Release\INSTALL\".
+    Creating directory "x64\Release\INSTALL\INSTALL.tlog\".
+  InitializeBuildStatus:
+    Creating "x64\Release\INSTALL\INSTALL.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  PostBuildEvent:
+    setlocal
+    "C:\Program Files\CMake\bin\cmake.exe" -DBUILD_TYPE=Release -P cmake_install.cmake
+    if %errorlevel% neq 0 goto :cmEnd
+    :cmEnd
+    endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+    :cmErrorLevel
+    exit /b %1
+    :cmDone
+    if %errorlevel% neq 0 goto :VCEnd
+    :VCEnd
+    -- Install configuration: "Release"
+    -- Installing: C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/farmhash/install/lib/farmhash.lib
+    -- Installing: C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/farmhash/install/include/farmhash.h
+  FinalizeBuildStatus:
+    Deleting file "x64\Release\INSTALL\INSTALL.tlog\unsuccessfulbuild".
+    Touching "x64\Release\INSTALL\INSTALL.tlog\INSTALL.lastbuildstate".
+  Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\farmhash\src\farmhash\install.vcxproj" (default targets).
+  
+  Build succeeded.
+      0 Warning(s)
+      0 Error(s)
+  
+  Time Elapsed 00:00:02.05
+  Completed 'farmhash'

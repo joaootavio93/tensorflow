@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\profiler\internal\advisor\internal_checker_runner_dummy.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\profiler\internal\tfprof_code.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\profiler\internal\tfprof_graph.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\profiler\internal\tfprof_node.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\profiler\internal\tfprof_node_show.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\profiler\internal\tfprof_op.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\profiler\internal\tfprof_options.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\profiler\internal\tfprof_scope.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\profiler\internal\tfprof_show.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\profiler\internal\tfprof_show_multi.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\profiler\internal\tfprof_stats.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\profiler\internal\tfprof_tensor.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\profiler\internal\tfprof_timeline.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\profiler\internal\tfprof_utils.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\profiler\internal\advisor\accelerator_utilization_checker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\profiler\internal\advisor\checker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\profiler\internal\advisor\expensive_operation_checker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\profiler\internal\advisor\internal_checker_runner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\profiler\internal\advisor\operation_checker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\profiler\internal\advisor\tfprof_advisor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\profiler\internal\tfprof_code.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\profiler\internal\tfprof_constants.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\profiler\internal\tfprof_graph.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\profiler\internal\tfprof_node.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\profiler\internal\tfprof_node_show.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\profiler\internal\tfprof_op.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\profiler\internal\tfprof_options.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\profiler\internal\tfprof_scope.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\profiler\internal\tfprof_show.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\profiler\internal\tfprof_show_multi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\profiler\internal\tfprof_stats.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\profiler\internal\tfprof_tensor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\profiler\internal\tfprof_timeline.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\profiler\internal\tfprof_utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\platform\regexp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\profiler\profile.proto" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\profiler\tfprof_log.proto" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\profiler\tfprof_options.proto" />
+    <None Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\profiler\tfprof_output.proto" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{80822BFC-6A8E-334B-A740-78ABA611BFC2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{C698933A-6F58-3ACB-831E-DAF1772ABBD1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

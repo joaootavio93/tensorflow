@@ -1,0 +1,4 @@
+C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/fft2d/src/fft2d/CMakeFiles/fft2d.dir
+C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/fft2d/src/fft2d/CMakeFiles/INSTALL.dir
+C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/fft2d/src/fft2d/CMakeFiles/ALL_BUILD.dir
+C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/fft2d/src/fft2d/CMakeFiles/ZERO_CHECK.dir

@@ -1,0 +1,3 @@
+repository='external project URL'
+module='http://mirror.bazel.build/github.com/LMDB/lmdb/archive/LMDB_0.9.19.tar.gz'
+tag='SHA256=108532fb94c6f227558d45be3f3347b52539f0f58290a7bb31ec06c462d05326'

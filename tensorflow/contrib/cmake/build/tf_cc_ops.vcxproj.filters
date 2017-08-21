@@ -1,0 +1,495 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\array_ops.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\array_ops_internal.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\bitwise_ops.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\bitwise_ops_internal.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\candidate_sampling_ops.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\candidate_sampling_ops_internal.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\control_flow_ops.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\control_flow_ops_internal.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\ctc_ops.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\ctc_ops_internal.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\data_flow_ops.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\data_flow_ops_internal.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\dataset_ops.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\dataset_ops_internal.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\functional_ops.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\functional_ops_internal.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\image_ops.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\image_ops_internal.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\io_ops.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\io_ops_internal.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\linalg_ops.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\linalg_ops_internal.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\lookup_ops.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\lookup_ops_internal.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\logging_ops.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\logging_ops_internal.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\math_ops.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\math_ops_internal.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\nn_ops.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\nn_ops_internal.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\no_op.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\no_op_internal.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\parsing_ops.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\parsing_ops_internal.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\random_ops.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\random_ops_internal.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\remote_fused_graph_ops.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\remote_fused_graph_ops_internal.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\resource_variable_ops.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\resource_variable_ops_internal.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\script_ops.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\script_ops_internal.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\sdca_ops.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\sdca_ops_internal.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\set_ops.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\set_ops_internal.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\sendrecv_ops.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\sendrecv_ops_internal.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\sparse_ops.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\sparse_ops_internal.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\spectral_ops.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\spectral_ops_internal.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\state_ops.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\state_ops_internal.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\stateless_random_ops.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\stateless_random_ops_internal.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\string_ops.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\string_ops_internal.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\training_ops.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\training_ops_internal.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\user_ops.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\user_ops_internal.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\cc\ops\const_op.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\array_ops.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\array_ops_internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\bitwise_ops.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\bitwise_ops_internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\candidate_sampling_ops.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\candidate_sampling_ops_internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\control_flow_ops.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\control_flow_ops_internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\ctc_ops.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\ctc_ops_internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\data_flow_ops.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\data_flow_ops_internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\dataset_ops.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\dataset_ops_internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\functional_ops.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\functional_ops_internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\image_ops.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\image_ops_internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\io_ops.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\io_ops_internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\linalg_ops.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\linalg_ops_internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\lookup_ops.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\lookup_ops_internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\logging_ops.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\logging_ops_internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\math_ops.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\math_ops_internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\nn_ops.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\nn_ops_internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\no_op.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\no_op_internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\parsing_ops.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\parsing_ops_internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\random_ops.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\random_ops_internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\remote_fused_graph_ops.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\remote_fused_graph_ops_internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\resource_variable_ops.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\resource_variable_ops_internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\script_ops.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\script_ops_internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\sdca_ops.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\sdca_ops_internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\set_ops.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\set_ops_internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\sendrecv_ops.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\sendrecv_ops_internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\sparse_ops.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\sparse_ops_internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\spectral_ops.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\spectral_ops_internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\state_ops.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\state_ops_internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\stateless_random_ops.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\stateless_random_ops_internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\string_ops.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\string_ops_internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\training_ops.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\training_ops_internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\user_ops.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tensorflow\cc\ops\user_ops_internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\cc\ops\const_op.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\cc\ops\standard_ops.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\CMakeLists.txt" />
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\f5463b99ab9309baabf2adcc18403cc5\array_ops.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\f5463b99ab9309baabf2adcc18403cc5\bitwise_ops.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\f5463b99ab9309baabf2adcc18403cc5\candidate_sampling_ops.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\f5463b99ab9309baabf2adcc18403cc5\control_flow_ops.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\f5463b99ab9309baabf2adcc18403cc5\ctc_ops.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\f5463b99ab9309baabf2adcc18403cc5\data_flow_ops.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\f5463b99ab9309baabf2adcc18403cc5\dataset_ops.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\f5463b99ab9309baabf2adcc18403cc5\functional_ops.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\f5463b99ab9309baabf2adcc18403cc5\image_ops.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\f5463b99ab9309baabf2adcc18403cc5\io_ops.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\f5463b99ab9309baabf2adcc18403cc5\linalg_ops.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\f5463b99ab9309baabf2adcc18403cc5\lookup_ops.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\f5463b99ab9309baabf2adcc18403cc5\logging_ops.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\f5463b99ab9309baabf2adcc18403cc5\math_ops.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\f5463b99ab9309baabf2adcc18403cc5\nn_ops.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\f5463b99ab9309baabf2adcc18403cc5\no_op.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\f5463b99ab9309baabf2adcc18403cc5\parsing_ops.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\f5463b99ab9309baabf2adcc18403cc5\random_ops.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\f5463b99ab9309baabf2adcc18403cc5\remote_fused_graph_ops.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\f5463b99ab9309baabf2adcc18403cc5\resource_variable_ops.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\f5463b99ab9309baabf2adcc18403cc5\script_ops.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\f5463b99ab9309baabf2adcc18403cc5\sdca_ops.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\f5463b99ab9309baabf2adcc18403cc5\set_ops.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\f5463b99ab9309baabf2adcc18403cc5\sendrecv_ops.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\f5463b99ab9309baabf2adcc18403cc5\sparse_ops.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\f5463b99ab9309baabf2adcc18403cc5\spectral_ops.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\f5463b99ab9309baabf2adcc18403cc5\state_ops.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\f5463b99ab9309baabf2adcc18403cc5\stateless_random_ops.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\f5463b99ab9309baabf2adcc18403cc5\string_ops.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\f5463b99ab9309baabf2adcc18403cc5\training_ops.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\CMakeFiles\f5463b99ab9309baabf2adcc18403cc5\user_ops.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{80822BFC-6A8E-334B-A740-78ABA611BFC2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{C698933A-6F58-3ACB-831E-DAF1772ABBD1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{A2344FA9-8293-397A-82F9-4519D7D89E56}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

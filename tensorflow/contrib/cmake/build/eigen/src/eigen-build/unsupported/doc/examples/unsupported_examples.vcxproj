@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{87FD06E9-82AB-3036-873A-BA341BE860A0}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>unsupported_examples</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\eigen\src\eigen-build\unsupported\doc\examples;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\eigen\src\eigen\unsupported\doc\examples;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\eigen\src\eigen;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\eigen\src\eigen-build;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\eigen\src\eigen\unsupported\doc\examples\..\..\..\unsupported;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\eigen\src\eigen\unsupported\doc\examples\..\..\..\unsupported\test;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\eigen\src\eigen-build\unsupported\doc\examples;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\eigen\src\eigen\unsupported\doc\examples;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\eigen\src\eigen;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\eigen\src\eigen-build;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\eigen\src\eigen\unsupported\doc\examples\..\..\..\unsupported;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\eigen\src\eigen\unsupported\doc\examples\..\..\..\unsupported\test;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\eigen\src\eigen-build\unsupported\doc\examples;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\eigen\src\eigen\unsupported\doc\examples;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\eigen\src\eigen;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\eigen\src\eigen-build;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\eigen\src\eigen\unsupported\doc\examples\..\..\..\unsupported;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\eigen\src\eigen\unsupported\doc\examples\..\..\..\unsupported\test;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\eigen\src\eigen-build\unsupported\doc\examples;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\eigen\src\eigen\unsupported\doc\examples;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\eigen\src\eigen;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\eigen\src\eigen-build;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\eigen\src\eigen\unsupported\doc\examples\..\..\..\unsupported;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\eigen\src\eigen\unsupported\doc\examples\..\..\..\unsupported\test;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\eigen\src\eigen\unsupported\doc\examples\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/eigen/src/eigen/unsupported/doc/examples/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-HC:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/eigen/src/eigen" "-BC:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/eigen/src/eigen-build" --check-stamp-file "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/eigen/src/eigen-build/unsupported/doc/examples/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/eigen/src/eigen/unsupported/doc/examples/CMakeLists.txt;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\eigen\src\eigen\unsupported\doc\examples\CMakeLists.txt;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\eigen\src\eigen\unsupported\doc\examples\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\eigen\src\eigen-build\unsupported\doc\examples\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/eigen/src/eigen/unsupported/doc/examples/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-HC:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/eigen/src/eigen" "-BC:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/eigen/src/eigen-build" --check-stamp-file "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/eigen/src/eigen-build/unsupported/doc/examples/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/eigen/src/eigen/unsupported/doc/examples/CMakeLists.txt;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\eigen\src\eigen\unsupported\doc\examples\CMakeLists.txt;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\eigen\src\eigen\unsupported\doc\examples\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\eigen\src\eigen-build\unsupported\doc\examples\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/eigen/src/eigen/unsupported/doc/examples/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-HC:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/eigen/src/eigen" "-BC:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/eigen/src/eigen-build" --check-stamp-file "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/eigen/src/eigen-build/unsupported/doc/examples/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/eigen/src/eigen/unsupported/doc/examples/CMakeLists.txt;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\eigen\src\eigen\unsupported\doc\examples\CMakeLists.txt;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\eigen\src\eigen\unsupported\doc\examples\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\eigen\src\eigen-build\unsupported\doc\examples\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/eigen/src/eigen/unsupported/doc/examples/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-HC:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/eigen/src/eigen" "-BC:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/eigen/src/eigen-build" --check-stamp-file "C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/eigen/src/eigen-build/unsupported/doc/examples/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/eigen/src/eigen/unsupported/doc/examples/CMakeLists.txt;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\eigen\src\eigen\unsupported\doc\examples\CMakeLists.txt;C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\eigen\src\eigen\unsupported\doc\examples\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\eigen\src\eigen-build\unsupported\doc\examples\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\eigen\src\eigen-build\ZERO_CHECK.vcxproj">
+      <Project>{5A058193-F6C9-3700-B193-A5F15A352346}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\eigen\src\eigen-build\unsupported\doc\examples\example_BVH_Example.vcxproj">
+      <Project>{0A43AB0F-AAFF-3654-8F76-35F97C5D8BED}</Project>
+      <Name>example_BVH_Example</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\eigen\src\eigen-build\unsupported\doc\examples\example_EulerAngles.vcxproj">
+      <Project>{960F06E3-3B2F-3480-84A0-40358A1841BD}</Project>
+      <Name>example_EulerAngles</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\eigen\src\eigen-build\unsupported\doc\examples\example_FFT.vcxproj">
+      <Project>{DD67B491-4B14-3306-9C9E-FC5516165061}</Project>
+      <Name>example_FFT</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\eigen\src\eigen-build\unsupported\doc\examples\example_MatrixExponential.vcxproj">
+      <Project>{2D7C5BE1-370E-3349-AEE5-8C2E7F543142}</Project>
+      <Name>example_MatrixExponential</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\eigen\src\eigen-build\unsupported\doc\examples\example_MatrixFunction.vcxproj">
+      <Project>{C7E672C2-E4C6-3536-8A7E-0DF9A766938F}</Project>
+      <Name>example_MatrixFunction</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\eigen\src\eigen-build\unsupported\doc\examples\example_MatrixLogarithm.vcxproj">
+      <Project>{BE8DAC40-EB55-3295-A295-10D436B6AFF9}</Project>
+      <Name>example_MatrixLogarithm</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\eigen\src\eigen-build\unsupported\doc\examples\example_MatrixPower.vcxproj">
+      <Project>{F1F234A9-4EBF-3BDF-9D42-11FF9998D575}</Project>
+      <Name>example_MatrixPower</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\eigen\src\eigen-build\unsupported\doc\examples\example_MatrixPower_optimal.vcxproj">
+      <Project>{50183F46-B8AB-32A0-9AEA-0B3C63DF5839}</Project>
+      <Name>example_MatrixPower_optimal</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\eigen\src\eigen-build\unsupported\doc\examples\example_MatrixSine.vcxproj">
+      <Project>{9CFDF430-9C99-3EA0-B7ED-034A5E920DC3}</Project>
+      <Name>example_MatrixSine</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\eigen\src\eigen-build\unsupported\doc\examples\example_MatrixSinh.vcxproj">
+      <Project>{73DDA29C-28B5-3D77-AE97-6C2D10D80CB7}</Project>
+      <Name>example_MatrixSinh</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\eigen\src\eigen-build\unsupported\doc\examples\example_MatrixSquareRoot.vcxproj">
+      <Project>{E4EDB106-5BFA-3109-B6A1-7FD5CC7CCD26}</Project>
+      <Name>example_MatrixSquareRoot</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\eigen\src\eigen-build\unsupported\doc\examples\example_PolynomialSolver1.vcxproj">
+      <Project>{247571C2-3A38-395B-8795-F8FBC6C9F097}</Project>
+      <Name>example_PolynomialSolver1</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\eigen\src\eigen-build\unsupported\doc\examples\example_PolynomialUtils1.vcxproj">
+      <Project>{178952C6-4057-39E2-BC3C-44DAA6BF1FC1}</Project>
+      <Name>example_PolynomialUtils1</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

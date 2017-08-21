@@ -1,0 +1,150 @@
+﻿  Building Custom Rule C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/CMakeLists.txt
+  CMake does not need to re-run because C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/generate.stamp is up-to-date.
+  Generating __force_rebuild
+  
+  Running C++ protocol buffer text compiler (proto_text) on tensorflow/core/example/example.proto
+  Running C++ protocol buffer text compiler (proto_text) on tensorflow/core/example/feature.proto
+  Running C++ protocol buffer text compiler (proto_text) on tensorflow/core/framework/allocation_description.proto
+  Running C++ protocol buffer text compiler (proto_text) on tensorflow/core/framework/attr_value.proto
+  Running C++ protocol buffer text compiler (proto_text) on tensorflow/core/framework/cost_graph.proto
+  Running C++ protocol buffer text compiler (proto_text) on tensorflow/core/framework/device_attributes.proto
+  Running C++ protocol buffer text compiler (proto_text) on tensorflow/core/framework/function.proto
+  Running C++ protocol buffer text compiler (proto_text) on tensorflow/core/framework/graph.proto
+  Running C++ protocol buffer text compiler (proto_text) on tensorflow/core/framework/graph_transfer_info.proto
+  Running C++ protocol buffer text compiler (proto_text) on tensorflow/core/framework/kernel_def.proto
+  Running C++ protocol buffer text compiler (proto_text) on tensorflow/core/framework/log_memory.proto
+  Running C++ protocol buffer text compiler (proto_text) on tensorflow/core/framework/node_def.proto
+  Running C++ protocol buffer text compiler (proto_text) on tensorflow/core/framework/op_def.proto
+  Running C++ protocol buffer text compiler (proto_text) on tensorflow/core/framework/remote_fused_graph_execute_info.proto
+  Running C++ protocol buffer text compiler (proto_text) on tensorflow/core/framework/resource_handle.proto
+  Running C++ protocol buffer text compiler (proto_text) on tensorflow/core/framework/step_stats.proto
+  Running C++ protocol buffer text compiler (proto_text) on tensorflow/core/framework/summary.proto
+  Running C++ protocol buffer text compiler (proto_text) on tensorflow/core/framework/tensor.proto
+  Running C++ protocol buffer text compiler (proto_text) on tensorflow/core/framework/tensor_description.proto
+  Running C++ protocol buffer text compiler (proto_text) on tensorflow/core/framework/tensor_shape.proto
+  Running C++ protocol buffer text compiler (proto_text) on tensorflow/core/framework/tensor_slice.proto
+  Running C++ protocol buffer text compiler (proto_text) on tensorflow/core/framework/types.proto
+  Running C++ protocol buffer text compiler (proto_text) on tensorflow/core/framework/versions.proto
+  Running C++ protocol buffer text compiler (proto_text) on tensorflow/core/lib/core/error_codes.proto
+  Running C++ protocol buffer text compiler (proto_text) on tensorflow/core/protobuf/cluster.proto
+  Running C++ protocol buffer text compiler (proto_text) on tensorflow/core/protobuf/config.proto
+  Running C++ protocol buffer text compiler (proto_text) on tensorflow/core/protobuf/debug.proto
+  Running C++ protocol buffer text compiler (proto_text) on tensorflow/core/protobuf/device_properties.proto
+  Running C++ protocol buffer text compiler (proto_text) on tensorflow/core/protobuf/rewriter_config.proto
+  Running C++ protocol buffer text compiler (proto_text) on tensorflow/core/protobuf/tensor_bundle.proto
+  Running C++ protocol buffer text compiler (proto_text) on tensorflow/core/protobuf/saver.proto
+  Running C++ protocol buffer text compiler (proto_text) on tensorflow/core/util/memmapped_file_system.proto
+  Running C++ protocol buffer text compiler (proto_text) on tensorflow/core/util/saved_tensor_slice.proto
+  Generating C:/Visual Studio 2015/Projects/tensorflow/tensorflow/core/util/version_info.cc
+  fatal: Not a git repository: './.git'
+  allocator.cc
+  allocator_registry.cc
+  attr_value_util.cc
+  bfloat16.cc
+  cancellation.cc
+  common_shape_fns.cc
+  device_base.cc
+  fake_input.cc
+  function.cc
+  graph_def_util.cc
+  kernel_def_builder.cc
+  load_library.cc
+  log_memory.cc
+  lookup_interface.cc
+  memory_types.cc
+  node_def_builder.cc
+  node_def_util.cc
+  op.cc
+  op_def_builder.cc
+  op_def_util.cc
+  op_gen_lib.cc
+  op_kernel.cc
+  op_segment.cc
+  reader_base.cc
+  rendezvous.cc
+  resource_mgr.cc
+  shape_inference.cc
+  tensor.cc
+  tensor_reference.cc
+  tensor_shape.cc
+  tensor_slice.cc
+  tensor_util.cc
+  tracking_allocator.cc
+  types.cc
+  unique_tensor_references.cc
+  variant.cc
+  variant_tensor_data.cc
+  versions.cc
+  variant_coding.cc
+  edgeset.cc
+  graph.cc
+  activation_mode.cc
+  bcast.cc
+  command_line_flags.cc
+  ctc_loss_calculator.cc
+  device_name_utils.cc
+  env_var.cc
+  equal_graph_def.cc
+  events_writer.cc
+  example_proto_fast_parsing.cc
+  example_proto_helper.cc
+  guarded_philox_random.cc
+  matmul_autotune.cc
+  memmapped_file_system.cc
+  memmapped_file_system_writer.cc
+  mirror_pad_mode.cc
+  padding.cc
+  port.cc
+  reporter.cc
+  saved_tensor_slice_util.cc
+  group_iterator.cc
+  stat_summarizer.cc
+  strided_slice_op.cc
+  naming.cc
+  tensor_bundle.cc
+  tensor_format.cc
+  tensor_slice_reader.cc
+  tensor_slice_reader_cache.cc
+  tensor_slice_set.cc
+  tensor_slice_writer.cc
+  use_cudnn.cc
+  util.cc
+  work_sharder.cc
+  session.cc
+  session_factory.cc
+  session_options.cc
+  version_info.cc
+  example.pb_text.cc
+  feature.pb_text.cc
+  allocation_description.pb_text.cc
+  attr_value.pb_text.cc
+  cost_graph.pb_text.cc
+  device_attributes.pb_text.cc
+  function.pb_text.cc
+  graph.pb_text.cc
+  graph_transfer_info.pb_text.cc
+  kernel_def.pb_text.cc
+  log_memory.pb_text.cc
+  node_def.pb_text.cc
+  op_def.pb_text.cc
+  remote_fused_graph_execute_info.pb_text.cc
+  resource_handle.pb_text.cc
+  step_stats.pb_text.cc
+  summary.pb_text.cc
+  tensor.pb_text.cc
+  tensor_description.pb_text.cc
+  tensor_shape.pb_text.cc
+  tensor_slice.pb_text.cc
+  types.pb_text.cc
+  versions.pb_text.cc
+  error_codes.pb_text.cc
+  cluster.pb_text.cc
+  config.pb_text.cc
+  debug.pb_text.cc
+  device_properties.pb_text.cc
+  rewriter_config.pb_text.cc
+  tensor_bundle.pb_text.cc
+  saver.pb_text.cc
+  memmapped_file_system.pb_text.cc
+  saved_tensor_slice.pb_text.cc
+  tf_core_framework.vcxproj -> C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\tf_core_framework.dir\Release\tf_core_framework.lib

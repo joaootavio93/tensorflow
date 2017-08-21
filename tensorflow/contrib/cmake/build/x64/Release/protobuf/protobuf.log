@@ -1,0 +1,658 @@
+﻿  Building Custom Rule C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/CMakeLists.txt
+  CMake does not need to re-run because C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/generate.stamp is up-to-date.
+  Creating directories for 'protobuf'
+  Performing download step (git clone) for 'protobuf'
+  Cloning into 'protobuf'...
+  Checking out files:  19% (296/1502)   
+  Checking out files:  20% (301/1502)   
+  Checking out files:  21% (316/1502)   
+  Checking out files:  22% (331/1502)   
+  Checking out files:  23% (346/1502)   
+  Checking out files:  24% (361/1502)   
+  Checking out files:  25% (376/1502)   
+  Checking out files:  26% (391/1502)   
+  Checking out files:  27% (406/1502)   
+  Checking out files:  28% (421/1502)   
+  Checking out files:  29% (436/1502)   
+  Checking out files:  30% (451/1502)   
+  Checking out files:  31% (466/1502)   
+  Checking out files:  32% (481/1502)   
+  Checking out files:  33% (496/1502)   
+  Checking out files:  34% (511/1502)   
+  Checking out files:  35% (526/1502)   
+  Checking out files:  36% (541/1502)   
+  Checking out files:  37% (556/1502)   
+  Checking out files:  38% (571/1502)   
+  Checking out files:  39% (586/1502)   
+  Checking out files:  40% (601/1502)   
+  Checking out files:  41% (616/1502)   
+  Checking out files:  42% (631/1502)   
+  Checking out files:  43% (646/1502)   
+  Checking out files:  44% (661/1502)   
+  Checking out files:  45% (676/1502)   
+  Checking out files:  46% (691/1502)   
+  Checking out files:  47% (706/1502)   
+  Checking out files:  48% (721/1502)   
+  Checking out files:  49% (736/1502)   
+  Checking out files:  50% (751/1502)   
+  Checking out files:  51% (767/1502)   
+  Checking out files:  52% (782/1502)   
+  Checking out files:  53% (797/1502)   
+  Checking out files:  54% (812/1502)   
+  Checking out files:  55% (827/1502)   
+  Checking out files:  56% (842/1502)   
+  Checking out files:  57% (857/1502)   
+  Checking out files:  58% (872/1502)   
+  Checking out files:  59% (887/1502)   
+  Checking out files:  60% (902/1502)   
+  Checking out files:  61% (917/1502)   
+  Checking out files:  62% (932/1502)   
+  Checking out files:  63% (947/1502)   
+  Checking out files:  64% (962/1502)   
+  Checking out files:  65% (977/1502)   
+  Checking out files:  66% (992/1502)   
+  Checking out files:  67% (1007/1502)   
+  Checking out files:  68% (1022/1502)   
+  Checking out files:  69% (1037/1502)   
+  Checking out files:  69% (1050/1502)   
+  Checking out files:  70% (1052/1502)   
+  Checking out files:  71% (1067/1502)   
+  Checking out files:  72% (1082/1502)   
+  Checking out files:  73% (1097/1502)   
+  Checking out files:  74% (1112/1502)   
+  Checking out files:  75% (1127/1502)   
+  Checking out files:  76% (1142/1502)   
+  Checking out files:  77% (1157/1502)   
+  Checking out files:  78% (1172/1502)   
+  Checking out files:  79% (1187/1502)   
+  Checking out files:  80% (1202/1502)   
+  Checking out files:  81% (1217/1502)   
+  Checking out files:  82% (1232/1502)   
+  Checking out files:  83% (1247/1502)   
+  Checking out files:  84% (1262/1502)   
+  Checking out files:  85% (1277/1502)   
+  Checking out files:  86% (1292/1502)   
+  Checking out files:  87% (1307/1502)   
+  Checking out files:  88% (1322/1502)   
+  Checking out files:  89% (1337/1502)   
+  Checking out files:  90% (1352/1502)   
+  Checking out files:  90% (1361/1502)   
+  Checking out files:  91% (1367/1502)   
+  Checking out files:  92% (1382/1502)   
+  Checking out files:  93% (1397/1502)   
+  Checking out files:  94% (1412/1502)   
+  Checking out files:  95% (1427/1502)   
+  Checking out files:  96% (1442/1502)   
+  Checking out files:  97% (1457/1502)   
+  Checking out files:  98% (1472/1502)   
+  Checking out files:  99% (1487/1502)   
+  Checking out files: 100% (1502/1502)   
+  Checking out files: 100% (1502/1502), done.
+  Note: checking out '1d2c7b6c7376f396c8c7dd9b6afd2d4f83f3cb05'.
+  You are in 'detached HEAD' state. You can look around, make experimental
+  changes and commit them, and you can discard any commits you make in this
+  state without impacting any branches by performing another checkout.
+  
+  If you want to create a new branch to retain commits you create, you may
+  do so (now or later) by using -b with the checkout command again. Example:
+  
+    git checkout -b <new-branch-name>
+  
+  HEAD is now at 1d2c7b6... Fix MSVC build when HAVE_LONG_LONG is defined.
+  Performing update step for 'protobuf'
+  No patch step for 'protobuf'
+  Performing configure step for 'protobuf'
+  -- Building for: Visual Studio 14 2015
+  -- The C compiler identification is MSVC 19.0.24215.1
+  -- The CXX compiler identification is MSVC 19.0.24215.1
+  -- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/x86_amd64/cl.exe
+  -- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/x86_amd64/cl.exe -- works
+  -- Detecting C compiler ABI info
+  -- Detecting C compiler ABI info - done
+  -- Check for working CXX compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/x86_amd64/cl.exe
+  -- Check for working CXX compiler: C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/x86_amd64/cl.exe -- works
+  -- Detecting CXX compiler ABI info
+  -- Detecting CXX compiler ABI info - done
+  -- Detecting CXX compile features
+  -- Detecting CXX compile features - done
+  -- Looking for pthread.h
+  -- Looking for pthread.h - not found
+  -- Found Threads: TRUE  
+  -- Configuring done
+  -- Generating done
+CUSTOMBUILD : CMake warning : 
+    Manually-specified variables were not used by the project:
+  
+      ZLIB_ROOT
+  
+  
+  -- Build files have been written to: C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/protobuf/src/protobuf
+  Performing build step for 'protobuf'
+  Microsoft (R) Build Engine version 14.0.25420.1
+  Copyright (C) Microsoft Corporation. All rights reserved.
+  
+  Build started 18/08/2017 14:48:42.
+  Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\ALL_BUILD.vcxproj" on node 1 (default targets).
+  Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\ALL_BUILD.vcxproj" (1) is building "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\ZERO_CHECK.vcxproj" (2) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "x64\Release\ZERO_CHECK\".
+    Creating directory "x64\Release\ZERO_CHECK\ZERO_CHECK.tlog\".
+  InitializeBuildStatus:
+    Creating "x64\Release\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Checking Build System
+    CMake does not need to re-run because C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/protobuf/src/protobuf/CMakeFiles/generate.stamp is up-to-date.
+  FinalizeBuildStatus:
+    Deleting file "x64\Release\ZERO_CHECK\ZERO_CHECK.tlog\unsuccessfulbuild".
+    Touching "x64\Release\ZERO_CHECK\ZERO_CHECK.tlog\ZERO_CHECK.lastbuildstate".
+  Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\ZERO_CHECK.vcxproj" (default targets).
+  Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\ALL_BUILD.vcxproj" (1) is building "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\libprotobuf.vcxproj" (3) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "libprotobuf.dir\Release\".
+    Creating directory "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\Release\".
+    Creating directory "libprotobuf.dir\Release\libprotobuf.tlog\".
+  InitializeBuildStatus:
+    Creating "libprotobuf.dir\Release\libprotobuf.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/protobuf/src/protobuf/cmake/CMakeLists.txt
+    CMake does not need to re-run because C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/protobuf/src/protobuf/CMakeFiles/generate.stamp is up-to-date.
+  ClCompile:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf" /I"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src" /nologo /W3 /WX- /MP /O2 /Ob2 /D WIN32 /D _WINDOWS /D NDEBUG /D GOOGLE_PROTOBUF_CMAKE_BUILD /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"libprotobuf.dir\Release\\" /Fd"libprotobuf.dir\Release\libprotobuf.pdb" /Gd /TP /wd4244 /wd4267 /wd4018 /wd4355 /wd4800 /wd4251 /wd4996 /wd4146 /wd4305 /errorReport:queue  /bigobj "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\arena.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\arenastring.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\extension_set.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\generated_message_util.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\io\coded_stream.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\io\zero_copy_stream.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\io\zero_copy_stream_impl_lite.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\message_lite.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\repeated_field.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\stubs\atomicops_internals_x86_gcc.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\stubs\atomicops_internals_x86_msvc.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\stubs\bytestream.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\stubs\common.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\stubs\int128.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\stubs\once.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\stubs\status.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\stubs\statusor.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\stubs\stringpiece.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\stubs\stringprintf.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\stubs\structurally_valid.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\stubs\strutil.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\stubs\time.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\wire_format_lite.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\any.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\any.pb.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\api.pb.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\compiler\importer.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\compiler\parser.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\descriptor.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\descriptor.pb.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\descriptor_database.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\duration.pb.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\dynamic_message.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\empty.pb.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\extension_set_heavy.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\field_mask.pb.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\generated_message_reflection.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\io\gzip_stream.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\io\printer.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\io\strtod.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\io\tokenizer.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\io\zero_copy_stream_impl.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\map_field.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\message.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\reflection_ops.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\service.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\source_context.pb.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\struct.pb.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\stubs\mathlimits.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\stubs\substitute.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\text_format.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\timestamp.pb.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\type.pb.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\unknown_field_set.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\util\field_comparator.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\util\field_mask_util.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\util\internal\datapiece.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\util\internal\default_value_objectwriter.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\util\internal\error_listener.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\util\internal\field_mask_utility.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\util\internal\json_escaping.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\util\internal\json_objectwriter.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\util\internal\json_stream_parser.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\util\internal\object_writer.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\util\internal\proto_writer.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\util\internal\protostream_objectsource.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\util\internal\protostream_objectwriter.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\util\internal\type_info.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\util\internal\type_info_test_helper.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\util\internal\utility.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\util\json_util.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\util\message_differencer.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\util\time_util.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\util\type_resolver_util.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\wire_format.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\wrappers.pb.cc"
+    arena.cc
+    arenastring.cc
+    extension_set.cc
+    generated_message_util.cc
+    coded_stream.cc
+    zero_copy_stream.cc
+    zero_copy_stream_impl_lite.cc
+    message_lite.cc
+    repeated_field.cc
+    atomicops_internals_x86_gcc.cc
+    atomicops_internals_x86_msvc.cc
+    bytestream.cc
+    common.cc
+    int128.cc
+    once.cc
+    status.cc
+    statusor.cc
+    stringpiece.cc
+    stringprintf.cc
+    structurally_valid.cc
+    strutil.cc
+    time.cc
+    wire_format_lite.cc
+    any.cc
+    any.pb.cc
+    api.pb.cc
+    importer.cc
+    parser.cc
+    descriptor.cc
+    descriptor.pb.cc
+    descriptor_database.cc
+    duration.pb.cc
+    dynamic_message.cc
+    empty.pb.cc
+    extension_set_heavy.cc
+    field_mask.pb.cc
+    generated_message_reflection.cc
+    gzip_stream.cc
+    printer.cc
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\generated_message_reflection.cc(2035): warning C4065: switch statement contains 'default' but no 'case' labels [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\libprotobuf.vcxproj]
+    strtod.cc
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\generated_message_reflection.cc(2304): warning C4506: no definition for inline function 'google::protobuf::Arena *google::protobuf::internal::GenericTypeHandler<google::protobuf::Message>::GetArena(GenericType *)' [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\libprotobuf.vcxproj]
+            with
+            [
+                GenericType=google::protobuf::Message
+            ]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\generated_message_reflection.cc(2304): warning C4506: no definition for inline function 'void *google::protobuf::internal::GenericTypeHandler<google::protobuf::Message>::GetMaybeArenaPointer(GenericType *)' [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\libprotobuf.vcxproj]
+            with
+            [
+                GenericType=google::protobuf::Message
+            ]
+    tokenizer.cc
+    zero_copy_stream_impl.cc
+    map_field.cc
+    message.cc
+    reflection_ops.cc
+    service.cc
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\map_field.cc(472): warning C4506: no definition for inline function 'google::protobuf::Arena *google::protobuf::internal::GenericTypeHandler<google::protobuf::Message>::GetArena(GenericType *)' [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\libprotobuf.vcxproj]
+            with
+            [
+                GenericType=google::protobuf::Message
+            ]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\map_field.cc(472): warning C4506: no definition for inline function 'void *google::protobuf::internal::GenericTypeHandler<google::protobuf::Message>::GetMaybeArenaPointer(GenericType *)' [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\libprotobuf.vcxproj]
+            with
+            [
+                GenericType=google::protobuf::Message
+            ]
+    source_context.pb.cc
+    struct.pb.cc
+    mathlimits.cc
+    substitute.cc
+    text_format.cc
+    timestamp.pb.cc
+    type.pb.cc
+    unknown_field_set.cc
+    field_comparator.cc
+    field_mask_util.cc
+    datapiece.cc
+    default_value_objectwriter.cc
+    error_listener.cc
+    field_mask_utility.cc
+    json_escaping.cc
+    json_objectwriter.cc
+    json_stream_parser.cc
+    object_writer.cc
+    proto_writer.cc
+    protostream_objectsource.cc
+    protostream_objectwriter.cc
+    type_info.cc
+    type_info_test_helper.cc
+    utility.cc
+    json_util.cc
+    message_differencer.cc
+    time_util.cc
+    type_resolver_util.cc
+    wire_format.cc
+    wrappers.pb.cc
+  Lib:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\Lib.exe /OUT:"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\Release\libprotobuf.lib" /NOLOGO /MACHINE:X64  /machine:x64 libprotobuf.dir\Release\arena.obj
+    libprotobuf.dir\Release\arenastring.obj
+    libprotobuf.dir\Release\extension_set.obj
+    libprotobuf.dir\Release\generated_message_util.obj
+    libprotobuf.dir\Release\coded_stream.obj
+    libprotobuf.dir\Release\zero_copy_stream.obj
+    libprotobuf.dir\Release\zero_copy_stream_impl_lite.obj
+    libprotobuf.dir\Release\message_lite.obj
+    libprotobuf.dir\Release\repeated_field.obj
+    libprotobuf.dir\Release\atomicops_internals_x86_gcc.obj
+    libprotobuf.dir\Release\atomicops_internals_x86_msvc.obj
+    libprotobuf.dir\Release\bytestream.obj
+    libprotobuf.dir\Release\common.obj
+    libprotobuf.dir\Release\int128.obj
+    libprotobuf.dir\Release\once.obj
+    libprotobuf.dir\Release\status.obj
+    libprotobuf.dir\Release\statusor.obj
+    libprotobuf.dir\Release\stringpiece.obj
+    libprotobuf.dir\Release\stringprintf.obj
+    libprotobuf.dir\Release\structurally_valid.obj
+    libprotobuf.dir\Release\strutil.obj
+    libprotobuf.dir\Release\time.obj
+    libprotobuf.dir\Release\wire_format_lite.obj
+    libprotobuf.dir\Release\any.obj
+    libprotobuf.dir\Release\any.pb.obj
+    libprotobuf.dir\Release\api.pb.obj
+    libprotobuf.dir\Release\importer.obj
+    libprotobuf.dir\Release\parser.obj
+    libprotobuf.dir\Release\descriptor.obj
+    libprotobuf.dir\Release\descriptor.pb.obj
+    libprotobuf.dir\Release\descriptor_database.obj
+    libprotobuf.dir\Release\duration.pb.obj
+    libprotobuf.dir\Release\dynamic_message.obj
+    libprotobuf.dir\Release\empty.pb.obj
+    libprotobuf.dir\Release\extension_set_heavy.obj
+    libprotobuf.dir\Release\field_mask.pb.obj
+    libprotobuf.dir\Release\generated_message_reflection.obj
+    libprotobuf.dir\Release\gzip_stream.obj
+    libprotobuf.dir\Release\printer.obj
+    libprotobuf.dir\Release\strtod.obj
+    libprotobuf.dir\Release\tokenizer.obj
+    libprotobuf.dir\Release\zero_copy_stream_impl.obj
+    libprotobuf.dir\Release\map_field.obj
+    libprotobuf.dir\Release\message.obj
+    libprotobuf.dir\Release\reflection_ops.obj
+    libprotobuf.dir\Release\service.obj
+    libprotobuf.dir\Release\source_context.pb.obj
+    libprotobuf.dir\Release\struct.pb.obj
+    libprotobuf.dir\Release\mathlimits.obj
+    libprotobuf.dir\Release\substitute.obj
+    libprotobuf.dir\Release\text_format.obj
+    libprotobuf.dir\Release\timestamp.pb.obj
+    libprotobuf.dir\Release\type.pb.obj
+    libprotobuf.dir\Release\unknown_field_set.obj
+    libprotobuf.dir\Release\field_comparator.obj
+    libprotobuf.dir\Release\field_mask_util.obj
+    libprotobuf.dir\Release\datapiece.obj
+    libprotobuf.dir\Release\default_value_objectwriter.obj
+    libprotobuf.dir\Release\error_listener.obj
+    libprotobuf.dir\Release\field_mask_utility.obj
+    libprotobuf.dir\Release\json_escaping.obj
+    libprotobuf.dir\Release\json_objectwriter.obj
+    libprotobuf.dir\Release\json_stream_parser.obj
+    libprotobuf.dir\Release\object_writer.obj
+    libprotobuf.dir\Release\proto_writer.obj
+    libprotobuf.dir\Release\protostream_objectsource.obj
+    libprotobuf.dir\Release\protostream_objectwriter.obj
+    libprotobuf.dir\Release\type_info.obj
+    libprotobuf.dir\Release\type_info_test_helper.obj
+    libprotobuf.dir\Release\utility.obj
+    libprotobuf.dir\Release\json_util.obj
+    libprotobuf.dir\Release\message_differencer.obj
+    libprotobuf.dir\Release\time_util.obj
+    libprotobuf.dir\Release\type_resolver_util.obj
+    libprotobuf.dir\Release\wire_format.obj
+    libprotobuf.dir\Release\wrappers.pb.obj
+    libprotobuf.vcxproj -> C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\Release\libprotobuf.lib
+  FinalizeBuildStatus:
+    Deleting file "libprotobuf.dir\Release\libprotobuf.tlog\unsuccessfulbuild".
+    Touching "libprotobuf.dir\Release\libprotobuf.tlog\libprotobuf.lastbuildstate".
+  Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\libprotobuf.vcxproj" (default targets).
+  Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\ALL_BUILD.vcxproj" (1) is building "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\libprotobuf-lite.vcxproj" (4) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "libprotobuf-lite.dir\Release\".
+    Creating directory "libprotobuf-lite.dir\Release\libprotobuf-lite.tlog\".
+  InitializeBuildStatus:
+    Creating "libprotobuf-lite.dir\Release\libprotobuf-lite.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/protobuf/src/protobuf/cmake/CMakeLists.txt
+    CMake does not need to re-run because C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/protobuf/src/protobuf/CMakeFiles/generate.stamp is up-to-date.
+  ClCompile:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf" /I"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src" /nologo /W3 /WX- /MP /O2 /Ob2 /D WIN32 /D _WINDOWS /D NDEBUG /D GOOGLE_PROTOBUF_CMAKE_BUILD /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"libprotobuf-lite.dir\Release\\" /Fd"libprotobuf-lite.dir\Release\libprotobuf-lite.pdb" /Gd /TP /wd4244 /wd4267 /wd4018 /wd4355 /wd4800 /wd4251 /wd4996 /wd4146 /wd4305 /errorReport:queue  /bigobj "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\arena.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\arenastring.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\extension_set.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\generated_message_util.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\io\coded_stream.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\io\zero_copy_stream.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\io\zero_copy_stream_impl_lite.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\message_lite.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\repeated_field.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\stubs\atomicops_internals_x86_gcc.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\stubs\atomicops_internals_x86_msvc.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\stubs\bytestream.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\stubs\common.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\stubs\int128.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\stubs\once.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\stubs\status.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\stubs\statusor.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\stubs\stringpiece.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\stubs\stringprintf.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\stubs\structurally_valid.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\stubs\strutil.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\stubs\time.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\wire_format_lite.cc"
+    arena.cc
+    arenastring.cc
+    extension_set.cc
+    generated_message_util.cc
+    coded_stream.cc
+    zero_copy_stream.cc
+    zero_copy_stream_impl_lite.cc
+    message_lite.cc
+    repeated_field.cc
+    atomicops_internals_x86_gcc.cc
+    atomicops_internals_x86_msvc.cc
+    bytestream.cc
+    common.cc
+    int128.cc
+    once.cc
+    status.cc
+    statusor.cc
+    stringpiece.cc
+    stringprintf.cc
+    structurally_valid.cc
+    strutil.cc
+    time.cc
+    wire_format_lite.cc
+  Lib:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\Lib.exe /OUT:"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\Release\libprotobuf-lite.lib" /NOLOGO /MACHINE:X64  /machine:x64 "libprotobuf-lite.dir\Release\arena.obj"
+    "libprotobuf-lite.dir\Release\arenastring.obj"
+    "libprotobuf-lite.dir\Release\extension_set.obj"
+    "libprotobuf-lite.dir\Release\generated_message_util.obj"
+    "libprotobuf-lite.dir\Release\coded_stream.obj"
+    "libprotobuf-lite.dir\Release\zero_copy_stream.obj"
+    "libprotobuf-lite.dir\Release\zero_copy_stream_impl_lite.obj"
+    "libprotobuf-lite.dir\Release\message_lite.obj"
+    "libprotobuf-lite.dir\Release\repeated_field.obj"
+    "libprotobuf-lite.dir\Release\atomicops_internals_x86_gcc.obj"
+    "libprotobuf-lite.dir\Release\atomicops_internals_x86_msvc.obj"
+    "libprotobuf-lite.dir\Release\bytestream.obj"
+    "libprotobuf-lite.dir\Release\common.obj"
+    "libprotobuf-lite.dir\Release\int128.obj"
+    "libprotobuf-lite.dir\Release\once.obj"
+    "libprotobuf-lite.dir\Release\status.obj"
+    "libprotobuf-lite.dir\Release\statusor.obj"
+    "libprotobuf-lite.dir\Release\stringpiece.obj"
+    "libprotobuf-lite.dir\Release\stringprintf.obj"
+    "libprotobuf-lite.dir\Release\structurally_valid.obj"
+    "libprotobuf-lite.dir\Release\strutil.obj"
+    "libprotobuf-lite.dir\Release\time.obj"
+    "libprotobuf-lite.dir\Release\wire_format_lite.obj"
+    libprotobuf-lite.vcxproj -> C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\Release\libprotobuf-lite.lib
+  FinalizeBuildStatus:
+    Deleting file "libprotobuf-lite.dir\Release\libprotobuf-lite.tlog\unsuccessfulbuild".
+    Touching "libprotobuf-lite.dir\Release\libprotobuf-lite.tlog\libprotobuf-lite.lastbuildstate".
+  Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\libprotobuf-lite.vcxproj" (default targets).
+  Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\ALL_BUILD.vcxproj" (1) is building "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\libprotoc.vcxproj" (5) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "libprotoc.dir\Release\".
+    Creating directory "libprotoc.dir\Release\libprotoc.tlog\".
+  InitializeBuildStatus:
+    Creating "libprotoc.dir\Release\libprotoc.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/protobuf/src/protobuf/cmake/CMakeLists.txt
+    CMake does not need to re-run because C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/protobuf/src/protobuf/CMakeFiles/generate.stamp is up-to-date.
+  ClCompile:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf" /I"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src" /nologo /W3 /WX- /MP /O2 /Ob2 /D WIN32 /D _WINDOWS /D NDEBUG /D LIBPROTOC_EXPORTS /D GOOGLE_PROTOBUF_CMAKE_BUILD /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"libprotoc.dir\Release\\" /Fd"libprotoc.dir\Release\libprotoc.pdb" /Gd /TP /wd4244 /wd4267 /wd4018 /wd4355 /wd4800 /wd4251 /wd4996 /wd4146 /wd4305 /errorReport:queue  /bigobj "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\compiler\code_generator.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\compiler\command_line_interface.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\compiler\cpp\cpp_enum.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\compiler\cpp\cpp_enum_field.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\compiler\cpp\cpp_extension.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\compiler\cpp\cpp_field.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\compiler\cpp\cpp_file.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\compiler\cpp\cpp_generator.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\compiler\cpp\cpp_helpers.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\compiler\cpp\cpp_map_field.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\compiler\cpp\cpp_message.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\compiler\cpp\cpp_message_field.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\compiler\cpp\cpp_primitive_field.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\compiler\cpp\cpp_service.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\compiler\cpp\cpp_string_field.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\compiler\csharp\csharp_doc_comment.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\compiler\csharp\csharp_enum.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\compiler\csharp\csharp_enum_field.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\compiler\csharp\csharp_field_base.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\compiler\csharp\csharp_generator.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\compiler\csharp\csharp_helpers.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\compiler\csharp\csharp_map_field.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\compiler\csharp\csharp_message.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\compiler\csharp\csharp_message_field.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\compiler\csharp\csharp_primitive_field.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\compiler\csharp\csharp_reflection_class.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\compiler\csharp\csharp_repeated_enum_field.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\compiler\csharp\csharp_repeated_message_field.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\compiler\csharp\csharp_repeated_primitive_field.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\compiler\csharp\csharp_source_generator_base.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\compiler\csharp\csharp_wrapper_field.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\compiler\java\java_context.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\compiler\java\java_doc_comment.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\compiler\java\java_enum.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\compiler\java\java_enum_field.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\compiler\java\java_enum_field_lite.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\compiler\java\java_enum_lite.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\compiler\java\java_extension.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\compiler\java\java_extension_lite.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\compiler\java\java_field.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\compiler\java\java_file.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\compiler\java\java_generator.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\compiler\java\java_generator_factory.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\compiler\java\java_helpers.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\compiler\java\java_lazy_message_field.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\compiler\java\java_lazy_message_field_lite.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\compiler\java\java_map_field.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\compiler\java\java_map_field_lite.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\compiler\java\java_message.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\compiler\java\java_message_builder.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\compiler\java\java_message_builder_lite.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\compiler\java\java_message_field.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\compiler\java\java_message_field_lite.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\compiler\java\java_message_lite.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\compiler\java\java_name_resolver.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\compiler\java\java_primitive_field.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\compiler\java\java_primitive_field_lite.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\compiler\java\java_service.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\compiler\java\java_shared_code_generator.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\compiler\java\java_string_field.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\compiler\java\java_string_field_lite.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\compiler\javanano\javanano_enum.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\compiler\javanano\javanano_enum_field.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\compiler\javanano\javanano_extension.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\compiler\javanano\javanano_field.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\compiler\javanano\javanano_file.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\compiler\javanano\javanano_generator.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\compiler\javanano\javanano_helpers.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\compiler\javanano\javanano_map_field.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\compiler\javanano\javanano_message.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\compiler\javanano\javanano_message_field.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\compiler\javanano\javanano_primitive_field.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\compiler\js\js_generator.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\compiler\objectivec\objectivec_enum.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\compiler\objectivec\objectivec_enum_field.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\compiler\objectivec\objectivec_extension.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\compiler\objectivec\objectivec_field.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\compiler\objectivec\objectivec_file.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\compiler\objectivec\objectivec_generator.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\compiler\objectivec\objectivec_helpers.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\compiler\objectivec\objectivec_map_field.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\compiler\objectivec\objectivec_message.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\compiler\objectivec\objectivec_message_field.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\compiler\objectivec\objectivec_oneof.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\compiler\objectivec\objectivec_primitive_field.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\compiler\php\php_generator.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\compiler\plugin.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\compiler\plugin.pb.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\compiler\python\python_generator.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\compiler\ruby\ruby_generator.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\compiler\subprocess.cc" "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\compiler\zip_writer.cc"
+    code_generator.cc
+    command_line_interface.cc
+    cpp_enum.cc
+    cpp_enum_field.cc
+    cpp_extension.cc
+    cpp_field.cc
+    cpp_file.cc
+    cpp_generator.cc
+    cpp_helpers.cc
+    cpp_map_field.cc
+    cpp_message.cc
+    cpp_message_field.cc
+    cpp_primitive_field.cc
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\compiler\cpp\cpp_message.cc(1205): warning C4065: switch statement contains 'default' but no 'case' labels [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\libprotoc.vcxproj]
+    cpp_service.cc
+    cpp_string_field.cc
+    csharp_doc_comment.cc
+    csharp_enum.cc
+    csharp_enum_field.cc
+    csharp_field_base.cc
+    csharp_generator.cc
+    csharp_helpers.cc
+    csharp_map_field.cc
+    csharp_message.cc
+    csharp_message_field.cc
+    csharp_primitive_field.cc
+    csharp_reflection_class.cc
+    csharp_repeated_enum_field.cc
+    csharp_repeated_message_field.cc
+    csharp_repeated_primitive_field.cc
+    csharp_source_generator_base.cc
+    csharp_wrapper_field.cc
+    java_context.cc
+    java_doc_comment.cc
+    java_enum.cc
+    java_enum_field.cc
+    java_enum_field_lite.cc
+    java_enum_lite.cc
+    java_extension.cc
+    java_extension_lite.cc
+    java_field.cc
+    java_file.cc
+    java_generator.cc
+    java_generator_factory.cc
+    java_helpers.cc
+    java_lazy_message_field.cc
+    java_lazy_message_field_lite.cc
+    java_map_field.cc
+    java_map_field_lite.cc
+    java_message.cc
+    java_message_builder.cc
+    java_message_builder_lite.cc
+    java_message_field.cc
+    java_message_field_lite.cc
+    java_message_lite.cc
+    java_name_resolver.cc
+    java_primitive_field.cc
+    java_primitive_field_lite.cc
+    java_service.cc
+    java_shared_code_generator.cc
+    java_string_field.cc
+    java_string_field_lite.cc
+    javanano_enum.cc
+    javanano_enum_field.cc
+    javanano_extension.cc
+    javanano_field.cc
+    javanano_file.cc
+    javanano_generator.cc
+    javanano_helpers.cc
+    javanano_map_field.cc
+    javanano_message.cc
+    javanano_message_field.cc
+    javanano_primitive_field.cc
+    js_generator.cc
+    objectivec_enum.cc
+    objectivec_enum_field.cc
+    objectivec_extension.cc
+    objectivec_field.cc
+    objectivec_file.cc
+    objectivec_generator.cc
+    objectivec_helpers.cc
+    objectivec_map_field.cc
+    objectivec_message.cc
+    objectivec_message_field.cc
+    objectivec_oneof.cc
+    objectivec_primitive_field.cc
+    php_generator.cc
+    plugin.cc
+    plugin.pb.cc
+    python_generator.cc
+    ruby_generator.cc
+    subprocess.cc
+    zip_writer.cc
+  Lib:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\Lib.exe /OUT:"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\Release\libprotoc.lib" /NOLOGO /MACHINE:X64  /machine:x64 libprotoc.dir\Release\code_generator.obj
+    libprotoc.dir\Release\command_line_interface.obj
+    libprotoc.dir\Release\cpp_enum.obj
+    libprotoc.dir\Release\cpp_enum_field.obj
+    libprotoc.dir\Release\cpp_extension.obj
+    libprotoc.dir\Release\cpp_field.obj
+    libprotoc.dir\Release\cpp_file.obj
+    libprotoc.dir\Release\cpp_generator.obj
+    libprotoc.dir\Release\cpp_helpers.obj
+    libprotoc.dir\Release\cpp_map_field.obj
+    libprotoc.dir\Release\cpp_message.obj
+    libprotoc.dir\Release\cpp_message_field.obj
+    libprotoc.dir\Release\cpp_primitive_field.obj
+    libprotoc.dir\Release\cpp_service.obj
+    libprotoc.dir\Release\cpp_string_field.obj
+    libprotoc.dir\Release\csharp_doc_comment.obj
+    libprotoc.dir\Release\csharp_enum.obj
+    libprotoc.dir\Release\csharp_enum_field.obj
+    libprotoc.dir\Release\csharp_field_base.obj
+    libprotoc.dir\Release\csharp_generator.obj
+    libprotoc.dir\Release\csharp_helpers.obj
+    libprotoc.dir\Release\csharp_map_field.obj
+    libprotoc.dir\Release\csharp_message.obj
+    libprotoc.dir\Release\csharp_message_field.obj
+    libprotoc.dir\Release\csharp_primitive_field.obj
+    libprotoc.dir\Release\csharp_reflection_class.obj
+    libprotoc.dir\Release\csharp_repeated_enum_field.obj
+    libprotoc.dir\Release\csharp_repeated_message_field.obj
+    libprotoc.dir\Release\csharp_repeated_primitive_field.obj
+    libprotoc.dir\Release\csharp_source_generator_base.obj
+    libprotoc.dir\Release\csharp_wrapper_field.obj
+    libprotoc.dir\Release\java_context.obj
+    libprotoc.dir\Release\java_doc_comment.obj
+    libprotoc.dir\Release\java_enum.obj
+    libprotoc.dir\Release\java_enum_field.obj
+    libprotoc.dir\Release\java_enum_field_lite.obj
+    libprotoc.dir\Release\java_enum_lite.obj
+    libprotoc.dir\Release\java_extension.obj
+    libprotoc.dir\Release\java_extension_lite.obj
+    libprotoc.dir\Release\java_field.obj
+    libprotoc.dir\Release\java_file.obj
+    libprotoc.dir\Release\java_generator.obj
+    libprotoc.dir\Release\java_generator_factory.obj
+    libprotoc.dir\Release\java_helpers.obj
+    libprotoc.dir\Release\java_lazy_message_field.obj
+    libprotoc.dir\Release\java_lazy_message_field_lite.obj
+    libprotoc.dir\Release\java_map_field.obj
+    libprotoc.dir\Release\java_map_field_lite.obj
+    libprotoc.dir\Release\java_message.obj
+    libprotoc.dir\Release\java_message_builder.obj
+    libprotoc.dir\Release\java_message_builder_lite.obj
+    libprotoc.dir\Release\java_message_field.obj
+    libprotoc.dir\Release\java_message_field_lite.obj
+    libprotoc.dir\Release\java_message_lite.obj
+    libprotoc.dir\Release\java_name_resolver.obj
+    libprotoc.dir\Release\java_primitive_field.obj
+    libprotoc.dir\Release\java_primitive_field_lite.obj
+    libprotoc.dir\Release\java_service.obj
+    libprotoc.dir\Release\java_shared_code_generator.obj
+    libprotoc.dir\Release\java_string_field.obj
+    libprotoc.dir\Release\java_string_field_lite.obj
+    libprotoc.dir\Release\javanano_enum.obj
+    libprotoc.dir\Release\javanano_enum_field.obj
+    libprotoc.dir\Release\javanano_extension.obj
+    libprotoc.dir\Release\javanano_field.obj
+    libprotoc.dir\Release\javanano_file.obj
+    libprotoc.dir\Release\javanano_generator.obj
+    libprotoc.dir\Release\javanano_helpers.obj
+    libprotoc.dir\Release\javanano_map_field.obj
+    libprotoc.dir\Release\javanano_message.obj
+    libprotoc.dir\Release\javanano_message_field.obj
+    libprotoc.dir\Release\javanano_primitive_field.obj
+    libprotoc.dir\Release\js_generator.obj
+    libprotoc.dir\Release\objectivec_enum.obj
+    libprotoc.dir\Release\objectivec_enum_field.obj
+    libprotoc.dir\Release\objectivec_extension.obj
+    libprotoc.dir\Release\objectivec_field.obj
+    libprotoc.dir\Release\objectivec_file.obj
+    libprotoc.dir\Release\objectivec_generator.obj
+    libprotoc.dir\Release\objectivec_helpers.obj
+    libprotoc.dir\Release\objectivec_map_field.obj
+    libprotoc.dir\Release\objectivec_message.obj
+    libprotoc.dir\Release\objectivec_message_field.obj
+    libprotoc.dir\Release\objectivec_oneof.obj
+    libprotoc.dir\Release\objectivec_primitive_field.obj
+    libprotoc.dir\Release\php_generator.obj
+    libprotoc.dir\Release\plugin.obj
+    libprotoc.dir\Release\plugin.pb.obj
+    libprotoc.dir\Release\python_generator.obj
+    libprotoc.dir\Release\ruby_generator.obj
+    libprotoc.dir\Release\subprocess.obj
+    libprotoc.dir\Release\zip_writer.obj
+    libprotoc.vcxproj -> C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\Release\libprotoc.lib
+  FinalizeBuildStatus:
+    Deleting file "libprotoc.dir\Release\libprotoc.tlog\unsuccessfulbuild".
+    Touching "libprotoc.dir\Release\libprotoc.tlog\libprotoc.lastbuildstate".
+  Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\libprotoc.vcxproj" (default targets).
+  Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\ALL_BUILD.vcxproj" (1) is building "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\protoc.vcxproj" (6) on node 1 (default targets).
+  PrepareForBuild:
+    Creating directory "protoc.dir\Release\".
+    Creating directory "protoc.dir\Release\protoc.tlog\".
+  InitializeBuildStatus:
+    Creating "protoc.dir\Release\protoc.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/protobuf/src/protobuf/cmake/CMakeLists.txt
+    CMake does not need to re-run because C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/protobuf/src/protobuf/CMakeFiles/generate.stamp is up-to-date.
+  ClCompile:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf" /I"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src" /nologo /W3 /WX- /MP /O2 /Ob2 /D WIN32 /D _WINDOWS /D NDEBUG /D GOOGLE_PROTOBUF_CMAKE_BUILD /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"protoc.dir\Release\\" /Fd"protoc.dir\Release\vc140.pdb" /Gd /TP /wd4244 /wd4267 /wd4018 /wd4355 /wd4800 /wd4251 /wd4996 /wd4146 /wd4305 /errorReport:queue  /bigobj "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\compiler\main.cc"
+    main.cc
+  Link:
+    C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\Release\protoc.exe" /INCREMENTAL:NO /NOLOGO Release\libprotobuf.lib Release\libprotoc.lib Release\libprotobuf.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/protobuf/src/protobuf/Release/protoc.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/protobuf/src/protobuf/Release/protoc.lib" /MACHINE:X64  /machine:x64 protoc.dir\Release\main.obj
+    protoc.vcxproj -> C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\Release\protoc.exe
+  FinalizeBuildStatus:
+    Deleting file "protoc.dir\Release\protoc.tlog\unsuccessfulbuild".
+    Touching "protoc.dir\Release\protoc.tlog\protoc.lastbuildstate".
+  Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\protoc.vcxproj" (default targets).
+  PrepareForBuild:
+    Creating directory "x64\Release\ALL_BUILD\".
+    Creating directory "x64\Release\ALL_BUILD\ALL_BUILD.tlog\".
+  InitializeBuildStatus:
+    Creating "x64\Release\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+  CustomBuild:
+    Building Custom Rule C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/protobuf/src/protobuf/cmake/CMakeLists.txt
+    CMake does not need to re-run because C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/protobuf/src/protobuf/CMakeFiles/generate.stamp is up-to-date.
+  FinalizeBuildStatus:
+    Deleting file "x64\Release\ALL_BUILD\ALL_BUILD.tlog\unsuccessfulbuild".
+    Touching "x64\Release\ALL_BUILD\ALL_BUILD.tlog\ALL_BUILD.lastbuildstate".
+  Done Building Project "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\ALL_BUILD.vcxproj" (default targets).
+  
+  Build succeeded.
+  
+  "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\ALL_BUILD.vcxproj" (default target) (1) ->
+  "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\libprotobuf.vcxproj" (default target) (3) ->
+  (ClCompile target) -> 
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\generated_message_reflection.cc(2035): warning C4065: switch statement contains 'default' but no 'case' labels [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\libprotobuf.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\generated_message_reflection.cc(2304): warning C4506: no definition for inline function 'google::protobuf::Arena *google::protobuf::internal::GenericTypeHandler<google::protobuf::Message>::GetArena(GenericType *)' [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\libprotobuf.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\generated_message_reflection.cc(2304): warning C4506: no definition for inline function 'void *google::protobuf::internal::GenericTypeHandler<google::protobuf::Message>::GetMaybeArenaPointer(GenericType *)' [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\libprotobuf.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\map_field.cc(472): warning C4506: no definition for inline function 'google::protobuf::Arena *google::protobuf::internal::GenericTypeHandler<google::protobuf::Message>::GetArena(GenericType *)' [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\libprotobuf.vcxproj]
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\map_field.cc(472): warning C4506: no definition for inline function 'void *google::protobuf::internal::GenericTypeHandler<google::protobuf::Message>::GetMaybeArenaPointer(GenericType *)' [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\libprotobuf.vcxproj]
+  
+  
+  "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\ALL_BUILD.vcxproj" (default target) (1) ->
+  "C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\libprotoc.vcxproj" (default target) (5) ->
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\src\google\protobuf\compiler\cpp\cpp_message.cc(1205): warning C4065: switch statement contains 'default' but no 'case' labels [C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\protobuf\src\protobuf\libprotoc.vcxproj]
+  
+      6 Warning(s)
+      0 Error(s)
+  
+  Time Elapsed 00:03:14.87
+  No install step for 'protobuf'
+  Completed 'protobuf'

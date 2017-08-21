@@ -1,0 +1,76 @@
+﻿  Building Custom Rule C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/CMakeLists.txt
+  CMake does not need to re-run because C:/Visual Studio 2015/Projects/tensorflow/tensorflow/contrib/cmake/build/CMakeFiles/generate.stamp is up-to-date.
+  Generating __force_rebuild
+  
+  Running SWIG to generate Python wrappers
+  print_model_analysis.cc
+  pywrap_tfe_src.cc
+  tf_session_helper.cc
+  python_eager_op_gen.cc
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow/c/c_api.h(967): warning C4190: 'TF_NewWhile' has C-linkage specified, but returns UDT 'TF_WhileParams' which is incompatible with C (compiling source file C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\profiler\internal\print_model_analysis.cc)
+  C:\Visual Studio 2015\Projects\tensorflow\tensorflow/c/c_api.h(923): note: see declaration of 'TF_WhileParams' (compiling source file C:\Visual Studio 2015\Projects\tensorflow\tensorflow\core\profiler\internal\print_model_analysis.cc)
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow/c/c_api.h(967): warning C4190: 'TF_NewWhile' has C-linkage specified, but returns UDT 'TF_WhileParams' which is incompatible with C (compiling source file C:\Visual Studio 2015\Projects\tensorflow\tensorflow\python\eager\pywrap_tfe_src.cc)
+  C:\Visual Studio 2015\Projects\tensorflow\tensorflow/c/c_api.h(923): note: see declaration of 'TF_WhileParams' (compiling source file C:\Visual Studio 2015\Projects\tensorflow\tensorflow\python\eager\pywrap_tfe_src.cc)
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow/c/c_api.h(967): warning C4190: 'TF_NewWhile' has C-linkage specified, but returns UDT 'TF_WhileParams' which is incompatible with C (compiling source file C:\Visual Studio 2015\Projects\tensorflow\tensorflow\python\client\tf_session_helper.cc)
+  C:\Visual Studio 2015\Projects\tensorflow\tensorflow/c/c_api.h(923): note: see declaration of 'TF_WhileParams' (compiling source file C:\Visual Studio 2015\Projects\tensorflow\tensorflow\python\client\tf_session_helper.cc)
+  cpp_shape_inference.cc
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow/c/c_api.h(967): warning C4190: 'TF_NewWhile' has C-linkage specified, but returns UDT 'TF_WhileParams' which is incompatible with C (compiling source file C:\Visual Studio 2015\Projects\tensorflow\tensorflow\python\framework\cpp_shape_inference.cc)
+  C:\Visual Studio 2015\Projects\tensorflow\tensorflow/c/c_api.h(923): note: see declaration of 'TF_WhileParams' (compiling source file C:\Visual Studio 2015\Projects\tensorflow\tensorflow\python\framework\cpp_shape_inference.cc)
+  python_op_gen.cc
+  numpy.cc
+  ndarray_tensor_bridge.cc
+  py_func.cc
+  py_record_reader.cc
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow/c/c_api.h(967): warning C4190: 'TF_NewWhile' has C-linkage specified, but returns UDT 'TF_WhileParams' which is incompatible with C (compiling source file C:\Visual Studio 2015\Projects\tensorflow\tensorflow\python\lib\io\py_record_reader.cc)
+  C:\Visual Studio 2015\Projects\tensorflow\tensorflow/c/c_api.h(923): note: see declaration of 'TF_WhileParams' (compiling source file C:\Visual Studio 2015\Projects\tensorflow\tensorflow\python\lib\io\py_record_reader.cc)
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow/c/c_api.h(967): warning C4190: 'TF_NewWhile' has C-linkage specified, but returns UDT 'TF_WhileParams' which is incompatible with C (compiling source file C:\Visual Studio 2015\Projects\tensorflow\tensorflow\python\lib\core\ndarray_tensor_bridge.cc)
+  C:\Visual Studio 2015\Projects\tensorflow\tensorflow/c/c_api.h(923): note: see declaration of 'TF_WhileParams' (compiling source file C:\Visual Studio 2015\Projects\tensorflow\tensorflow\python\lib\core\ndarray_tensor_bridge.cc)
+  py_record_writer.cc
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow/c/c_api.h(967): warning C4190: 'TF_NewWhile' has C-linkage specified, but returns UDT 'TF_WhileParams' which is incompatible with C (compiling source file C:\Visual Studio 2015\Projects\tensorflow\tensorflow\python\lib\io\py_record_writer.cc)
+  C:\Visual Studio 2015\Projects\tensorflow\tensorflow/c/c_api.h(923): note: see declaration of 'TF_WhileParams' (compiling source file C:\Visual Studio 2015\Projects\tensorflow\tensorflow\python\lib\io\py_record_writer.cc)
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow/c/c_api.h(967): warning C4190: 'TF_NewWhile' has C-linkage specified, but returns UDT 'TF_WhileParams' which is incompatible with C (compiling source file C:\Visual Studio 2015\Projects\tensorflow\tensorflow\python\lib\core\py_func.cc)
+  C:\Visual Studio 2015\Projects\tensorflow\tensorflow/c/c_api.h(923): note: see declaration of 'TF_WhileParams' (compiling source file C:\Visual Studio 2015\Projects\tensorflow\tensorflow\python\lib\core\py_func.cc)
+  kernel_registry.cc
+  ops.cc
+  scope.cc
+  pywrap_tensorflow_internal.cc
+C:\Visual Studio 2015\Projects\tensorflow\tensorflow/c/c_api.h(967): warning C4190: 'TF_NewWhile' has C-linkage specified, but returns UDT 'TF_WhileParams' which is incompatible with C (compiling source file C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\pywrap_tensorflow_internal.cc)
+  C:\Visual Studio 2015\Projects\tensorflow\tensorflow/c/c_api.h(923): note: see declaration of 'TF_WhileParams' (compiling source file C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\pywrap_tensorflow_internal.cc)
+strided_slice_op_define_grad.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+scatter_functor.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+i_remote_fused_graph_ops_definitions.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+gather_functor.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+dense_update_functor.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+cudnn_pooling_gpu.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+conv_ops_using_gemm.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+concat_lib_gpu.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+random_grad.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+user_ops_internal.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+training_ops_internal.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+string_ops_internal.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+stateless_random_ops_internal.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+state_ops_internal.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+spectral_ops_internal.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+sparse_ops_internal.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+sendrecv_ops_internal.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+set_ops_internal.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+sdca_ops_internal.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+script_ops_internal.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+script_ops.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+resource_variable_ops_internal.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+remote_fused_graph_ops_internal.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+random_ops_internal.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+parsing_ops_internal.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+no_op_internal.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+logging_ops_internal.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+lookup_ops_internal.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+linalg_ops_internal.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+io_ops_internal.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+functional_ops_internal.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+dataset_ops_internal.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+data_flow_ops_internal.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+ctc_ops_internal.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+candidate_sampling_ops_internal.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+bitwise_ops_internal.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+  pywrap_tensorflow_internal_static.vcxproj -> C:\Visual Studio 2015\Projects\tensorflow\tensorflow\contrib\cmake\build\Release\pywrap_tensorflow_internal_static.lib
+  symbols=276819, taken=42460, dupes=1311
